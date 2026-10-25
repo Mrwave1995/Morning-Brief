@@ -1,0 +1,72 @@
+I'll search for the latest on each section first.
+<brief>
+{
+  "overview": "Sample brief: oil near $117 keeps markets nervous, the voter-roll row continues, and a cyclone is forming in the Bay of Bengal.",
+  "market_snapshot": [
+    {"label": "Nifty 50", "value": "22,600", "change": "-2.4% wk", "direction": "down"},
+    {"label": "Sensex", "value": "≈72,900", "change": "-2.2% wk", "direction": "down"},
+    {"label": "Brent", "value": "$117", "change": "", "direction": "up"},
+    {"label": "USD/INR", "value": "94.8", "change": "", "direction": "flat"}
+  ],
+  "sections": [
+    {"id": "spotlight", "title": "Spotlight", "items": [
+      {"headline": "France sees another weekend of mass protests",
+       "summary": "Nearly 1,000 people were detained after clashes followed a mostly peaceful day of marches.",
+       "detail": "This is a sample item so you can see how a story opens up. In the live app, this space holds a few sentences of background, what happened and what comes next.",
+       "why_it_matters": "",
+       "sources": [{"name": "CNN", "url": "https://edition.cnn.com/world"}]},
+      {"headline": "Shooting at a church in Jordan kills at least nine",
+       "summary": "Authorities called the attack unprecedented for the country.",
+       "detail": "Sample detail text.",
+       "why_it_matters": "",
+       "sources": [{"name": "CNN", "url": "https://edition.cnn.com/world"}]}
+    ]},
+    {"id": "india_politics", "title": "Indian politics", "items": [
+      {"headline": "Final voter lists out for Goa, Chhattisgarh and Andaman & Nicobar",
+       "summary": "The Election Commission published final rolls after the Special Intensive Revision, as the row over deletions continues.",
+       "detail": "The opposition wants the revision paused, an audit and a published list of deletions. The BJP says names were flagged for verification, not wrongly removed, and has dared critics to prove otherwise. Appeals are open in several states.",
+       "why_it_matters": "Worth checking your own and family names on the Kerala rolls.",
+       "sources": [{"name": "Republic World", "url": "https://www.republicworld.com/"}]}
+    ]},
+    {"id": "andaman_environment", "title": "Andaman & Nicobar · Environment", "items": [
+      {"headline": "Andaman & Nicobar had India's highest voter-deletion rate",
+       "summary": "About 17% of names were removed; local Congress leaders put it nearer 21%.",
+       "detail": "No new Great Nicobar development today. The challenge to the project remains with the Calcutta High Court.",
+       "why_it_matters": "",
+       "sources": [{"name": "Nicobar Times", "url": "https://www.nicobartimes.com/"}]},
+      {"headline": "Cyclone forming over the Bay of Bengal",
+       "summary": "Forecasters are tracking a system that could strengthen over the coming days.",
+       "detail": "Sample detail text.",
+       "why_it_matters": "",
+       "sources": [{"name": "IMD", "url": "https://mausam.imd.gov.in/"}]}
+    ]},
+    {"id": "insurance", "title": "Insurance & health", "items": []},
+    {"id": "uae", "title": "UAE & Gulf", "items": [
+      {"headline": "UAE petrol tops AED 4 a litre",
+       "summary": "October fuel prices are the highest this year.",
+       "detail": "Sample detail text.",
+       "why_it_matters": "",
+       "sources": [{"name": "Time Out Dubai", "url": "https://www.timeoutdubai.com/"}]}
+    ]},
+    {"id": "markets", "title": "Money & markets", "items": [
+      {"headline": "Rough week for Indian stocks as crude climbs",
+       "summary": "Nifty fell 2.4% for the week; smallcaps dropped 7.1%.",
+       "detail": "Brent near $117, foreign selling and Trump's hints of more action against Iran are weighing on sentiment. This week: the US Fed meeting on 27-28 October and whether Nifty holds 22,350-22,500.",
+       "why_it_matters": "The Fed decision also moves global ETFs.",
+       "sources": [{"name": "Business Today", "url": "https://www.businesstoday.in/markets"}]}
+    ]},
+    {"id": "hidden_gems", "title": "Hidden gems", "items": [
+      {"headline": "Navy begins Rafale Marine trials from INS Vikrant",
+       "summary": "India has 26 of the carrier jets on order.",
+       "detail": "Sample detail text.",
+       "why_it_matters": "",
+       "sources": [{"name": "PIB", "url": "https://pib.gov.in/"}]},
+      {"headline": "Nuclear power could more than triple by 2060",
+       "summary": "A new long-range outlook sees a big expansion in nuclear generation.",
+       "detail": "Sample detail text.",
+       "why_it_matters": "",
+       "sources": [{"name": "World Nuclear News", "url": "https://www.world-nuclear-news.org/"}]}
+    ]}
+  ]
+}
+</brief>

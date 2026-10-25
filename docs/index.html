@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Morning Brief</title>
+<meta name="description" content="Your daily news brief">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16130f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f1e7;
+    --paper: #fffdf8;
+    --ink: #1d1a15;
+    --muted: #6d665b;
+    --line: #e4dccd;
+    --accent: #c4561f;
+    --accent-soft: #f8e6d9;
+    --up: #2f7d4f;
+    --down: #b2382b;
+    --shadow: 0 1px 2px rgba(40,30,15,.06), 0 4px 14px rgba(40,30,15,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16130f; --paper: #201c17; --ink: #efe8dc; --muted: #a59c8d;
+      --line: #342e26; --accent: #f08a4b; --accent-soft: #3a2619;
+      --up: #6cc08e; --down: #ef7b6c; --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.55 Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+
+  header.top {
+    padding: calc(18px + env(safe-area-inset-top)) 0 6px;
+  }
+  .masthead { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .brand { font: 650 26px/1.1 Fraunces, Georgia, serif; letter-spacing: -.01em; margin: 0; }
+  .brand span { color: var(--accent); }
+  .datebar { display: flex; align-items: center; gap: 4px; margin-top: 6px; color: var(--muted); font-size: 14px; }
+  .datebar .date { flex: 1; font-weight: 500; color: var(--ink); }
+  .icon-btn {
+    border: 0; background: transparent; color: var(--ink); width: 40px; height: 40px;
+    border-radius: 10px; display: grid; place-items: center; cursor: pointer;
+  }
+  .icon-btn:hover { background: var(--line); }
+  .icon-btn:disabled { opacity: .3; cursor: default; background: transparent; }
+  .icon-btn svg { width: 20px; height: 20px; }
+
+  .overview { font: 500 18px/1.45 Fraunces, Georgia, serif; margin: 12px 0 4px; }
+  .notice {
+    background: var(--accent-soft); color: var(--ink); border-radius: 10px;
+    padding: 10px 12px; font-size: 14px; margin: 12px 0 0;
+  }
+
+  .snapshot { display: flex; gap: 8px; overflow-x: auto; padding: 14px 0 4px; scrollbar-width: none; }
+  .snapshot::-webkit-scrollbar { display: none; }
+  .tick {
+    flex: 0 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 12px;
+    padding: 8px 12px; min-width: 104px;
+  }
+  .tick .l { font-size: 12px; color: var(--muted); }
+  .tick .v { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .tick .c { font-size: 12px; font-variant-numeric: tabular-nums; }
+  .tick.up .c { color: var(--up); } .tick.down .c { color: var(--down); }
+
+  nav.jump {
+    position: sticky; top: 0; z-index: 5; background: var(--bg);
+    display: flex; gap: 6px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;
+    border-bottom: 1px solid var(--line);
+  }
+  nav.jump::-webkit-scrollbar { display: none; }
+  nav.jump a {
+    flex: 0 0 auto; text-decoration: none; color: var(--ink); font-size: 13px; font-weight: 500;
+    padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper);
+    white-space: nowrap;
+  }
+  nav.jump a .n { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+
+  section.sec { padding-top: 22px; scroll-margin-top: 58px; }
+  section.sec h2 {
+    font: 650 13px/1 Inter, sans-serif; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--accent); margin: 0 0 10px;
+  }
+  .empty { color: var(--muted); font-size: 14px; padding: 4px 0 8px; }
+
+  article.story {
+    background: var(--paper); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden;
+  }
+  .story button.head {
+    all: unset; display: block; width: 100%; padding: 14px 16px; cursor: pointer;
+    box-sizing: border-box;
+  }
+  .story button.head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 14px; }
+  .story h3 { font: 600 18px/1.3 Fraunces, Georgia, serif; margin: 0 0 6px; }
+  .story .sum { margin: 0; color: var(--ink); font-size: 15px; }
+  .story .more { display: flex; align-items: center; gap: 4px; margin-top: 8px; color: var(--muted); font-size: 13px; }
+  .story .more svg { width: 14px; height: 14px; transition: transform .2s; }
+  .story.open .more svg { transform: rotate(180deg); }
+  .story .body { display: none; padding: 0 16px 16px; border-top: 1px dashed var(--line); }
+  .story.open .body { display: block; }
+  .story .detail { margin: 12px 0 0; font-size: 15px; }
+  .story .why {
+    margin: 12px 0 0; padding: 10px 12px; border-left: 3px solid var(--accent);
+    background: var(--accent-soft); border-radius: 0 8px 8px 0; font-size: 14px;
+  }
+  .story .why b { font-weight: 600; }
+  .sources { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .sources a {
+    font-size: 13px; color: var(--ink); text-decoration: none; border: 1px solid var(--line);
+    border-radius: 8px; padding: 5px 10px; display: inline-flex; align-items: center; gap: 4px;
+  }
+  .sources a svg { width: 12px; height: 12px; color: var(--muted); }
+
+  footer { color: var(--muted); font-size: 12px; text-align: center; padding: 28px 0 36px; }
+
+  .install {
+    position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom));
+    max-width: 656px; margin: 0 auto; background: var(--ink); color: var(--bg);
+    border-radius: 14px; padding: 12px 14px; display: none; align-items: center; gap: 10px;
+    font-size: 14px; z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,.25);
+  }
+  .install.show { display: flex; }
+  .install p { margin: 0; flex: 1; }
+  .install button {
+    border: 0; border-radius: 8px; padding: 8px 12px; font: 600 14px Inter, sans-serif; cursor: pointer;
+  }
+  .install .go { background: var(--accent); color: #fff; }
+  .install .x { background: transparent; color: var(--bg); opacity: .7; }
+
+  .loading { padding: 40px 0; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="masthead">
+      <h1 class="brand">Morning <span>Brief</span></h1>
+      <button class="icon-btn" id="refresh" aria-label="Refresh">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+      </button>
+    </div>
+    <div class="datebar">
+      <button class="icon-btn" id="prev" aria-label="Previous day">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      </button>
+      <div class="date" id="date">Loading…</div>
+      <button class="icon-btn" id="next" aria-label="Next day">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+    </div>
+    <div id="notice"></div>
+    <p class="overview" id="overview"></p>
+    <div class="snapshot" id="snapshot"></div>
+  </header>
+  <nav class="jump" id="jump" aria-label="Sections"></nav>
+  <main id="main"><div class="loading">Fetching your brief…</div></main>
+  <footer id="footer"></footer>
+</div>
+
+<div class="install" id="install" role="dialog" aria-live="polite">
+  <p id="installText">Install Morning Brief on your home screen.</p>
+  <button class="go" id="installGo">Install</button>
+  <button class="x" id="installX" aria-label="Dismiss">✕</button>
+</div>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+  };
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "#";
+
+  let days = [];      // newest first
+  let current = null; // date string being shown
+
+  const chevron = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>';
+  const extIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>';
+
+  function fmtDate(iso) {
+    const d = new Date(iso + "T00:00:00");
+    return d.toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
+  }
+
+  async function getJSON(path) {
+    const r = await fetch(path, { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }
+
+  function render(b) {
+    current = b.date;
+    $("date").textContent = fmtDate(b.date);
+    $("overview").textContent = b.overview || "";
+
+    const todayDubai = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Dubai" });
+    let notice = "";
+    if (b.model === "mock") notice = "This is a sample brief. Your first live brief arrives after the daily run.";
+    else if (b.date !== todayDubai && days[0] === b.date) notice = "Today's brief isn't ready yet. Showing the latest one.";
+    $("notice").innerHTML = notice ? `<p class="notice">${esc(notice)}</p>` : "";
+
+    $("snapshot").innerHTML = (b.market_snapshot || []).map((t) => `
+      <div class="tick ${esc(t.direction)}">
+        <div class="l">${esc(t.label)}</div>
+        <div class="v">${esc(t.value)}</div>
+        ${t.change ? `<div class="c">${t.direction === "up" ? "▲" : t.direction === "down" ? "▼" : ""} ${esc(t.change)}</div>` : ""}
+      </div>`).join("");
+    $("snapshot").style.display = (b.market_snapshot || []).length ? "" : "none";
+
+    const secs = b.sections || [];
+    $("jump").innerHTML = secs.map((s) =>
+      `<a href="#${esc(s.id)}">${esc(s.title)}<span class="n">${s.items.length}</span></a>`).join("");
+
+    $("main").innerHTML = secs.map((s) => `
+      <section class="sec" id="${esc(s.id)}">
+        <h2>${esc(s.title)}</h2>
+        ${s.items.length ? s.items.map((it, i) => story(s.id, i, it)).join("")
+          : `<div class="empty">Nothing notable today.</div>`}
+      </section>`).join("");
+
+    const when = b.generated_at ? new Date(b.generated_at).toLocaleString(undefined, { hour: "numeric", minute: "2-digit", day: "numeric", month: "short" }) : "";
+    $("footer").textContent = when ? `Generated ${when}` : "";
+
+    $("prev").disabled = days.indexOf(b.date) === -1 || days.indexOf(b.date) >= days.length - 1;
+    $("next").disabled = days.indexOf(b.date) <= 0;
+    window.scrollTo({ top: 0 });
+  }
+
+  function story(sid, i, it) {
+    const id = `${sid}-${i}`;
+    const hasMore = it.detail || it.why_it_matters || (it.sources || []).length;
+    return `
+      <article class="story" id="s-${esc(id)}">
+        <button class="head" aria-expanded="false" aria-controls="b-${esc(id)}">
+          <h3>${esc(it.headline)}</h3>
+          ${it.summary ? `<p class="sum">${esc(it.summary)}</p>` : ""}
+          ${hasMore ? `<div class="more">Read more ${chevron}</div>` : ""}
+        </button>
+        ${hasMore ? `<div class="body" id="b-${esc(id)}">
+          ${it.detail ? `<p class="detail">${esc(it.detail)}</p>` : ""}
+          ${it.why_it_matters ? `<p class="why"><b>For you:</b> ${esc(it.why_it_matters)}</p>` : ""}
+          ${(it.sources || []).length ? `<div class="sources">${it.sources.map((s) =>
+            `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.name)} ${extIcon}</a>`).join("")}</div>` : ""}
+        </div>` : ""}
+      </article>`;
+  }
+
+  $("main").addEventListener("click", (e) => {
+    const head = e.target.closest("button.head");
+    if (!head) return;
+    const art = head.closest(".story");
+    if (!art.querySelector(".body")) return;
+    const open = art.classList.toggle("open");
+    head.setAttribute("aria-expanded", open);
+  });
+
+  async function load(date) {
+    try {
+      const b = await getJSON(date ? `data/${date}.json` : "data/latest.json");
+      render(b);
+    } catch (e) {
+      $("main").innerHTML = `<div class="loading">Couldn't load the brief${navigator.onLine ? "" : " (you're offline)"}. Tap ↻ to try again.</div>`;
+    }
+  }
+
+  async function init() {
+    try { days = (await getJSON("data/index.json")).days || []; } catch { days = []; }
+    await load(null);
+  }
+
+  $("prev").onclick = () => { const i = days.indexOf(current); if (i > -1 && i < days.length - 1) load(days[i + 1]); };
+  $("next").onclick = () => { const i = days.indexOf(current); if (i > 0) load(days[i - 1]); };
+  $("refresh").onclick = () => init();
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && current === days[0]) init();
+  });
+
+  // ── Install prompt ──
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  let deferred = null;
+  const showInstall = (text, canPrompt) => {
+    if (standalone || store.get("installDismissed")) return;
+    $("installText").textContent = text;
+    $("installGo").style.display = canPrompt ? "" : "none";
+    $("install").classList.add("show");
+  };
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault(); deferred = e;
+    showInstall("Install Morning Brief on your home screen.", true);
+  });
+  $("installGo").onclick = async () => {
+    if (!deferred) return;
+    deferred.prompt(); await deferred.userChoice; deferred = null;
+    $("install").classList.remove("show");
+  };
+  $("installX").onclick = () => { $("install").classList.remove("show"); store.set("installDismissed", "1"); };
+  if (isIOS) setTimeout(() => showInstall("To install: tap Share, then “Add to Home Screen”.", false), 1500);
+
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  init();
+})();
+</script>
+</body>
+</html>
