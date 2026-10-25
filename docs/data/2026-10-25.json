@@ -1,29 +1,35 @@
 {
- "overview": "Sample brief: oil near $117 keeps markets nervous, the voter-roll row continues, and a cyclone is forming in the Bay of Bengal.",
+ "overview": "Sunday brings renewed US-Iran strike talk, Europe-wide protests, a very severe cyclone heading for the Andhra coast, and a sharp week of losses for Indian markets as crude stays high.",
  "market_snapshot": [
   {
-   "label": "Nifty 50",
-   "value": "22,600",
-   "change": "-2.4% wk",
+   "label": "Nifty 50 (week)",
+   "value": "down 2.36%",
+   "change": "-2.36%",
    "direction": "down"
   },
   {
-   "label": "Sensex",
-   "value": "≈72,900",
-   "change": "-2.2% wk",
+   "label": "Sensex (week)",
+   "value": "down 2.15%, about 1,605 points",
+   "change": "-2.15%",
    "direction": "down"
   },
   {
-   "label": "Brent",
-   "value": "$117",
-   "change": "",
+   "label": "Sensex (Sunday session)",
+   "value": "up about 414 points after a 4-day losing streak snapped",
+   "change": "+414 pts",
    "direction": "up"
   },
   {
    "label": "USD/INR",
-   "value": "94.8",
-   "change": "",
-   "direction": "flat"
+   "value": "94.50",
+   "change": "-12 paise",
+   "direction": "down"
+  },
+  {
+   "label": "Crude oil",
+   "value": "about $117 a barrel",
+   "change": "rising",
+   "direction": "up"
   }
  ],
  "sections": [
@@ -32,26 +38,78 @@
    "title": "Spotlight",
    "items": [
     {
-     "headline": "France sees another weekend of mass protests",
-     "summary": "Nearly 1,000 people were detained after clashes followed a mostly peaceful day of marches.",
-     "detail": "This is a sample item so you can see how a story opens up. In the live app, this space holds a few sentences of background, what happened and what comes next.",
-     "why_it_matters": "",
+     "headline": "Trump hints at possible fresh strikes on Iran",
+     "summary": "US President Donald Trump has said Washington is considering a strike on Iran, keeping markets and governments on edge. Tehran denies offering a deal to reopen the Strait of Hormuz.",
+     "detail": "Reports say the US is sending more warships to the Middle East, and some outlets describe signs of renewed major US military operations. Trump's answer was reported as 'maybe', which has left the timing unclear.",
+     "why_it_matters": "Any new strike would push crude higher and could affect flights and prices in the Gulf, where you live.",
      "sources": [
       {
-       "name": "CNN",
-       "url": "https://edition.cnn.com/world"
+       "name": "NDTV",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWl2Mmota2RQZEZha3NhRGU3UVRxUnVJaUlpT0FjNG1ZeS01dXFsUDZWUk5FMFNnRHdBR01rbGpvQnJXQXBIZzYzMnQ2bTA4TDE4dHdYZkRwUWRJVy1mdnFxRWszR05RQnpfSkJHTDNkM2FZTFE0YjVYRUxrX0xOMllHRElDN1hkNGE2UkRZYnBfMmtDTGFmenJsS1V3VGVuNUFabFljS2wwcjlFYmJYd2RLNmR3ODRHU0hVZnY1TQ?oc=5"
+      },
+      {
+       "name": "Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONXFRR0VPek1zVFZ4bHBJOF9td2NRU2FSdTBOLTFXMzU5a0QzWWo0MWVrdmotaklBeWJGSHNoLWppU3V4OS1XNmlrMG5mbzFWNTJrY2thQWxld2xWSF9jRjVLS0pKQ3BKc0VCdDdBeGVNOHVvRy1VdVEyaW4wcEhjY3pxZjZmdUxfSFNhWFVNbHJVNEZTOGVTaHNmcXRTeTNXeDdFaHNpdWxRdzJoVkZuZWVXZVN6YUVkeEQtdWlXOFB1a2cyYnNpZk5BSkwxQWhBbWhYTUZzVDZGclBBbGItMWNyMUc3NDBkakFLQWt4ZzNHZ1XSAfgBQVVfeXFMT21acExXNmNLcUNmNVhiZkRvQWJiazNIVmpBMVpaalNQdXQxc0RjdnlwNXItLUVpb09BU3plMjY5aXVGRlpkdzV4ZUs5Nno1c0l4dkNsX0c3SDRVRUNIb2dBSzJ4X3VSVkF3VHRPZEJ0M0xTYVkzVjBrVFB0YjNDTHBnczJkQ0NlM0VUTmRybVZwamlHQVBUQlEwd1JPMlUyTjNUMHc1UnZmd0xRMGNxQXZQWTlldVh4VkR5c21YMFZTT1JmX2xHUld1TUpBVmFiamdBR0J4UGsxdEZQNWRLdnduN1BRRi1STWJqSFdzVHhhSlZZWXVJd0E?oc=5"
       }
      ]
     },
     {
-     "headline": "Shooting at a church in Jordan kills at least nine",
-     "summary": "Authorities called the attack unprecedented for the country.",
-     "detail": "Sample detail text.",
+     "headline": "Europe-wide protests spread from France to several capitals",
+     "summary": "Demonstrations have spread beyond France to Albania, Italy, Spain and Portugal, with many young people in the streets. Police in France used tear gas and water cannon as hundreds of thousands marched.",
+     "detail": "Commentators point to Gen Z anger over the social contract, while French debt is near 122% of GDP with growth forecast at 0.4%. Trump has blamed France's immigration policy, and Macron has said foreign leaders are exploiting the unrest for political gain.",
      "why_it_matters": "",
      "sources": [
       {
-       "name": "CNN",
-       "url": "https://edition.cnn.com/world"
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMjVSdWJ0OWxqLTV5MVZnQ2dNWUZTM0dyamlwMjYycTFERkZTVVAzSDNfbTZYYk9tRDVWTFZPNVBXMnM5WlNvaUtBajhyb0h5T2dUaTBSUkU3bDNHZUx4Ri0zT0VVckZqRTZnR0RhLUFGVGVlTDN4NnBXWEg3ZjAwQ1E0a2pxaGRRZE04X043ZXdjOEl2MHBNOTQtQjUxVzlnMWc2S1g3UFVKLUxuRUdub2VSUXRCYXBDeUZHc0RRbDk5WXdZUDQ4SDBwLVhXX2hfcThPbWhWcnN6SFFXaGR0SnVlS3gxM0wxanNSdW5Qakd0a2RzTTA1MGMwN0dsbm51Sjk0cHJDZ0tvYmc?oc=5"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOVmtCbVZQVDdBcjNPQ0Z0cmVHTHJOUV90SElsLXJRQ2xpWkpRNS14OHVUdmpGTnVzUV9OVUR3S1dXbTV6RkdlTFVlbF9EMjYxeVY5WTlXc1ByR2pVYzJyOGRydk5YdFBWSUc2NDJ2MXRhbVo3bWFWZWdicDd6RWdvZ3dZb3EyRTVDT1pvZGNzcjY4WExCc2J2ZHR3SlQ5a210anZpZXRYMmdNeVNRTlE0ZUh2c0xMcnNUSGJVSmFKWTNsYndvc2YxZ2tqSVJ6Qk9vQ3B3b0lQU1I0R0VIdWpSV0ZvSUtKMnNIMXRsMW9MZU1tNGtaY3p6U2NEdnI?oc=5"
+      },
+      {
+       "name": "Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxONXVLM2Nsb2pkV3V5VmIwcHZHTlVMbjE1SWt3a2lNN1lxY0NjWlVCOFFObTlyTmYwa01FTjZibGJaRlhiUFhhZS1PamY2M045X2VzQ3BKWTNsdmFpS3VQWXlWUEhoVnRnVUplM3pqVkpEY0lPRW50UDExdlNEcXdCeURCdzBlSTBISzE0WTQtWi03UVlsRjhPVm9XSWFZSlBnZTRDQXNKZzBNNjZNVVBaak9qNXdJSDhTM29vNUVYMGRKOW9YQS16OVoxUndjbG5LdlJ6eGtLb0lDQjNHOEFXSFN2c0w0emVTZzBDbmFHZ2J5aDZhOGQwbHdzVmV0TFoxZ3N0UFl6eHlPeHpQUGllRm10Z1dTbllfRWJHZUMzcUxnM0hlVThTVVctQ0FQZGJE0gG2AkFVX3lxTFBkZWc5R0l4bmd2R1FQdGxBaGMtcVNJU0ZVY3cxQnhwNmFwX0FsOWpiZ0MzTnBfekdVQXhfcy15cFRWaHFtRlJ2TFRxLVhKdDFHR05KN3Q4YVpPenpnTXdLLTZnc29NbjdnV3V5MTVBbjZPVUYtb3JQTGJQcmJ5d3BmUHBsaHAwOS1sbTFjdGV1aEtYNWNwRW5nNl9PVHVOaXM4MVRJYm1NUW0wc1N0OFlHQVgyTHBXdGQtWVFUSnc4Q2YtczVkLXFlUC1SOGd5bWhuWGlKV3BtMmRodXZFc1hGOFktTWJHay1hUUhLQTFhc2kwNnljZEdKdjhUd05pMUx5Q01GXzY2d2pTX2F6WDU4N2RVWkZWaXYySEtMd3dLczU4bmRjbGxsMUIyMFMtVnc5ZFAtbnc?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Cyclone Arnab set to become a very severe storm, landfall on Andhra coast Oct 28",
+     "summary": "The IMD warns a very severe cyclone is forming in the Bay of Bengal, with Andhra Pradesh and Odisha on alert. Schools are shut in five Odisha districts.",
+     "detail": "Landfall is expected between Bapatla and Vizag around October 28, and Tamil Nadu is also bracing for heavy rain. Officials in Odisha, Andhra and Tamil Nadu have readied shelters.",
+     "why_it_matters": "Heavy rain across Kerala and Tamil Nadu matters for family back home.",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaWx3TGljdG9aU2t2ODVkOW9McU1xdVYwdG1Gb0NSWi1WNUQzRVUyS3dJSEJ3aEJaeWJudzV1aXo1b2xOT1VqMlNfSUpmUnpKR2toWE5DZ05YdG91OU5QTTNIdmdjcmFVYWJlR01RM0tka2JiR25KcGJnanVCNW1mUXo3dy01YWZ5cEpNSV9HSVNfYVRnYVdoSm9lU1lBTkV1T05iM2tzZDFQcUpIdERRUER3VU9qc1NG0gG_AUFVX3lxTE5CTEcxb0ZWbnVYV1YtVmw1THpiUEZFRFlHSWlMa29XdjgyMVhZN24yYmJnNDR4Y0lfYktLODVRVW56WGNvWW1FZzZuQ19pZ3Ewd0JqTlRjLVphd0tOVE9xTHloTzc3dDd0NG55RF93WE14STBtdnVfUXc3UWVyT3pteVhndE5yOW5NUGM3bkZURC01N3QxWTY1WGZnenNNM1lKcUE3X0p0bWpNb0hiNUhDcFdvQm16QjRQX1RjV0c4?oc=5"
+      },
+      {
+       "name": "DT Next",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNS1DWVR4bEpIOVlWLUYyMXpQWWdWVU42LXYxSHJ6SmJES0JQQkdYVUF6RGhLS2ladTlMWVVDT29VVUhNNkt1VkdPUzNTVV9UN2N0WGVVNmZtQWxRNWR4TnFhNC1Hb21RSTR3c0J2SmZUQ2JXRFpjQkJuV2YxSEZrYWdZT29pVjAwZ01wMUVVTFZNZnZsanlaZTBwM2xsZmFLRzZZT3NFZ3VET2wxUzQ5SXlsQzZXT0czYWFIUUpiNVZxTmMwU0Z5Z2dVUTTSAcwBQVVfeXFMUDUtQ1lUeGxKSDlZVi1GMjF6UFlnVlVONi12MUhyekpiREtCUEJHWFVBekRoS0tpWnU5TFlVQ09vVVVITTZLdVZHT1MzU1VfVDdjdFhlVTZmbUFsUTVkeE5xYTQtR29tUUk0d3NCdkpmVENiV0RaY0JCbldmMUhGa2FnWU9vaVYwMGdNcDFFVUxWTWZ2bGp5WmUwcDNsbGZhS0c2WU9zRWd1RE9sMVM0OUl5bEM2V09HM2FhSFFKYjVWcU5jMFNGeWdnVVE0?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Houthi missiles and drones target Saudi cities; Riyadh airport reopens",
+     "summary": "Saudi-led forces say they downed a Houthi missile aimed at Riyadh, and Saudi officials reported falling debris over Mecca and Medina. Riyadh's King Khalid airport has partly resumed operations.",
+     "detail": "The Houthis deny targeting Mecca and Medina and renewed warnings against using Riyadh airport. Air India and Air India Express have extended Riyadh and Dammam cancellations to November 7.",
+     "why_it_matters": "Routes from Dubai and Kerala to Saudi Arabia are affected by these flight cancellations.",
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT0JBTVByRUdVWnYzNWpyRUlfbGRFR2RnQzZpbTgzR05tX1AzU2VkVC10RUswYWthSGtJa2FZamVSa2E2ckdSeG5FN3VGTFU5SVJfbjY4NEZjR2tQSWJfZmxtbTJvUU5YSEpKWHRQQWpHMGRfR29xeFhkR1BwcHA5NlA3MnJmRnloYzF6Q0tBZG92ZDgzWmRubVNpNi1CajBmdXdNZmNTYnkzLWFnMldvaQ?oc=5"
+      },
+      {
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUtMUHh2cG16YzFLcEt6c2l3NS1UOURXLXFrbG5IWXdzZUlKamtXdEFPYUJfdUhVSF9xR0I1enlCNHpjcERFQTFHdC15cGtkWlpFSFZDODRWQ3BXOHVIVS0yMXZpa2QtZWVVVWlMMXFyaE1yN3F2Z3h3MG0tVUV2eFdGdjlfMW9tTDJVdVZ2Nkk5SnFIM2FHellfTEFJTEU1TUV6R1h0THJtZ2sxSlpGUTl4OERRaWZaajluRE5SY0lQZGlMaWRhYnFnRdIB0AFBVV95cUxOUmlJRkZUT2QtR0ZxZjlVaGZrTm5KMEs4YnJQRERJMWw5YVltX1NCTGdzMEVsZXo0b3drSnEtZ0ZHelBNU0lUSm5XZkxXUDZUUGxXOEpjbEdaN2NFRW1nUnZUbkQyMDViVmw5QVpOejg2WU1pcHVTN0F5a1ItQlBUQlc0OThlamZuV2pVNEJMRFZxQmg2TldhelY3MHhmN25vQ1pBY3BVNTVkeXJ1TkZ4elplMG96OTVYeFUtMVNoajlBTEJuQkc0Y1kxY0xTZTMw?oc=5"
+      },
+      {
+       "name": "Gulf Business",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS2tvTDRzb3hETFMzT0IzNjFuZ0hoWEhaVGZVWkdOLWFMekhoODZvaUE2bmlqXzl5Z2ZBbVhmMzZrUkU3ZlQ0Zkhlb2x0NmlCU25YcC03SGdTbmdyZlUzd2ExMC1JelU5ejVJRWtONFZvcW80TERZeDlqUlFVZkZDRDl4dzA4YlIwcjVNSjBlYU15WTQzbEFUUF9ZNEVTUWRXMUExTkxDTEo2Z1M1cXhTM1JHc1dNcWs2U0VURXZsaHFKUzJJSkVzQkxmeXhUXzRWVnc?oc=5"
+      },
+      {
+       "name": "Moneycontrol.com",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY29JaFpQZWMySmtIdlNxUGEzOE9mU1JCREJ1U2FhOUswUlpjcE1QWFBNOWZ1UHk5OGNtNWJSa2lLMkMzaHJxYmVsTlJjVU1MRGpwS2dJdGZqVGliSWhYek9HdzFLcXJkWEY4bVhIbjE5Q3ZpdEtURVdQME43WXBfN29BcHJqc09OQXljOHNhaS1OUUtNNHZCaUZvdUMyZmtZWXhOMFc5UHhaNUhwSUl3bU90dlM3eTFTY0dIay1NVzjSAcYBQVVfeXFMUGJfUmR4ZFJySl9NLV9yT2NlaVBabE5mZ2E1R1hGbEJEV01MMENQNkZJbDJXNjVmWmxDOE44SVVFNHJLRXdhbkRabDBrZGgxNEVzV3ZUdGgwUGxSdHhxUGt6TnFBcFhwbHI5R2VxSE95ZzBqWDE3NWNNLWQzX3hLa2ptcE5qaUlBU0NnYVozaG9tSndtdzBpdnNCWmEybGlkS3dMd0VfZzY2dlpvejJzUXVYYlVvMXVQNGVfcm5vR0Vzc3NtVW93?oc=5"
       }
      ]
     }
@@ -62,14 +120,74 @@
    "title": "Indian politics",
    "items": [
     {
-     "headline": "Final voter lists out for Goa, Chhattisgarh and Andaman & Nicobar",
-     "summary": "The Election Commission published final rolls after the Special Intensive Revision, as the row over deletions continues.",
-     "detail": "The opposition wants the revision paused, an audit and a published list of deletions. The BJP says names were flagged for verification, not wrongly removed, and has dared critics to prove otherwise. Appeals are open in several states.",
-     "why_it_matters": "Worth checking your own and family names on the Kerala rolls.",
+     "headline": "Election Commission under fire over SIR; Congress plans 1 November rally",
+     "summary": "Congress says at least 10 lakh people will attend a 1 November rally at Delhi's Ramlila Maidan demanding the removal of the Chief Election Commissioner. The Election Commission says all its decisions, including the SIR, are taken unanimously by the full Commission.",
+     "detail": "Opposition leaders call the SIR voter-roll process a 'vote theft' issue and say voters are being struck off the rolls. The Commission has also refused to disclose SIR software details under RTI, citing trade secrets. BJP leaders have accused Congress of using the rally to attack the institution, and Rahul Gandhi has taken a swipe at the Centre over the rally.",
+     "why_it_matters": "Voter-roll changes decide who can vote, which matters if you ever follow Kerala or national elections from abroad.",
      "sources": [
       {
-       "name": "Republic World",
-       "url": "https://www.republicworld.com/"
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNVM2ZVFHUk1TeGhnMGdrSjFiamNicTN5R2NlM25rV1JPcVZXUzdZMXhIY09GczRYTG1nRUc5MzVfa2ZfTVZmdnVnMnl1U2ZoWE9aT3ZCS3Jza0NvSXNxaXBnUkFidnVfTlFNSjhHeGowTzdNd0ZPeGR6WnJJZkZMbS1pbS1Ud0k5VU43Q1NoVGpyT3JPWFU2RkZuX24tUF83d2dqQlk5ZV9rRUt0YVl4SFBMcjZFRWF3NWhfY3NBaVlvRm1tR2ZNNDBBWXM5UERQaDA1T0dRRUFqSnZ3RXR2YUJoYXJ3ZV8wX0pKSGZRYk1Ib08xYXg4ZElIY0RUeDYwaU8w0gGDAkFVX3lxTE01UzZlUUdSTVN4aGcwZ2tKMWJqY2JxM3lHY2UzbmtXUk9xVldTN1kxeEhjT0ZzNFhMbWdFRzkzNV9rZl9NVmZ2dWcyeXVTZmhYT1pPdkJLcnNrQ29Jc3FpcGdSQWJ2dV9OUU1KOEd4ajBPN013Rk94ZHpacklmRkxtLWltLVR3STlVTjdDU2hUanJPck9YVTZGRm5fbi1QXzd3Z2pCWTllX2tFS3RhWXhIUExyNkVFYXc1aF9jc0FpWW9GbW1HZk00MEFZczlQRFBoMDVPR1FFQWpKdndFdHZhQmhhcndlXzBfSkpIZlFiTUhvTzFheDhkSUhjRFR4NjBpTzA?oc=5"
+      },
+      {
+       "name": "DD News",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVVR4UmVtQzR0V3hvVENMN2FRVTF1MUFXS0Rwd3dQU1RGa191VktGaUVuWTdzaXdzNF9ldGdZX05oWXBVSUxmQzg0VE1nV1ZVUVdudmtVWHV3bHVpbl95YkFDYlVSbzEzeXUwS1NIN0ZzQmRic2xmOTEtRExwYUdhNXZlUHZ2NU9CN21XMFEwZnA2Y1ZOb21pZmlhekc2NkE?oc=5"
+      },
+      {
+       "name": "Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZXdRdkZtWFFtRzd6amQxVGR0dVZ3ZGc4cVVlek4xVWRfZEZPZ2pPOW9kTktIMDItUzIwd2VKM1RHRzlrNnR6RDNiWkZBRDF0cTRpc29RT1plMzV0d21NTVBqS3ZGZzhRQVEyREllaFhQWEp5VDVNMzU1NUN5WXhkRGh1c2dDR3VDR3NMb3dyZU1UTy1iR040Y2JvUWlWYlo0bllMekI3OUtDaUJwLVpGdkp1WkhfSlpZMHlJamtYMGZnclhZN056Tk1Xa21sSXJSWk9hdGg0NVZsbWZGcXpyTU1OZ0HSAeoBQVVfeXFMTmhhRHJiMEFtS21qTkViMVZjSHFMSGFXSS1yS3JGNHpDQkZlbXVjZkRHZW93emstNmRIUlVOOFNTS00xSWQwVllrUENPUnZYMlN2U0JwYkdTVE1kM09SbXZxUjFBV3B1UGxCLTVKOVBBakJPX2E5NUYtZUo1ZzNvNnBTNWlldmpGMTNXSUVsRzYyV1Vfa2c2RVdyWU9WYU5kQnR5Y0I1RXpFdTlpRTdZaVZKZlQ2SWtFN0l6WDQ0SEhFTGhSYjUyZU5DYm51MTVfUF9sX25qcGU5eU13SjlUb015bGlyc3lzaE5n?oc=5"
+      },
+      {
+       "name": "Telegraph India",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeVZJX1EtUVBSLUZKX1N3STZiVVh1NG5kUXA5WjRLMTJQSm8wSUkyWm1LOUttQlFXQ2xnbGt4SmIydUJlVG9tWHV4OVA1V2UzLWU3MHFaVWFha3pNS0p5RHQwaHJXc051eUZmVXZkSkx0ejhMWGQ2YTdpZUwzQ3F4bzg5Z096VVdEYnRjQzJ1b282N3JxNUtyTkVuM0d4T19wT3B3YncxbnVwblRBNEp0bi0zVUhTZ2xGMGxRVE84clVaaE90c1VIZkMycTc5RlZRcGpUc3RiS3d4aW42UVpBY2FiQdIB6AFBVV95cUxQU3UxV1NQUEFJMzZxeXlOYWJ5VU4yVl95XzhvdUVYSHZEVURVeUZJUVJFcktuMV9la3ZCa0RCal9IMnljTFFhYTdQM3B0SG9CUUN0TEllbUstcHVpSnRTNkFfY1N5bzBuTGhKUFNoeHVkbWIwckFhVmVsSHdSNnRnckxmX2s3SjljUW5heTVhVG9kXzB5dWNEYU9UNEI3N193ZUxRajluTkNlajJsTDIzZk1kRVhZUUtEbExVNXhrLVZzbzhwUVZkTjUybmVaRmxuYkhDUGxtbnFEYmJjbVFrZ1hvcFA2UEx3?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "BJP and Congress trade charges over Jamia graffiti",
+     "summary": "Graffiti at Jamia Milia Islamia and JNU, including 'Free Kashmir' and 'Free Umar Khalid' slogans, has triggered a political row. The BJP has questioned Congress's position, and Congress says it does not need a certificate of patriotism from the BJP.",
+     "detail": "Telangana BJP chief N Ramchander Rao accused Congress and the INDIA bloc of encouraging anti-national activity. Congress MP Imran Masood hit back, saying the BJP's accusations are a distraction from judicial delays. The ABVP has launched protests and the JNU administration has ordered a probe.",
+     "why_it_matters": "",
+     "sources": [
+      {
+       "name": "The Times of India",
+       "url": "https://timesofindia.indiatimes.com/india/foreign-funded-conspiracy-to-destabilise-india-telangana-bjp-chief-targets-congress-over-jamia-graffiti/articleshow/135183499.cms"
+      },
+      {
+       "name": "www.indiagazette.com",
+       "url": "https://www.indiagazette.com/news/279397366/do-not-need-certificate-of-patriotism-from-bjp-imran-masood-hits-back-over-jamia-graffiti-judicial-delays-nov-1-rally-row"
+      },
+      {
+       "name": "India Today",
+       "url": "https://www.indiatoday.in/india/story/jamia-millia-islamia-protest-kashmir-row-bjp-congress-sharjeel-imam-imran-masood-visit-itspc-3024358-2026-10-24"
+      },
+      {
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQMTY3LXp6YVJyVlBzV20wZnBzUEI4dEY4b19QRHAtejljX180aVpXSmE4YmUwRWd4aTVXSl9WdVItaTd1Q0VxSHJsYU1WWkNWYzhKTWFFam5NX3JYQ2FsS25CMzlfWWt2TWVJNFVyNWQwQ0cybkl2V1p0RlJPM2dKQTJuQnBXUGpUUkN4cXpjbEJfU2tzejNPdHJ1M1pqQkVBX0RkUkxxTmp3b0h3ZU50WGZnNDFHbXY2VmRqalp0MVZIV0REeURkalZCYVZGSUZsMjNlMWZhTmtUWHB5b0ZrVHV3MTdUVGtYVGRKRm41a2NPYzZSYng0UUFB?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Supreme Court says magistrates are not bound by police closure reports",
+     "summary": "The Supreme Court has ruled that magistrates can take cognisance of a case or order further probe even after police file a closure report. Justice Nariman has separately said the Election Commission 'malfunctions' and urged the Court to rule soon on the CEC Act.",
+     "detail": "The ruling strengthens the magistrate's independent role in criminal cases. Congress has cited ex-judge Justice Kaul's memoir to question judicial independence and government pressure on courts, while BJP leaders have not directly answered that point in these reports. Twenty-five cases are waiting before Constitution benches, including Muslim reservation and WhatsApp privacy.",
+     "why_it_matters": "",
+     "sources": [
+      {
+       "name": "Deccan Herald",
+       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYkFDR3lsd3lpQjMzNlBQQ2pHSzlvMkxfai01TWUwT2VTTlRzZFRmVmJHV2xoOWk5b0tUbG5JeldHRzhzQnI1NlpRdDZkNlgyTDg5TFphcWJyUzZzYnU5T185aXNZRTI3al9pY3A1NHIydUdQeW5FRTIxekpCLWxWZlhvcXFMTEtEWWxRZ0l0RDBVMjRlcEFLWlJyNlFwa2FITlNlUWZpaE5GLWFfbURDZ1o5aG56cmpLemNWTl9Bc3RKb092R09NRGNPR1otX3pHMkM5dEVqcldOTHRURzJIcw?oc=5"
+      },
+      {
+       "name": "LawChakra",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KR2NWbllodDcxa1FIc0lmU25UcGlubU1TQjY5eWZHTmQ1WFR2VWx4OFA3ZmNGdTE2UExRNlFFaEZvN0Y1dFpPXzliNEVNLW1INkxpTm5YdFNpRDRtRWtLVUpYVEVFZw?oc=5"
+      },
+      {
+       "name": "Telegraph India",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbjI3T19PVkpEaHdRazRvOG5iTTFvbXZBWmR1YlZ3aWpUc2UxczVWc1RFd3JqWV9XT2hjSmE4Nndhbk5xeEFiX0RaaG5WeEpVeW42NUlubUlNUXBvS2NvWmg1TjZKZEFrWGZRY2w1WmNPR21GV19FajlCTExOYjhOSHN2YjRkaDFvUkJiUmNCb3Jqd1oyTmVLMV9jUjZXTGZGdnlmeGNRSlpTVTdIcnNDU0RuOEc0cTRIakJwWldid1hRWmNFVWJnbVpXZkxxZ0hHT21ndEsxYWIxY0JhX0hxVnFISdIB6AFBVV95cUxONjlsZDJkVm9nNmJSLTNEUU0ta0hFSlBLbWk2ZHZTRkl6YmUwS3g0dGFGenlqd2FOem9HOEhnR1BuWWk2ZnZwNzFKUWpjYUtGWk9yUGxHOE5ueFplUHpwRHN2ZkRzakljUWJFYmtlcFVJRk52bGxNZXVoa0dUT3p2R1JpRFpSLUNxREgwNFdhTktmaTFIdDM5c0d0Nl9nZnEtWThib1FUSHpmazR2cTR0Q3FhNV9aUzFrY3JJUDRodHVLcWh2S1phTmJhVHdKSkNNa2xDUGVIRExNY2ZIMUp6ZUNtRVRJMWFV?oc=5"
+      },
+      {
+       "name": "Bhaskar English",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUFmRzhPV29WMTBYYnRicWdPVHV5WVFzVV9INUZSSFNQd3BpdmRFUFVQbzlGNXV1OW1ERnlyVlVCWDFyYVhyUUN4STJHVElPczJsNHNHb0hpRnJCbDMwTUU2MFpXeXV2OFBFdEwtZnpscDYwYmpsdVVZWjBfLU1jak82bjg4X0NNb0c5a3lKN21Ld1g3N2REYVlzZjlLX24zYlBQTk14WGx6cHRaby14UXJXQjFPQ2ZXMEHSAb8BQVVfeXFMTkh1amNwZzM0bGpVMXRkTDk4YlVNMV9zOUhhZDRZQk1NVWpWWmdoZC1fdUJoY0JLMHZXdl9JRGtqanRab2FwaUc2NHpZR1c1SWpGZVJpaEl1M2FVY2JZcHN5N1BCZlAyemc4QklfdEVHTXVvY2VKZ1NzZGVVRDZUb3BTdGxvZFhYR2pVczkxYXVxSUFUaHFWQTNUWkFqVldoRHVQREh4XzZjR2YtOXBBZTBpcDU2UGV0QmNmQmw3Mjg?oc=5"
       }
      ]
     }
@@ -80,26 +198,70 @@
    "title": "Andaman & Nicobar · Environment",
    "items": [
     {
-     "headline": "Andaman & Nicobar had India's highest voter-deletion rate",
-     "summary": "About 17% of names were removed; local Congress leaders put it nearer 21%.",
-     "detail": "No new Great Nicobar development today. The challenge to the project remains with the Calcutta High Court.",
+     "headline": "No new Great Nicobar news today",
+     "summary": "There is no fresh news on the Great Nicobar project, its clearances, forests or tribal rights in today's headlines. The only Andaman item is about tourism booking.",
+     "detail": "The Andaman Lieutenant Governor has pushed for a single-window booking system to boost tourism. A life convict who jumped parole has also been arrested in the islands.",
      "why_it_matters": "",
      "sources": [
       {
-       "name": "Nicobar Times",
-       "url": "https://www.nicobartimes.com/"
+       "name": "ThePrint",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMTU1N3lkVERZOVhpaDREMThnN1NjU3FSS2hjVVZkSC1WUmg4VVA0REVQcmt5S2MzU3EwRW9YSGtGUHZnMGZ0VklRQkhpNkVYSVFYclRyeFYtay1jcnFKcEdBMjY2aElwZmtQSnFLd3R2cnQ2SXhrQjdVSGp3eThxTG45VkJsazQ2dFpBeE9NdnZ1MTI3dHVWdndDNjhybGNMcmZDRWdyY2FiVjFi0gGsAUFVX3lxTFAxNTU3eWRURFk5WGloNEQxOGc3U2NTcVJLaGNVVmRILVZSaDhVUDRERVBya3lLYzNTcTBFb1hIa0ZQdmcwZnRWSVFCSGk2RVhJUVhyVHJ4Vi1rLWNycUpwR0EyNjZoSXBma1BKcUt3dHZydDZJeGtCN1VIand5OHFMbjlWQmxrNDZ0WkF4T012dnUxMjd0dVZ2d0M2OHJsY0xyZkNFZ3JjYWJWMWI?oc=5"
+      },
+      {
+       "name": "The New Indian Express",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTmJTbWZBcFhwb3JtYTdPZDlCNU1qM0tHcDJ1ZlBhVEZuSzQtN1FDVE9zRDQ3UU4yZk1DSXFNUnRLV1BZOWlFU1dzam9wUVE4aFMxZXU3ZEZxeVZELVZNQzh0eXNlNU1SeHJqSnBzejROdWVjczZuSmJSbTA2aklBWmNyN2JIbHdPMXNkU0l6Ul9udTZVd3JUOGxYZ3o4MFo5cVpKeEptWTliUzBoc2Vz0gG8AUFVX3lxTE9fSmdRRG5ObVc1UDRrNHJsSzVwRmNXMGY1RmlaVFkwUGg1SzJubGNfaWVIb2U4TUQ4anBzdktGSXEyeG9Xek1oSFpIOG5oLTBPVnRzTE1xWGh0TldDT1ZJckllMjhlbkJSeHZRZDlhalhlWGpyMExGRTJTLXo2NDN3RW8wbUFBWmdmczY0aTI0MjduaXJGMXgzTnVMTmJvRVpsQ25UREQzYlp0dHJoeHppdXNKVTJLenVIQVdQ?oc=5"
       }
      ]
     },
     {
-     "headline": "Cyclone forming over the Bay of Bengal",
-     "summary": "Forecasters are tracking a system that could strengthen over the coming days.",
-     "detail": "Sample detail text.",
+     "headline": "Heavy rain red alert for Kerala and Tamil Nadu",
+     "summary": "The IMD has issued a red alert for heavy rain in Kerala and Tamil Nadu, with heavy rain also expected in Andhra Pradesh and Odisha. Fishing has been banned for five days from today in Tamil Nadu waters.",
+     "detail": "The alert comes as the Bay of Bengal system strengthens toward a severe cyclone. IMD forecasts also mention heavy rain for the southern states and islands.",
+     "why_it_matters": "Kerala's red alert affects the home region you plan to return to.",
+     "sources": [
+      {
+       "name": "Livemint",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTlQ3OGlhMkFJNS1YY3FpUHlxOUdXR0R0LTlHRUxvMWhSaUFod3AwdTYySEk1Ukd5b1hFdktwWlhoR3NSbGNKVVQ5S3dHUkZOUjZaWnNkdlU5Tmt5Q1hQa0FOVGZsT3c0SXpOM3ZOSkl6UThpTDJzWmpNR1BRYU5HNzI0Z3Q2THZLMVppQ0pySkJROXVNM0tKOFBOc2QyNzNIVVdDTnRfbDJsRWRrVUI1bmtaNkcyT1FFZldOb3BXcnQtMVV0bG9EekxWQlp2RmxXWENaektaM2hiRHExYzlTLXZDSk5OY0dRb3I3d1BwbFlYSmfSAfgBQVVfeXFMUE9nMFhZZC1mTmQ4cW5vb3NvYmd1Z1lnSmtlWGFJaVNCTU1mWC1ueXVtdnZyTGFoakI2UlM4QzlhWjlZVFVfRHZGZWNOQ3VnMm5ieFZhU05CSWZMTGJpS1pzY3VIdm9KMG1FN3lqUV9SWHpEdVpNTGxyakFKUXFZQUkxRHB4UHBIS05yRE8zUFo2Mm8zTFZzWUZKUUhWNENZMHVOel92dDN6WHNRSW52MUpZMGtxYkYxX2s2QVV6Tlc1ZXYwNDdXTDh1dkhWOVZoWVQ4bHB0dUkzSGp1bWRsNUUzMjIzaGtWZldtVDBLWkNHcV91OEhqZFA?oc=5"
+      },
+      {
+       "name": "CNBC TV18",
+       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQemp0M0RWd1BsX3p4Y1ZQSU1iUFN3c0U3WFd5Z1JDWVJRRXNPSzNsZkhLVy1SZnZPYXduX3JocGVVcVpxbUlKWVo2VnRZb0IxaHNWVWc1WDlsRTdxSUowcXpNb0lTaDNUMzNlLVlQOHRXQ1RTdlJTZDlkVG0wSGlvZTkyeFRGLTVyRXFrb2hFdU5nTzBFczAzT0luRWROT3o0cHZIdF96YjJWelNjUHdSX0dXeHhyYTlqaUVJNUhFSUpTcERzLTAwbWxDUFpuTFNjUFJod05PZkJyS21SbW5nMnhmYlQwb0wzcXJUVUNScEZ6d9IB9wFBVV95cUxQc2NqMHNETW94OTZDOEV0OEEwTUpQVmwtNmJXdV9wYmhmZUcxSU1qMTBfdVdfUzFzWkZpWWtiYTBSRmFzNHo1d1B0VlllU1dROEY2N1RrS3Rja2VUWlhGVE0yUjUyVFVCS3J2Rm1ESGxEdEN1YU9fa0J0QXRsLWRhNXcyMThKR016VXh4YS14eVJDd0lMU2tlS01zQzlhWE8xcGFRV1ltLXlZeDlraExmZGVUb0dmQk5Td2hmelJIZlpBRmZIMjllSlBhVkpvTjdMdTJlcEFPMGYtRVNCd293bmpTVTFHZUg2RkhEcUk1Y291YzhEa2JJ?oc=5"
+      },
+      {
+       "name": "The Shillong Times",
+       "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPQzVWaFpRdlpEQks4NG9CVXE2bThsVFdxLUN1TTdwLXhOMlNzQ1pUTXlfalpLRm4tczFRNjFxN0NyTmNJMWdDVWkzUmJnS2VybFVYamFNUHY3Z2NOSG5LTk1nb29oZVVOUGFtZEcxN0JsOHJhaDZvZkJGcjRfRlNCeGN0WHRsUy1TNFNNakUxM1lha243WFZTV1Bid0JPZHgwdU9JMHE1V1RvZ01JR2pWazZvZmttT1FSQWtsaHBiRVU3Zzd5VnRVYXJrb2JXaXJmWEJDcGpOalI1dlI5NEhVRGN1dklBUmlVRWxmaVhKQnkzbTk5MFhSU2hCbFdZckplVnUtdlBaZXZxdWlNVENHRUUxZFhpampDYWxKTXJlWmRGTG1OTzY3elNFZ1Y1dmlvT0E5ek9sZlFnUTFaS0pxT2k0VUdlc2dLZFZpemJlX0JPRGh6TlNGMg?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Is the Paris Climate Agreement dead? World nears losing the fight on warming",
+     "summary": "A new India Today piece asks whether the Paris Agreement is still alive as the world nears losing the fight against global warming. Climate talks are moving toward COP31.",
+     "detail": "Discussions in Bangkok between the climate and finance worlds are shaping the road to COP31, while Bangladesh is preparing its own climate diplomacy. The Paris Agreement sets the goal of limiting warming, and the gap is widening according to these reports.",
      "why_it_matters": "",
      "sources": [
       {
-       "name": "IMD",
-       "url": "https://mausam.imd.gov.in/"
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdVVVYmFMR3djRHQyMXRPeEJxaUVYXzctbXNFdU8zb0xtNk01YXkzUlFSYlBOWFZSUWxhVXRkYUVIVnBkYnBVLWFBSlU3ZVRLbjY1MDNTZ2d1MF9DSlBtb2N2em9OcUI4VDY3LUtQOFc1T2N6LVE0V2tRZ1VuZmVNUlJsSjhyNjBIc0N1eUI4bmZrTjY0Tl9KQXJzWEJfQWlhd29fbFBCSnJQc3FCaFJ6MHFMcDh2T0ZmcnVWclpsdTFNS3pZ0gHKAUFVX3lxTE9WNUVOUE9oclFIWFJic0VLTVYxanduT1NaTExPbXBRaWNGeF9VSDJ2ZG9iZVBkdXFxb2ZGa2ZkbHg3TWVyODQ4Qmx6cVNLM0RuSU51ZkNwczZWalh4T0VweWxOM1NzMXB0bjhHS0Nkd0hWY2JnT0hsNmtHRXJuczNseW4wUlJmWmZwWUxTQmlZMnJDOTdlT1pQMGlDWEVKQ1pySmhoaTRIYVY5RkwyejVBZVZoNm5JOVcwakJ0T0JTd0tzRnN4NUhyc1E?oc=5"
+      },
+      {
+       "name": "Down To Earth",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSDJqM0JDZDJfdmxBNFNNYkt0bng0UzRDdktCYS1ZZmdyblQydjVIOFoxZmVnR2F4ai1tQ0Z5SElFWmMtbnB5ZDAyU2FHS21veDgySDlZZHRKbDlfYWpWZi1DV0pNRVZld2dWSnUwS0RYeGlVRGJEbVVCX3RyOV9QR1B2VWI0NlVqTmR3ZXkybVNTOGp1S1h1QjBVMjFfNlZKVkJ4ZENfZEFGTXZvS1JfaEpVaWtrN0NVaDBxTldqZ9IBzAFBVV95cUxPS0h1MnRMSUdzWnZpOWo4Q1hoTnpINW5MUlpaSTg2dWhub3V0SHdvT1VFNzNSQXhQYlNnV2lpZHBmZ1N6ZWYzbEpTd1YzM1FCaGw3Y0wyR0UyY2t1X3E4cWJFc09EVDBYUDkxbDZFSkVKTldEU0NXX05UUkNkU0ZkcGxUbVhENllJQ3BkTThwa09hd2tHN3k0Y0lVLVJrcGJINk11NnpxTDBiWkxjRzBOUmFHNGhFWU1pSGI4UkVXTFdObThDTDlKaXZUd2Q?oc=5"
+      },
+      {
+       "name": "The Business Standard",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGlxeS00SVFtckJGZmZ4a2dNQzZfWVB1eGw0VnhvX3BtZTZYRF9adEZSOXV5X3hxMDkwZDRuYUxSbEhDZzhzRzR2VnhGRHhHUFhBZk5iZ2xnNGhycWZfRWVDR0VUZURWY3BQc1NyZU05YTJ0Q0ZpNjJNbnlLZFVUNjhMTjVfT0Nv?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "A distant Pacific pattern may be drying out north India",
+     "summary": "A new study says a Pacific Ocean climate phenomenon may be reducing rainfall in northern India. It adds to the picture of changing monsoon patterns.",
+     "detail": "The study links conditions far from India to dryness in the north. Such research helps explain why rain can be uneven across regions even in a strong monsoon year.",
+     "why_it_matters": "",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcnpzS0RNa0RTZjBlWVhiZzdxeTZiOTJtZVhUSi1mLVFnbHZucVR6VUNxc3NHTl9uMUN3ekJPSlVtMWZsNEQ5Sm56TVhNWmpNZHM3TzdwVkxuSXN5QWFDSkVXa1U2aXZxWDVlYU1yRURGbXZVZGgyTllXbkZJeU1CajZwMHBhYVg0S2dmTXRMZy1lRTRFV3dWY01HZ2ZWUVhsNkNNWnphSzBmZVQ4Ukw1RVpVZ1YwcnYxV2g5cFB3SXBGVWJHRnlDOTMtT0tYRl9wM3c1OS01ajJ6QzTSAeIBQVVfeXFMTlBOOVEwOU1CbEJ6blZuUWRnYlFYT3JwQnhSWVhXMlVGLWdqMUs0aVFNMVFRcU4yNTNyM0FLdW1lT0h5Z3VPMy04WWtwNERVWEpTc3ZqdjlxTHRkc21ZWTBDdmRrRk1ySG5YUVVNRlN6ak5uNGJidU5oQ1hrRE8xYUo3dEtjUG9oTFhKM2pfcVdiN240alhsU0JYNHBkdXJidWdlNWJHOG56YzRDRVF4cml4d0l3WHh1UXkwLVloak5PcUNqUmdyZkx3aG1HdllNTDE3bjhjWkoySFhUM3NnMWRiQQ?oc=5"
       }
      ]
     }
@@ -108,21 +270,90 @@
   {
    "id": "insurance",
    "title": "Insurance & health",
-   "items": []
+   "items": [
+    {
+     "headline": "IRDAI extends feedback deadline on insurance distribution reforms to October 31",
+     "summary": "The insurance regulator IRDAI has extended the window for comments on its proposed insurance distribution reforms to 31 October. The extension was reported across several outlets on Saturday and Sunday.",
+     "detail": "Distribution reforms set out how policies are sold, including commissions and the role of agents and brokers. Stakeholders can use the extra time to send comments before the regulator decides on the final rules.",
+     "why_it_matters": "Changes to how policies are distributed could affect the brokers you deal with in your IPMI business.",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbkdLVldjZHhGT29UX25QaHJHS0twZk1meWl6YjNEeC1USmp5aV9CSkRNY09UZFJaNVlqczdicEZNMXFvQ2gzdWZmdGZiVXB4c3V4UTN6ekZHY3kxREJaY2wtbnE2WnUteThTWEJlZkVzcnZtczdJaVBPUUFJN25ET0pWR3ZKYkUzcF9iQ0twTlIyR3NPUE9YMFhKTXc2RHVySVdMNW5GanFBR1laN09vbHdSZUkyRm5VS3FNcEU5Y0Jld3fSAcoBQVVfeXFMT292V1F2cEtNRnJoZkJqMXJ1OFpjVjliNVRBc2JRREEwVkk1MS1KUTlSMXJBTldjT3ZCcFBmMTR6VHhYejk0T0VPUlQ0VkhSQVYxc21NckRHYm9yTGJKOW9Kcm9zeFBhZHZUNDkwMXhzUVMtNzRCUkZCWE9yc3pQbW8waHJpVG41T0pqS0Nwam1WOUc1MU1UcjNvYkgweklsV2d2aThHTjJjcTNMcUNrZUQ3cUluYlBPYnNYblJpM3B0MUdfREthcVh6QQ?oc=5"
+      },
+      {
+       "name": "Asia Insurance Post",
+       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Uemx6UnhKZ1VZRHhkeHFJOWtpeFlPRENqRDRUSHpVc0lncU9CNlotX2Rlb1lWOFdUMWFqVlJNcEtXc1JldldVNlptcFNBX2J1ekVmVk9sTQ?oc=5"
+      },
+      {
+       "name": "CNBC TV18",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONjlBOFlLVnJIMjBDX2VxVUUtazdncmJqaEotVlUxcFYwSHR6VW95SmNMWnpmVTNNY2p4dFgxMC1NTDhJN1hBZ1laOXN4dGNGSzF3UXdOZTBVb0pTZno4WWRyYnEzbk5XcV8zamYxeHZfWjlMS0tOUHEzbDhfLXA2WXdBTm9YZ1AzMU1MV1hxTkdra0Z1OGg1dU1scU9qWHdsQ0hZYXhmTDZIWWRTVHBDNFQ3OWlCbE9WeTBXNE1VSzlWVXVnUklmdnZWa25JQmNnREpCd9IB2gFBVV95cUxQUFRPblhnVEJWYUNfcVNYRjc4Z3J1ajJ4REJXYUdYQW1JTnJnZkhGNkY1b19xMThKQ1FxMm9VZlV4QndiTVV2TV96M1k0RzVpdjA1LUJ2SXZaZDRRd1BvUVYwazh2NERDLTR6eC1NTXgwLXpwelNsX3E4N09ZSEFVMmZoNWQ1NUZjcE1hREFCcXNLV3VFaVpFUFZqT0pyX0djNDQ1UDNYXzMtek9VZ1IyRGJuUU9KNlpJVlRVWmpJWjJvb080Nk51dXVTNVhCT1Rua0RnejZCbUJxUQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Deepak Reddy to succeed Tapan Singhel as Bajaj General Insurance MD and CEO",
+     "summary": "Deepak Reddy has been named to succeed Tapan Singhel as managing director and CEO of Bajaj General Insurance. It is a leadership change at one of India's large general insurers.",
+     "detail": "Leadership changes at major general insurers can shift strategy on health and distribution partnerships. Details of the transition timeline are not in the reports.",
+     "why_it_matters": "",
+     "sources": [
+      {
+       "name": "BW People",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZjlGMHdMQUl6dnE3RE01enJVYmk3WDJwTnZERlhIU19ZTGNHWE1BYmllWGJRVk52bWxZMXM2N2xZczkxeWhBcHU0VXNnbW13U0xxLUhjX3lxVjI2cExBOWI4SHVTM0ZjOG5kSnpIZlhsN3dWSWFvazdwbWJKazl6QlB6aWhDaUJXRWdnTzd2S0hXelB3UFRVbGlPeDdjT240R2NTQ3pBQVptbVVxdFFqX1N4X1A?oc=5"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "uae",
    "title": "UAE & Gulf",
    "items": [
     {
-     "headline": "UAE petrol tops AED 4 a litre",
-     "summary": "October fuel prices are the highest this year.",
-     "detail": "Sample detail text.",
-     "why_it_matters": "",
+     "headline": "Oil spill forces UAE to close more beaches, including Ras Al Khaimah",
+     "summary": "The UAE is closing more beaches after an oil spill hit its coast, and Ras Al Khaimah has shut all its beaches. Reports describe closures across the coastline.",
+     "detail": "Officials are dealing with the spill across the Gulf, and environmental concerns are growing. Beach users should follow official notices before going to the water.",
+     "why_it_matters": "If you plan a weekend beach trip, check which beaches are open before going.",
      "sources": [
       {
-       "name": "Time Out Dubai",
-       "url": "https://www.timeoutdubai.com/"
+       "name": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc2VON1NDRWZVcy1CUUVLY2NtdzkzWnVjSnZrSTNISGs3dzJtU3drYkx3S0NuX1JtdmgtUFdfR3hMYVNPcUpYT2FmV01wZkk3bnJxeW11ZllsR2RERG1OampzZG5BWnZSVDU3ZHM3SF9PLURZRThzZU9mdWozWjBzbGM5WmIyMGhKTVIzV1NTamQ2Q2swUWlzNTVZTVNScUNncnhLZ0tWOGlqS3By?oc=5"
+      },
+      {
+       "name": "NDTV Profit",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUU5xRnBDOUN1QUh3cVFoc3dXZURHaTN4d1lzWk05ZmlhWEo2RzUxZkZaRkpxMFA3blBWamZCZTd3NUllQXRFMmFidkNpa2dtdGp5NnBtRXZWRzZuQ3ozYXNuYmptZVppZnlpMlNoemNDckYtM29mcjNQYlJpSC1idl9DTWE5blZPU0pJdDhEN21XYTFUWENmb1VFMUFtSV85c1JFSV9BMGwwNW1meHAxaEZR0gG6AUFVX3lxTE1VOEJtZTJZbXI4eFlsY0kwZFhPVlJnVUE0My1zX1drM19qLXRMb2ppWkwtVnJQSGphRlB3dFl4eFY5YXlZRF9KQm1FcHpBXzNmZWZLZXNBZmx3cmpwVU1lb2x5VTN1a2xDX3BOX1poVWhwdDFSdnRWd01mTkxfczdUeWpFR1NUTWl6dFBUZUJkbFpvdDFyT1h3S1AyRmtqQjFHdElkeVlRYjRpUzFtQXRpekNmRGstbDNndw?oc=5"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWnAxcnlQSzA1Sk8teG1wM0E5c3VVYk1hd243RUl5V1lUS3hlLWVTZzUyUzlpODFITktQZjhzYWJQaUlsX3pmYmE0NGhKRHRfbEhiSjR3bmtLMjdUcVN0bndUYnY5YW5pTU9HdG4wYXNEOXlnZzBzZjhIdk5UU3JLbENfUjA1XzFEMU1sQmFENDFhUjJ2aW12ZHVnTDNxc0RqeFFiRzJwdWMzbWdBTlRkX01yN1RZQ1BrWEQtV1FfYWNtNnVqY21zQWNTa0U1dzEtU0JUYl8wUTZKNTB0UFBkVVMteUJUVjRuUXFEUENDRkUwclFD0gH6AUFVX3lxTE5SSUJTU0tfRVpIS19WdGJac0cwdG9makVibDJ0aGZBSzhXRUFxRnBvcDNxTFlrREYxVmdtX2tYc1V6OXZTSmtSQVlSaGZRd3pYcEpMREYza3hodk13T0VSbkR4Sm8yeTJlTHdUb25sRXA5WUZfaXV6WjZKUjNoSkp3aTZmZUpCMXIwTHpPUmRxRndtMDRPVEYtaTlsb2dPLXZhR2Z1aHhLU3BwbVNRdzJyU25nZUJDaUhWV05GeFhtZzhPeG9uaXY5QmRpbzBpeHhoUUJTVkVNdlpxUmU1RjdzT0V5bDVHOTFCMEdjVFZHdHVrYlZoS29UcVE?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "US updates UAE travel advisory over Iranian-backed Houthi threat",
+     "summary": "The US has updated its travel advisory for the UAE, citing heightened threat of terrorism and armed conflict from Iranian-supported Houthis. The advisory was updated on 23 October.",
+     "detail": "Travel advisories describe regional security risks, strict local laws and extreme heat, according to summaries of the update. The advisory does not describe any changes to daily life in the UAE in these reports.",
+     "why_it_matters": "US advisories can affect flight bookings and travel insurance terms for expats.",
+     "sources": [
+      {
+       "name": "https://ae.usembassy.gov/",
+       "url": "https://ae.usembassy.gov/travel-advisory-united-arab-emirates/"
+      },
+      {
+       "name": "BusinessLine",
+       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQWHBKY05SRHl1bWc3QnBLNUVkQmNqekF6UUYxam43aEJJZ09LNjEwcjQtNktqd25UbzEwcXUyeUlsTFAzZXd5dGxoRVFrdE9TNHNHem5ZZmZ6QnhQaDZyTEdVaXN4d2FaWGllOFU1RG1wTEpRSGZxLW53c0NJVGFSX1Y4VlJWMHdEY0dZNlphR05BWXdzN3JMR0JJczFwN0tMRWVzYUM4V0RjVi00My1HUERpRlVZQnNieENGXzVKalR6NlljN3FCVmlHdEZrbDU0N0VRZWZ3ZV9OMDZyaTY1NjJqM2E2Y0JZTGtoMGRrZ25tcEJ4bGZxX1k3TnNxS2hJNEJqeEtobnUxZ25TX3JGYnJn0gGYAkFVX3lxTFBfdkp5V0F5eldjT3NpbTNtVk1vd2dibnRva2UweTQ1OGZjbHo4SklnUGdkTjNwQlBKOW95YjR4NDVSUHVKc3VVei1YLTJrNmVpWXp4M05ReW5BVmk3Um1iQ3AxUnhnMnhqOHZVSEk0UE11OWNheW9CbmsxYUJfZHV6WDh3eXc3U3NUVlRiOFJNWExsQ0pfdWxmNnlHNkMyWjBEQ0JWMmF5aXdjWTZ0OGp5WEd4VHhJd2syYWo4cUlvZVFJbTZuSEllYXExR3AtcHd0NkNyb1kxMThVWnpsTzVtQ09pc0dvalR4SkxXOWxjeWRyc3BVQjBuTGtOQVY5OUs4RHlpNXVHNExzRnIycFItQmlOMDNyaWk?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Indian Embassy in UAE shuts four consular centres, 12 stay open",
+     "summary": "The Indian Embassy in the UAE has closed four consular service centres, while 12 remain operational. The reports do not give the reason.",
+     "detail": "Consular centres handle passports and other documents for Indian nationals. Check the embassy site for the list of open centres before you go.",
+     "why_it_matters": "If you need Indian passport or document services in the UAE, check which centre is open near you.",
+     "sources": [
+      {
+       "name": "Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1NsUjBmVlQ0Um9CTHlDbkJ0aTd2MjFoQ1ZjdWp4MEdQY1BwTVFxTVZ0WEU1YkV5MGhDcVZfZU9ialNpNnU0N2VILVhhTnFFRmRPSEluMzFqdWVlVVJLVDBYOUc0cWJfTkx0Wk5EdV9kVlZ1Tk1nX0Z1ZDNESDd0NnhVOEpfaXRaX2lrLXBmRFh3SldqdTlJQmZCR25fb1ZUcG9hZXFvcmFWeXRiNi1hRHJqcFMxQjR6dTEwM3NsZ3J5NU9KU3B1RUcxY2trTnFM0gHWAUFVX3lxTFBiTU90RGdGLXFyNmx5X29RbVM0bVNOSUNHM0xaaE91QjVkbFd2amtyNlNXa2ZNYnN2R1ZJTld2cVRkSlRyQ3ZxQ1VUelZtcmZXUmNmRll6SWptZE9tZkVTSnktenFubXFRVFRWRVp1QUgwTkhONGpEV2dMdG5PYzhsUjdTZGhvZ2d3b1BTSDJibUFmblR0d2dDZU9QRHI3MUpKeVZOeFNqTV9CaF9DTGdIajJlN0dBcVVNZEt5MDVPdzVnTVNkX2d2bU9LdXFDcnlBakRTVGc?oc=5"
       }
      ]
     }
@@ -133,14 +364,74 @@
    "title": "Money & markets",
    "items": [
     {
-     "headline": "Rough week for Indian stocks as crude climbs",
-     "summary": "Nifty fell 2.4% for the week; smallcaps dropped 7.1%.",
-     "detail": "Brent near $117, foreign selling and Trump's hints of more action against Iran are weighing on sentiment. This week: the US Fed meeting on 27-28 October and whether Nifty holds 22,350-22,500.",
-     "why_it_matters": "The Fed decision also moves global ETFs.",
+     "headline": "Sensex and Nifty post a weekly loss as crude pushes above $100",
+     "summary": "Indian indices fell for the week, with the Nifty down 2.36% and the Sensex down 2.15%. Crude oil, around $117 a barrel, has been a key driver.",
+     "detail": "Reports describe foreign fund outflows and broad-based selling, especially in banking and mid-caps. Sunday's session saw a rebound of about 414 points for the Sensex, but several outlets expect further weakness next week.",
+     "why_it_matters": "Your India holdings and any Indian equity exposure are currently under pressure from high crude prices.",
      "sources": [
       {
+       "name": "Mid-Day",
+       "url": "https://www.mid-day.com/business/stock-market/article/market-weekly-wrap-up-sensex-nifty-decline-amid-elevated-crude-oil-prices-fii-outflows-23656747"
+      },
+      {
+       "name": "Goodreturns",
+       "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-26-30-oct-sensex-nifty-likely-to-fall-further-amid-crude-oi-1543317.html"
+      },
+      {
        "name": "Business Today",
-       "url": "https://www.businesstoday.in/markets"
+       "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-crude-oil-at-117-broader-market-selloff-and-q2-earnings-in-focus-563444-2026-10-25"
+      },
+      {
+       "name": "INDIA New England News",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWm9iaHFnTHJfRGhBQVZpdU5ycGRGb0tOb1ZiRUR2dEJIR0tUYU9MTmpaRHBhZnB4MTMtQkVLNGZLWEhfMjBHcUJwaDB0bTAxemlOcGFIWDM0TlNKeG5acjVvVGtUVk1HSzVDdFNUQmNWeDJfMlhNR0F3Nk1MVm9GeGFNOWxMWUZMWWw2ZWpIcTVORzd3NDR5Z0J0OWhxMFpqTVVfQmctcFF6MDBT?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Rupee hits record low near 94 per dollar; RBI measures seen as short-term",
+     "summary": "The rupee has slipped past 94 to the dollar, hitting a record low, and was at 94.50 after falling 12 paise. Analysts say RBI measures are only short-term stabilisers.",
+     "detail": "High crude prices and elevated US bond yields are weighing on the currency, and Indian bonds have seen their worst losing streak in 30 years. Commentators warn that using the rupee as a stabiliser could hurt the real economy.",
+     "why_it_matters": "A weaker rupee means more rupees per dirham, which can help your remittances home, but it is also a sign of market stress.",
+     "sources": [
+      {
+       "name": "Goodreturns",
+       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnd3bmRDVnpvblBxS2R0VEFFdHNld29yMnlRR3VELWtFbWhYaDVrWDY5M0lWV1ZlWkNFejhiRm5zNDVtazJwYjVXVkprMnhmV2tnbXJSb0d6SG4tNlhnRG9UcWg4c3otQ2oyY3J6N09OX1RfZVIxUFRncnNCTzVKVXhYUnB5alJUNEF0azNmTzNpdmphVE0ybWpnakFmU2ttOE1VZXU2c19IZmpWNmFVUkJMaHJtbnhpcER4OE14SUZMYnNXV2NhWVJrQThrTXFfbDJfcmNVU2U?oc=5"
+      },
+      {
+       "name": "Mid-Day",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTViTTVBYzl6aEgySDRLTmowTVdLVmlKd3FDSmJuOHpSVVdoTWtYQ0JUejJyUS1RV3dfRnFEYlNCcDRjOGo0Ujl1MVg2WThHQmRWSmRIaVZkSlREcllVdVZ1NmJ5QjFqcFBRVmlCSkc5TU9Zc3NuLXpDLXJRTjVNZmh1S3ZONW1YczZsbUxlVnpiTmZadWVIT1JOaERFVUV3RmpISUxUN1Q4Q3Juczl3alUzUUFfM0hCOVNiSkQ2dndEUQ?oc=5"
+      },
+      {
+       "name": "https://www.fintechbiznews.com/",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZGpJWDR1cjJMN2hGQUhXWmVHTEQ1QW5XQzNlSm9XT3J1X1VGRm9mUkt2QUt4S1Budk5CNVRPeVAwRHR5QTJfbmJBU0dYUGtxV1NKZklNS3hwVnc0QVNQeTJoRWRTeHVfdXlTQWxVSnUyYnJGMmxGWGFudVRJbzNFb2t1OHE1Umw3M3pwU2JSQnR2U1ZaZ2VZ?oc=5"
+      },
+      {
+       "name": "Rediff",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT25NeG1SNklPVUw3RzNBSjA5RzlfM21MeHA2eWZEcTctOXV2VEVhTC1Ja0dUa1VPS3laVm5mdWtpM1RGVFpmNmZtcFc1b3RXMmFjdnhTSEszUDM2RlVZWmZIOFc2RTRlODJNcDlpVDlfeEdPTVJGNjBCaWo0NnJEalV6ZGJkSnI3RDlIUFFGalA2aDdKckhvbDQwQy1nZmpwc1NuXzV1RWhvcnM0NThmT2lxeUVRMTEzX24zYl9KRzZVZms2eGNmakhGYkQwbnJhUC1HRU1B0gHYAUFVX3lxTFBhTFVSd0J2UFI4ZWQ3Tkc2UXl1TmVIZkJkSmlMV29PVHhZN3JXNnctcW9SZHlmOG15eWhGVG94NlgzVWU4cUxSMFphaDRZRFB4R1BCUTh5aU96dTYzOEotS2MxdGdPM1hyMVNTdkhLRzV4S3RLUnQ0YmFFTmpsVmhwLWpWWGpnTlhsU3FUQXpydmRIQXdNb05HSGZmME1EMXU3VW9kb3FpRFo5S1VpMEtPSEJWYVl2SmF0MXJqRWhBRENnaG1iSldsOEpwN2Y4RWsyWUc3ZzRfSw?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Markets watch Trump's Iran signals and the week's Fed meeting",
+     "summary": "Traders are reacting to Trump's hints of an Iran attack or deal, and the Fed meeting is in focus for the week. Analysts list crude, the Fed and the Jio Platforms IPO as this week's market drivers.",
+     "detail": "Coverage says the Jio Platforms IPO has drawn strong subscription, and 24 companies are going ex-dividend or ex-split this week. Foreign investors have been net sellers, and analysts say a Fed decision and earnings will shape global equities.",
+     "why_it_matters": "A Fed decision moves the global equity ETFs you hold and the dollar that drives your rupee conversions.",
+     "sources": [
+      {
+       "name": "Livemint",
+       "url": "https://www.livemint.com/market/stock-market-news/trump-hints-at-an-iran-attack-or-deal-impact-on-india-stock-market-sensex-nifty-gold-decoded-top-10-stocks-to-watch-11792906667676.html"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQN2QxUGRuNEg4b2RicklUZFpUaXhReFZmcGUyektFemE5alk4MVJCWG5ma2ZVaHp0Uld0WnJXYnZkcFRoS1pxR2E2dDFGMVZCcl94RlJTYy0tbkFQRThwaFhtdmFxb3lnVUVRY0FaWm5jYi1ybXpoaEI5aFNLX1ZtWE8zaTZLNmJaZ2lqY2ZqOHZucGNKdi1HQ2t5bjJTcDN3REdqQ0VfMElsRmR3cDdKS2FMNjI1RzIxY2VSNC14MlUzNldEUTNvbXExSU9sMXNoWjlTb1JhRWl2X2Q1QWRScDNfZE5VQUlvR2M4TDVkbFFOTm53bHQwMXJBNWVGUdIBgwJBVV95cUxNdmU0V25jX1FSNGl5VmUyQlZLa2puZXJKWXJCR2FCVFFZMjRfNVpKcnJNcTVUSDRSdjBPb0puaDNpR204S3JJYV82UnN6bEV5SU1lSlpCTHp0M0lFNUZzVmthc0RjdG1jWWJ1dTBrcGZXYzNoelc1dURmdlB0Y1UybjZydVFiT2tFNWQwanp0N29BdVYxOG9udHI1bWRrSFJXcTktZzJtV09NMVhoTWhvZ0JHRXkyaUZqaFJPbmxwXzBHNmFlVkl0OVBnREZLRDhBQWdIRmZucGNZWEtnRjhfeWNnZ3dxbnI3UUFROExMb3pwcnpuQTVPTHZIZldXVWRmbnhn?oc=5"
+      },
+      {
+       "name": "Rediff MoneyWiz",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUE5GNjQ4WURFNXc1TVAwM2FkSjM0SDI2c0k4OHhjUEctTDJDTC1GRHVKc0tPc1pkTDNiRG1fZkZiM3Q5ZElHRGxQZnU0NThyQmJtc1ZPUEVMZjZ1YzlXUWVkQnJLT0ZXX25mdGpiWHFtV1BubWt3ZWhlRVVMbjlMYzRzN2JWQ3NLVm9HaXlsSFNYQk5Va2RqVmVTeDVIdlpjem9rM1h3RdIBrAFBVV95cUxORFFmRHg0dlJsSnc2aTZYeWc0TGxja2dmQ2EtWjE2VFRNdmRBV0NMb01OZmRsN3ExWDM4bnk1dWt0NmNMYVZvLV9BZ3BlTTRxS2N1SzBzYnhfeC1pQ1NuUDdDVVZ5dUFqZEJuMzRzZFNKcVIxVjBhM0ZuczQyX3FYTEM3bG1lNGxpSTQxYlFPX0hyc3N6NWVRQy13R0t6NldTalE5VVNYWjY1aVhK?oc=5"
+      },
+      {
+       "name": "The Economic Times",
+       "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividends-stock-splits-lt-tech-shriram-finance-among-24-stocks-turning-ex-record-date-this-week-do-you-own/articleshow/135183913.cms"
       }
      ]
     }
@@ -151,26 +442,50 @@
    "title": "Hidden gems",
    "items": [
     {
-     "headline": "Navy begins Rafale Marine trials from INS Vikrant",
-     "summary": "India has 26 of the carrier jets on order.",
-     "detail": "Sample detail text.",
+     "headline": "MIT's paper-thin robot swims using living muscle cells",
+     "summary": "MIT researchers have built a paper-thin robot that swims using power from living muscle cells. It moves through a watery maze.",
+     "detail": "Living tissue as a power source is an emerging area of soft robotics. The team's design uses biology rather than a battery to drive motion.",
      "why_it_matters": "",
      "sources": [
       {
-       "name": "PIB",
-       "url": "https://pib.gov.in/"
+       "name": "Tech Explorist",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeERyeVpMT0tOT21EcEViRkpYRVdTbEhUaTZCNDc5SEVONnhReEtkZmFhRWx5dHE0aFdpVXhEQUJRVzFTZTRablJNTS0zS3pUWll3dWxiVHNQa3NYRGlvd05yS0g1aFRnZUJyajhERk9qY1A4ajQ2bHNvXzJsRTJscG90RG1CY3NaY3Y0?oc=5"
       }
      ]
     },
     {
-     "headline": "Nuclear power could more than triple by 2060",
-     "summary": "A new long-range outlook sees a big expansion in nuclear generation.",
-     "detail": "Sample detail text.",
+     "headline": "Physicists trap and tame a single antimatter particle for months",
+     "summary": "Physicists report they have trapped and controlled a single antimatter particle for months. Earlier attempts lasted much shorter times.",
+     "detail": "Antimatter is notoriously hard to hold because it annihilates on contact with ordinary matter. Keeping a single particle stable this long opens new routes for precision measurements.",
      "why_it_matters": "",
      "sources": [
       {
-       "name": "World Nuclear News",
-       "url": "https://www.world-nuclear-news.org/"
+       "name": "Phys.org",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52LWl3U0FFZzM1b3prQ1FMU29kQkxFOU9FMmpOX0hTTGtPbkc3VkJJbHZFcklhb0pXcklQVnpZMlhjZnN2YUkwWC1BTV8tUmhxc2NIbC1YaVd3NEpIQmEybzlwR21XYlc3SjNZa3d2cHowbXd2aHA5OHJWTmY?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Scientists find a hidden switch that burns fat and blocks new fat cells",
+     "summary": "Researchers report a hidden biological switch that can burn fat and block the formation of new fat cells. The study has been reported in Science Daily.",
+     "detail": "Fat-cell formation and fat burning are both targets in metabolic health research. The finding is early and would need further study before any treatment.",
+     "why_it_matters": "",
+     "sources": [
+      {
+       "name": "Science Daily",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96Ql9QNng2UUR4VlB4ejB5S1B5enh4dVpTVHpzUFVjc3pPWUFkeWFRaG5jLUczOEdqdFZXd1lqMjVkWlBJaG9YcmxkQU5oSnV6VmdHUU42TTFxVUlycGg4UjRtVDdyLUs0VEIyV3JPYw?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Northeast study logs 75 edible beetle species, 24 new to food records",
+     "summary": "A study from the Northeast of India has recorded 75 edible beetle species, with 24 of them new to global food records. The findings were reported in The Assam Tribune.",
+     "detail": "Documenting insects eaten by local communities helps food security research and biodiversity records. It also shows how traditional food knowledge in the region is being catalogued.",
+     "why_it_matters": "",
+     "sources": [
+      {
+       "name": "The Assam Tribune",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFdPckpac2gzdFdvTkZQNFlWNUV5RlNuNW9NVlhWcGM2X1VIQUFiOVFUSWd5am1qZXllQkVqc2p3dm1EWXI2UDZtY2pwc0pJMEs4WXZGRFFBYmI5aHNYelo3WGdOTVBCS3BTZnh4NUdpaUk5cDhHVUpJUnRzaFFGRUhlcTZhaG5ySmIxZXNhbUM1UTE0M09SaW1iZEE1V2l2anM2MU1kMjdLM2JZYkZESTMwSjZoMkdmZ3Z30gHAAUFVX3lxTE5fNTZfeXlINXJUcDU5WnRvSGhSU0NpQngyYUZnYU4zUVpaQmxsbENIUkU4R25PZFdtaFR0cTY3RFdKak4tX3Z5OW0yVGhwZU0zR00xNG15TldIdVZwMTBONG5HdlBxY0RaZHFRNXo5aGdjeUNjWm55cWpTZDl4QkZremtRMmZHU1BLQzlVQjRUNFVLbzNsU3JPY0w3SVN0a2l4TE9Wd3haOGRjS2NnejJjZDlPdGxuQ2NlU0Q1c1Jfdg?oc=5"
       }
      ]
     }
@@ -178,6 +493,6 @@
   }
  ],
  "date": "2026-10-25",
- "generated_at": "2026-10-25T11:15+04:00",
- "model": "mock"
+ "generated_at": "2026-10-25T12:20+04:00",
+ "model": "claude-haiku-5-5"
 }
