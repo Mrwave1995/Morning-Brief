@@ -303,8 +303,8 @@ Do not repeat these unless something genuinely new happened; if so, say what's n
   keep it general and don't present it as today's news.
 - Plain, friendly English. No hype. Political topics: neutral, give each side's position
   where the headlines show it.
-- summary: 1-2 sentences. detail: 2-5 sentences: what happened, the background, and
-  what's next. why_it_matters: one sentence tied to the reader, or "" if nothing real.
+- summary: 1-2 sentences. detail: 2-4 sentences: what happened, the background, and
+  what's next. Keep the whole brief to about 20 stories. why_it_matters: one sentence tied to the reader, or "" if nothing real.
 - Every item lists the ids of the headlines it is based on in source_ids (1-3 ids).
 - If a section has no real news in the headlines, return it with an empty items list.
   Never pad a section with weak stories.
@@ -312,7 +312,7 @@ Do not repeat these unless something genuinely new happened; if so, say what's n
   gold) ONLY if they appear in the headlines; direction is "up", "down" or "flat".
 
 # Output
-When ready, output ONLY this JSON inside <brief></brief> tags, nothing after it:
+Output ONLY this JSON inside <brief></brief> tags. No text before or after it, no code fences:
 <brief>
 {{
   "overview": "one sentence on the shape of the day",
@@ -337,7 +337,7 @@ def call_claude(prompt: str, model: str, api_key: str, max_searches: int) -> str
     usage_total = {"input_tokens": 0, "output_tokens": 0, "web_search_requests": 0}
 
     for turn in range(6):
-        body = {"model": model, "max_tokens": 8000, "messages": messages}
+        body = {"model": model, "max_tokens": 16000, "messages": messages}
         if max_searches > 0:
             body["tools"] = [{"type": WEB_SEARCH_TOOL, "name": "web_search",
                               "max_uses": max_searches}]
@@ -373,12 +373,53 @@ def call_claude(prompt: str, model: str, api_key: str, max_searches: int) -> str
 
 
 def extract_json(text: str) -> dict:
-    m = re.search(r"<brief>(.*?)</brief>", text, re.S)
+    m = re.search(r"<brief>(.*?)(?:</brief>|$)", text, re.S)
     raw = m.group(1) if m else text
-    start, end = raw.find("{"), raw.rfind("}")
-    if start == -1 or end == -1:
-        raise ValueError("No JSON object found in model output")
-    return json.loads(raw[start:end + 1])
+    start = raw.find("{")
+    if start == -1:
+        raise ValueError(f"No JSON object found in model output: {text[:300]!r}")
+    raw = raw[start:]
+    end = raw.rfind("}")
+    try:
+        return json.loads(raw[:end + 1])
+    except json.JSONDecodeError:
+        repaired = repair_truncated_json(raw)
+        if repaired is None:
+            raise
+        print("  note: reply was cut off; kept the stories that were complete")
+        return repaired
+
+
+def repair_truncated_json(raw: str) -> dict | None:
+    """If the model ran out of room mid-way, cut back to the last complete
+    value and close any open brackets, so finished stories are not lost."""
+    stack, in_str, esc, cut_points = [], False, False, []
+    for i, ch in enumerate(raw):
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]":
+            if stack:
+                stack.pop()
+            cut_points.append((i + 1, list(stack)))
+    for pos, open_stack in reversed(cut_points):
+        candidate = raw[:pos].rstrip().rstrip(",") + "".join(reversed(open_stack))
+        try:
+            data = json.loads(candidate)
+            if isinstance(data, dict):
+                return data
+        except json.JSONDecodeError:
+            continue
+    return None
 
 
 def clean_brief(data: dict, by_id: dict[str, dict] | None = None) -> dict:
@@ -508,7 +549,8 @@ def main() -> int:
         text = (Path(__file__).parent / "tests" / "mock_output.txt").read_text(encoding="utf-8")
         model_used = "mock"
     else:
-        api_key = os.getenv("ANTHROPIC_API_KEY", "")
+        raw_key = os.getenv("ANTHROPIC_API_KEY", "")
+        api_key = raw_key.strip().strip('"\'').strip()
         if not api_key:
             print("ANTHROPIC_API_KEY is not set")
             return 1
