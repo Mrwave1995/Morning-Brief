@@ -2,8 +2,10 @@ name: Morning Brief
 
 on:
   schedule:
-    - cron: "40 1 * * *"   # 05:40 Dubai every day (GitHub can run 10-30 min late)
-  workflow_dispatch:       # lets you run it any time from the Actions tab
+    - cron: "17 1 * * *"   # 05:17 Dubai
+    - cron: "23 2 * * *"   # 06:23 Dubai (backup)
+    - cron: "7 3 * * *"    # 07:07 Dubai (backup)
+  workflow_dispatch:
 
 concurrency:
   group: morning-brief
@@ -15,3 +17,45 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Already done today?
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Dubai date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "docs/data/$TODAY.json" ]; then
+            echo "Today's brief already exists, skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.check.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - if: steps.check.outputs.skip != 'true'
+        run: pip install -r requirements.txt
+
+      - name: Write today's brief
+        if: steps.check.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPAPI_KEY:       ${{ secrets.SERPAPI_KEY }}
+          SERPAPI_PER_DAY:   "5"
+          NTFY_TOPIC:        ${{ secrets.NTFY_TOPIC }}
+          APP_URL:           https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          OUTPUT_DIR: docs/data
+        run: python brief.py
+
+      - name: Publish
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          git config user.name  "Morning Brief Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/
+          git diff --staged --quiet || git commit -m "Brief for $(TZ=Asia/Dubai date +'%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
