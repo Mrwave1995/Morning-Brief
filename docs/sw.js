@@ -1,7 +1,7 @@
 // Morning Brief service worker
 // App shell: served from cache, refreshed in the background.
 // Brief data: always tries the network first, falls back to the last saved copy offline.
-const SHELL = "brief-shell-v1";
+const SHELL = "brief-shell-v2";
 const DATA = "brief-data-v1";
 const SHELL_FILES = ["./", "index.html", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
