@@ -50,83 +50,141 @@ import requests
 
 TZ = ZoneInfo("Asia/Dubai")
 
-# Kept deliberately general: this file lives in a public repo.
+# Who the brief is written for. Deliberately generic.
 READER_PROFILE = """\
-The reader works in business development for international private medical
-insurance (IPMI), dealing with brokers worldwide. Based in Dubai, originally
-from Kerala, India, and plans to move back to Kerala in the coming years.
-Invests in global equity ETFs and follows Indian markets. Sends money home,
-so the rupee-dirham rate matters. Cares about Indian politics (who governs
-and how), the Andaman & Nicobar Islands (especially the Great Nicobar
-project), and environmental issues. Wants short headlines for general news
-and depth on the topics above."""
+General readers who want a broad, well-explained picture of the day: global
+affairs, India and its regions, the Gulf, business and markets, technology,
+and science and research. They have 30-40 minutes to read, so depth and
+context are welcome."""
 
+# Each section: what it covers, how many stories, and where headlines come from.
+#   feeds  -> free Google News searches (or topic names in GN_TOPICS)
+#   serp   -> SerpApi news searches (paid credits, adds article snippets)
+#   arxiv  -> free arXiv feeds of new research papers, filtered by keywords
 SECTIONS = [
     {
         "id": "spotlight",
         "title": "Spotlight",
-        "brief": "The 3-4 biggest stories globally and in India right now. Keep these SHORT: "
-                 "summary only, detail at most 2 sentences.",
-        "items": "3-4",
+        "brief": "The 3 biggest stories of the day, India or world. Short: summary plus "
+                 "2-3 sentences of detail. These may be covered in more depth below.",
+        "items": "3",
         "feeds": ["TOP_IN", "WORLD"],
+    },
+    {
+        "id": "world",
+        "title": "World",
+        "brief": "A proper picture of world affairs beyond the top headlines: conflicts and "
+                 "diplomacy, the US, Europe, China and Asia, Africa and Latin America, "
+                 "trade and elections. Explain background and what comes next.",
+        "items": "4-6",
+        "feeds": ["WORLD", "geopolitics", "Middle East conflict", "China", "Europe",
+                  "United States politics", "Africa", "Latin America"],
     },
     {
         "id": "india_politics",
         "title": "Indian politics",
         "brief": "Who is governing, what the government and opposition are doing, courts, "
-                 "elections, Election Commission, major policy. Give both sides where contested.",
-        "items": "2-4",
-        "feeds": ["India politics", "Election Commission India", "Supreme Court India"],
+                 "elections, the Election Commission, major policy. Give both sides where "
+                 "contested.",
+        "items": "3-5",
+        "feeds": ["India politics", "Election Commission India", "Supreme Court India",
+                  "Parliament India"],
         "serp": ["India politics BJP Congress"],
+    },
+    {
+        "id": "kerala",
+        "title": "Kerala",
+        "brief": "Kerala state news: politics and government, courts, development and "
+                 "infrastructure, economy and jobs, Gulf-migrant (NRI) matters, land and "
+                 "property rules, weather and disasters, and notable local stories from "
+                 "around the state.",
+        "items": "3-5",
+        "feeds": ["Kerala", "Kerala government", "Kochi", "Thiruvananthapuram",
+                  "Kozhikode", "Thrissur", "Kerala NRI"],
     },
     {
         "id": "andaman_environment",
         "title": "Andaman & Nicobar · Environment",
-        "brief": "Any news on the Andaman & Nicobar Islands and the Great Nicobar project "
+        "brief": "News on the Andaman & Nicobar Islands and the Great Nicobar project "
                  "(courts, clearances, tribal rights, forests). Then the most important "
-                 "environmental stories in India and globally. If there is no new A&N news, "
-                 "say so in one item rather than repeating old news.",
-        "items": "2-4",
-        "feeds": ["Great Nicobar", "Andaman Nicobar", "India environment", "climate"],
+                 "environmental and climate stories in India and globally. If there is no "
+                 "new A&N news, skip it rather than repeating old news.",
+        "items": "3-4",
+        "feeds": ["Great Nicobar", "Andaman Nicobar", "India environment", "climate change"],
         "serp": ["Great Nicobar project"],
     },
     {
         "id": "insurance",
         "title": "Insurance & health",
-        "brief": "International private medical insurance (IPMI), expat health insurance, "
-                 "UAE/GCC health insurance regulation, big insurer or broker moves, "
-                 "insurance fraud/compliance cases, medical cost trends. Skip if nothing real.",
-        "items": "1-3",
-        "feeds": ["international health insurance", "health insurance UAE", "IRDAI"],
-        "serp": ["international private medical insurance", "UAE health insurance"],
+        "brief": "Global and Gulf health-insurance industry: international private medical "
+                 "insurance, major insurers and brokers (deals, launches, results), "
+                 "regulation in the UAE, GCC and India (IRDAI), fraud and compliance cases, "
+                 "medical cost trends. Skip if nothing real.",
+        "items": "2-4",
+        "feeds": ["international health insurance", "health insurance UAE", "IRDAI",
+                  "Bupa Cigna Allianz AXA health insurance"],
+        "serp": ["international private medical insurance"],
     },
     {
         "id": "uae",
         "title": "UAE & Gulf",
-        "brief": "Things that affect daily life in Dubai/UAE (rules, visas, fuel prices, "
-                 "transport, events) and Gulf security that affects travel and flights.",
-        "items": "2-3",
-        "feeds": ["Dubai", "UAE", "Gulf flights"],
+        "brief": "Things that affect daily life in the UAE (rules, visas, fuel prices, "
+                 "transport, events) and Gulf security, economy and travel.",
+        "items": "3-4",
+        "feeds": ["Dubai", "UAE", "Abu Dhabi", "Saudi Arabia", "Gulf flights"],
     },
     {
         "id": "markets",
         "title": "Money & markets",
         "brief": "Sensex/Nifty (last close and GIFT Nifty pre-open if available), what's "
-                 "driving them, FII flows, crude oil, rupee vs dollar and dirham, gold, "
-                 "and global markets / Fed / anything moving global equity ETFs. Context, "
-                 "not trading tips.",
-        "items": "2-4",
-        "feeds": ["Sensex Nifty", "GIFT Nifty", "rupee dollar", "global markets"],
+                 "driving them, foreign investor flows, crude oil, rupee vs dollar and "
+                 "dirham, gold, and global markets, central banks and anything moving "
+                 "global equities. Context, not trading tips.",
+        "items": "3-5",
+        "feeds": ["Sensex Nifty", "GIFT Nifty", "rupee dollar", "global markets",
+                  "Federal Reserve", "BUSINESS"],
         "serp": ["Sensex Nifty today"],
+    },
+    {
+        "id": "tech",
+        "title": "Tech & AI",
+        "brief": "Technology advances: AI models and policy, chips, big-tech moves, space "
+                 "(ISRO and global), consumer tech, cybersecurity, India's tech and startup "
+                 "scene. Explain why each advance matters.",
+        "items": "4-5",
+        "feeds": ["TECHNOLOGY", "artificial intelligence", "ISRO space", "semiconductors",
+                  "India startup"],
+    },
+    {
+        "id": "research",
+        "title": "Science & research",
+        "brief": "Science and research news with a lean towards materials science, "
+                 "chemistry and physics: catalysis, hydrogen production and storage, CO2 "
+                 "capture and conversion to fuels, batteries and energy materials, "
+                 "computational methods (DFT, machine-learning potentials). Mix notable "
+                 "news stories with 1-2 interesting new arXiv papers (explain them in plain "
+                 "English). Also research funding, universities and science jobs in India "
+                 "and the Gulf.",
+        "items": "4-5",
+        "feeds": ["SCIENCE", "materials science", "catalysis research", "hydrogen storage",
+                  "carbon capture CO2 conversion", "UAE research university"],
+        "serp": ["materials science catalysis research breakthrough"],
+        "arxiv": {
+            "categories": ["cond-mat.mtrl-sci", "physics.chem-ph"],
+            "keywords": r"catalys|hydrogen|CO2|CO_2|carbon dioxide|ethanol|methanol|"
+                        r"density functional|DFT|machine.learn|interatomic potential|"
+                        r"transition state|electrocatal|photocatal|single.atom|oxide",
+            "max": 12,
+        },
     },
     {
         "id": "hidden_gems",
         "title": "Hidden gems",
-        "brief": "3-4 genuinely interesting stories that are NOT in the headlines yet: new "
-                 "science, quiet policy changes, emerging trends, surprising data, India "
-                 "innovation. Avoid anything already covered above.",
-        "items": "3-4",
-        "feeds": ["SCIENCE", "TECHNOLOGY", "India startup", "research study"],
+        "brief": "2-3 genuinely interesting stories that are NOT in the headlines yet: quiet "
+                 "policy changes, emerging trends, surprising data. Avoid anything already "
+                 "covered above.",
+        "items": "2-3",
+        "feeds": ["research study", "new study finds", "India innovation"],
     },
 ]
 
@@ -135,11 +193,12 @@ GN_PARAMS = "hl=en-IN&gl=IN&ceid=IN:en"
 GN_TOPICS = {
     "TOP_IN": f"{GN_BASE}?{GN_PARAMS}",
     "WORLD": f"{GN_BASE}/headlines/section/topic/WORLD?{GN_PARAMS}",
+    "BUSINESS": f"{GN_BASE}/headlines/section/topic/BUSINESS?{GN_PARAMS}",
     "SCIENCE": f"{GN_BASE}/headlines/section/topic/SCIENCE?{GN_PARAMS}",
     "TECHNOLOGY": f"{GN_BASE}/headlines/section/topic/TECHNOLOGY?{GN_PARAMS}",
 }
 
-HEADLINES_PER_FEED = 10
+HEADLINES_PER_FEED = 8
 API_URL = "https://api.anthropic.com/v1/messages"
 WEB_SEARCH_TOOL = "web_search_20260209"
 
@@ -219,6 +278,35 @@ def fetch_serpapi(query: str, api_key: str) -> list[dict]:
     return out
 
 
+def fetch_arxiv(cfg: dict) -> list[dict]:
+    """New papers from arXiv's free daily feeds, kept only if the title or
+    abstract matches the section's keywords."""
+    cats = "+".join(cfg.get("categories", []))
+    if not cats:
+        return []
+    try:
+        r = requests.get(f"https://rss.arxiv.org/rss/{cats}", timeout=20,
+                         headers={"User-Agent": "Mozilla/5.0 (MorningBrief)"})
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+    except Exception as e:
+        print(f"  ! arXiv feed failed: {e}")
+        return []
+    pat = re.compile(cfg.get("keywords", "."), re.I)
+    out = []
+    for item in root.iter("item"):
+        title = re.sub(r"\s+", " ", item.findtext("title") or "").strip()
+        desc = re.sub(r"<[^>]+>|\s+", " ", item.findtext("description") or "").strip()
+        desc = re.sub(r"^arXiv:\S+\s+Announce Type:\s*\S+\s*Abstract:\s*", "", desc)
+        if not title or not pat.search(title + " " + desc):
+            continue
+        out.append({"title": title, "source": "arXiv", "link": (item.findtext("link") or "").strip(),
+                    "published": "new paper", "snippet": desc[:300], "related": []})
+        if len(out) >= cfg.get("max", 10):
+            break
+    return out
+
+
 def gather_seeds() -> tuple[dict[str, list[dict]], dict[str, dict]]:
     """Returns headlines per section, each with a short id like 'h12',
     plus a lookup from id to headline so cited ids can become links."""
@@ -235,6 +323,8 @@ def gather_seeds() -> tuple[dict[str, list[dict]], dict[str, dict]]:
             found += fetch_serpapi(q, serp_key)
         for f in sec["feeds"]:
             found += fetch_feed(f)
+        if sec.get("arxiv"):
+            found += fetch_arxiv(sec["arxiv"])
         for h in found:
             key = re.sub(r"\W+", "", h["title"].lower())[:70]
             if key in seen:
@@ -277,7 +367,7 @@ def build_prompt(today: str, seeds: dict, yesterday_headlines: list[str],
 
     return f"""You are writing a personal morning news brief for {today} (Dubai time).
 
-# The reader
+# Readers
 {READER_PROFILE}
 
 # Sections, in this order
@@ -303,8 +393,12 @@ Do not repeat these unless something genuinely new happened; if so, say what's n
   keep it general and don't present it as today's news.
 - Plain, friendly English. No hype. Political topics: neutral, give each side's position
   where the headlines show it.
-- summary: 1-2 sentences. detail: 2-4 sentences: what happened, the background, and
-  what's next. Keep the whole brief to about 20 stories. why_it_matters: one sentence tied to the reader, or "" if nothing real.
+- summary: 1-2 sentences. detail: 4-6 sentences: what happened, the background, the
+  different sides, and what's next. analysis: 1-2 sentences of neutral commentary on why
+  it matters or what to watch. Write for a general audience; never address the reader
+  directly ("you", "your") and never assume anything about who they are. Use "" if there
+  is nothing useful to add.
+- Aim for about 35-40 stories in total across all sections.
 - Every item lists the ids of the headlines it is based on in source_ids (1-3 ids).
 - If a section has no real news in the headlines, return it with an empty items list.
   Never pad a section with weak stories.
@@ -319,7 +413,7 @@ Output ONLY this JSON inside <brief></brief> tags. No text before or after it, n
   "market_snapshot": [{{"label": "Nifty 50", "value": "22,600", "change": "-0.4%", "direction": "down"}}],
   "sections": [
     {{"id": "spotlight", "title": "Spotlight", "items": [
-      {{"headline": "...", "summary": "...", "detail": "...", "why_it_matters": "",
+      {{"headline": "...", "summary": "...", "detail": "...", "analysis": "...",
         "source_ids": ["h3", "h17"]}}
     ]}}
   ]
@@ -337,7 +431,7 @@ def call_claude(prompt: str, model: str, api_key: str, max_searches: int) -> str
     usage_total = {"input_tokens": 0, "output_tokens": 0, "web_search_requests": 0}
 
     for turn in range(6):
-        body = {"model": model, "max_tokens": 16000, "messages": messages}
+        body = {"model": model, "max_tokens": 20000, "messages": messages}
         if max_searches > 0:
             body["tools"] = [{"type": WEB_SEARCH_TOOL, "name": "web_search",
                               "max_uses": max_searches}]
@@ -455,7 +549,7 @@ def clean_brief(data: dict, by_id: dict[str, dict] | None = None) -> dict:
                 "headline": str(it.get("headline", "")).strip(),
                 "summary": str(it.get("summary", "")).strip(),
                 "detail": str(it.get("detail", "")).strip(),
-                "why_it_matters": str(it.get("why_it_matters", "") or "").strip(),
+                "analysis": str(it.get("analysis") or it.get("why_it_matters") or "").strip(),
                 "sources": sources[:4],
             })
         sections.append({"id": spec["id"], "title": spec["title"], "items": items})
@@ -475,12 +569,16 @@ def clean_brief(data: dict, by_id: dict[str, dict] | None = None) -> dict:
 # 3. Save + archive
 # ─────────────────────────────────────────────────────────────
 
-def load_yesterday_headlines(out_dir: Path) -> list[str]:
-    latest = out_dir / "latest.json"
-    if not latest.exists():
+def load_yesterday_headlines(out_dir: Path, today: str) -> list[str]:
+    """Headlines from the most recent brief of an EARLIER day, so re-running
+    on the same day doesn't make Claude avoid that day's own stories."""
+    earlier = sorted(f for f in out_dir.glob("????-??-??.json") if f.stem < today)
+    if not earlier:
         return []
     try:
-        d = json.loads(latest.read_text(encoding="utf-8"))
+        d = json.loads(earlier[-1].read_text(encoding="utf-8"))
+        if d.get("model") == "mock":
+            return []
         return [it["headline"] for s in d.get("sections", []) for it in s.get("items", [])]
     except Exception:
         return []
@@ -542,7 +640,7 @@ def main() -> int:
     today = now.date().isoformat()
     print(f"Morning brief for {today}")
 
-    yesterday = load_yesterday_headlines(out_dir)
+    yesterday = load_yesterday_headlines(out_dir, today)
 
     by_id: dict[str, dict] = {}
     if args.mock:
