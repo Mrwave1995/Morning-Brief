@@ -246,7 +246,8 @@
 
   function story(sid, i, it) {
     const id = `${sid}-${i}`;
-    const hasMore = it.detail || it.why_it_matters || (it.sources || []).length;
+    const note = it.analysis || it.why_it_matters || "";
+    const hasMore = it.detail || note || (it.sources || []).length;
     return `
       <article class="story" id="s-${esc(id)}">
         <button class="head" aria-expanded="false" aria-controls="b-${esc(id)}">
@@ -256,7 +257,7 @@
         </button>
         ${hasMore ? `<div class="body" id="b-${esc(id)}">
           ${it.detail ? `<p class="detail">${esc(it.detail)}</p>` : ""}
-          ${it.why_it_matters ? `<p class="why"><b>For you:</b> ${esc(it.why_it_matters)}</p>` : ""}
+          ${note ? `<p class="why"><b>Why it matters:</b> ${esc(note)}</p>` : ""}
           ${(it.sources || []).length ? `<div class="sources">${it.sources.map((s) =>
             `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.name)} ${extIcon}</a>`).join("")}</div>` : ""}
         </div>` : ""}
