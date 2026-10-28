@@ -116,13 +116,25 @@ SECTIONS = [
     {
         "id": "insurance",
         "title": "Insurance & health",
-        "brief": "Global and Gulf health-insurance industry: international private medical "
-                 "insurance, major insurers and brokers (deals, launches, results), "
-                 "regulation in the UAE, GCC and India (IRDAI), fraud and compliance cases, "
-                 "medical cost trends. Skip if nothing real.",
-        "items": "2-4",
-        "feeds": ["international health insurance", "health insurance UAE", "IRDAI",
-                  "Bupa Cigna Allianz AXA health insurance"],
+        "brief": "Insurance industry news, global first then regional: international private "
+                 "medical insurance (IPMI) and expat health cover, major insurers, reinsurers "
+                 "and brokers (deals, launches, results, leadership moves), regulation in the "
+                 "UAE, GCC, Asia and India (IRDAI), fraud and compliance cases, medical cost "
+                 "trends. Prefer the trade publications listed (ITIJ, iPMI Magazine, Asia "
+                 "Insurance Review, Middle East Insurance Review, Insurance Business, ET BFSI).",
+        "items": "3-5",
+        "feeds": [
+            # trade publications, via Google News site: searches over the last 3 days
+            "site:itij.com OR site:ipmimagazine.com|3d",
+            "site:internationalinsurance.com OR site:insurancebusinessmag.com|3d",
+            "site:asiainsurancereview.com OR site:meinsurancereview.com|3d",
+            "site:insurancejournal.com international OR site:insuranceasia.com|3d",
+            "site:reinsurancene.ws OR site:artemis.bm|3d",
+            "site:bfsi.economictimes.indiatimes.com insurance|3d",
+            # general news searches
+            "international health insurance", "health insurance UAE", "IRDAI",
+            "Bupa Cigna Allianz AXA health insurance",
+        ],
         "serp": ["international private medical insurance"],
     },
     {
@@ -217,9 +229,14 @@ WEB_SEARCH_TOOL = "web_search_20260209"
 # ─────────────────────────────────────────────────────────────
 
 def feed_url(name: str) -> str:
+    """A Google News feed. 'query|3d' searches the last 3 days instead of 1
+    (useful for trade publications that post less often)."""
     if name in GN_TOPICS:
         return GN_TOPICS[name]
-    q = urllib.parse.quote(f"{name} when:1d")
+    window = "1d"
+    if "|" in name:
+        name, window = name.rsplit("|", 1)
+    q = urllib.parse.quote(f"{name} when:{window}")
     return f"{GN_BASE}/search?q={q}&{GN_PARAMS}"
 
 
@@ -393,7 +410,7 @@ def build_prompt(today: str, seeds: dict, yesterday_headlines: list[str],
     sections = sections or SECTIONS
     sec_lines = []
     for s in sections:
-        always = " · always" if s.get("always") else ""
+        always = " · always" if s.get("always", True) else ""
         sec_lines.append(f'- id "{s["id"]}" · title "{s["title"]}" · {s["items"]} items{always}\n  {s["brief"]}')
     seed_lines = []
     for s in sections:
@@ -450,8 +467,9 @@ Do not repeat these unless something genuinely new happened; if so, say what's n
 - Aim for about 30-35 stories in total across all sections.
 - Every item lists the ids of the headlines it is based on in source_ids (1-3 ids).
 - Return EVERY section, in the order listed, using exactly the ids given above.
-- Sections marked "always" must have stories. For the others, if there is no real news
-  in the headlines, return the section with an empty items list rather than padding it.
+- Sections marked "always" must have stories (at least 2). For the others, if there is no
+  real news in the headlines, return the section with an empty items list.
+- Inside JSON strings, never use straight double quotes; use single quotes for quotations.
 - market_snapshot: up to 6 key numbers (e.g. Nifty, Sensex, GIFT Nifty, Brent, USD/INR,
   gold) ONLY if they appear in the headlines; direction is "up", "down" or "flat".
 
@@ -513,7 +531,9 @@ def call_claude(prompt: str, model: str, api_key: str, max_searches: int) -> str
             continue
         break
 
-    print(f"  usage: {usage_total}")
+    print(f"  usage: {usage_total} · stop: {data.get('stop_reason')}")
+    if data.get("stop_reason") == "max_tokens":
+        print("  note: reply hit the length limit")
     return "".join(texts)
 
 
@@ -531,7 +551,8 @@ def extract_json(text: str) -> dict:
         repaired = repair_truncated_json(raw)
         if repaired is None:
             raise
-        print("  note: reply was cut off; kept the stories that were complete")
+        print(f"  note: reply was cut off or malformed near character {len(raw)}; "
+              f"kept the stories that were complete")
         return repaired
 
 
@@ -648,28 +669,29 @@ def clean_brief(data: dict, by_id: dict[str, dict] | None = None) -> dict:
 
 def fill_missing(brief: dict, seeds: dict, by_id: dict, today: str,
                  model: str, api_key: str) -> None:
-    """If 'always' sections came back empty (cut off, skipped or mislabeled),
-    ask once more for just those sections. Costs a fraction of a cent."""
+    """Sections that should have news but came back empty (reply cut off,
+    broken JSON part-way, or skipped) get a second, smaller request.
+    Done in groups of 3 so each reply stays short. About a cent at most."""
+    current = {x["id"]: x for x in brief["sections"]}
     missing = [spec for spec in SECTIONS
-               if spec.get("always") and seeds.get(spec["id"])
-               and not next(s for s in brief["sections"] if s["id"] == spec["id"])["items"]]
+               if spec.get("always", True) and len(seeds.get(spec["id"], [])) >= 3
+               and not current[spec["id"]]["items"]]
     if not missing:
         return
     print(f"  filling empty sections: {[m['id'] for m in missing]}")
-    used = {it["headline"] for s in brief["sections"] for it in s["items"]}
-    sub = {m["id"]: seeds[m["id"]] for m in missing}
-    prompt = build_prompt(today, sub, sorted(used), sections=missing)
-    try:
-        text = call_claude(prompt, model, api_key, 0)
-        extra = clean_brief(extract_json(text), by_id)
-    except Exception as e:
-        print(f"  ! fill pass failed: {e}")
-        return
-    for sec in brief["sections"]:
-        if not sec["items"]:
-            add = next((x for x in extra["sections"] if x["id"] == sec["id"]), None)
-            if add:
-                sec["items"] = add["items"]
+    for i in range(0, len(missing), 3):
+        group = missing[i:i + 3]
+        used = sorted(it["headline"] for x in brief["sections"] for it in x["items"])
+        sub = {m["id"]: seeds[m["id"]] for m in group}
+        prompt = build_prompt(today, sub, used, sections=group)
+        try:
+            extra = clean_brief(extract_json(call_claude(prompt, model, api_key, 0)), by_id)
+        except Exception as e:
+            print(f"  ! fill pass failed for {[m['id'] for m in group]}: {e}")
+            continue
+        for add in extra["sections"]:
+            if add["items"] and add["id"] in current and not current[add["id"]]["items"]:
+                current[add["id"]]["items"] = add["items"]
 
 
 # ─────────────────────────────────────────────────────────────
@@ -767,8 +789,11 @@ def main() -> int:
         max_searches = int(os.getenv("MAX_SEARCHES", "0") or 0)
         prompt = build_prompt(now.strftime("%A, %d %B %Y"), seeds, yesterday,
                               searches_enabled=max_searches > 0)
-        models = [os.getenv("CLAUDE_MODEL", "claude-haiku-5-5"),
-                  os.getenv("FALLBACK_MODEL", "claude-sonnet-5-5")]
+        # Haiku gets two tries (a bad reply is usually a one-off) before the
+        # pricier Sonnet is used. Set FALLBACK_MODEL to "none" to never use it.
+        main_model = os.getenv("CLAUDE_MODEL", "claude-haiku-5-5")
+        fallback = os.getenv("FALLBACK_MODEL", "claude-sonnet-5-5")
+        models = [main_model, main_model] + ([fallback] if fallback.lower() != "none" else [])
         text, model_used, last_err = "", "", None
         for model in models:
             try:
