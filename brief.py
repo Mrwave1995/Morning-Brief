@@ -152,6 +152,7 @@ SECTIONS = [
                  "(ISRO and global), consumer tech, cybersecurity, India's tech and startup "
                  "scene. Explain why each advance matters.",
         "items": "4-5",
+        "always": True,
         "feeds": ["TECHNOLOGY", "artificial intelligence", "ISRO space", "semiconductors",
                   "India startup"],
     },
@@ -180,11 +181,19 @@ SECTIONS = [
     {
         "id": "hidden_gems",
         "title": "Hidden gems",
-        "brief": "2-3 genuinely interesting stories that are NOT in the headlines yet: quiet "
-                 "policy changes, emerging trends, surprising data. Avoid anything already "
-                 "covered above.",
+        "brief": "2-3 interesting stories that are NOT getting much attention: surprising "
+                 "findings, quiet policy changes, unusual places and people, emerging trends. "
+                 "Prefer the smaller outlets listed for this section. ALWAYS include at least "
+                 "2 stories. Avoid anything already covered above.",
         "items": "2-3",
-        "feeds": ["research study", "new study finds", "India innovation"],
+        "always": True,
+        "feeds": ["new study finds", "little-known", "India innovation"],
+        "rss": [
+            "https://theconversation.com/global/articles.atom",
+            "https://phys.org/rss-feed/",
+            "https://restofworld.org/feed/latest",
+            "https://india.mongabay.com/feed/",
+        ],
     },
 ]
 
@@ -307,13 +316,47 @@ def fetch_arxiv(cfg: dict) -> list[dict]:
     return out
 
 
+def fetch_rss(url: str, limit: int = 6) -> list[dict]:
+    """Any outlet's RSS or Atom feed (newest items first)."""
+    try:
+        r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0 (MorningBrief)"})
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+    except Exception as e:
+        print(f"  ! feed {url} failed: {e}")
+        return []
+    host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc)
+    name = {"theconversation.com": "The Conversation", "phys.org": "Phys.org",
+            "restofworld.org": "Rest of World", "india.mongabay.com": "Mongabay India"}.get(host, host)
+    out = []
+    atom = "{http://www.w3.org/2005/Atom}"
+    entries = list(root.iter("item")) or list(root.iter(f"{atom}entry"))
+    for e in entries:
+        title = (e.findtext("title") or e.findtext(f"{atom}title") or "").strip()
+        link = (e.findtext("link") or "").strip()
+        if not link:
+            le = e.find(f"{atom}link")
+            link = le.get("href", "") if le is not None else ""
+        desc = (e.findtext("description") or e.findtext(f"{atom}summary")
+                or e.findtext(f"{atom}content") or "")
+        desc = re.sub(r"<[^>]+>|\s+", " ", desc).strip()
+        if title:
+            out.append({"title": title, "source": name, "link": link, "published": "",
+                        "snippet": desc[:300], "related": []})
+        if len(out) >= limit:
+            break
+    return out
+
+
 def gather_seeds() -> tuple[dict[str, list[dict]], dict[str, dict]]:
     """Returns headlines per section, each with a short id like 'h12',
     plus a lookup from id to headline so cited ids can become links."""
     seeds, by_id, seen = {}, {}, set()
     serp_key = os.getenv("SERPAPI_KEY", "").strip()
     serp_budget = [int(os.getenv("SERPAPI_PER_DAY", "5") or 0)]
-    for sec in SECTIONS:
+    # Each headline is kept only once, by the first section that finds it.
+    # Specific sections go first so broad ones (Spotlight, World) don't take their stories.
+    for sec in reversed(SECTIONS):
         items, found = [], []
         # SerpApi first (has snippets), so its copy wins when both find a story
         for q in (sec.get("serp", []) if serp_key else []):
@@ -325,6 +368,8 @@ def gather_seeds() -> tuple[dict[str, list[dict]], dict[str, dict]]:
             found += fetch_feed(f)
         if sec.get("arxiv"):
             found += fetch_arxiv(sec["arxiv"])
+        for url in sec.get("rss", []):
+            found += fetch_rss(url)
         for h in found:
             key = re.sub(r"\W+", "", h["title"].lower())[:70]
             if key in seen:
@@ -335,6 +380,7 @@ def gather_seeds() -> tuple[dict[str, list[dict]], dict[str, dict]]:
             items.append(h)
         seeds[sec["id"]] = items
         print(f"  {sec['id']}: {len(items)} headlines")
+    seeds = {sec["id"]: seeds[sec["id"]] for sec in SECTIONS}  # back to display order
     return seeds, by_id
 
 
@@ -343,12 +389,14 @@ def gather_seeds() -> tuple[dict[str, list[dict]], dict[str, dict]]:
 # ─────────────────────────────────────────────────────────────
 
 def build_prompt(today: str, seeds: dict, yesterday_headlines: list[str],
-                 searches_enabled: bool = False) -> str:
+                 searches_enabled: bool = False, sections: list[dict] | None = None) -> str:
+    sections = sections or SECTIONS
     sec_lines = []
-    for s in SECTIONS:
-        sec_lines.append(f'- id "{s["id"]}" · title "{s["title"]}" · {s["items"]} items\n  {s["brief"]}')
+    for s in sections:
+        always = " · always" if s.get("always") else ""
+        sec_lines.append(f'- id "{s["id"]}" · title "{s["title"]}" · {s["items"]} items{always}\n  {s["brief"]}')
     seed_lines = []
-    for s in SECTIONS:
+    for s in sections:
         seed_lines.append(f"## {s['id']}")
         for h in seeds.get(s["id"], []):
             line = f"[{h['id']}] {h['title']} — {h['source']}, {h['published']}"
@@ -358,6 +406,7 @@ def build_prompt(today: str, seeds: dict, yesterday_headlines: list[str],
                 line += "\n    also: " + " | ".join(h["related"])
             seed_lines.append(line)
     yest = "\n".join(f"- {h}" for h in yesterday_headlines) or "(none)"
+    all_ids = ", ".join(sec["id"] for sec in sections)
     search_note = (
         ("You may also use web search (sparingly) to confirm key numbers or fill an empty section. "
          "For facts found by search, also add \"sources\": [{\"name\": ..., \"url\": ...}] to the item.")
@@ -393,15 +442,16 @@ Do not repeat these unless something genuinely new happened; if so, say what's n
   keep it general and don't present it as today's news.
 - Plain, friendly English. No hype. Political topics: neutral, give each side's position
   where the headlines show it.
-- summary: 1-2 sentences. detail: 4-6 sentences: what happened, the background, the
+- summary: 1-2 sentences. detail: 3-5 sentences: what happened, the background, the
   different sides, and what's next. analysis: 1-2 sentences of neutral commentary on why
   it matters or what to watch. Write for a general audience; never address the reader
   directly ("you", "your") and never assume anything about who they are. Use "" if there
   is nothing useful to add.
-- Aim for about 35-40 stories in total across all sections.
+- Aim for about 30-35 stories in total across all sections.
 - Every item lists the ids of the headlines it is based on in source_ids (1-3 ids).
-- If a section has no real news in the headlines, return it with an empty items list.
-  Never pad a section with weak stories.
+- Return EVERY section, in the order listed, using exactly the ids given above.
+- Sections marked "always" must have stories. For the others, if there is no real news
+  in the headlines, return the section with an empty items list rather than padding it.
 - market_snapshot: up to 6 key numbers (e.g. Nifty, Sensex, GIFT Nifty, Brent, USD/INR,
   gold) ONLY if they appear in the headlines; direction is "up", "down" or "flat".
 
@@ -412,10 +462,11 @@ Output ONLY this JSON inside <brief></brief> tags. No text before or after it, n
   "overview": "one sentence on the shape of the day",
   "market_snapshot": [{{"label": "Nifty 50", "value": "22,600", "change": "-0.4%", "direction": "down"}}],
   "sections": [
-    {{"id": "spotlight", "title": "Spotlight", "items": [
+    {{"id": "spotlight", "items": [
       {{"headline": "...", "summary": "...", "detail": "...", "analysis": "...",
         "source_ids": ["h3", "h17"]}}
-    ]}}
+    ]}},
+    ... one entry for each of: {all_ids}
   ]
 }}
 </brief>"""
@@ -516,11 +567,41 @@ def repair_truncated_json(raw: str) -> dict | None:
     return None
 
 
+def _norm(x) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", str(x or "").lower()).strip()
+
+
+def match_section(sid, title) -> str | None:
+    """Map whatever id/title the model used back to one of our sections,
+    e.g. 'tech_ai' or 'Tech & AI' -> 'tech', 'hidden-gems' -> 'hidden_gems'."""
+    cand = [_norm(sid), _norm(title)]
+    for spec in SECTIONS:
+        if _norm(spec["id"]) in cand or _norm(spec["title"]) in cand:
+            return spec["id"]
+    best, best_score = None, 0
+    for spec in SECTIONS:
+        words = set(_norm(spec["id"]).split()) | set(_norm(spec["title"]).split())
+        words -= {"and", "the"}
+        got = set(" ".join(cand).split())
+        score = len(words & got)
+        if score > best_score:
+            best, best_score = spec["id"], score
+    return best
+
+
 def clean_brief(data: dict, by_id: dict[str, dict] | None = None) -> dict:
     """Keep only well-formed items, in our section order.
     Cited headline ids become source links; ids that don't exist are dropped."""
     by_id = by_id or {}
-    sec_by_id = {s.get("id"): s for s in data.get("sections", []) if isinstance(s, dict)}
+    sec_by_id: dict[str, dict] = {}
+    for sec in data.get("sections", []) or []:
+        if not isinstance(sec, dict):
+            continue
+        sid = match_section(sec.get("id"), sec.get("title"))
+        if sid:
+            sec_by_id.setdefault(sid, {"items": []})["items"] += sec.get("items", []) or []
+        else:
+            print(f"  ! unknown section from model: {sec.get('id')!r} / {sec.get('title')!r}")
     sections = []
     for spec in SECTIONS:
         src = sec_by_id.get(spec["id"], {})
@@ -563,6 +644,32 @@ def clean_brief(data: dict, by_id: dict[str, dict] | None = None) -> dict:
                              "direction": d if d in ("up", "down", "flat") else "flat"})
     return {"overview": str(data.get("overview", "")).strip(),
             "market_snapshot": snapshot[:6], "sections": sections}
+
+
+def fill_missing(brief: dict, seeds: dict, by_id: dict, today: str,
+                 model: str, api_key: str) -> None:
+    """If 'always' sections came back empty (cut off, skipped or mislabeled),
+    ask once more for just those sections. Costs a fraction of a cent."""
+    missing = [spec for spec in SECTIONS
+               if spec.get("always") and seeds.get(spec["id"])
+               and not next(s for s in brief["sections"] if s["id"] == spec["id"])["items"]]
+    if not missing:
+        return
+    print(f"  filling empty sections: {[m['id'] for m in missing]}")
+    used = {it["headline"] for s in brief["sections"] for it in s["items"]}
+    sub = {m["id"]: seeds[m["id"]] for m in missing}
+    prompt = build_prompt(today, sub, sorted(used), sections=missing)
+    try:
+        text = call_claude(prompt, model, api_key, 0)
+        extra = clean_brief(extract_json(text), by_id)
+    except Exception as e:
+        print(f"  ! fill pass failed: {e}")
+        return
+    for sec in brief["sections"]:
+        if not sec["items"]:
+            add = next((x for x in extra["sections"] if x["id"] == sec["id"]), None)
+            if add:
+                sec["items"] = add["items"]
 
 
 # ─────────────────────────────────────────────────────────────
@@ -678,6 +785,9 @@ def main() -> int:
             return 1
 
     brief = clean_brief(extract_json(text), by_id)
+    if not args.mock:
+        fill_missing(brief, seeds, by_id, now.strftime("%A, %d %B %Y"), model_used, api_key)
+    print("  stories per section: " + ", ".join(f"{x['id']} {len(x['items'])}" for x in brief["sections"]))
     brief.update({"date": today, "generated_at": now.isoformat(timespec="minutes"),
                   "model": model_used})
     n = sum(len(s["items"]) for s in brief["sections"])
