@@ -1,0 +1,722 @@
+{
+ "overview": "Today is shaped by renewed US-Iran diplomacy, a leadership scandal at Nvidia, and militant violence in Jammu and Kashmir, while Indian markets rebound on lower crude and steady foreign inflows.",
+ "market_snapshot": [
+  {
+   "label": "Sensex",
+   "value": "up 773 pts at Wednesday close",
+   "change": "+773 pts",
+   "direction": "up"
+  },
+  {
+   "label": "Nifty 50",
+   "value": "25,255",
+   "change": "up on Wednesday",
+   "direction": "up"
+  },
+  {
+   "label": "USD/INR",
+   "value": "93.77",
+   "change": "down 6 paise in early trade",
+   "direction": "down"
+  },
+  {
+   "label": "Gold",
+   "value": "below $4,000 an ounce",
+   "change": "lower as Fed hike bets grow",
+   "direction": "down"
+  },
+  {
+   "label": "Crude oil",
+   "value": "not stated in headlines",
+   "change": "down over $1",
+   "direction": "down"
+  }
+ ],
+ "sections": [
+  {
+   "id": "spotlight",
+   "title": "Spotlight",
+   "items": [
+    {
+     "headline": "Rubio says no need to attack Iran as diplomacy gathers pace",
+     "summary": "US Secretary of State Marco Rubio said there is 'no need' to attack Iran as diplomacy gathers pace. Reports say US Vice President JD Vance is considering in-person talks with Tehran to end the conflict.",
+     "detail": "The remarks come as reporting describes a split inside the Trump team, with Rubio reported to back a blockade and Vance reported to favour a deal. Headlines describe the conflict as having spread to the Red Sea and Caspian, while the Gulf has been quiet since the US held off on strikes. Oil fell by more than $1 on easing geopolitical fears and oversupply worries. Analysts have described the approach as a 'no-war, no-peace' posture that may be hard to sustain.",
+     "analysis": "Whether in-person talks happen will affect oil prices, shipping and travel in the Gulf, all of which are already under strain.",
+     "sources": [
+      {
+       "name": "Arab News",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNm5nX0kxdzVrbkJOWGJKZVNjaGx3eWpyZ0tqbkkwYl9LX3dZSDY1Z1RWLTlkWnZZSXIzWnViTUs4cVc0eDlta1pWZ2dMLUpCd2JULTd6VTlJSk1zc0J6ZTlRd1NWYTBrUHhfeVhOc1dzRVU1elFiRFJHdE52OVN0ZThJX08zdUJaLXgtY0hoREZ4VkpHRzdVMXlaY19lRE5BdnNobEhVaw?oc=5"
+      },
+      {
+       "name": "Arabian Business",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Nvidia faces leadership storm over CEO Jensen Huang and a suspected Chinese spy case",
+     "summary": "US media report that Nvidia may be preparing to oust its chief executive, Jensen Huang, after reports of a relationship with an executive who reports to him. The affair is tied to a case involving a woman accused of spying on the company's chief.",
+     "detail": "Reports say Alice Huang, accused of spying on Nvidia's chief, entered Taiwan eight times in 2024 and 2025, according to an official. Nvidia's board has issued a statement, and Huang is named in a lawsuit over alleged disclosures. Shares reportedly fell about 8 percent after hours on Wednesday, and Elon Musk said it would be an honour to hire Huang. The episode has also drawn attention to Nvidia's central role in AI chips and US-China tensions.",
+     "analysis": "Nvidia sits at the heart of the AI boom, so questions about its governance and China exposure matter for global markets and for the wider US-China technology rivalry.",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXdFOU1qZ1djZTNTVjVxZWxCVVM5Y2FQNVpMQVdKQmhnUTZybGRUSTAtdTF0eHZPSXh5cVZJTzZPZE16SlN0aktKNURmYkZ0LUo3aEYxS2FkWXZWM2owNGZKUU9ud3NkTl93cXBPaDE0ZzZhUGZTS240TGlPTmFYNENwanhuTmNUQW5LN0JkUUhUek1TTDZlXzdkaGdjT1FXLXVBM0JBWC1mTWNnNmRBdTZOczTSAbsBQVVfeXFMUFBWbnRRbmJKZC1tTXM3UENiUXdyQ2hBRW9qYnBOU3JGUk5NQkJDTjBxR2ZVVlMwMENHY18tTjIxbkE1cVgwYUM3ZnpLbm82THFaLTlNSGEtZFNiZWRZbmk5bXZEOTdLLXdfeVJTRjFsNl9SUDQ4R0o3eUwtZV9BTnAtSWZDenIzQVlnTVhIQkxPTWJfM29RcDhGNmxQOHFCaUpJQmU3OGNmWGM0NWNfR1VjVWxLZXRHMlB4aw?oc=5"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XcTlzd01BSWFhRWROazZzbHhQNmpWLXRjY3Ayd291bVRRNUFfbnhlRnpJekdIZnhMWDVSeng2Q19aOXQydWltRnlxMEpfLXctZVJRMFM4eFBUREhxQW10YkdRLXBqTmszWWdEYUx0U2k0OWtwUEg4NVV6Vy0?oc=5"
+      },
+      {
+       "name": "Insurance Journal",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5oZVlKbEFocUxib211Uzg5NkI3T2pFelBaTDh6X0NDRnJpTVA0Tm9GOFhtXzVxdnhZOVBpTmdrcEpha2dnM1l3VzhSNmZDMzZ3aURLVUVsUUMxZDVjWVRocUUxTS0tM09mazIxUGxJRmcwWFNQbFpDSGRvV1BuQQ?oc=5"
+      },
+      {
+       "name": "Moneycontrol.com",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTEJUZGt6andyNDdnNkZoSGhybkR1QmlLcDZmcWdIUkxSbk1wTDdwdkJOWk1RNTRFS2JrbHVBaWJjZDQwSEtIbXBVNGxXd1psTGtCTFhzRFBGMFJCaTlMYTRTaGYtQ3Z0V05jVmtqTjE5bjBlbXJNVG9IQ2lfczhRQnRYYmZXcnI2UnBud0lzUEZnSHE2blFieUtPOHhfaExuV1dZLURyUTRwYmV4Z2xBbm9KVWxKQkdDd0ptWDBXYl9vQ0xCdVlpc1lsa21VZ0xHSE1BQ3Y2MzhsQ0NWd1FPV0JkU1NabUYxdHYtTC1KSU1TeDjSAfgBQVVfeXFMUHB2aEF4QkNlLUk2ZVQteFlGUUNLOTJsZmliYjZLNmZkdTRmYUlCRWtVOE5yaXU3Z1RlVnBTR3VCdGRJUFdkclp6VVFpakVibk5HOHlLVDBXRUREMzltSm5SMGs5R3d4S1NUVnFLQ0tKV1JLZFMyVEh0N2VhNkJ4ejFLaWwtVlVvcHJxbDd3Zm9xcjdFaHZtNTdabEJNS2RuQk0tMExKV0JFMHRxUkhua0lpZURPZDZlY0dObHdaRHpCbkVrdGpmanVDbUZ2QXF2cHQxX042OGFMTkZWMUNCa2JnOWlacFJLYnpQamNCYTJIZ0lZNGNFQmo?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Two missing police officers found shot dead in Kishtwar, J&K",
+     "summary": "The bodies of two missing special police officers were found in Kishtwar in Jammu and Kashmir, showing multiple bullet injuries. Their service weapons are reported to be missing.",
+     "detail": "Separately, security forces are searching for attackers after militants fired on a CRPF checkpoint in Kulgam, injuring three troopers. A government source said the injured troopers fired back and chased the attackers, and media reports say a wanted Lashkar-linked militant may be behind the Kulgam attack. Police and security agencies are continuing their investigations, and the Kulgam search is ongoing.",
+     "analysis": "Taken together, the two incidents point to continued militant activity in the region, and the findings of the investigations will shape the security response.",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa3dPeDVsZGhhQ0NKRjZwM3V0d1Q5WWVjakNoR3RtSHlnZ1dGN2gwU1NsV2k3a1Nsa211bzFfcUxnSl82LWE1b0lZVnhvWUs3RDktVFNrY2I3NDMweEVaOFMyaFl4dkpiNVo4ZlhQZ2VZV2dHd0pnNXpiYndLTWpncG1oanhZb2xYbXA0R3VFVUJxN0NhMmRRcHRCT2JCYUNKTGo2ajBkY2Jna252andZNDhGZ1NFNzJmRVhiZy1WanlYNE84U2VDV0k0SXFuREEtR3J3clZOV18wSllwVGxn0gHmAUFVX3lxTE0ySHFpbWlRZlE5LU9IdTY3NWVIYTY2T1dUWUNpSkxHNUdodjROUTFlYlhmbVgzZWdieWExMkQ5SDlRa0dWUnNISUt2NkwxTy04bWpVQ2xwOHd1Y0wxblVCOHhzM2Z3VXA1dTVUcHM4YzBfNjkydk1fYl9JSDFIUGE2dDlIN3FPcHFsOXFLTVpMMkVuVjA4ZGM0MnJzd1MxZjhERE9MaXVEc1lXWDBZanh3b2o3VWZMWWtyb0FqWHJ6MFJfVmRNRWRsd1BGbU5mMDJMR1N5NHJTZnI4VkRBdVhpeVp2Sl9B?oc=5"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdERXckhILWg2OThNRjNBR2JqNFZYSGphQU9sa0xHcjB3aXdLZEJBLWN0MTlkMnE5cGdtYktJdkFkRzJEVmVRaThRTG1iQzJUWVR1S3IyOGhYdklKQlgtRFRuaWdoYlozZUNlTTUtblFMMUE4XzFkVUFYWnJBWHJ6MEF4NThCbWZDWFR1NVFrS3FjZEp4Ym5vTVliMFlOTlYzSVZJY3hqMDY0bUxONGpza01abzJFTHdCakV4Ulo4UjVVWEdZMWdqa1NvdUZLcW5yRW5yYkJHbXBIZ0w2R0FadEhhUmU5dWYtTHpENWtOOTHSAfYBQVVfeXFMUFBQZWw3TWFqTzVCRHBXNTNWN2tGbVpUV3lKZTRFUlYzUFZjNzQ4Z1JKSHljWUlTV1ZDVVlwdkFBZDRMOGFLZXJFdTVkcllscDM3dnBSeGdKQjItMFZQT2RkNmh3djRjUXZMakdON1pkTXhYdmJjZ3dodVNGQm1aNC12NDNadWxyMzFXOVF1a2xKSU9XS0loa3ZZU2JrcVFEbktUNmVQaXlfdVBOQV9ZZm1hUnpIVHZPUjNDR1VJUnFEU2FZOTlNRDBONDdJamh1OGdvekd0bzJUcFQwV2FBWk9nUGlRaVV6U3M2SnAzUXN5MEhKWW9B?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "title": "World",
+   "items": [
+    {
+     "headline": "Democrat Scott Colom wins Mississippi Senate seat, first Black senator from the state since 1874",
+     "summary": "Democrat Scott Colom has won a US Senate seat in Mississippi, becoming the state's first Black senator since 1874. Media describe the result as a stunning upset in a deep-red state.",
+     "detail": "The Guardian reports that Colom won with little help from national Democrats, while the BBC and France 24 describe the result as a historic win. Al Jazeera notes that some key races from the November midterms remain undecided a week after voting. The midterms are held halfway through a US president's term and decide control of Congress, so each close seat can affect the balance of power.",
+     "analysis": "The undecided races still to be called will be watched closely for what they say about the overall balance in Congress.",
+     "sources": [
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORTRJVklDeGxDT3drLU5BTkNrelBSMERQZkFqejFNVVNRQ2RiRC1rZWlsR05WeEpKZmpScnc2RlRRTzI1S1Y3Q3NxamhVeFpIQzU0aVo0M3NaV0FTbkh0ZHpjejNud3BfN01OVGFDZlFiZTh0dlV5YXU2WkMzQm9sNE0tRlRqb1lqd2NwSnROaGY0RGJhQ1JaVDBBaHB0TC1tUHdWSHV5TW01Uml0aFh4dEhzTzVkZUdfeHczYVBaYXprZUZFdVZZSmxxSXhlVDRZRmMwamo3bFRkSTZtbnhIR053M2FIRV9udkU3elVwNlNXZUVBaXQ3aHFnX1p5MzQ?oc=5"
+      },
+      {
+       "name": "France 24",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZm5XeDlSNVNFR2EwYmFyTEcxMDk3aHFLVnAzVy16YUZuMkRaVHZUNmdyM1RNeHplbHU3MFRjNTM2Q2xGQlFLS3ZuNUZBSzU1aU4zSENfVVo5Uzc2cWxIVnN3akNiZXNuMkRiT0xTNU0wNC0tLUlRMF9QeTgzajIySl9BRUVNN0JnSU5MU1pkN3FPSTdmOU1EeGdQT0ctbE1kUUx5VnBzNnNkZw?oc=5"
+      },
+      {
+       "name": "BBC",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83M2VOTWh3QjVSY2RGd3NfYUxyY0FxS3J5UGduMFFkcjFWTmdEVHlPdFlDMEhWWEcwV3Nab3NSYnNXTkJmTml6b1FkQWRScHpPQmRBdmUxY3NwUVk?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "China's Xi insists Taiwan reunification must happen, as G7 foreign ministers voice concern",
+     "summary": "Chinese leader Xi Jinping said Taiwan's reunification with the mainland must happen because history cannot be stopped. He also said there is no room for Taiwan independence.",
+     "detail": "Reuters and the Times of India report the remarks as a firm restatement of Beijing's position. The G7 foreign ministers said China's actions east of Taiwan threaten stability, according to The Hindu. Beijing views Taiwan as part of China, while Taiwan's government runs its own affairs and rejects Chinese sovereignty claims, a long-running dispute that continues to shape US and allied security planning in the region.",
+     "analysis": "Strong statements from both Beijing and the G7 signal that the Taiwan Strait remains one of the most sensitive points in the regional balance.",
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanhBckZWOGZoOFJnUGpQNkR5b25Ibm5RYzZRWGJReUNkM2l0dWJPNUdwSUxFbDRGdHNsWm9qaG1ZVm9fNW0yNUdHanFFV2pza05kbjJWREE2ZEFHdVNIT0pmR3JEMUFnVkhFaXdXQ25oUHdEcWVMUGYxX1VSeGh1RGVBT3Bhc3RJckpsVWtfRkpSNTBnWTRzVm1EenJUOFhnOGF3STJXbDUyV3NtUXAtSjFqU1lOTmN0Zm1FSFRn?oc=5"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONkpOaElreTJZOWF6ZXZVc1ZmX3ppLVhweGU3eFZZRnM5T05PeWZBeHdYclNISllZeGliUkpHRWlQTUd6SU5sRm56c0duUTlRa0poYnowR0dTU05FMkVQbXpFNlB4TDk3UkVUVzljS183UjRSTVRraTgtMU5mQi16NEc3WDFvdzhtWnJjcnF3ZGwwYjBmNWlHd1dndGZqc3FCNnptR0JFV1ZQQWpibVpsaFNkWXgta0lMY2k3Yk5LMm5ZZm1vM19sRTFnYjdRU1dwT29Dd24tQVZaYi1oRXI0dklsRUgtQdIB6wFBVV95cUxQZXRjSkxlcmF0X29HQ0dJRzZIN1d5aEloc21OQ2E5Mmg3REh6QXBUdWdxSllTTWgxeTFscXVnYXZ6N2U5QnU3RGRSVzRyclBSb1ZuS0RMZVJSQk9sWUNTckp5N3J5RWZrNnczcmNDdElhUDcyZVdqMmh6NGZnRkNWd1l3OXhJSEtkMzVIR3k2NDRrWWpVQlNiTURiWVlfWTZrbGQ5QVJjRW9LR21UaDVGR3BXRTFBektnakQyZ1FWWWZLNVhPUGQ4Mm5SbWQ2SDRoNW1MNFVxZERyWEswTDBCUWoybFR2OGU0UnpF?oc=5"
+      },
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc1ZUdWd4U05FM1hEVzlmVnFJS3hZUnRHLXE0VTdQdnpwN19JY2tuTzhqdEdTN2ZnV2k0Tkkzdk9mX1haM1VWdzJCTW5Pb2RTall0czB4RDM5akRpRzl1X00wRjhUd3RveUlSNld6VEtUOVZPOVpEbzRCbjJrQktJT2hJUVVJUGJVSXBiOFFsS2dQRHNsQS11VXE3NVFqemtUNG5ncExsRllCTlZyTEtzdm1aYXNOVTZja25DZG53ODFBY2JpR3ZBTWw2VlEtN2R0SEow0gHaAUFVX3lxTE1TOTdGeWV5aHdWcUNIWHlETmFjbHBuOGMySkZ1MTJpUmJibHhxNVNsU3lKczl3QzI4QnhUM0syWmsyODh6VU9RekUtUjF0RnZGTWVnNW5kaGZ4OEVEYW44dWgwdXNJZkF5SkoxRUE0THlHQW84eDMyWWwwYWY2M21md0pXS1VyclYtS3FtN3RWWnpIa1J0bTN5WHgwSF9WMEF6RER4T0JkUFUxOHFfR183dnFpMmFjTlFTdEZzejZFV0RCZi1HWkhPNkI3akVNSjR0Zkx0OWlqZ2xR?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Indonesia's vice president hands resignation to parliament as Jokowi backs Prabowo",
+     "summary": "Indonesia's Vice President Gibran Rakabuming Raka has handed his resignation to parliament, as former president Jokowi backs the current president, Prabowo. Reports say the ruling alliance is fraying.",
+     "detail": "The Hindu reports that the resignation follows questions about Gibran's eligibility and academic credentials. The New York Times and BBC describe a political alliance coming apart, with Gibran being the son of Jokowi. Jokowi's backing of Prabowo is being read as a sign that the two sides are no longer aligned. The resignation now goes through parliament.",
+     "analysis": "The episode could reshape the governing coalition in Southeast Asia's largest economy, so the parliamentary process and any new political alignments are worth watching.",
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOME9rOG5rUnFuQUM2bkQ3UFJvcjdZWmN1QVN2TG1BcWt6TllvM2ZPTkZIbDJLSVowbjczTlVFQThuZUV4U0xZMF9YaVFRYk5QUUNsYTM2RXoxUTJZYnlqS0tnVWg4NXQ0YU56SWMxelNPS1otek9XQzF3ZVpHVGxiVDhKTnpXTnpMdWtJTTBOcFVZeGFMaVI0NzFJMFM3cmZFdU5BcGdrQ0Z0aklk?oc=5"
+      },
+      {
+       "name": "Indonesia Business Post",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYW15X0dXaGhuVWJ2dUZaNEJtejBHaEZzU050aThUQVB0RGFkRGRVYWk1RHhza2Y4ODI1LVp4OVJ6b1dpNW9GRXp0VFdDcEZKMkdqYlNZREJkN1lEU0FaSWp6c1NVUUZiOUt0UWxvMDhHQW9DbVpCci1KSENDMER1V2RGbG5WR2FBNDZGRW9mYXNuTHZTTW91ekVEWEZyb1Y5aDFEWl9FMUx4dUgwNW9vaFFvTGVmZ0dwTTlqNGhJM3lwNjZJRWlaNWI2QkwybHFW?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Eleven Pakistani police feared killed in militant ambush in Khyber Pakhtunkhwa",
+     "summary": "Militants ambushed police vehicles in Pakistan's Khyber Pakhtunkhwa province, and a rescue group says eleven police personnel are feared killed. NDTV reports that a senior police officer was among the dead.",
+     "detail": "Reuters cites a rescue group for the toll, while The Hindu reports that at least ten officers were killed. Khyber Pakhtunkhwa, on the border with Afghanistan, has seen repeated militant attacks on security forces in recent years. Pakistani authorities have not been quoted in these headlines on the final toll or on any response.",
+     "analysis": "Attacks on police in the northwest keep the security situation there high on the agenda for Islamabad and its neighbours.",
+     "sources": [
+      {
+       "name": "NDTV",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa2RaN2Vya0FfdFlaeDBpU0xVMVRabl9fN3dDcVRQR0xvYk1xbC1yOWk2S1Z2cmxRblk0M05NLXNzckgwdGZSaXRIV2xmMXpfNEtURkxRcUdHdUhhUll6ZjRjQkFucTk0dU9iR0lqVVg4YURmWGdXYjJfZ19HVDZUbDFJRk5ZcDRGamMzRXRFMHRnMnN5Q25rcVdVWVZmNFgtZGVwN3Rmdk5BM3pRZzhV0gG3AUFVX3lxTE5sM2puVnBybUYzZHQyU05DeUhQUEdFQWxHbnc5Rk14YnF1SUZRXzI0RWZ6eWdfekFNQjY0ZXpaUXBxZ1hUczFoNjREeW4wMk1hNlFEWkRLRF9hNnVTQTlXS3pqZ0I3QVE4MlJFNmlZUkdKVlFSYS0yX3k1aFN2SV95WmJhd3drcnpnT3QzeUdKeklBeHd5NklmUWt5R2JWcXZvR2RsTnVtRHV5eFdYYkRpWWRnYXNKdw?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india_politics",
+   "title": "Indian politics",
+   "items": [
+    {
+     "headline": "Owaisi and Chandrashekhar Azad announce alliance for 2027 Uttar Pradesh polls",
+     "summary": "AIMIM chief Asaduddin Owaisi and Chandrashekhar Azad's party have announced an alliance for the 2027 Uttar Pradesh elections, pitching Dalit-Muslim unity. The Hindu reported a formal announcement was expected on November 12.",
+     "detail": "NDTV describes the tie-up as a Dalit-Muslim unity pitch and mentions a chief minister face, while The Times of India reports that the two parties will announce the alliance. The alliance seeks to combine Muslim and Dalit voter bases, which have often voted in different directions across the state. Opposition and ruling parties have not been quoted in these headlines on the tie-up.",
+     "analysis": "Uttar Pradesh is India's largest state by seats in the Lok Sabha, so new alliances there can influence how other parties plan their campaigns.",
+     "sources": [
+      {
+       "name": "NDTV",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYkJEYTQyM2JnSGdranNVTFNlal9kSzVHcGZKbEFDc3JpSHBXYnNsRnlicHBSSmx2WlA5dklXdDVvTlNGZ1dZSF9oV1NMVUFjN3E2ajNKRkFFNGpWWk9qVG1vRkFZOWtSVElSRmRTX0dIZ0FRYS03OXZ1dlBfRkhSSEFKTUdoVHo0V0xEMTVEdDgtZGlteHJCenhaQ2hiNk9yWm4zU0tNVU5oVzlGVXpGaElvbHFlY0FxY0pVS1BWMXpEZ2hGdDQ2RUE4VHc0dWVQUXdrYg?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "BJP accuses Sonia Gandhi of whitewashing history in memoir; Priyanka defends her",
+     "summary": "The BJP has accused Congress leader Sonia Gandhi of whitewashing historical wrongs by her party in her memoir. Her daughter Priyanka Gandhi Vadra has defended the book, saying she 'has a right to tell her story'.",
+     "detail": "Reuters reports the BJP's line that the memoir glosses over past actions of Congress. In the book, Sonia Gandhi is quoted as saying that the 'ground has shifted' under the Modi government and that the regime is 'not here to stay', according to the New Indian Express. Congress supporters see the book as a personal account, while the BJP sees it as a political statement on history. The war of words is part of a wider debate on how India's past is taught and remembered.",
+     "analysis": "The row shows how memory and history have become central themes in Indian politics ahead of coming elections.",
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/india/sonia-gandhi-accused-whitewashing-indias-history-memoir-2026-11-11/"
+      },
+      {
+       "name": "The New Indian Express",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1g0Q0otNFFScmp1ZXlVTjBpajFyOUJkdE4yVDl4aFZVZkVnMHhnOVFiX2NGVlhwTDV4ems1cFJSU2l6NzVoajRkWkIzVzh6NkVVejhzcmVIVE5DZGdFNHd2ZzVtQ1NRSjlqeWxLZ1JieXJvNUlqN29JVk1NdGlyMFdBSk9aUGx3R1g2N2pBb0JDWVpvSTdWdE9NV3ZoR2JVaFVoY1VUdkxmZXRPVTNVS0pDSjQxNXFkOVFtbm53QzdvcmNsajFfQWppU1JQeUnSAdwBQVVfeXFMUDh1QVFBTW1jYzAtbU9nbDFTcjY5c1gzWXptT1RSSERsdWhNbkgzUVBWZ2hPb1lVeV9hLWZ4NE5JakZoZDZ4ZXRIZ0V1UzRseDRVanZ4OVJiOUcxdGhjLWZocUQxV2tzQnRpbXVJUFE0WXp3VDVTOXJOMkp5czd0TlQ5OE5FSGRrUjdrcEpsTDJISjZONHdOM0JzTlNmMGNQTDZFQzdxandUSVVzSXpXRVFFWlk1S2RSVW5NRmh0azBDcklwSTJtUWdxckg3SUlDYmI3czYzczdrZ2wxeg?oc=5"
+      },
+      {
+       "name": "The New Indian Express",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ1B1bFh0Q1owWkRfbWpIbC1Dd1pIWW5yczVwVmJ1VmNhb2lSLWh0QVRqU0dvSWNXdUpZdkZVa2hJX2NTUTZEQ3ZabVF1dU5IaEVGemN2OFJLc1F5T3ZlVjU2UEQ4UGFLUER1RnlHU1Z3WEpoSnFGdFdNVkFKQkhDTzliam1rdDFPOEhPRlNGcXdjMWFSWTZXWTNESm83VGFZVzdSa3pQS0N3UzUwTmh6VFdUaXdJUkJ5UzFEV09QXzRWTndVdjltX2NDenrSAdoBQVVfeXFMTy1QelNzSWhvY185aG13NEhPbjF3TGN6RGEzVFVRUEJGRDhIM3JYT2tRQlNmNnAyRnV0TjYzMU5fV2tVcHZsckhsSHhhT1E5US14NkhFclNmcU4tejBabVVwMWIyVTdfb3JYNG9RenBEbDJzVGdmazBnYmNnQWZjV1VDRkwteS1WdXctZkFNMS1hUTRDSUZlNEF0TlZxU2VUNzVxZVNYV05FcXRlb21HY1lRRVBmdGxqRHlPVXYzOTZUQTVYUmFpNnNMSERDT25vMXFzSGxQT05sYVE?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "BJP plans two-day huddle on messaging, as it attacks Congress over Hinduism and Manipur panels",
+     "summary": "The BJP plans a two-day meeting on November 27 and 28, which PM Modi and senior party functionaries are expected to attend, to shape its political narrative. The party is also attacking Congress on several fronts.",
+     "detail": "The New Indian Express reports that the meeting will cover political messaging and grassroots mobilisation, aimed at countering the CJP and Congress. Separately, the BJP has accused Congress and its INDIA bloc allies of insulting Hinduism for electoral gains, according to The Tribune. In Manipur, the BJP has criticised Congress for appointing MP Bimol Akoijam to election panels, citing JNU sexual harassment termination charges, as reported by the Deccan Herald. Congress has responded to these charges in other coverage.",
+     "analysis": "The planned meeting suggests the BJP is preparing a longer campaign on messaging, which opposition parties will likely respond to.",
+     "sources": [
+      {
+       "name": "The New Indian Express",
+       "url": "https://www.newindianexpress.com/india/2026/Nov/12/bjp-plans-two-day-huddle-to-evolve-narrative-to-counter-cjp-congress"
+      },
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/bjp-accuses-congress-india-bloc-allies-of-insulting-hinduism-for-electoral-gains/"
+      },
+      {
+       "name": "Deccan Herald",
+       "url": "https://www.deccanherald.com/amp/story/india/manipur/bjp-terms-congress-anti-women-over-bimol-akoijams-inclusion-in-manipur-poll-panels-4215546"
+      }
+     ]
+    },
+    {
+     "headline": "Election Commission rejects vote-count claims and defers UP draft roll to November 17",
+     "summary": "The Election Commission has called claims of vote-count discrepancies in the 2024 polls misleading. It has also deferred the Uttar Pradesh draft electoral roll to November 17.",
+     "detail": "The Times of India reports that the commission rejected the claims. The commission also opened a claims window for voters deleted during the Special Intensive Revision, known as SIR, of electoral rolls, according to DT Next. It removed an SIR declaration from Form 6 after questions about its legality, as reported by Clarion India. A Supreme Court challenge to the SIR exercise is pending, with critics arguing the process can wrongly remove voters and the commission saying the revision keeps rolls accurate.",
+     "analysis": "The Supreme Court challenge and the claims window will determine how many voters are restored and how far the revision process is trusted.",
+     "sources": [
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRVRzdlRITFVXa1pIeHh3MUpYQWI0RlAyWDlsS3BLa2UyWU5tRnZfU3BpakxLTk45SDhJcTM4RWw5OU1fZVRROFdGcWlPYUFIYWY0dEQyTXhZY3NSRmxKeUNNUnpZRWdxMW9mQ19lTUVaYkpCYlJ4S3hrZW5adDVPNGV4UTRKSmkzRlF0RURKeFN0V01BNWVGdDd1Z3REcVB5dUV1Mkl1ZmhxVnFHdkkzT3RscFR4bFFhMnJjdVlTR2ZQaDNnZi1FSXA3TmtRX093alhKUU56QUZQNXZfUnhRMXhqY2stREsxMl9PSUZOVk3SAfABQVVfeXFMTUVUc3ZUSExVV2taSHh4dzFKWEFiNEZQMlg5bEtwS2tlMllObUZ2X1NwaWpMS05OOUg4SXEzOEVsOTlNX2VUUThXRnFpT2FBSGFmNHREMk14WWNzUkZsSnlDTVJ6WUVncTFvZkNfZU1FWmJKQmJSeEt4a2VuWnQ1TzRleFE0SkppM0ZRdEVESnhTdFdNQTVlRnQ3dWd0RHFQeXVFdTJJdWZocVZxR3ZJM090bHBUeGxRYTJyY3VZU0dmUGgzZ2YtRUlwN05rUV9Pd2pYSlFOekFGUDV2X1J4UTF4amNrLURLMTJfT0lGTlZN?oc=5"
+      },
+      {
+       "name": "TheWire.in",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakdULVJyd094NF9Td0xRLUVUNUpnaWNsNF9DeDhxaHZfYjJyaF9kUHRVbURiQnlFSFN1dW5RdzBhLXBaWDhsczBocWREcm5sT2ZnQzhHVWpZR0tIeEJoc3lGRFFFdzVnWHAzWVg0amZHd3hrc1ZZeU5neW5WZ01IakJyb0hQMkdiblF2SC16NFRJVU9QU09WT0dIcGs2SEpRNjhIbnJVQjVpUdIBvAFBVV95cUxNcTVoMVljSmdOVXhfZklNY0RPdHVybVM5MS10ck5CR05LUTZaMlBPWXpEcl83LWFpbk5yNDJKcEZxd0ZmUDdsRjZrYmVRcUpubmVmX1FWeC1hdEtEazBxQkZkZkdoVEdTTkJDVHc2Z054VDYyaE4xeDVFT25JbDI0S1d4TENTNnFuSTRQN2Z5OFRlT2hGMVFTUjZBZ3V1ZW1VZ3ZleTItQ3ZCdERHLWMydURDY0J3S1g1d0RHbw?oc=5"
+      },
+      {
+       "name": "DT Next",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaUUxZ1ZYLS1jQ1J4aTkxeVFjZ05oc2s0dnVxekdMdU5PY1RLODBCMnJoU21aN0FMWnRBUGRNTkZ2a2laa1YyNm5nckhtRnhFRkRNelVobFRpcXJuVzc1aE9mX0dMaDF1cXFiLXRnR2I1d05LczhaUkY3Yld2bTBTU0JYY1BEQl9yYUNhanJtb09INE1OLWVVc3F1dmtackl0X1oyZNIBsgFBVV95cUxNZS1oMlVwY0s5UzBPSGk2V2wxVWdoYnYyZWtrdGpNX3lYRzZhNGdtaFA2SnZzWkxaRV9kanY0a3E5VEh3RndmRC1OZ3NGelBxeWxGdTJTMzB5NGtBa0Rnc2syajRXNmI3MXV5Y0tBVlJpUzJCREF0T092bWtoZ2hSbkt6ckhUTnU1a3NoRFd2STI0SXNDdkFuTmR3RmJTOFFlTkl1NHpiekhpM1FBSkw2NjlR?oc=5"
+      },
+      {
+       "name": "Supreme Court Observer",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXVsaVhRU2lBS3FZZ2ZiYWJMVVR3MEhqWmk4UFhQNUJtY3g3eHEzQ013amZic016alc4QlBHYk5qU1dLcnVhTUc1Q0lXWm11UUpmT0hoOEwyVlBBVlNvT21Ydk1GbzJlRVByX1pzMGlac2RTYS0wc2ZJYjdfYnhvcGFtOEtnTldqX1VUUGtUSjZnUU5fUzJycm1GekRVbFc4VXdZNkZn?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kerala",
+   "title": "Kerala",
+   "items": [
+    {
+     "headline": "Kerala High Court allows state appeal, upholding police association restructuring",
+     "summary": "The Kerala High Court has allowed the state's appeal against an order that had quashed the restructuring of police associations. The court has upheld the state's decision to abolish the Kerala Police Officers Association.",
+     "detail": "Live Law and Bar and Bench both report the ruling. Police associations in Kerala are staff bodies that represent officers on service matters, and the government's restructuring aims to change how they function. The state had appealed an earlier order that quashed the move, and the High Court's decision now restores the government's position. Further steps, if any, by the affected association are not reported in these headlines.",
+     "analysis": "The ruling settles an important question on how the government can reorganise police bodies, which could affect other public-sector associations.",
+     "sources": [
+      {
+       "name": "Live Law",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSzZ1TTE3SEd0cy1TS20xeXdlWUFROVRLcm1ySzNvREwwb3VWYldXaHVHM051aXJtUFhxRG1TMUpLNFpyUHJDdmJWUlBtMS12cm5QV20tUHdsY1FTNmJkbEZlRDhXTzYxMlNFMTlISlEzUlN1Ui1yck1WX1BUVmNYS1MxemRMR0htVnVyMFFXV18xOWVSdW8wbTNYTG1YRzNTOVh2T0dCdXZWakVLUHRuVFV2UWdzY3RlVlJsU29CY0pUeXVGYUZSQW5VaGd2aUEzUEFj0gHTAUFVX3lxTE1LNnVNMTdIR3RzLVNLbTF5d2VZQVE5VEtybXJLM29ETDBvdVZiV1dodUczTnVpcm1QWHFEbVMxSks0WnJQckN2YlZSUG0xLXZyblBXbS1Qd2xjUVM2YmRsRmVEOFdPNjEyU0UxOUhKUTNSU3VSLXJyTVZfUFRWY1hLUzF6ZExHSG1WdXIwUVdXXzE5ZVJ1bzBtM1hMbVhHM1M5WHZPR0J1dlZqRUtQdG5UVXZRZ3NjdGVWUmxTb0JjSlR5dUZhRlJBblVoZ3ZpQTNQQWM?oc=5"
+      },
+      {
+       "name": "Bar and Bench",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdWxHLU9zSWZBMWwtSTV2VFdidHJoNVZQeWk5ODY1YlhEU3ZFMXRjamNSWnFIYlRqOW55STNmajhXSWZaQTJhWU56dnYtQnE1d3o5SDM0RWNOaHNYNjdrX2l6OGhJVXE0Vzc1YW8tQnVnTmQtanFoVVZPbHdWdlp1ZlRhUlBQS1R4LUlMdllKRkgwcHRVWnNEQnZ6MDc1ZkFaUlJKY1lKT2pPLUszZUJkNVhjT0xYdUZ5RElZa9IBygFBVV95cUxOTUJTRzZQS0xiN1I2LVcyVFV4MWlQTzgwRE45UkxCS0p2UElUSHVPazRHOHVoaXpkbGVxeU81RHhBMDBtYTBrSEFoZHk4RmFpSUVZd0NnMVpjeG41QnJERWpzOW1xeUJ2ZlVFWGhlX0c1MlpwM1ZtSURBcUhMeDV3VS1hMjNqWmpaU19vbTNRWHBvZ1IzYmxmUEgweG5nS2paVEttMTh5cHNLbnFRNnZEMHBySEwxT2lPNDNIN2hJWFhUX1lBaFdTUFJB?oc=5"
+      },
+      {
+       "name": "LawChakra",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PdXp5REtWNk85NkxRSVNHbl9wcWZTdlRCcndrZWl4ZjBwQWRNeFZXRGg1bXpWbklHeDlMTXRMZ2JkUnZPb3hwUG85RXFnMXpUMThrblFFbko5cVhLelBnQWtvTWhsWll1eG95X3BCdDBBNXUxVnR0azVR?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Keralam to set up Nursing University and raise nursing seats by 50 per cent",
+     "summary": "Keralam plans to set up a Nursing University and increase nursing seats by 50 per cent. The announcement has been widely reported across national outlets.",
+     "detail": "The Indian Express, India Today and Careers360 all report the plan. Nursing is one of Kerala's biggest sources of skilled professionals, with many nurses working in the Gulf and other countries, so a larger pipeline of trained nurses is closely watched by students and families. The headlines do not give a timeline for the university or details of where it will be located.",
+     "analysis": "Expanding training capacity is a significant step for a state whose nurses are in high demand abroad, though details on timing and funding will matter.",
+     "sources": [
+      {
+       "name": "The Indian Express",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaXk4SXR1cmIycm1Nd1VTZjgtMjFtcGpOaEFySDRqeGpMUlNmOXMyTVlhdS1GYnRXdlJGM3ZRTEZvck1FTzhSRVF3R3Y5RWZwaVpkdEktUkR2aU1kTHM0VllENG5XdDc5OFRZcnEzZXB2RU5CWlJEQzB1aW1yY19vNVpfSmZ4ZXhoaUpLdnlnT21Vc2pHZlBVMzdhd2VSakoyVnlsNGpzOE5USTljdUo1TlltVGlCakVrNkFmcVNvb9IBxgFBVV95cUxOQWFfSnN1aDRFeE1hQ1RuTHc3ZEVYTlVlMEtidmx2SEN4M3c5ek5QVzA2blBGWVAtckt6eUZkb3NaRlZBeEpwLWxRSnNlXzBiOTlpb2N5blZjU29YN01wbGR0NmFKa0lNWTA3cHlxY0dySmZLN3hQM25nczNoZHk1eHFxeFZFSEs4eGJiNE5KYUJMR3B6TFh4NUxIRExvbXV6azFHWEFtWFotSlJ2bThvb01KdF9tak1CcXRuM2J1a2dKRGw5aHc?oc=5"
+      },
+      {
+       "name": "Careers360",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSEV6SWtlZ2pObndiaWZ1RmhlVm05d3RNVDF5dnplQW5JX05VNXdlMFdrQUl3Q3BpUkJZRk42MS1Ob1UwXzE1Y3NJa2NCVlVhaDRVT2xzbG85aGM3MTh3aXJKSUpzek5jN2VtRWJnenNtRVZyQlFzUVdibFNodlVxcUp6Szc4RDl0NnJ4akVneGdnaXd0Q0IyQVRWZ0tpUExPcGM2Qy10WEl6VDM30gGyAUFVX3lxTE1Odkl1WERBcXhUWWF4Nkx5b3VhVzNlV19kLUdfcXM0X3N2U1lLU0ZOS3IwMWlyQ1l2QmVlSnFOUzNKeTJvdktTVWdFWWc5UXhWY214SXQzaDc4NmJqeFg0aGEzak5NRWVTbHk0eEtzbi10MklCbXZ1RWdTaEczWVlDQmRuMnA5Q1dCUVZEVUFVRHkzLWRyU0VJOExFSXZqd2I3X3pDUkQza05MS3BHMEU5eEE?oc=5"
+      },
+      {
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWTBsUmFyMkdDaklsOGppVUhXZjNYdDluME85bGsxUmhNcHJMal9Hb3p5ajNyOEZkM01YMWJJckxTLWozY0RGLTZ5aTBqRHJ4VUNNU2psbHR4LTJnUlhybnI4V1p4UTVpNndPSGxiWm5acmF0QXhXSTRHc2Y3R0VlUUJKLU5pdENmYlZhR2lKd1Y3UFRuZTdTeTU3NWVwUC00LWd5QVlnVHY0V1hoZDQtNmFPVUd1N29tbVFSSk5n?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Kochi NRI loses Rs 2.11 crore in fake forex trading scam; cyber police register case",
+     "summary": "An NRI from Kochi has lost Rs 2.11 crore in an online forex trading scam, and cyber police have registered a case. Several outlets report that the victim was lured by a fake trading platform.",
+     "detail": "Onmanorama, India Today and Rediff all report the case. In a separate Kozhikode case, six people were arrested for facilitating cyber fraud through mule accounts, as reported by Onmanorama. Such schemes often promise high returns and use fake platforms, and police in Kerala have repeatedly warned about them. Investigators are now tracing the money flows, though the headlines do not say whether any funds have been recovered.",
+     "analysis": "These cases highlight how online investment fraud targets people with savings abroad, and police warnings on fake platforms are becoming more frequent.",
+     "sources": [
+      {
+       "name": "Onmanorama",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMVcyXzF5ODUzTE11M0l3TGd3LWtBR1BCYzZoU1c1NzZhNVQ2VVFxUUFDdzBMUTdaRE13Nnd2cGZmOE5saFU0T2w3UXVWcVBSaXpQVXE0TWViXzl6eHhybjRBVmR3eEtzbFlFOENDd1BpYVRwODhNQ2dEMnlXMm1MOEJ6NHV0Qkxwa2FpRmt4TDdSeC1nYkI4bTcyd0JFVEh2d2tTYlhzdmc0Mk5aT0hNZW5uMnNtMVllOWp6T1dDSWZPTXZFRHhUYVU5NUY1Wk41YS1LNE8yRC1sdw?oc=5"
+      },
+      {
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc0RVVldVTTM1dGpQbGp1UmkzOVFxTGdFODBQV0FXa2dzdXVVRUNSUVhEckZvSDFWM1ZIbzRVdFlzMkVXQ1E4YnpVVlo1cUl0c21mNmFHa0dRWTJ3Y09icVhGN1YwTjk2b0s2TVZCWDNkeTFjcUZXUjZGOFB5RXBiR09EZVdYZGFuTDNCNnRsSGFEbUUzMWFIcG5TZTJxNTNpcG1UU21lWTA2TjU3ODZfcmNSLU9la29EdTV5ZUU3MUpJV3RVQ3RuaVNJalRHeTDSAdQBQVVfeXFMTjgwbE5iYjNjZjBrUFdfUEZLZmo5OFprVU5EU1JiaGNLSm5URk55ZjhXcDdBdWI0c2hmanBlb09BRkxndGR2R3JWdmduUk5aeVNvaHE4eXN4SlVRVlIzekRCaENJdGJ5ZTdBTTVyMlROOWdkVnpMY29kbldjU1N2QUVTbnZXQjZxNXFxcTRWel96V2ZyUXVaUndaTTVLeVhpek1iYTVSR3B0R1ViaXFRY1RSczZmQjFxdkc4aE9pSnhxaEJUU2NmUmg3Zm9pbFJxa0ZNbjU?oc=5"
+      },
+      {
+       "name": "Onmanorama",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamI3bHpqUE0xSE9JVU9vcHQyRUtDU1ktYXEyTE8yOTVRcnhlRmxiWXpISmNZZUtza19WMEFkZ0p3R2h5VGEzRFZDbFVXcko4Mnc1ZmgxZVhzbmZoZ3Z1S2dyMlQ4MWVqX19QVmpTVjIzRnBSU2xfMWpvOHZvRmlXSml1V3NTWEUyYkNsOGdpZVNJdVFKd3IyOG5xaThyMk93ZDEtek5xb1dVd25wYVFFbTZGdnNBckJ3RzZZcUM4NUNyWjFNLWx5Mkl1MA?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "andaman_environment",
+   "title": "Andaman & Nicobar · Environment",
+   "items": [
+    {
+     "headline": "ED attaches Rs 121 crore assets in Andaman cooperative bank fraud, files fresh chargesheet",
+     "summary": "The Enforcement Directorate has attached assets worth Rs 121 crore and filed a fresh chargesheet in the Rs 500 crore fraud case involving the Andaman and Nicobar State Cooperative Bank. A former local MP and Congress leader is among the main accused.",
+     "detail": "The Tribune reports that former MP Kuldeep Rai Sharma is one of the main accused. ANI reports that the ED has attached 40 assets worth Rs 121.35 crore. The case concerns the cooperative bank's funds, and the chargesheet moves the investigation towards trial. The accused have been named in the chargesheet, though the headlines do not report a plea from them.",
+     "analysis": "The case is a major test of accountability for cooperative institutions in the islands, and the trial will show how the alleged losses are handled.",
+     "sources": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/rs-500-crore-andaman-cooperative-bank-fraud-ed-attaches-assets-worth-rs-121-crore-files-fresh-chargesheet/amp"
+      },
+      {
+       "name": "ANI News",
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONV84eE9LcHBwUXVsV0VjelI1ZkN5b3BKT1VKSkZCejBBUEdVVlpEMnZuTVZTbEpENmxhZmlvcXFtc2FPRzFld0k5aldfOGg1M3pXdGhOYmoxRDV5WEJWYmNkLS1JVFU4NWxWZ2JRMTA5R3lUUDFfakdRc1k4aUxPSlg4T3FndUxCUHRzYjcxT0RVdE1Gem1mbEFUVVFfNnVna1duOGFjZDRwS1BkRF8xSWhUNVVvZk8ySEh1TXZFdjdnT2ZmVkNMVm5nbTZPckpCYzhPQWlQb3hjOG9VTjFUYWZtb2MzZjNzMkxtV2RvWnppRG8?oc=5"
+      },
+      {
+       "name": "Rediff",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdDlVa2FiSTFoRmRRbGtsTkdETXk4V3RJRzFOZ29wNWVpNmhFSnYwVFFFTHB0NGRYODVZUUNXV2lZbFVoMV9RdXRHMlJuSWp5WlN0U1RBVEFNY3FzZ0htVDZvcHdnNklfdW8zLU5aZXczS09LRlVyS1Q4WkNpV3JuVGxZZjNiOHVyeTVUQUdlSU9FSHd1NnVtOHBYdWFnbUFqdng2ZnhfVlBNa0XSAa4BQVVfeXFMTlVFdEJTMmZuUzJCQVVzaml4TDNtQ1V5WVZKTm92SUdZUmhVLTZ5ZEs0Z3ZsWHZQNjVmcHRXTEM5N0lzb19YZ0pCc1pKNUtpWl9kWnNRUkN3TU8za2NxYVhZelZxWUprc2ZoUUVBb1NwaUtZdkUyMGNQTjdGcENDdVlUNGpfX3U2VG5sdjlvcjdDNG1xR0N6WmZGLXQwRVZ5M2QyNi1zZ3BKeUNBOS1R?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "LG Dinesh Sharma pitches Andaman as 'Amrit Pani', with new airport plans",
+     "summary": "Lieutenant Governor Dinesh Sharma has described how the Andaman and Nicobar Islands can move from British-era 'Kala Pani' penal settlements to what he calls 'Amrit Pani'. He also said a greenfield airport is planned for South Andaman.",
+     "detail": "Deccan Herald and Outlook India report the LG's remarks on the islands' development. In a media interaction, the LG said flight operations at Shibpur Airport may begin by December, according to Andaman Sheekha. Tourism and connectivity are central to the islands' economy, and recent concerns over airfares have been raised by a local MP in separate coverage. The headlines do not give cost estimates for the airport.",
+     "analysis": "Air connectivity is a recurring issue for the islands, so progress on Shibpur and the new airport will matter for residents and visitors alike.",
+     "sources": [
+      {
+       "name": "Deccan Herald",
+       "url": "https://www.deccanherald.com/amp/story/india%2Fandaman-and-nicobar-islands%2Ffrom-british-era-kala-pani-andaman-and-nicobar-can-become-indias-amrit-pani-lg-dinesh-sharma-4214605"
+      },
+      {
+       "name": "ANDAMAN SHEEKHA",
+       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4zaEVTRWNqUlJrREhtRVFJd2M0SjFhczRGQmJTVkUzTlE3V3RSNkVoUXJ5ZmhBWFE0dF9zT0hQTkQ5aGVEckZybQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "India slips five places to 28th on global climate performance index",
+     "summary": "India has fallen five places to 28th in the Climate Change Performance Index, according to the CCPI 2027 report released at COP31. Global climate action has been described as stalling.",
+     "detail": "Down To Earth and the Telegraph report the ranking, while India Today reports that global climate action has stalled for five years as the 1.5 degree goal slips away. The index scores countries on emissions, renewables, energy use and climate policy. Separately, a Counterview analysis argues that India's Rs 8.20 trillion climate funding is failing its most vulnerable communities, while India has urged developed nations to meet their climate finance obligations at COP31.",
+     "analysis": "The ranking is a headline measure that shows how India's climate policy is perceived internationally, and it will be read alongside the country's climate finance debates.",
+     "sources": [
+      {
+       "name": "Down To Earth",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLTNYYnJWdWxJODRNUTNjTTlkcVZWNC1Sa0MwY1RPNFpuZGxqU0FYTHRkSnM4WjBPeDBCdHo0blY4LXYyY3Fua2VTZF9wS2t3ZVcwX0ZjYmtGdUpwdk9USUdTLTRCMkRZRHk1R1h1OGF2MEhrVGMyUmc0c1lFWU1fQUVSVHpLVndmLXE4Z3g4SGItWm14Ty1YcWQ5Sm9uQzMxNEhFRF9odEM5S0Nlal9WdlgwZlJpdmNhRktxd0NFTVhmY1RvZ0c2TGFoWWI4c3c1RExFSVdB0gHjAUFVX3lxTE02OTAxZEY5R0JEbWE2V2luT1lkXzhtTnMtM3kwLXQ4YkFJOTZ1akpmSlVzel8yYmQ4TjhkcTdpeDlvalFhVGJEVjYxWmdjLTNhUHlZMXZuanVJcWEySWxSV3J4bHNyQThJdWZ2VVBGLUYzRWVuQkhsZnNHYUhZeXdJNkFqV0R6QWVHSlZFaFBwMDBHLWVSLWI0bTdOeU41bzgzNkkzaVU5VjJzcUdoVTFiaGQzUDB1emprMEwzTjRxdmZfYVVMcGRseE5UanFqM1ZDSDRFd3g0Ull1WTNCN1lldlA4?oc=5"
+      },
+      {
+       "name": "Telegraph India",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa2s3WlpXc2NnaUpaX0dWNHROTmoxeVN5ZHZzQXBxZ05TRUE5TE5PRGFTNThSQ3JiYVdNVEpsTkxNY0dKQlZxZkpBY0wyVU1ZSUZGWW16M0ZCV250OEYxenpGbmU0LV9pZHUtWHBfNndwRUtWeGMybWdMbEszLWV4eFpjS0xlbkZUNDQ4U0ttclFMUEZ3VVpOdjRoNk52SWxHd2I4ZTBoOGF1T1pIMUp2QldJZ0s1ZHpkUWlHcjJlbHVZSkUtY1g1X3ZzbHg4TG9wU09n0gHYAUFVX3lxTE9lT2U0N3R6a1g3eV9QUGVrVi1EUUJVaVJXUF9wZ3htSnpKb081UU1ENWktRDhQRGdPcTNidzhzU25QTTJUSU5KQjNKYnBVT0wwTFIwU2lsZDZVSDdXYVlYa3BOMzExTkprdHpSMVhyS08xekYxd2xYSVpKUDRfUmNuQ2FrRU93dWttNkZNbjR2cE9BZnhyQWhib09SY05qRF94Sm16T2RGVklnZk9vdG91M3NpQnhBamM5QUtWRlBiRmJJclJ1OUJ2TzZ0Zmo0bkhvc0xsOE1nSg?oc=5"
+      },
+      {
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNEhvTnlRVDVRYjUyODdVZjlxbFcyM1dHMmR6MjljeHB0ODdYZkl5cFNUZkhCbVZZV1NDdEhiMmF1bmxqQ2U1TnM2bWlJc3llWUVIenBETDNlRlY1Y2Q1VzVoWEpfUVE3bjdILUtVeVJVOWszdGt5cDI1dTNtckQ5VXpGRTE2LWFyTzdhLTc4WDNkV2R3R0FoOVVtX0UyeHF0UFZQMmRYV0RZMGQwakxndm5RZzlJVF85MVE0ck5Oc3BXZ9IBxwFBVV95cUxNSlNZZUdNc2s3Y2FTRlFEdi0yV1hHZm0xTEdqd1FBNWRjdk96OGVEZXBienBiM0RLUmVhREZEVUQwVlBJWFZaMUJnT2diVGZrc2dvb24zSzRQa3k1N0s5UkV6MW8teGhWdnJ5ZnNsSVA1Y2Utd0hSd19SZ25UaVhYZVljRjhOdUw3OGtPRVpHdEo5Rml4dkRjdE5rcnN3Y3N2a01CRGJCSGJWdEIzN2Q1WllCc0k1MUo5ZlZyTDk1NXhaRkJPT2NF?oc=5"
+      },
+      {
+       "name": "Counterview",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa2Y2Wmh1UlZJSnRNRXRxMjluQTJyLTQxeUFadEY4Y3kzVGkyZ0EtYnZzeHFfYWMwVHZFWEVMVDJ5Tm5xNFAyenNlc3lNbUd6dGh6ckNSVS1wSjdpby1lcGNPUC1ZUVhYYy1ESS1oaW9WY05lYkIxaWE4alVZZFJGUENscC1EQkk?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "insurance",
+   "title": "Insurance & health",
+   "items": [
+    {
+     "headline": "Taurus buys Status Insurance to strengthen its European footprint",
+     "summary": "Gibraltar-based specialist Taurus has acquired Status Insurance, adding UK and Cyprus operations to its European business. The deal also brings Lloyd's coverholder capabilities and travel insurance distribution channels.",
+     "detail": "ITIJ reports that the acquisition expands Taurus's footprint in Europe by bringing in operations in two new markets. Lloyd's coverholder status allows a firm to write business on behalf of Lloyd's syndicates, which can open access to specialist markets. Travel insurance distribution is particularly relevant for international private medical insurance, where cross-border coverage is central. Financial terms of the deal are not given in the headline.",
+     "analysis": "Deals like this show consolidation in specialist and travel-focused insurance, with capability and distribution reach as the main drivers.",
+     "sources": [
+      {
+       "name": "www.itij.com",
+       "url": "https://www.itij.com/latest/news/taurus-strengthens-european-footprint-status-insurance-acquisition"
+      }
+     ]
+    },
+    {
+     "headline": "IRDAI motor insurance structure changes from December 15",
+     "summary": "A new four-part motor insurance structure set by the regulator IRDAI will take effect from December 15. The change affects how motor policies are structured in India.",
+     "detail": "The Economic Times explains the regulator's four-part motor insurance framework and what changes from December 15. Meanwhile, the IRDAI has set up working groups to align its risk-based capital framework with Indian Accounting Standards, according to (Re)in Asia. Life insurers' new business premium rose 26 per cent to Rs 42,914 crore in October, with LIC leading growth, as reported by the Economic Times. Brokers have asked the government to intervene on the reforms, and they were told to approach the regulator directly, per Moneycontrol.",
+     "analysis": "The December 15 start date means insurers and agents will need to adjust soon, and the capital framework work will shape the sector's longer-term stability.",
+     "sources": [
+      {
+       "name": "bfsi.economictimes.indiatimes.com",
+       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcGs0YXZFZFl2UUtYMU9fY0lRbF9QbWJJTDhWc0I5N25SbUZ2SzNORVFOZXE1bkpyTzFLOG81N0o2OTFVSndOZVgtODVVWDEzQnE1YWVJTGpDSlMyazExWXBLVmpyaGt3Q0tYbENGNmk5VG5LUVpSa3RCbl9xYUtFQjhsN1MxTlZNaXZMREMyZ1F2REE1S1lwbFF6Vko5a2pJVlJxRXpzQzFxUnJWZ18wVXRsNURtTEduU1FKRUoxWGF3MVhZaVg4WHBRV2tFR2pKaE8tdkQwdHh5SzDSAeABQVVfeXFMTUZhOF9pbkhCVk5WR2hUanp4S2xtcmNTMEtVRTNMTjRDaDlqNmVQU0E4VlUtVENQejJqLXhxQU9DSjk3Vm5IdHBXbDQyVWVoWEhuUGVEZVpHcnAzR1hVQ0x4ekRuclgxZ2FPaThXLUhGTHJ6OW9jY29mSkRaZlpndFJfeGlBWS1Dc2Vwa0EzN0dOMlU3aEhJel9HckY2a0x2SWdvbHVwTTd1ZkZMd3hJLS1rblhFYmZBNkhBT1FrNzhMQ1BPN0FtS1JxOWo0RElQOXJDZU5LM2ZUb2hfVmVfM2w?oc=5"
+      },
+      {
+       "name": "(Re)in Asia",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmh5eVBGMFVycU5TOW1zREhxZ3FXakhaM2QtYzQ2ekd6cXcxdTBXTEdBbUpLMHMyNVJwYnQ5cFJIdk9rZFR1OVhDSkRobzMxQUxjdVNlY1dwbnh4RzNvRk5HQUM1R2M3YVgzalU2MW5MbXd3aWpXTE1oTW1pUTVTRWxGUkpvdHVvZzhLbDM5THlIODdDU3FRYmlQV3Rta3B6NnRMV1UtdVRBMEFLTk1j?oc=5"
+      },
+      {
+       "name": "bfsi.economictimes.indiatimes.com",
+       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZlFwdVp0LUZPTWZlczItSzdpdlJHMkhIR0hVMFJuYzFqeGwxLTd4cWJJRHRrTVFuYVBHai1WeFBMbnNJRW9yWWpuQ2gyM0UzbFBPQWVwdjl5anpSNGdzc0hmZWJDWG5HT1JyTTJzSld5THRCbWRsbXA3QUJhVzFMQ1JUajNFdmdqVHRXaXpnZzRhWGdlYVJpVWIzRnFsTkFqbHp0UnlDMzlrVFc4d0tnQ3U1TnZjSzdwVDhla0l4eEJSNURpMWp1NllyZ2lwVlQzZ0gxMVgtOXZkemd5czJkTdIB5gFBVV95cUxNQnNCdjJKQ0JVcHNhRnY5aDI2ZU5RcVE5aTFya0s5RHFXa09Rek5iQm1SbGxWVTlwb1ZvMEl1Z1FXUUUzVzRZdFV4NUpJbm1yWE1qY216X3NBemhHTVk0OEMzalhVTi0yMGZXaTUxeVNXUmZjNFhqcnlYSFBzRDdKdXNiUE5aZDlSR192Q21zNmZ4clRXMUsxMjhzd3NTYUNlTktVb3hDeHUwWnRub3Q4QlBCYXp2dHJOTFVJTkxZMnNiYVNLRWxmMmxacXh1Vk4xUldTbFNnUTdDRC1SYmUwWU5pcnlGdw?oc=5"
+      },
+      {
+       "name": "Moneycontrol.com",
+       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMUhlZ1Y4bW9WclpuWlJNVm53V25iM0RZeDVpcldDLUJwa2pScDdBTU1fbS1KcS1Hekc5SU8yU0paenN0dUI2d1BIOUlabmh1QWtMSkpSUUZEbUF2RjZSMmMzMWVROU13OXF2Y2RVWnhyaUhfaThmbHdaSElpbjJma19zNEpobzdETWRQRVdXbldSamUzZVRGSDVnNER5bVdmRFlwVVVNM3l2Y0UzcDYzMG1TZjhmUzlVMWRMSTRuWGt1T3htM0V6Y1o4TThYbGpyb1Y5ajZfX04tOFFMV2hBYllZb082dHRDQWdBRGdaVVJlQdIB8gFBVV95cUxQMUhlZ1Y4bW9WclpuWlJNVm53V25iM0RZeDVpcldDLUJwa2pScDdBTU1fbS1KcS1Hekc5SU8yU0paenN0dUI2d1BIOUlabmh1QWtMSkpSUUZEbUF2RjZSMmMzMWVROU13OXF2Y2RVWnhyaUhfaThmbHdaSElpbjJma19zNEpobzdETWRQRVdXbldSamUzZVRGSDVnNER5bVdmRFlwVVVNM3l2Y0UzcDYzMG1TZjhmUzlVMWRMSTRuWGt1T3htM0V6Y1o4TThYbGpyb1Y5ajZfX04tOFFMV2hBYllZb082dHRDQWdBRGdaVVJlQQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "UAE insurers must cover organ transplants and related care without time limit",
+     "summary": "UAE insurers must now cover organ transplants and related care without a time limit, according to a report in Emirates 24|7. The rule matters for policyholders with long-term or complex treatment needs.",
+     "detail": "Emirates 24|7 reports the requirement, which removes time-based restrictions on transplant coverage. Separately, Khaleej Times reports that a healthcare group's CFO says AI has 'dramatically lowered' insurance claim rejections. Together, the two stories point to a regulatory push for clearer coverage and faster claims in the UAE's health insurance market. The headlines do not give the regulator's full rule text or effective date.",
+     "analysis": "Clearer rules on coverage for major treatments can reduce disputes, and the use of AI in claims handling is an area where regulators are paying closer attention.",
+     "sources": [
+      {
+       "name": "Emirates 24|7",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZlB5UVRUVEl1aDNKbTliV3BESzZkdHdpTjZEaFpnYUpKWjdEQkRTUmo4QVlHSlZtbFl6eG9FdV9IVmNBeGotd2JuaE5rOGU0SG96Z2NCUEQwUVRhakg3TXZsX3hJcVdZV1lfaTZJaDFNNm1QNXdtWlRjckRkbll2S1pjcFVlNU1rZkpNVG9KVGZkaXZSX2x6TmVJMjNSekZoOU1VVW9NOWZTZ2xvQzE1aUpKTWTSAc8BQVVfeXFMT2pQRlhZUDhFTU1qOGM1Y0ZSWmlfN3U3M0JpV3l4RUdZell6OWQ3YjFod1ctUEZmSnktSFp1VUhSc3pSQ3dQa2RsaHVMU3BwSzR0RElzVTRSdU1nN3cwb0s3YkVONVJXdDFjdjQtYWhKWHMzWno1ZVRUNDhkYmFCR2daUHZmTUprTUtWWWVtdnJuMXBFM1pRTTROSnBvbFpTLW1acGJjaHdBQXQwMGt3Zml6cm43NThNbVFSbnl0RURCdkFKVm5DVUd1bzBIMmx3?oc=5"
+      },
+      {
+       "name": "Khaleej Times",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT2pjUWdaMl9ueFpaOEZUWUtIYUYtcVkwNEo2QzRXLUJXYUxYb0lWQ2FRaGlXUG5MclMySWRSZ0plNUdfWDRJSDVFWDFTcS1XRkNZcXJpTkhJeFllTUY4YTNXMlA5Rk13eG5SdVZJNTlZZTFKM3ZkcTdyaTlROTN4OVVRZjZkSEVCNFZzV004R1cwNnMtQVpCdExxXzFKRDBqakczcUt0c1pxZjdob1BMMUZSWGhhTWRLalHSAcIBQVVfeXFMT2ZxTC1CSzhJRXljWXVLNHhLZU1hTGt2ZVRkSnBRenduMGNLVy1BWFJxOC1Zb2R0LUhHNDVkVVYzaTFKcTZHWjhlWVJLbFlWbXFGT3QtMUJud1p0OVY2SGhFc25vcHhEejhxNTItRUtyTm5pNWVTTVNBRGNLRE9DNkNDVjlQdF9jbmozMFdTd1hRNUZnd0xNQXQ0NnVSQXVxNU5wTFJPLUkyblV5X2k5cks4QlFkZndsNE1KajMwYzJtdWc?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uae",
+   "title": "UAE & Gulf",
+   "items": [
+    {
+     "headline": "Several killed in Fujairah truck crash, including three Malayalis",
+     "summary": "A midnight truck collision in Fujairah killed several people after the truck hit multiple vehicles. Police have issued a warning, and three Malayalis are among the dead.",
+     "detail": "The Times of India and Onmanorama both report the crash, with Onmanorama naming three Malayalis among the dead. Police issued a warning following the incident, though the headlines do not detail the cause. Road accidents on UAE highways involving heavy trucks are regularly followed by police campaigns on safe distances and night driving.",
+     "analysis": "The crash is a reminder of the importance of road safety on UAE highways, and the police findings on the cause are awaited.",
+     "sources": [
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQUUwNkRmTkxMY0wyVWxmdkFmbE55c01ZQXNLOWxvVEVXWjRHTDlCbXFqaFR1dm9VbjgtRVc0ZDhZSGxEYUdkeGY2VjNCNmdrc0FSclUyY0JxRzJVNlZVRkdvcUFmOGZVa3RpYzJsTlhQN2NkaHpCbUNUck5mTWlwUFpORFAxNjRaY3dNV25SdjFpalhsUTNYN1FMVzVsSXJ6QjJTLXVyZXp0eFA4dVRGNkdOb1RnT25jOENFN3V0bV9XenBhMWYyZl9oUmk4TkswdjFtbjJwLTFDZFpXWWlEX09PcExUMHlFdzg0RVBVOW4xVzFxRFFYV1RvdjV2bkhENkM40gGIAkFVX3lxTE5MSmVNaVo3NnpDQ0pZRkVpN0REUDc2OUg1ZFdsa0gyc20zN3kyV3Q0T1dHdTFsQk5oRTZoYjA4bnFPdi00S0lEenZGa2R1QUgwTWRVdHFhUnFpc2ZZR0Y4OE9ubzdZSWh1WjZsVEt1ZWd0SFpaN0lYY0F2aGg4NTR6X0k4NGJ2ejJXZ1FXMkVLN194d2dsQW84bGp3OXBRMkdHUHlfLVN4eG44TTdmU01uc1JpRU5jbHRJQjh4eEw3OWtLek4yQ3hxU2VZaUUtU0NBR013a0FfTUhVcmowbDlYRHhrYjdyUkx4QUxUdFhNTV9QTmNBd3NkMTdkYkFyUGRGdXFrbDNweA?oc=5"
+      },
+      {
+       "name": "Onmanorama",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQURnUFZFUlZFTXBWejM4cjY4SkhYRGJRYlZqSnAwNkFTcE8yNlpKbmhMSlNGUUZycjNWWXhkT08wUkdhWTdzWXRZVGs0UGFSQ1lLQXBaSXhjcUwwN3ZHYjFmVWlWMEZRbDFDZkZSRDdIV3BvTW5ZMGdnN19jRTlaRUZLUS1IOWpjc3hGbWpxTGpYV0pYY1VGRHlwYTR3cHRNdXNfdjFCcnlYTWs3b2p3a1dVSnlibmRVVlBCaVowaXI1QzNodEZKUG5FQllDWkE0?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Lufthansa extends pause on Dubai flights until March 2027",
+     "summary": "Lufthansa has extended its pause on flights to Dubai until March 2027. The extension reflects continued uncertainty in Gulf air travel linked to the regional conflict.",
+     "detail": "The National reports the extension. Gulf News has published a daily explainer for UAE residents on the US and Israel-Iran war, which covers the wider security context. Air travel has been disrupted across the Gulf in recent weeks, with several airlines extending suspensions. The headlines do not say whether other European carriers have made similar changes.",
+     "analysis": "Longer suspensions suggest airlines are planning for a prolonged period of uncertainty, which affects travellers and businesses that rely on Gulf hubs.",
+     "sources": [
+      {
+       "name": "UA.NEWS",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmdoNmtoQ1hNRGJ5ajh5NnR2MWdJTmZYOTdvWHFrYW9uMm5GVl9XZVVaSDZ4NDRJTTF0dDRPWFRjaThBQmtGSFctOElmejR3Q2FJSkFEZHN4TkZ0bVNNVG5RZ2poZzhKM3lvZm1yWU9fcm9lUFgyVEM5V1Q5TVhOVjBZVVRUTEloZXhIczFSMzVVcERlTERmVlY2LVMzSWxxamY5dzRZek9Eb2lQTHpuSmxn?oc=5"
+      },
+      {
+       "name": "Gulf News",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdkN1X2laOFpQbmlGY01oYmZVeEM1Uk5YeWh6MDl2QkhkSW5ael9iQl9FaGFmS0JKUnVtcW1vdTg1MXY2VEZCSmFYNkxBenJZY1M2VV9DTFNNSGN4N1o1WWdZTzR6YmQ2M3Uxem03RThLMUo1MWVsTWttRE9CUmFoTzd1QzBBNmsyQlgtZ1hNZ2c0NFFhOFphTXAwMHhrYUxIVWlOWUltVdIBtwFBVV95cUxPYlV4SWgybFk2U2I3cDdrUTNCZlE2R192dlhrOVd0bUpRODlOLVE4Ukp3RHhOOVZTUjFJZ1AteFZzdHh3SUd4MWN4Ty01a0VyaHdsWEV2NmRWSWhXOFVraEFTX1lhMWxsU3pGMDdmVXJOaFZZS1ZCT3RCd1d1ck1VX01DbWx4Zm1fSzNBNXU0WngxOW5OVFE5ek9KVFhGX3RFNkVubG1FWjNvZ3pIaHZteTlRVXJfVk0?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Five-year-old with Dubai visa denied boarding over passport rule; airline to pay Rs 1.5 lakh",
+     "summary": "A five-year-old with a valid Dubai visa was denied boarding over a passport rule, and the airline has agreed to pay Rs 1.5 lakh. The case has drawn attention to documentation rules for young travellers.",
+     "detail": "The Indian Express reports that the child was denied boarding despite holding a Dubai visa. The compensation of Rs 1.5 lakh is to be paid by the airline, according to the same report. Travel documentation rules for minors, including passport requirements, can be complex, and the case shows how a single document issue can disrupt a family's trip. The headlines do not give the airline's full explanation.",
+     "analysis": "The case highlights how strictly passport and travel rules can be applied, and how compensation can follow when staff decisions are challenged.",
+     "sources": [
+      {
+       "name": "The Indian Express",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaFBoOWJZaVVSQlFJQjA3Rm1jUmFuWGFxRS1uQkxEY2dyaWVIbnc4cy02eGNweTNnRWJOeVVXT05mZTFCMGZJenB5eENJd19oRDRXRy1jZXlXZjQyYXJucXRvZUVrOGdvXzd6VW51TVBPaEZwVUN5TE9BSVR2U19VWXJmd084TlRKenVSdk1pNjE4UDdjdEtwQU1Nem1PUzB4WWF4clE1SGtEamNOU3pGUHRCTTVvMmJVMFHSAcABQVVfeXFMTXNNYmQtX1pzMlAtS3JvR25hMGQtd1Y2N2s5NnNpbGJORnNNNWRIYWd2U2RHZVVHSE9sUzV4cFFBaTVUMFphcTc4SkxLazVmVGotTjdNV1Qtd0VROTRkV3BnanlHREhyRDFKRFk0aDU3T1ZFQ2xGWVE1SUNDMVg3MU0xMUV5OFNnaHBXOWtxMVB4NGdHaUVWUUdXbUN5aXZ6NWtCRVlybTJab3F4VnpYRE9kTjF1MkJwZ3JNeWZadlQw?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "title": "Money & markets",
+   "items": [
+    {
+     "headline": "Sensex and Nifty rebound on foreign inflows and lower crude",
+     "summary": "The Sensex rose 773 points at Wednesday's close and the Nifty ended at 25,255, after foreign investors bought heavily and crude oil eased. The Sensex is reported to be at a nine-month high.",
+     "detail": "Business Standard reports that the Sensex pared some gains but still ended 773 points higher, with PSU banks rising 3 per cent. The Telegraph reports that foreign institutional investors drove the rally to a nine-month high. Thursday's early trade showed the market rising further, as reported by Rediff and Moneycontrol, with lower crude helping sentiment. The Times of India reports that India is back among the world's top five stock markets, with a total value of $5.4 trillion. The Nifty's pre-open was described as flat by HDFC Sky.",
+     "analysis": "Markets are being driven by a mix of foreign inflows and easing oil prices, but the Fed's rate outlook remains a risk for the rally.",
+     "sources": [
+      {
+       "name": "Business Standard",
+       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOG55UEd1cnFnWm85cmhKUGtyXzRTVkhweG9Cd3J2RlFuSndxVVVaaTlia1dpTUYzekFEbGRoWFNrUXRXS1RCNDYzUzRZZ1JmRG9uQTdCRmJmLVlZQnFsdTRnZThoVmVUOXZRNnpsUS10OEtyeVpPQTRJcTlmVlBFN21LTU9jaER4cGNiS3lodUxKSHVrN0htRHA0OUMzUDRJUEhvcGE4b3RISmd0YnYycEhLQmFUOEYzNzhzRi1kT1BSNEpGdTRaZkhNWU4zcV9nczBuVFJmSE5qWVQ4MlFkQzRyU1BxVlFK0gHuAUFVX3lxTE1xMEVDVE1GYUoxZVgxRVlaMjVaQ1NBcmM1R0MtZXExSzRHV196M09kTVNXN0VMMGJJcXVIVHdKdW9JLXJfZl92ZWtoTExTVTNST3J4em8xZi1NTXVsWl9qSVBDSTRKaWhseFo4QmZ3TThJWVZ1ODIzUkNvVlROcmE0dnNVTHRMdEFQVThkSG5OM0l0cjhvajRYVDFRWlc1MzFlS0VxU3NHQ21pZFVuOUJFUkhlQ0owb3pLbDZMbnZ2TmtSeGl6VkF5Vk02V1VvUWFiTHd0NEpwQS1rR2RuYVAyUHh0VXlnR2Z4MGhrQVE?oc=5"
+      },
+      {
+       "name": "Rediff",
+       "url": "https://www.rediff.com/business/report/indian-stock-market-rallies-on-november12-fii-inflows-lower-crude-oil-prices-fueling-gains/20261112.htm"
+      },
+      {
+       "name": "HDFC Sky",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeDd4QUN4Q0wyUjFZdHRnOG5lVEJubVJKY0g4Q0MwX1Jlblg2RE1xNXE2MDlHY0pKa3h5Ti1od09VMzBEb3B3bnpjTUswY2xCNENSSUp4anBpdFQ3eG9MVmJwT0g5aXp2QjdNZ2dGS2xfRjlQeEE3c2lPU05BRWtlaENFNFc1TXdqWUxRaFgxaHI2WU5L?oc=5"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNVGc5MFFwY004bllLWUtCU0dvNXB5ZjEzUG82Nnh6VG1qMHZpNkFueUlqdWpXM1V5LVBJY1JSMzMwUm9nbnpSejE5MDRVUkNZNUd1R3BzeDhZYjZQaE5WcnVNSkpyZDgwWUM3Q1ZmN3pvTGJLdnFfR3I1MHEzLVdxU2NGYTZGbV9QZEt2Y01UTmkzb1ZYMEFXUlR3Ukc3V2xkeVNZanFUNkNkd05oSXZoaVk1VFgxcDlZRFZlMnZCM012Q2FsUXpQNlhrTUtqSktiMnNPTUx1dXdteHVLVGpMd0lGUk9jajZ4VFRlWWxkQnE4b1J4dTRoMmZKQkZFSUtCbDREbVQ3WndfNktNUXhoa2s0Q0RxQUdMSV9pYzI5RnlWRWlGdk53S3A5LXRrOTRaRUhxbEdHa0hCMHg4SkE5MWJnMzVTR1ppUWdmRUhNUUxMZUtpTXFXalYyZEhrZVpoLXfSAZcCQVVfeXFMTWV3YmdTS1RCeGMyRmV5TmUtRVlRLVVzY2JCeF9DZUJpaFBNMDVwdDMzUDItNHEtd2JmRDUxbjNSQW1ka3pGeHpxZnFwMXo5NlJqeUtSdlNFSmpiQmN6Y011NzVidzJpenBrdnc2MEdZWUV2VFotOVpHSjRJT3FLNmdqWEF0dERvYjcxMy1UeVh5b3F6UzFHX2IyWjA0U2dKdU9fb3Q5eEkxRnZ4YkhTUlVaaVFKNk5EYTVLN0N1SXBNWnlab2hpOVM2OW53Z0JlQkNObkVldlpKZFp3TkVSLXN5Zlg4SjdyR1p0eWVzYlJaMTZKb0VCM19LYk9xbFRhNnUzM0N1cVBjanZWUXl3Mm9DcG1xR244?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Rupee holds near 93.7 per dollar as RBI dollar buying and Fed bets weigh",
+     "summary": "The rupee has been trading near 93.7 to the dollar, with early trade at 93.77, despite strong foreign inflows. Traders are watching for possible RBI dollar buying and a stronger dollar.",
+     "detail": "Reuters reports that the rupee rally stalled as traders watch for RBI dollar buying and oil demand. Business Standard and BusinessLine report the rupee falling 6 paise to 93.77 in early trade, while CNBC TV18 says it edged lower to 93.73 despite inflows. Reuters separately reports that the rupee touched its strongest level since April, and the dollar hit a 19-month high on Fed rate-hike bets, according to the Wall Street Journal. A stronger dollar makes imports such as oil more expensive for India.",
+     "analysis": "The rupee's direction will depend on whether foreign inflows can outweigh a firmer dollar and the cost of imported oil.",
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbTVTYW9HV3ByQlFKTUQxUVdya29lb2dGWXlDRTQ2T042UkVMa2F6aDdHMEkwSGduTThwcjRSNE9DM25KbVpqYWx2VWJYUW1wV1hPcG5ZMFVQekhwM3RYVjlXTVcyWVhlYjk0QVNFYjFpUVNHTjlubkFYWlpfNVpESEFSNWVmVWp4UHpiM19vTm5Rb3JaTGxMS2dQUWVtNTJFVlRjMjlQaDJHWVIxTm1oYThYeGU?oc=5"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUWxvd21wOTZ4NGt3b0gtd0txOV9ZVU5CUURoQWtILTRyclQ3akI0WDdNSHRjYzhESFI5VGg4OU5Qczc2SDhVdGFfc182VlhxeWpJOGpyMGF4QTE3Y3NYYjQwclhRX1BuY1QyNUgxUk9vN255RUFNamlteDdudExSaFVBQnNpQ0VpMXV0VnJNUDFIOWtXcUhmLURzVDlfSGtYTGtoZV80Sm93Mm9yRjZKdXhpXy1ZQ1p5MDBmZmJKTURXdjRQOGtuMUtUUXXSAdIBQVVfeXFMUEFab1poNWRWZmJ0SjBja0xHcjdpRTFSSlUzYU1fdkwyeXRXRmxkYmM2MGFxc2ZXcXBRaDhZTjBXcjNwUWJfR3dpOW1mM290X0o5NkswYkNRU1ZFWURwdGs4TkJ2YUphVlVnNE1uejA1c04xdG9hQV9pYmsxckxkcXFXVmp2bEpUbWJZdWY2S1NkNVJXNUhaUEx4R0xSaEZ3RHE2WEdOM2xQbWlwNEZGYzlseHhIMUZjck91UHdEX25kVUVFYUE1YXlyQk1rX1dNLUFB?oc=5"
+      },
+      {
+       "name": "LinkedIn",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObmZWV0FEU2thd2VabG9iR2hlNXBjOXIzaV9ZMHJsTzlkRWdwVEFucGpwbS1Wc2VuVmxRY1p6ODNWNlFvNjRoaXp2SU1fbFpJR1l3X3YyMlliTDVUblRDSFh4NDZrN01MY2FVSW8yZUtZWVVtc0ZCVjlRRWdWbjZPdVF2cDZsUG1YVEdwTjBWZzlhLTFFbENsMDBYZjh0bkt3UXVpZEFzRkF5X3BvaXlPT3MzQnBsdw?oc=5"
+      },
+      {
+       "name": "WSJ",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbUFTNFdTU2N5M2hVYW8zei1IMG9pbnFtc0xHU3U4cjZXUXFmaXVCTmRTbktVd2pTTlpiNHp1R2ZmWlBLSTdyU0dnX1NiT21mM2JiX3JkUzc4S0dlb3IyZEgxbzlPNEhTX1lPa0c5MHBpZU1aTjJQdGg1b242M3hUT1AtN25lNXFacnNTUmJzbFNHUkg4QzNmOEFvNk0tLWpHeFpzNVpLdlYxOHpNMmJRTUp6ZzBxS2M?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Gold slips below $4,000 as Fed hike expectations rise; oil falls over $1",
+     "summary": "Gold is holding below $4,000 an ounce as the market looks ahead to a possible Fed rate hike, and oil fell by more than $1 on easing geopolitical fears and oversupply worries.",
+     "detail": "Bloomberg reports that gold is holding below $4,000 as traders look to the Fed, and FXEmpire reports that gold dropped as the dollar tested yearly highs. Reuters reports that oil fell by over $1 on easing geopolitical fears and oversupply worries, while Energy Connects reports that oil was heading toward a two-month low as Middle East production rose. Gold tends to fall when interest rates are expected to rise, because it pays no interest.",
+     "analysis": "Gold and oil are moving in response to the Fed outlook and Middle East developments, so both will be sensitive to any new signals from talks or the central bank.",
+     "sources": [
+      {
+       "name": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTJybnByRUZtMk5uajdEUVROVDJnSmZlQVRsazNHSmZaY0FKMVM0d0tvVnhDdlozdUhuMkx4ZkJZV0IyUDRCMmxtSzF0U3RmWWkxckVJVVVUV1pZczI2dmZfN29TYmN0YkVWMml2X2NJY1liZk1WeWFVdXNHbFpqdHBVWmhMTE4zTHozN2l5ZGFOWVBxWVBzTVB6V3dLeTR5UmlYYTVtN0xJQW5MMTVRdUJn?oc=5"
+      },
+      {
+       "name": "FXEmpire",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZktBMEVrTlY5Q1ZUV3JtTDJBX3BUWjE2c0tJdGQxZ0JGc3BKb1dtc1F4Y1UySEotNWZ5ak5uUjdDUHlQRVN0bUJvLVAtVGw2dFFkWkkxUE9NWG1MNXVFaU12Rk8xam1XWHVrSXI3d3BWMC1NNDE5LWNoUWQ2T2lvMHRYeFRMTGthaldnVGQzZTR6UkdFQ21TUFl4bnNwUHN4aC1lbmdROFRjXzNVdlBrcWFmZ1hwMTNFUTVuM2tKWDlwRUlvYnZB?oc=5"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
+      },
+      {
+       "name": "Energy Connects",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM3lUWGNETGI2TzcwQU90VWJnNGd6UU1QaUg3SnFOeFBidjlNLWlQVmFkaUJHTEEyT1Z1SU9kY3FPZkpld3pNOEpzMURXR0ZKLWVrWXZ6QkpVVzA1V1d3LVVna0NRbkVhUmNOWWhjNHBxOXRPYjRTR1pEdFZuLURYOENiZ0w4RWdkeTdGMkhPT3hhMHRMX28yekdVTzZLX2FXbHd3aEwwVlVxVDl5eWRPM19pRnVScU5Y?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "title": "Tech & AI",
+   "items": [
+    {
+     "headline": "Meta's Muse AI assistant arrives on Apple Watch and Wear OS",
+     "summary": "Meta's personal AI assistant, Muse, is now available on Apple Watch and Android Wear OS smartwatches. The move brings the assistant to wrist-worn devices.",
+     "detail": "Deccan Herald and Business Standard report the launch, and Beebom Gadgets describes it as a Muse AI agent on Apple Watch and Wear OS. TechCrunch separately reports that Meta has introduced Spaces, a new way to collaborate with a Muse agent. Putting AI assistants on wearables makes them available for quick, hands-free tasks, though the headlines do not describe what features are included.",
+     "analysis": "The move shows AI assistants spreading from phones and computers to wearables, which raises new questions about privacy and battery use.",
+     "sources": [
+      {
+       "name": "Deccan Herald",
+       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTlgxTUtPRVByZ1l1TWdyU0hlN0Q2SnRPeGxfWDlhWFpBa1JadmtzTXI0NUxsbEtGR1M4V2lLa3JBNU95dzFjZ3lOdjQ4T2tPeEROZEVjZFFPRDZtbXB3Ql9leTVxZGxUQjZVTUxkNUFTQWtoazNjanJzWFVJUVBHNzk5RnRpZFkyNkhBcHpHbnVLT0ZCdkhxSmxMVFRMU3ZTRHhaQklrMWVkNy02TGF4d0Rla2s5RE5BLVNrTkNCVHZKWnZyQVJNdzVTOE9fWXlaR3FSN21BODRmNk90?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "CERT-In warns Chrome users in India to update browsers after critical flaws",
+     "summary": "India's cyber agency CERT-In has flagged critical security flaws in Google Chrome and urged users in India to update their browsers. The warning comes as Google has fixed an eighth actively exploited zero-day this year.",
+     "detail": "YourStory and The Times of India report the CERT-In advisory, while The Hacker News reports Google's update for the eighth actively exploited zero-day of 2026. A zero-day is a flaw that attackers use before a fix exists. HKCERT has also published a notice on multiple Chrome vulnerabilities. Browser updates usually fix such flaws, so applying them quickly is the main protection.",
+     "analysis": "Frequent actively exploited flaws show why regular browser updates matter for both individuals and organisations.",
+     "sources": [
+      {
+       "name": "YourStory.com",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaDkwNW54dnJIcU9QTk5WVXQ1VGtNR3prU3d2clJheVN5VTZyQ2Fnd3lDMFJJcWg2T2hFU0RjaFJRM0x0RjZTNVhOcGdjd0FiOG1TT1l0VFpqWUhXUEdGWmhncDY5OHNwTGZPMlRXZ0JqSzFKN3hEdU1KcHpkVUpQXzZtSmJBSHhrUERuZW1kSzZLelJ0ekJVZThfZzlOVmhaWXlaYUJIbTY?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "ISRO's Shukrayaan Venus mission on track for March 2028 launch",
+     "summary": "ISRO's Shukrayaan mission to Venus is on track for a March 2028 launch, according to Moneycontrol. The report comes as concern grows over the crowding of Earth's orbit.",
+     "detail": "Moneycontrol reports the timeline for the Venus mission. The News Minute, meanwhile, reports unease over India's space sector reforms and what they mean for ISRO. The Federal reports a former ISRO engineer warning that space could become unusable in five years, given debris in orbit, and is working on clean-up efforts. Venus missions study the planet's atmosphere and surface, and launch windows occur only at intervals set by orbital mechanics.",
+     "analysis": "The mission's timeline and the debris debate are both important for India's place in space, as the growing number of satellites raises questions about long-term access.",
+     "sources": [
+      {
+       "name": "Moneycontrol.com",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb2w5a0o0czdURWN0US05YWJoSFY5aVZxOGVhMFVMR3MtOS1Ja2xMUWhEQ1B1Q1Rzc212a2RSN2lMRGt3RnJybDN6X3FTVkwxWkYxaDhxTWZkbGJMRGplUVdNeGVXdVVJWlpiVHFUT2RwbUl6THpOWU5hcUtPY2lkRkJyenNFZVZDN0tLS0x1N3Zsak9kcXQ3em12NHcxMEE4M1dnM2piajFCcUwwU3FnZmh3Y05PeVVKYlpzS3ZwNHFseTRRRkVTbkxlNmJMVUYwQVJBOdIB2gFBVV95cUxNTUlyWW1ZbTBRLWlIU21kank4WXVzZFpQVkRScjU1d1JRZ2JNaVRBUXVaM0MxMjFWVWpzVkJUTXhpcEJMMnRHaWtrUGFQaWI0SWF4SEVQOFBhRGtyT29XV3VfVkg1ejVBN2FjX0VnSjhXbzNoYnlmTXE5MnZfaUhFTmh6UUI3QzJGZXBmRExOdXpDenV1UHA4b3BWNzA3MGlXQ3gtZnI0UXptT3Nka1hteFgtM0ZLbjItYUlYeVdLOXhNdEl1TDl5bVhmcDR4VkJuS1Z2UlhNNmZGUQ?oc=5"
+      },
+      {
+       "name": "The News Minute",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN2R0YnRDaGxxUENTcXVzM2t3c1BKdHBiZkNuZmNOVGhVLVRYRlUxd1JXTmZXNVdVZTh5Z2V4MlVIbDRGSDlaMmgxUE0wQjBFWlYzQ0ZmT01JTlVna0N6ZE9ZUks0MDBONjhXbEdWOVJRR243alFweGd3NmtCZnlsaUJfQTdMbEdsWnJFWk5ReFNqamo4SFlVOWtncl9JRng4?oc=5"
+      },
+      {
+       "name": "The Federal",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFU0VEZZMmFlZE02ZndZNi1hQUxVVnp6QU9hRmRFMHBKb2ppaThWc3BVejhnT2JucnFFNE9SQnZnZmhyRXIwTm5fa1dfMzJqRVhEaWFCUGxpOWdlUnFCcEJyYTZQVGRVLVg0andmWHdQeEwzcVlEaE54ei1nS01yelBVZ1gwNHlJaE1ELWcyLWk5Qk9xbXlUZE0tY0R0Mk5aNW1RVQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Indian AI startups raise $1.6 billion as deal count falls 43 per cent",
+     "summary": "Indian AI startups raised $1.6 billion in funding, while the number of deals fell 43 per cent, according to Elets CIO. India has also been ranked the world's third-largest startup ecosystem.",
+     "detail": "Elets CIO reports the funding and deal-count figures, and News On AIR reports India's position as the third-largest startup ecosystem. The Weekend Leader reports that India has over 2.62 lakh recognised ventures. The headlines suggest fewer but possibly larger deals, though the reasons are not given in them. Investors are paying closer attention to AI companies with clear revenue and business use cases.",
+     "analysis": "The mix of strong totals and fewer deals suggests that money is concentrating in fewer companies, which is worth watching as the AI sector matures.",
+     "sources": [
+      {
+       "name": "Elets CIO",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRUF1VTM0Z21aMGRNYUV2SXNvUFN0YlpYc2taMGNOVmxHYTYtUnZLN0dSdEpoc3lmc09nOGhTZFQxN25lN1NGZ1hrUFVmdEdvaUVlRFBfTWZrby1OdnBqOXVOczhKcEJVQ3NTUVRuaE9UeUhWSEM5c3dMdHZRa2R6UWZkRWV0Rm1vVmdVS1RNSmtBRGg4aHc?oc=5"
+      },
+      {
+       "name": "News On AIR",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdFNzZTAzaThSNG5PSHZraERFT2RnS255cnhnMGFWVllIY2JiQkUtT1YtSmVrdjNUb0RJYWxiZlJjLTA1MzFNRk9YZlhleExMLVVORV9hNXdyOHF5WEhFc1o2U1BQU2NGc2l1SGJ5N2xGT1ZDT3lhQS10OVdxYnh3ek1TeUFuTXpI?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "title": "Science & research",
+   "items": [
+    {
+     "headline": "Carbon nitride photocatalyst triples hydrogen peroxide output in the lab",
+     "summary": "Researchers at the Max Planck Institute have developed a CALiK photocatalyst based on carbon nitride that triples hydrogen peroxide production in laboratory tests. The work points to a cleaner way to make a widely used chemical.",
+     "detail": "Inkorr reports that the catalyst is based on carbon nitride, a material that can use light to drive chemical reactions. Hydrogen peroxide is used for bleaching, disinfection and as a cleaner chemical, and it is usually made in large industrial plants. A photocatalyst could in principle make it using sunlight and water-based feedstocks, though the headlines describe laboratory results only. Scaling up is the next step and is not covered in the headlines.",
+     "analysis": "A tripling in the lab is promising, but the key test is whether the approach can be made efficient and durable at industrial scale.",
+     "sources": [
+      {
+       "name": "Inkorr",
+       "url": "https://www.google.com/goto?url=CAESrgEBxCJF18wjySNzcndrEx0noEMgZzyFIG9wcg0UJ-0DVx20XiTFGIUakDGm82ajVig2uc9DNEZq-AHIWONbzaKnQNwvQkifrcbNqSPdz2Cl3fG_39uEt9h0Pu4GRYGELAriNrjk7Iw5kbVMKOKervOG9h2cLtfNoFnj3Cd2SD6PuFzJhYNac0Coj5BQSqfmPwE881XfX6wjRiW4g-dlyNS5HOQj0xPzS-xw5fMKPy0&gsessionid=59yYCPY5XVAyykgOpBvhB6UXs5SpSLxseIHtdgnSE3bZE5Q2D_DZCQ"
+      }
+     ]
+    },
+    {
+     "headline": "Fluorinated copper catalysts turn dilute CO2 into multicarbon fuels and chemicals",
+     "summary": "New work reports that fluorinated copper catalysts can help convert dilute carbon dioxide into multicarbon products, while a separate study shows electron-withdrawing ligands can improve dilute CO2 electrolysis. Both aim to make carbon capture more useful.",
+     "detail": "Bioengineer.org and EurekAlert report the two studies. Dilute CO2 is the kind found in air or flue gas, rather than the concentrated gas from industrial sources, and it is harder to convert. Electrolysis uses electricity to drive a reaction, and multicarbon products such as ethylene or ethanol are more valuable than simple carbon monoxide. The headlines describe the research direction but not yet field-scale performance.",
+     "analysis": "Converting dilute CO2 would widen the options for carbon capture and utilisation, though the energy cost and durability of catalysts remain key questions.",
+     "sources": [
+      {
+       "name": "Bioengineer.org",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYU9aSEJhT01pamtRa0VJMkpmbzNRZUNxcXNQbmpveHVBR1dqX3R2U1FweENYN3haY0JPd2xwNFlLWDMzeTJtQmJ3QTNWSTRZMTZaR0EwTFBnMEdVY2o2R1R6NUZlUHB2ellJNFoyTUpDZUYzQ1FtbWFJcU9qeEdiVzM5Q01Mb2lsMVlVejFjVVhPNUlfNXZ1WDVKSGVib0pLWWRqUU5iakx1SGphdnZTNlpjM1ZWZGs?oc=5"
+      },
+      {
+       "name": "EurekAlert!",
+       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVUkRwNkNVTm80S0hUM2htYnd6RWY3QTZtS1lmZUFtNTNCd1c0bHBNRlNxbmtOb1N6a1Z5VHMyY1hINzRybUdTYVVGLWJWbng4S0hZZzVYVTNpeXRI?oc=5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hidden_gems",
+   "title": "Hidden gems",
+   "items": [
+    {
+     "headline": "Kashmir's trout farming industry is barely profitable, new study finds",
+     "summary": "A new study finds that trout farming in Kashmir earns very thin profits, raising questions about how far the industry can grow on its current footing.",
+     "detail": "The study, reported by Kashmir Life, looks at the economics of trout farming in the Kashmir Valley, where cold-water fish are raised in ponds and tanks fed by mountain streams and springs. Trout is often promoted as a way to create rural income and jobs in the region. The headline suggests that after costs such as feed, water management and transport are counted, many farms make little money. The report's full figures are not included in the headline, so its specific recommendations are not clear from this summary. Fish farming in Himalayan areas is often pitched as a practical livelihood option for villages with limited farmland.",
+     "analysis": "If the margins stay this slim, farmers and policymakers may need to look at cost control, better markets or added value, rather than simply expanding the number of farms.",
+     "sources": [
+      {
+       "name": "Kashmir Life",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTjNjenhQcC02QUVKWXZsMU5uUklsY2RaWkFUTXhycUtpUF82ZWNYaXc1RlZYREFkTFJXMWpLM252djMwMGhiakdsV0ZHbmI2V3hGdTIwTU82RURVSlhMMDBsYzVVODdSQkxCbWhBeTZwYldheDljdTloMV85aE01RkVVbkZUaTBtUVFrNTNuQ2pzcXJxc3Z5akpiSHZhUQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Retired ocean liner SS United States to become the largest artificial reef in the world",
+     "summary": "The former luxury liner SS United States is set to be turned into what is described as the largest artificial reef in the world.",
+     "detail": "According to Phys.org, the ship is bigger than the RMS Titanic and was faster than the RMS Queen Mary in its prime. It was the United States' premier ocean liner in the mid-twentieth century and once carried presidents and Hollywood figures across the Atlantic in luxury. Its retirement and new role as a reef mark a shift from passenger service to marine habitat. Artificial reefs made from decommissioned ships are a long-running approach used in many coastal areas to give fish and other sea creatures new places to live and grow.",
+     "analysis": "The project shows how old ships can be given a second life as ecosystems, though the long-term benefits for marine life depend on careful preparation and monitoring.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-ocean-liner-largest-artificial-reef.html"
+      }
+     ]
+    },
+    {
+     "headline": "Great Nicobar's leatherbacks carry a unique genetic record that a megaport could bury",
+     "summary": "Leatherback sea turtles on Great Nicobar Island laid a record number of nests last winter, and a planned megaport could threaten the beach where they nest.",
+     "detail": "Mongabay India reports that female leatherbacks came ashore on a beach bordering Galathea Bay on Great Nicobar Island and dug 869 nests, according to data from the Andaman and Nicobar Forest Department obtained under the Right to Information Act. The report says this is the highest number of leatherback nests recorded there in the data cited. The article also points to the genetic value of these turtles, which the headline describes as a unique record that could be lost if the planned port development goes ahead. Large coastal projects in the Nicobar Islands have been debated for years over their potential effects on forests, wildlife and indigenous communities.",
+     "analysis": "The story highlights a tension between large infrastructure plans and the protection of rare wildlife, and the outcome will depend on how the project's environmental impacts are weighed.",
+     "sources": [
+      {
+       "name": "Mongabay India",
+       "url": "https://india.mongabay.com/2026/11/great-nicobars-leatherbacks-carry-a-unique-genetic-record-that-a-megaport-could-bury/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T12:18+04:00",
+ "model": "claude-haiku-5-5"
+}
