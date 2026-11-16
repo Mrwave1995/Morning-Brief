@@ -1,23 +1,35 @@
 {
- "overview": "Monday's news is dominated by a sharp India-Italy political spat, a confirmed Xi-Trump-Putin summit, and a widening Iran-linked conflict that is still hitting Gulf air travel, alongside a weaker China economy and a steadier Indian market.",
+ "overview": "Monday's news centres on a US-China-Russia summit in Shenzhen, renewed tanker incidents in the Strait of Hormuz, a parliamentary row over the Election Commission's voter roll revision, and a strong close for Indian equities as foreign investors returned.",
  "market_snapshot": [
   {
-   "label": "Nifty 50 (last close)",
-   "value": "25,144",
-   "change": "third straight weekly gain",
+   "label": "Sensex",
+   "value": "82,104.79",
+   "change": "+512.34 pts (+0.63%)",
    "direction": "up"
   },
   {
-   "label": "USD/INR (early trade)",
-   "value": "94.13",
-   "change": "+6 paise",
+   "label": "Nifty 50",
+   "value": "25,291.10",
+   "change": "+146.80 pts",
    "direction": "up"
   },
   {
-   "label": "Brent crude",
-   "value": "$96",
-   "change": "lower on the day",
-   "direction": "down"
+   "label": "GIFT Nifty",
+   "value": "not quoted",
+   "change": "about +100 pts",
+   "direction": "up"
+  },
+  {
+   "label": "USD/INR",
+   "value": "93.92",
+   "change": "rupee up 27 paise",
+   "direction": "up"
+  },
+  {
+   "label": "WTI crude",
+   "value": "above $87",
+   "change": "not quoted",
+   "direction": "flat"
   }
  ],
  "sections": [
@@ -26,62 +38,62 @@
    "title": "Spotlight",
    "items": [
     {
-     "headline": "Italian socialist's 'vote chor' remark at Bharat Summit sparks BJP-Congress row",
-     "summary": "Giacomo Filibeck, Secretary General of the Party of European Socialists, made a 'vote chor' (vote thief) remark on the sidelines of the Congress-organised Bharat Summit 2026 in Hyderabad, and the BJP has objected strongly.",
-     "detail": "The BJP lodged a complaint with the Foreigners Regional Registration Office in Hyderabad, calling the remarks provocative and seeking action against the foreign delegate, including visa cancellation and deportation. Telangana BJP chief N Ramchander Rao called the event an 'anti-Bharat Summit'. A Meloni ally, meanwhile, told the Italian socialist it was inappropriate to lecture India on democracy. Congress has been using the 'vote chori' theme around electoral rolls, which the BJP says is being used to attack India abroad.",
-     "analysis": "The row sits on top of a wider debate about voter-roll revisions in India, and it shows how foreign party leaders can become part of domestic political fights. Watch whether the FRRO complaint leads to any formal step.",
-     "sources": [
-      {
-       "name": "India Today",
-       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdllxUUZCNExva2hUNGRNLWRJN21uLW5TZzZmN2FjdTh1QkhNVFhxRG9va2dHR0x5Vk5na2pGaWwxbklEeUdneGlZVnVXclNWRXhROVYxQXBkSml1SVZfMkxLVFA5X2ZyY3dUeS1lc0RmTWJuZVNwRmxiVXh0MkxKQzU1ekxVQS1PWjhpdTBHT3hjWmhFRnlsSGhNcjdvbXpuVXI0VjVnaWxURTgtMWFTRWZtY2syQzNVd3pRdV92dG5CYWVZ0gHKAUFVX3lxTFBoRGJRekJScGs3WkNtTS1ISDZrTWdJUlhqVmF3T3ZFbFc3dFZ3cDRtRmFvdzRXdmZET3I1Vi1pbkM0MDd3QnRobEMxT0RFMmR6X3JyVkc1RUNFa3VVYWo2emxndVIzODJLcVkyV2lKV29qajJHbVkzbWVaMkpLcDZjUTRZdzRSTGxRbVNpaF9nczlTM05SSDI2a2NlalpfMS1pX0ZUSUwzRFRJM2pRMVZwbXdpTi11WDIzazR4ajZyRTk4VGxEWm83T2c?oc=5"
-      },
-      {
-       "name": "The Times of India",
-       "url": "https://timesofindia.indiatimes.com/india/bjp-lodges-complaint-after-italian-leaders-vote-chor-remark-at-congress-led-summit/articleshow/135876255.cms"
-      },
-      {
-       "name": "ANI News",
-       "url": "https://www.aninews.in/news/national/politics/8220not-bharat-summit-it-is-anti-bharat-summit-telangana-bjp-chief-targets-congress-over-italian-politician8217s-remarks20261116100619"
-      }
-     ]
-    },
-    {
-     "headline": "China confirms first Xi-Trump-Putin summit for 19 November",
-     "summary": "China has confirmed a summit between Xi Jinping, Donald Trump and Vladimir Putin on 19 November, which would be the first meeting of the three leaders together.",
-     "detail": "Reports describe the meeting as a China-Russia-US summit to be held in Shenzhen, and Financial Times coverage frames it as part of a busy week of high-stakes Asian diplomacy. The agenda is still being discussed by the outlets reporting on it. Trade and chip export controls are already in the background, with Nvidia-related disputes expected to feature in the wider US-China relationship. Japan has expressed concern that the three powers could draw closer together at its expense.",
-     "analysis": "A three-way meeting of this kind would be unusual and could reshape expectations about US-China and US-Russia relations. Its concrete outcomes remain unknown until after 19 November.",
+     "headline": "Beijing hails the US-China-Russia summit in Shenzhen as groundbreaking",
+     "summary": "China's government has described a meeting involving Xi Jinping, Vladimir Putin and Donald Trump in Shenzhen as having 'groundbreaking significance'. The three leaders' meeting is a rare gathering of the world's major powers.",
+     "detail": "Chinese officials framed the Shenzhen meeting as a significant step, according to Reuters and The Hindu. Coverage from CNN describes Trump using an Asia trip to reassert his authority, while Al Jazeera asks why China is resisting a nuclear treaty with the US and Russia. Arms control and nuclear arrangements remain a long-running sticking point between the three countries, and any agreement would need to be spelled out in detail before it changes anything on the ground.",
+     "analysis": "Watch whether the summit produces concrete commitments on nuclear arms or trade, or mainly a shared tone. Positions on both sides will shape the next round of talks.",
      "sources": [
       {
        "name": "The Hindu",
-       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTHhNa2J6WGdIWUVjT01BR3ZyOThPX0VIQVAzcmJ5Y2Exb1plT1ZNb0JWT0lrajd1MDZFRE9kbVpiVTNOam9BcEhOeUVFSEQ3RHR1YjRqcTk5SEpOa0VZVVpnSFhUYkpoSDBLRmtzLWhFcnEwY05ka1RzUHhpWGwyV1ZKUHVka1dTcnMtVmdrQ1ZsVUVnMVVHRW5qYk81cEw0RTAwaGtIYVl6WWxGY2IzUDdQblZ5Wm9waDZoYndR0gHEAUFVX3lxTE9YOTNYNDlQYkdoZjJrSE1HUWRFeDMwVmw1Z1JRTjN4eGpQZXhPYjVNNDdXQmVTS015S1AybkhDY1QwWlJlX04wcHBFUmRjRERBVHVReVJTZWZmQ29sWnA0dE1tdk1FWkhpc0o0Y3NoSG5rTlowbV93dTJaZ2lQWWcwMjZmMjhmODhUd2REZUQ3N3RCdF9DNVlGZU1pUU1NVWxjekY0Z3RlRVlTTU9UajRCTlZKQnRYTmo4dl9oSXVUOFdRc0E?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObGxDYkdvbWhhSmZVMGtueDVjaVhQcS1VcldRUlFvMTFKQVQ0bHZCNUxuaWYzT2tLQzg4dEQwNmktOVJFREcwOE8yX0Jwc3RQdl9SeE1VYVo1VVJ2UWdYMTBYbGw3QzhGN3BfU1JsNHoxa1FxM1I0TWo1NU11SjVRY2Z0M2QwRGtXeTBfazYyNFhyUnNaQWxKUUd2Z0ZhS0JnbVl3WjRJM3kwQWl2VGVYVy1vMUJuelp6MWpVdmp1S2xqNWtXZ0lUZlhIQU16a0dqZGY2aWxvTTIzUDQ?oc=5"
       },
       {
-       "name": "The New York Times",
-       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUnBicm1Jcmo3Ukx0dXNldVp4TmRXbkpvN0JIV2NaWE9VaFB5RGxqLTU1WFV2MGpSTXlzZ3A0ZHlZdG5pcHVjaWxJQl9idVJfSUZFVUp1RWJzTGphUzNDc0Z0S0xrNkFwdlZqbWl3dFRPM2MwYmdIVGpKVVhTR2wxT1AzVWlSUQ?oc=5"
+       "name": "Al Jazeera",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdU03WnlQT016UUM4SERtRV92OXdJcDlhYXY5cU5JRmhpQlN4WnZuYjFzTWhuMGRnVVdvQXFwUlVyRDdOaVNIQzJseWtQanRZSjhpT0E0TUJzOVFxazZNZHVxajVzZEduY1J6Zkh2ZkE2azBQZ3Zza3NXamhTUzRCaDYwYkN6SDdXSnVWVFMzQVA4MDYwb19FbXNySkRwNGtaY3pDQ9IBqgFBVV95cUxQbE9aSExVa3JSY1hKS2tDbkl3eHd5TDlZeGhsaDJfQUJRZU1wM0JGaWphWDZ1Zk9vZXkyN2VOT0tIVDlmenpkc2pRWFV4RGVnZXZrR2FrTmdjeGNJQkw5MXYwUjFLRWdJRkNxSXh0YW81SE1CM1hXT2lKNW9YZnhwSDhHWXdKN1FST0c4MEEtNUk2M3ZQTW1uVnZOcG1vSktBR1B4cHNMT05mUQ?oc=5"
       },
       {
-       "name": "Japan Today",
-       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXZuVjBvUnhqREk1cEtXdkZES0VSYmVZdjRVR091Rk9Pd2tvaHBMa3JSUUFKMzBxVzRxalJ3M0htV1AyVVV6Y3NHMUtKWjhab3hxTVZqMlNMOV9XVlJWemVSeHhxM2hUVUNPQTRKSFJuTmZlaUZUUDZpWlk4S2xVbVhwOVlPYkhndUpxTTAzYmo0dndiM0ZKXzdYa2ZLOFhkb0JnVw?oc=5"
+       "name": "Foreign Policy",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObzF1N1d2RXhtOGZwcGU3OW9EVGI4SnBJS1pnM19xdFVKeVJodThXTlctTHhYVXJkcnUwaEQ2azN0aFJ1dVNpbGNJbGpIMUNlMXkzQThRYVlGaW1aN0tqUWRsaXctNFN3ZXF6azVyRUd4MlBZbjVvb295VGFKMGNEY0xSV0M0Z0liWHQwd1VDRmRpdw?oc=5"
       }
      ]
     },
     {
-     "headline": "Iran threatens two US Navy officers as a third US carrier reaches the Middle East",
-     "summary": "Iran's embassy has threatened two US Navy officers it says ordered the Minab school strike, while the US has moved a third aircraft carrier into the Middle East as the conflict continues.",
-     "detail": "The threat, reported as 'we will find you', was issued as a US warship returned home from the region. Live coverage reports that a third US aircraft carrier has arrived in the Middle East. Iran has also been in the news for attacks around the region, with Bahrain saying it intercepted Iranian aerial attacks after a nationwide alert. The broader war has been affecting flights and hotels across the UAE and Saudi Arabia.",
-     "analysis": "A rising military presence combined with direct threats against named officers raises the risk of further escalation. Gulf aviation and tourism are feeling the effects already.",
+     "headline": "Tanker incidents continue in the Strait of Hormuz as Iran reports a sunken supertanker",
+     "summary": "Iran says a supertanker carrying 2 million barrels of oil sank in the Gulf, while the UK Maritime Trade Operations agency reports a tanker struck by an unknown projectile in the Strait of Hormuz. The incidents add to a run of attacks on shipping in the region.",
+     "detail": "Iranian statements, reported by Arab News, say the supertanker sank, and Iran has also been reported as claiming that two more tankers hit mines in the strait. UKMTO said the crew of one tanker were accounted for and safe, and Indian shipping authorities have also reported an attack on a tanker transiting the Arabian Gulf toward the strait. The Strait of Hormuz carries a large share of the world's seaborne oil, so disruption there moves global crude prices quickly.",
+     "analysis": "Claims from different parties about the same incidents are not yet fully verified, so readers should watch for official damage and environmental assessments. Shipping costs and insurance premiums in the Gulf are likely to be affected.",
      "sources": [
       {
+       "name": "Arab News",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeUY0ektjWVZqdUZvX0kxLXU2UzNmVFRZNXZzYmR1SW1jUEg1WTV5dDNnVVk1bWc1ejZZSTdETlJPNlhmcks5NEtvY21SLXpsR2ZqWFpMQzlNMlJ5YXFVR0hYd29ldFhkZW0yMVJxdEdVc0wyd0p5QnQ5YmZ0cllGQVUwU2FRLUo0NEZJbm80UFdtb3gzSmkzWEQyd0c0UTRPcWdCS0g3YzRhRzRTWWc?oc=5"
+      },
+      {
+       "name": "The National",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
+      },
+      {
+       "name": "Ship & Bunker",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNXNYZWk5dTJ0RndWR3RGeVhSM2pGeXcwZXItSmZaWFU4YzFPM085Q0R5d1JBUGxWSjRQV0FPamVZUUlDcVRKVlRKV01paXdZVEdUTFIzOS1NNUZILWF0MDBULUo1YW5ELTI1TFJ2dUZEU2d0NG90UzdIbjJwZTc0ZHNFN3ZPY0JhZ2h6MEVyZUFNQ1NaZlJCalNuU0FtUVB2My1xTFJQbU9oV0VMZHFrQTVQWVRKaVdPOUpRQTRYRHhUb2dEdEcwWm5pVUQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Supreme Court suspends life sentences of two Bilkis Bano case convicts and grants bail",
+     "summary": "The Supreme Court has suspended the life sentences of two convicts in the Bilkis Bano case, linked to the 2002 Gujarat riots, and granted them bail after about 17 years in jail. The decision has drawn wide attention in India.",
+     "detail": "Reports from Live Law, The Hindu and NDTV say the court acted on the convicts' pleas, and the sentences are suspended rather than set aside. The case concerns the gang rape of Bilkis Bano and killings of family members during the 2002 riots, and the convicts were earlier sentenced to life imprisonment. Reports do not state the court's full reasoning in these headlines, so readers should look at the detailed judgment when it is available.",
+     "analysis": "The ruling is likely to prompt continued debate on remission and sentencing, and on the role of courts in such decisions. Both victims' advocates and supporters of the convicts are expected to comment.",
+     "sources": [
+      {
+       "name": "Live Law",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ2s2dkZPS3RvQndTTy11LWdOX0lIazlCd0MxaXo4eUxWc09KZ2p5SnJNNFk1a1ZmLU5zd0k2dEZ6QV8tNFUwempDSzVWejdkd1RUSm5fOUVSZEJNT1k2LTR3ZXozZ2gzb2NEY0RrWGJnT1g2TUdRMmFVcl9NTC12LVF1aHNDaE1XZjRKYnRNS2NyWl9HYzV2WFlHdVRXOEtsNFVreFN3MWpyeU9WWUtOOW9QckJhdWIyMXhfNUhfS1U1cF9DZVAxSzVFbnE0ejZa0gHWAUFVX3lxTE5LMm5JMXlfcVFGSGEzZVdzWFVMeG9YLWxUcGh2YUNrSTRlVDY3aHFXUmVCdDRKYks4azdTbE1HbkhKOHhWcVF0c1FsOGhIa29tVmdNQTBRR3E1Y1NDUmtxTkhjdUlRWGR1RS1UU242cnVfR0t3T1FwRHpCRGhWdjNRT3hfYkFVcWxMbktOa3JDUkR4eHN4cnpHcWNaa0dlT2FWVW45TUFvOW5xMUhSWWFyczVHaE0zcjY1UTNHVDlKU1VzaFpnZ29EVWdXM2xyQ0c3UGVFbEE?oc=5"
+      },
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOG5LZnpjM3RjakNLelVfbk1aTjRZNnpTeDZWYm12V3otbklDUzRPQkNWOFJadndYbDFoRTNNYk9HYmJHV2FDOVpzQUM2Wlh6LUdXaGpuMTk1d2hmTzIyU3BTaFRqSEw2U24yck94VjM4dHFyUXJOUzc3TGl4anZIVHE5djVSV09xZ0U3NXcxQzdVQ1JvYk9CM0luTUVreGJVV2hSYXJqSjJuVl9RRXhmQ1FvWFd3QjkxR1FWdUpLSjlGQU55REdqRm1BUEVydmY50gHXAUFVX3lxTE1DdmEwRk05bXhtN3M4cVhnZ2liajZyN0ZEWDlzOGNGQ3I0Z3piUWVBaEhzb2dVQWFKV21sTnd3bFZwekVPYVZ6SGZ3SnpUMUJCZ19qNkhIS01IeFFiZTVhd0FoUjViQjZ4ZDVJSzJPbVloYVdoTmF2eEJkUGZfdlMzZXBHejgyWUJXOHRwSkZVMTIyRUhZR2JDMXREUGdHeDhpWTg4UWRCckFCVzZNSTEwa1pOTzhpeE9Xcm9qX2QyVkVvUHBOR1QtOERMX2M5UVV5XzlhcGNR?oc=5"
+      },
+      {
        "name": "NDTV",
-       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHo3N1lSRVFrcEtPazRRQndoNHV2WmF6NTI5bEFQa1gxbFRES2NvZGxSUDVRUklZUzR5cGJWQV8yT21vMmU4OFBOVzB1aGV3RzVxZmt0OVEyWUlwMEpkWDV1ZTgtbk5tWS1JUGpnQ3JnbC1mcC1CdzNwWXVnTjRXQTJEN21aQzh2NDFDNFRaUGZrSl9YWC1kdkNIX2ZPU3JZel9nYTdfMERqT05YOEJ0azFTbndiQQ?oc=5"
-      },
-      {
-       "name": "Arabian Business",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5"
-      },
-      {
-       "name": "thenationalnews.com",
-       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQXE0dUREbE1MRW9odlROckRGeWYyWDZWVU9jd1k5TTNYWWFmbTlmRzBWUFJFalhPRmxNTmdISW1wR1hKcFJYbVQydTQ5cjJ5Ylo0aEU2ZkY4RE1zV09fWUN6Uy1HV1dwbUZQdzRBU21KYlF1b1VuOFBwZ2d3dFZqUy0yZ1NnVU9IakJaak9rdEhweHFjT3RiUmE5TXNXQ1pWdHhwVGxxOVZ1SG1LMnhiMVBJMmh6UVdjU0HSAcIBQVVfeXFMUFdXQTJJY2lrRE9Tc0dNdWw3bXdJOWE0Y0tJbHV4dU92d2Jwc0JCOW50NzZrV3JJc2F2eXZNRHRNQXRNeHNsdHFabHRHWWI3NFBRaG1hN3BKM1RJNmE0UFVMMW54M2ZzU0tmUFJ0N09xdXhXZzdHZ1R1SVJoNEpPM1pYZUZ1azB6QTI2a29OVzdFbnNFTXdMSjZ3OEtlNUk2NmRaMlNhczVET3VsYmJZV3pkR1ZjZlQ1TXEzTll5UEh6Qmc?oc=5"
       }
      ]
     }
@@ -92,54 +104,38 @@
    "title": "World",
    "items": [
     {
-     "headline": "Iran rules out UN inspections of damaged nuclear sites until the war ends",
-     "summary": "Iran has said UN inspectors will not be allowed into its damaged nuclear sites until the war is over.",
-     "detail": "The position was reported by The New Indian Express on Monday. It leaves the International Atomic Energy Agency without access to sites that were hit during the conflict. Iran's foreign minister Araqchi has blamed what he calls US-Israeli aggression for the insecurity in the Gulf. Western governments have typically pressed for inspections to verify the state of Iran's nuclear programme.",
-     "analysis": "Without inspections, outside observers have limited independent information about the damage and the status of Iran's nuclear material. Watch for any change in position once fighting stops.",
+     "headline": "PM Modi arrives in the Philippines for ASEAN and East Asia summits",
+     "summary": "Prime Minister Narendra Modi has arrived in the Philippines to attend the ASEAN-linked East Asia summits, where regional cooperation and trade disruption are on the agenda. India's engagement with Southeast Asia is a key part of its foreign policy.",
+     "detail": "The Hindu and The New Indian Express report Modi's arrival in Manila for two regional summits, and his departure statement set out the purpose of the visit. Coverage from CNBC TV18 describes India and ASEAN as a partnership of growing consequence. The Association of Southeast Asian Nations groups ten countries, and the East Asia summit brings in wider partners including China, the US and India.",
+     "analysis": "Watch for any India-specific trade, maritime or connectivity announcements on the sidelines. Quad leaders are also expected to meet in Manila, which may shape the wider regional picture.",
      "sources": [
       {
-       "name": "The New Indian Express",
-       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSW9sclpaRHdwT1YyZFNtZDBzeGVRaUVUdm1lU0lZWHhNUl92QWlfa2xxLUpsRTl6NFFPdFRvZFp3NmtkYldrRDBVajRMQS1FRDJDZ0drSDVrWmZSb0lvWGNwMXBiOUNZLXJKRmdfY3UwVUJFREkyaFRWN3B6b2s1aTZvQlp1T3NjZGxmSDA2QzVwSEdWTzFPaDdmVUJleVZEaUdPY3p5cWVjTEM0c1pRM3pjTkZZbk1mcFMyLdIBygFBVV95cUxPR0hYUEZvbDd4Sk5UbTNOT081czRBbWxpa3dhT3B3akR3cXYyNklycl81QVF6MWcyM2tET2ROZ1F0RHFWQlJLU0U3UEE2WnMzSWhBSUwyN1RKeGN3QlBJYkhzdzlyXzVMMHFJd0FZUWhmbUdEaWV5SkhlTVc2Y0drOC1iSWNicEdKR0E1dllBN1N3WmRYS1hNSW5EUFBLUHY4UTRMM3B5NDNZdVJ5X05IcEZIaTV2OTQ2bVY4Q2t0TEd2d0ZQUFp3VkRB?oc=5"
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOVVLckN4WEFuaDBBd0FUQXlRWmczRWVLUjBLUWNxVU1jMVVBMTd5TFB0U0tod1A4RzBOemZXa0RpcUZiZHFFMWNkcFVaSHU3RkVIWUtuaThielBYTElMZFIyZEc1YmVrSEdNeDdUdzQ0S3ZEeFhwZno3YzUwSlVIVFNjTjR3ZzViSVA2YVZWODRXMV84bC1jd0J4YWFVSUk3c2ZRNUdIcC1GbUJTVHV2ZHdSNmtIRGsyV3ZyOHoxNnp6VUI3cHR0VlRn0gHQAUFVX3lxTE5ETjN6ZEhEMFNUN2tYMWZnNnlwWnlhNE1LWm11NVhhVWozSURvQkFITFZqSmJWZGRKUDBHajZXTWl1dFRJeXlzdUY3eHNmdXJoeXZTWTdVZ1ItbmhILVRHYkg3WE9ORjRKRnZjTGZWSFF5WWNBcHR1MllRcTQ1NVZHQXRrZWM4SkxlVGtJVjF6Zk90OXVKU29aM1h0bWZNdDJzZ0l5dFZNZ19Rcm5WQ2FLUGd6ODNuTXhoQTV0TTZHekszd2RwU1NLUFJJTkllNkU?oc=5"
       },
       {
-       "name": "تسنیم",
-       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeFhONEdBR0ZxYk92RmRaU1BjSEtTZ3hVNk9XOFhVeHFRT3FSOFp0THp3OVFSN2Jxdm1UR3JGaGxFX1NpeXdMSmV6eUdDY3Rzc1VOYzYxc3JQTXlGMjZjS01UbF9BU1Q0R1JDVVBPUnoyWlZEeE5kNEFkWnpZWnFXZDJ4OHhUWUN6LW5XbTJKYkhIVTlLX3pWX3gxc1UxUlNSaTlBdkpsMThhVzFYVUJjQzNnSEpGd0VvVkN1VNIBwgFBVV95cUxNVWNGZl9SNGF6aWZaakZnVGJ4anR6ODlFMUVNQ0Rud1NCRU1hak1hZWdzZTR3cXJzTjFNRnpOekJUdnlHVmpZSEM5NHlndk1objgtTG5NYXdiSGVxTUJjNWlHeERQWVhwWDVRR0NZMmJKdVVFNW81bzE0MlRTN1ZKd0I4bWtRM04wSG1Cb2NkOXNTM3p3Q3lJT1diWGdXR2NwVVlhRHRTMkxTVXhOelRzUWtIZUZZZTc5NTZZTTJoNXBPZw?oc=5"
+       "name": "The Economist",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY01EWk1KdW41dlg4TGtnTG5nNEtQVVFzOUluOU9vNjFlQU9nY0NvVHZaM0xiWFVXQmxLRXRXZ1ZieDBaUk52cUd2SjNzVkt5dmVTdFNBOFpkc1ViaTNJUldLMy1TZG9aSHhMMlhldVp5Y0FQb1NDUkdtbEZlZFZrZVpfTVRNRkFHQ1hnTVdoSUpCNnUyRlFz?oc=5"
+      },
+      {
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT2FsS1lEX1FZUGQ4UnpXdmJjZkNrTFdSWEFJVWhzRWFXa0pFV2l2MEN4YzhFTDFvTW5fX0EyRmw1YkdVS1Zjd0tqSDh0RVJwNGI3ejMyYUZJV05DQ3RfNlhYdkNjX2oyZzVtaU12SG5xU1RQUmlFd0VsaWRDUVBvdTVxckl5Nm14S0g1OV9KZUhVYmlvalB0Yk1Lam94VzAwdHJZWkdKMjBqSC14S2lqT1U4LU41T2hjRFlFRFBFV2RfYVdBOExB?oc=5"
       }
      ]
     },
     {
-     "headline": "China's economy slows more than expected in October",
-     "summary": "Industrial output, retail sales and investment in China all came in below forecasts in October, despite a government stimulus push.",
-     "detail": "Bloomberg, Reuters, CNBC and the Financial Times all reported the miss on Monday. Demand for Chinese goods abroad has been strong, according to the Wall Street Journal, but momentum at home is slowing. Some analysts also point to succession and stability questions in China as a longer-term concern. The data adds to pressure on Beijing to do more to support growth.",
-     "analysis": "A slower China matters for Asian exporters, commodity prices and global demand. The gap between strong exports and weak domestic activity is the key contrast to watch.",
-     "sources": [
-      {
-       "name": "CNBC",
-       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR2M1YTlBdHBScHZBdV9FWFhGcWgzVGVxbG9Cb044OXdIYnRtZ2l0RFlnY09kUW9vWGZjNGRZOVdkUXRvTVBEa0MxMnItWDZsVzhRVkJWNTNydURkZmFaSkt6ZGNkSWRZWnNrLW9kd2dTeVU4eVduUThfZHMtbzA1Q3ZxNGtQeHhkazNjWWh0Vk1nOWczWjdZ?oc=5"
-      },
-      {
-       "name": "Bloomberg.com",
-       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjFiTE1FdTd4TV93WnROMERVZXMtQzdSZDRTOTh3cVhocV9Sb1NSRVVGelJYamtpWkwyLWc5WTc2MGRWVUJWckNkVVJTOVBUZTNuN3Jxdl92R1E3dWRySnk3RTAyZ3BlVVI2bGZKbjJKb0U4WkNSS1VJU3dQZ1B2eUJXaUF3TVZaWk4zS0N5RlVVSWRlcXZ4UkZQYl9nQkxrRkFxNF93dm94c0NLWEdCa1d3X2Z2UQ?oc=5"
-      },
-      {
-       "name": "WSJ",
-       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVl1aGxrVkh0SGpPTXRaUHpEM0lTTmQtdHEySlRNWE9vbVh4OWJwTlBocGpiQzBrVHg0RGFndGZkRGFGWWdxb3RMdHBsc1c3alFpbFNqVUxEVm1yUUwwN2F3NnpOQl9vZVpPbS1uZnJ3UFJyVXpCQ0FIc2FYNWI3b05haGVNVG1IY2xB?oc=5"
-      }
-     ]
-    },
-    {
-     "headline": "ASEAN and China fall short of agreeing a South China Sea code",
-     "summary": "ASEAN and China did not reach agreement on a code of conduct for the South China Sea at the latest round of talks.",
-     "detail": "The code has been under negotiation for years, with the aim of reducing the risk of incidents among rival claimants in the disputed waters. The meeting took place alongside the ASEAN summit in Manila, where Philippine President called for greater regional unity amid geopolitical tensions. Prime Minister Modi is also in the Philippines, where he highlighted ASEAN's role in India's Act East policy.",
-     "analysis": "The failure to agree a code keeps a long-running dispute unresolved. Its practical effect depends on how the parties handle incidents at sea in the months ahead.",
+     "headline": "ASEAN and China fall short of agreeing a South China Sea code of conduct",
+     "summary": "ASEAN and China have not concluded a code of conduct for the South China Sea, though both sides pledged to avoid disputes while talks continue. The disputed waters are a long-running source of tension.",
+     "detail": "Al Jazeera and Reuters report that the talks did not produce an agreement at the Manila meetings, while The Hindu and The Times of India say both sides pledged restraint during the discussions. The code of conduct has been under negotiation for many years, and the core issues include how to handle overlapping territorial claims and maritime incidents. Several claimant states in the region have their own positions on these claims.",
+     "analysis": "The lack of a final text means the framework for managing incidents at sea remains unsettled. Watch for follow-up talks and any incidents in the coming months.",
      "sources": [
       {
        "name": "Al Jazeera",
        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUWZCU29ZQjF2ZG04X08tMWUwUDhhYy1YTVVaTkY3N1NtV2JJR0FXWmRRMElLQmI4VmpWMUd4T0drVXVFTm04UWZoek5CRUk2WDF6dnptOGxqdjdPbGdONndjc2JLWFlnM2xRTUZLZkxfVU1rVDdMaTZ6MUExNWVXSUsxcmhDNTNPMDRXTEQxNV9FTS1aMlQ4bjI0aGZpV3dMenfSAacBQVVfeXFMTkVJZl9VVnFOeUFoSWxlSC00czhOcHdsZ3RmZXhvNm1lRXR2UURDSkE0ckZGRlRRODRLeFdNZ3IyZGxzQk5yNnJObUYzQTZ4SkluT284WHlyMWZ6QjNjZW5YYm9NQ3NiLTVGb2ZkMzY1UG0yUUpLRVFHLVJqSUdkblgtUjNGMGRnTVo5ZmpXa3dhWGRmcGFoSVpBRjNxTDViNmRycElmX3M?oc=5"
       },
       {
-       "name": "News On AIR",
-       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObXBGOHVOb1Boc1ZBTGtVdDU1Z3dKT2VKRUZ6eUtpYXN2dUQ3ZTNVX1dGQmZGY0loMVVTeDVjNHQ3LVlnSUdOcktJTXpEWnRNbTNaS3RpMUtzdk1LMmltMW5hdVRpMU4ybUt2Uzl6X0NORWJMN1BMd2tlWjNIN0RYWm9PNjNRZ1FzWnlGTnh2eFlQV0dP?oc=5"
+       "name": "The Times of India",
+       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQazhTbXVqLW9LSU5COFAwUnBlZUhKTlNoT0RLRUZLS21hY3IzUFBoRkszME1ZNkM3R3JVVmZLTUlkbk9OYjNhOFBfYkw2MjBkcF9sYXJ0Z2ctek5qUmpSRVJPdEJFVF9MLVg3YXl4ME5PTlZ2UUxzd1BSWnhvMlFadUp5TmYxaXliempMVklYbC01Yi1KQ0JhZ2xrTTVmeWdTTDZsVUFWWTBaM012MUx5ZWcxSHF3UkJ5TjlUUFNNSG5EYlllSkQtdlNDcG1VekxlYXdQX050MU8tZ0NGaTN6MXZsTVpxUDTSAewBQVVfeXFMTnVqTkE1MlZtWjNWRDl3YVlvTEdZS25JZ2ozYk1qQWZZLWpuV1lMT1RMWDk5cjlJNnlKM0Q1UE10VzRVUnZkenRhbFJPempGekV1MmgxYVFOcTNOUXJSRWY3cUxaZVEyRXZLaHZXSDh0WklIVWNGUjhlV216cGhzLVZtTGpnNkh5dzQ4WVdGdGpDV3dqMVBsbXBka3MyTjdiaGk2M3M1RzlNdlpxLTF5Snh0ajFFMm9pa1dSR2swOFVFUDNjMHZPV2h4c3NfelJpTmh3RHd6QU1NQWtHVXE3VU9SWUdtX0w4TlJrNVA?oc=5"
       },
       {
        "name": "The Hindu",
@@ -148,38 +144,82 @@
      ]
     },
     {
-     "headline": "US air travel recovers slowly after a nationwide ground stop",
-     "summary": "A nationwide ground stop of US flights has raised questions about the country's aviation infrastructure, and thousands of flights were cancelled or delayed.",
-     "detail": "Reports say the disruption was linked to a faulty router, and the FAA is investigating. The FAA chief has said US air travel should be back to normal by Sunday, while the BBC reported thousands of flights cancelled or delayed in the days after the grounding. Commentators have pointed to the air traffic control system and to a single router in southern Arkansas as points of weakness.",
-     "analysis": "The episode shows how dependent modern air travel is on a small number of technical systems. Investigations and any changes to the air traffic control setup will be closely watched.",
+     "headline": "Chip tensions loom over the Trump-Xi summit as both sides push AI safety steps",
+     "summary": "Reuters reports that tensions over semiconductors could overshadow a Trump-Xi summit, even as the two countries push forward on steps to make AI safer. Chips remain a central friction point in US-China relations.",
+     "detail": "Reuters says US and Chinese officials are both pursuing AI safety measures while export controls and chip access remain disputed. Bruegel notes that the Nvidia turmoil has left the US-China AI truce without a clear defender. Foreign Policy and Bloomberg have analysed how Xi Jinping sees a weakened Donald Trump, and some commentators argue Beijing sees an opening, while others point to Xi's own economic challenges.",
+     "analysis": "Chip access and export rules are likely to be a major bargaining chip in any deal. Analysts will watch whether AI safety talks move forward independently of trade disputes.",
      "sources": [
       {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10eldobVVJNEs3SHAwbGNnakh3bExOZ2t6SEtpNjloRHZndS13UTBFUXZMUVA4RGZCZE9DTUVxRWJBMmxRdndNX1Y3YXJ3NWMwUm5JQXlkdEFxMEZJcVhmaUZtd0tGTk4yRFBKOWtjT2pJaXQyX1JxZi1Sd2FTS0VWS3A0bDFmdk1RQTE3MnptQTVIa1o1UUFiRXExaFNETEtLcV9OV0dzWTBUcV9DNmptN1lEREgxd0dZLWdV?oc=5"
+      },
+      {
+       "name": "Bruegel",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmVsQldBejVYLUZmaVpjMkxEcEhab2lLS05naE5TOTZ4LUN3ZnNhTV9HaklDRVJ6TUUxc3FxSk5vNVJDTXVoTGNKR0stM2tLRm1oUkNlN2xlc1BSQm9nZE9ueHFzSHpidjh4U0k1MFJjR003MXNkMGdqYVFwVVhsT0MycDF6ck1BUURXZXpaV2J0S1NXSVQ5dUwxMW80bkVkbVdVTjRXejRQT0RrTFVSZjVYR1Q?oc=5"
+      },
+      {
+       "name": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOUpNcGVNQW5Wc0Qzd3ZIWWd6N1lESUhJaGp2eEpOMmFDNGQtRUdNanQ2WHdDMGdRSVlkc1lCcF9PaTNQdGNOWVdtSjdGUE9SR2hlN29tSXRzOUFGNWlXYmVmdElEWkJwbzZ4ZUtOdXF1b1Z0TFY3R2otRDhfbnV5VjZ5b3B0cjlZZlJTT2NnOXR6STlJa1VtQng0WWpIb1VlLVFOMDRYcUV3SXo1OFI5dzl1WQ?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Anti-Houthi forces pull back from Bab el-Mandeb as rebels advance on Aden",
+     "summary": "Yemen's anti-Houthi forces have pulled back from the Bab el-Mandeb Strait as Houthi rebels advance toward the southern port city of Aden. The Red Sea shipping lane is a key route for global trade.",
+     "detail": "DW and BBC report that government-aligned forces are repositioning to defend Aden, and Al Jazeera quotes Yemen's army describing a repositioning of troops from the Red Sea. Houthi forces have also been reported attacking airports in Saudi Arabia and Yemen, and claiming missile launches toward King Khalid International Airport. The Bab el-Mandeb Strait links the Red Sea with the Gulf of Aden and is one of the world's busiest shipping chokepoints.",
+     "analysis": "Any shift in control over the Bab el-Mandeb approaches would affect shipping costs and insurance for Asia-Europe trade. The UAE has condemned Houthi attacks on civilian facilities, according to DD News.",
+     "sources": [
+      {
+       "name": "DW.com",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTS1tSGlzRkpkUW5oZzB4LTdKQllabHFIOUczNV9WeXMwLWJJOEhTN2RaQVVKbGowMjdMbXFydkluV0VUcDZ4OS1SNXd0azJXVmhZMjVtZDBGZjFZakR6Z05xajNRQ0JKandKYklnbVJ5YnFrbXFtbzhWZnlIZTZoLVY4UVVnSUVOMk5KOWV30gGOAUFVX3lxTE4xUFgzZURkM3gtYjlndThTLXk0WUVpT1VsTVJqeUVZbE5RUHRYdWtJUFVFM0hUcWlMcGVkcGJxSVlYTWNwVTd3NVo2ZXBKQW1YU3VEV3pXelY3VThVSzZGYk9SQm4xZWt4aGRMLWtuYUN1dkl6SUhIZnQwd1JhT0s1UDhDbERCb3oyMUtmYnc?oc=5"
+      },
+      {
+       "name": "DD News",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd09KblhXMTMzVElsWVBJQjkxYnFHR0sxUk5XeGppR2xMa0NZa3dyc3NlMUp6RmJjZ1JUQ1VPRWN5VnppQWlzT3U4UFN0UVNTZXJDOUNlOG1hcXdOX1BZZHUxVFhxcF9OV0hXTU5NUHNPeldIRzdvVDRHMnlLSFZRYVpKeUdOaXZBTUVhVElFWnU4djRBeFNMbm5POThYUUFwSGo0SU1oeVlWNi1ORDJod2ZBWDRCay1uTW1RSUdFZ19GUkhP?oc=5"
+      },
+      {
+       "name": "News On AIR",
+       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQZmFaZGlkSGtJSk1NQld6Wm02UVlsREF0YVVJNTc3ZkZtcHppbFZfRnlOcTlQWE5NNlhpRFNSS2E0b0VKN2NQREdqVTVaYnZPRnR0TXVmRUprLXBfMW1tNnU4OGp3d2JFLXY0NXI5WDRQRU42SzU0cTlGRlNBMHRxOVNzRVVwTmxtbEMxbmsxVS0tTnkwQkh4MVMtX2dYeG5JaksyRWhOblRZQjJxUUNzUWR4ZXlnTlN1bU1DNXhBOHVSeE1UMzRISW5KUk5oUEF0V0NlTXZXM0JHU250Y3RWLVhlME5jbEhMWHhMWlR4cUJVNG8yLXUyTGZYd3hJUXc?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Iran rules out UN inspections of damaged nuclear sites until the war ends",
+     "summary": "Iran has said it will not allow United Nations inspections of its damaged nuclear sites until the war ends. The statement adds to uncertainty over the future of nuclear monitoring in the region.",
+     "detail": "Arab News reports the Iranian position on inspections, and the Institute for the Study of War has published an update on the situation as of November 15. Al Jazeera reports that a third US aircraft carrier has arrived in the Middle East, raising questions about whether the US-Iran conflict could resume. The UN's International Atomic Energy Agency is the body usually responsible for such inspections, and access restrictions limit independent verification of damage.",
+     "analysis": "Without inspections, there is little independent confirmation of the state of Iran's nuclear programme. Watch for any diplomatic channel that could reopen access once fighting stops.",
+     "sources": [
+      {
+       "name": "Arab News",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdVNFZ0FUdXF3Y3VXNllPT0d5Znk0TG53X2F3cllhTzIxT0FibWg3LVdlSk8tUWlwR1g4TWtzMGtDZFdDM0wxVXZ1ZjNXUEt5UnhwR0lpNV94anB0dVF3UE51R2d1VE8wVEtJNDQybHdoNGw1Zk90bVFLcFdnWXVkeURaWmxyWVFMZGQ1Z3RWVE5BZk1idDZDMmppOVpDRHhUWHcxb1o4LS1KVURLVThkNl9zWGM?oc=5"
+      },
+      {
+       "name": "Institute for the Study of War",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYkpGTlg3ekg1dWVwU1BicDN1WWxTTFpxRENpaGxnQ0IzaFFaVEt4SHF1UjhXSE5aNk84UlF5TXZhQ2QxYjhVSFdLQnJyV2RJVFhsMXNJOVJMZmp3YXVDV2lsaXBoWnJfbEpQM0ZPTW0tUERzc2xRMGhCb3FYOTR0N2RqanhzUQ?oc=5"
+      },
+      {
        "name": "Al Jazeera",
-       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaFFsZWNIaXRqdzZIS3I1S2RYRWIzb1VXV0xiYjdUbkJDZWRucWEzcVl1b2p1YkVXSzRSUmowVS1FUWtSMF96a3gxTkEzdWZxUW5kd2s1T0FXeUFJZklicHhtVTRveVhCc1hmdGIwcDZjc2YtdkpoSzZBVHhONFcteURjT0JYRjU4XzZSYWdEbmJCODBlUjF3NTNjbFdXblAwbmthaUFfZ2Vtc2E1MHh2THkwRnd4UdIBuwFBVV95cUxPZVkxTDJIdl8xWG9Yalp5TzNIbVRtQXV0Y0hUbDR3RTdnZ0lQQldfMmtCd0plWHB3Z1BCQ1ljNnVOV2pneHhXS3ZkOFpNaEdRclRtQWxnZmxQRHJpR3FjbUloNkZiZktRR2dpUlJSWnpWWnBXYkVmbElNNWxNdWpLb2lMY3JlS0t6X0F1X1VZZ2M0SW40SElaQm1zX1hGclRmRWVoRzhibzZpYXZXZ2lmVUZVRmdqQ3dNMEl3?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeV9idVVUaFB2a1hNbHIxci1yVmxNTTQwczhxSFdvZXFxWVIwX2NDVUd1Wjc2UHprbUxsaU44R1JvYWpqMmdVLTVuNy1Cb2lTYkpTQ3BuMW90a1B0TFdEUEYzcndiZVI2WDNHRDd1Qmt0N0ZwSzR3Si1iS09SYXZXMTV3bExYMEZNTGZTU19nbW54QzQ0VVVVc3loY1RQcHg4djY5eVJXVDdLeDFWZC1oUVl4NNIBuAFBVV95cUxNQ0dvV2xFTmFuLWVhbmVycEw3T1VsUVA5bDVsc19Ibkl3ZUtRWm93MEVjTlBKV01pSFNiWXkwbWItdzZaV0JyZ2FuUVJTM0ljV3RaWDVqLThWcDBTdEN5NGk2NTdyRmdBWDhDRkUxRi1CVWQ5M0xVcFZBU3Q1OGE3djBWenFYczdJYjFaVnVrRlp2OW8zX3ZFeW5TZGdhVDItM05WelpTVVdtb0g4eEFoRGg0M1pLNFBl?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "FAA network failure from a single router forces a nationwide US ground stop",
+     "summary": "A single router that flooded the Federal Aviation Administration's network caused a nationwide ground stop in the US, disrupting flights over the weekend. Officials say flights are nearing full capacity again.",
+     "detail": "Hindustan Times explains how one router overwhelmed the FAA system, and the Wall Street Journal has reported on the specific equipment in Arkansas. The BBC quotes US Transportation officials saying flights are nearing full capacity after the weekend disruption. AP reports questions about the FAA's new AI system, though officials say it had no link to the stop. Insurance Journal has noted that airlines are working to restore flights.",
+     "analysis": "The incident highlights how a single point of failure in aviation IT can ripple across a whole country. Investigations into the cause are continuing.",
+     "sources": [
+      {
+       "name": "Hindustan Times",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdzkxZFJmN3FZX3U5ZlUzdXZJM2Y5X3ozQW9hN1dRcjVGb2MzbWFQVEkyN1pTQkZic18zajBCVDRVRWZCdkFKeHB2NUJYRUZYd1J4WEZ6b3VUbVpGOWJaOFdybDZaVERuTDNsTnRRb08yaVZ3RmFTd2gzVWY4SC1UMUxrbU1zenZ6cDFoYjBCclV6RE1xLVNTY3JoYkVIbkZ1QjN4eU9TckxjOGw3Q0FWNmpIV1dwcGdBS0J3ZtIBwgFBVV95cUxOUGZtOVRKRUtqZ1A4UmR2bXVIb0I0RHAyTzd4aENMUnJzaDNBTklyc1pzTktuek0xNG9QdDlTR0dfYXYwbEY1aS1ncW05Z1hBV3ZuTTdTT2o2ZXlnQWtMNHVzcF9aQUowU0h6bHNzMVktblBNTnNwajJVOEttTWFNQ1JKN3c5YXVzR2d4MTVKaEplMERfYkh2dXlCRFk4aDl0TDdQb1ViUzNXSkVBVzZHVEpsRVZXYk1GWU90Ymt1a0FVdw?oc=5"
       },
       {
        "name": "Insurance Journal",
        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xNV9aVFVkNHUyelJHUDVDeDVLdXBCWjJZTlQ1MGF4WERiQWU5MmJ1NlkzdExHQ2dQeWF0ZnEzY0lNN3JER1luaUJ2UTRNUWhrQ2haVFZfQ3pLcDdDT3hNdzBUWVc1N0ZxWDB3R3RLc1VKRjNFOWNR?oc=5"
       },
       {
-       "name": "Gulf Times",
-       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQUYtdDdNMWNxOFh4eVhsdWtlM0tZRkduWHU3V1RILXc2SF92VDdvV2RMaGJ3UDFsbkZ0NWdVMWNMVWVVT1E5aGt6N2JieVRvR0JiY2tvbjh4dGJYeU1PVV93WFJZcXZub2xsYlJqRC02bXVqeGttTkRhX1BmRFVjYTFQWURmdDlwRFAzNDBOVDZVanBTMDloVEZzRFVxNWxCVmVac2VnaHVhNWh3U3NKS080Rks0dUh4Qk5WLXE0THpld0XSAcgBQVVfeXFMTWxfY0FOU2p4eEZ3VDMydjZrTnd4My0wLU9GU0c1LTZwN280YmQ4RDAwYm5wZmhCeHlSMS03ZXJTaGFrNVNzMTdZVE9lSHdFX0NCWWVZRHdMUUxWWGRDd2dFdWpJVGU0eU04cDRrZUhIQmNHNzNIb2JXbDB3aFA5OTFkQ2k5bGFfNElmSlZJdGU2LWVNU203WWhWbV81UWdxYWxRaDZ1LUZxdzJOWFc1Zk9vb3RobDNnZUMzZ0ttVEYxMjhLTjdqS2M?oc=5"
-      }
-     ]
-    },
-    {
-     "headline": "Quad leaders to meet in Manila as the US denies the grouping is faltering",
-     "summary": "Ahead of a Quad meeting in Manila, the US has pushed back on reports that the grouping of India, Japan, Australia and the US is losing momentum under Trump.",
-     "detail": "Japan Today reports that Trump and other Quad leaders are due to meet in Manila on Tuesday, though one outlet describes the leaders' meeting as possible rather than confirmed. Commentary from ORF Online describes the challenge of holding the grouping together. The Quad brings together four democracies that share concerns about China's influence in the Indo-Pacific.",
-     "analysis": "The meeting will test whether the Quad can keep its agenda on track despite differences in approach among members. Watch for statements on maritime security and supply chains.",
-     "sources": [
-      {
-       "name": "The Times of India",
-       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT2FsS1lEX1FZUGQ4UnpXdmJjZkNrTFdSWEFJVWhzRWFXa0pFV2l2MEN4YzhFTDFvTW5fX0EyRmw1YkdVS1Zjd0tqSDh0RVJwNGI3ejMyYUZJV05DQ3RfNlhYdkNjX2oyZzVtaU12SG5xU1RQUmlFd0VsaWRDUVBvdTVxckl5Nm14S0g1OV9KZUhVYmlvalB0Yk1Lam94VzAwdHJZWkdKMjBqSC14S2lqT1U4LU41T2hjRFlFRFBFV2RfYVdBOExB?oc=5"
-      },
-      {
-       "name": "Modern Diplomacy",
-       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHVtNVd2UUhtblM0dDRtZ3czZWxNMGh4N3JURUpWcFY1bXFYRW9YVEtTZEEwdWtOdFRLOUx1TURfNkFTVlhjMm1CaGZnb3Q0d3dEX2Y3M1p6ek1nRjBaQTRzT2UxXzltWngxSWFNS3JzYy03b3R2QmNQSTJvd1pubTJFZ0FUc3RTcGJfdkxLMTAzUFB5WmtNUFp5SEtIdUh1Y3l4MjBjQXcyMlk5STlNSE9QN1Y?oc=5"
+       "name": "ITIJ",
+       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRkFPUlFsVTc0bFdlWldDUTNTMmpadHd3Q0ZpamZHS09UdGlyampiQVgxb3ZpVlJQamp4cEJINDkwdVNrUHNpeDJPMTN4SDlId1dkLVNoTk11NkhIUVIzVFBtcmZIOHlON0kwSjZINnp5OFpjdFctNGFnb3ZfSU1qYWltQy1XZkdBal91aGFBdzRsdmdrUlNiWDZTUVZqM0NNdUE?oc=5"
       }
      ]
     }
@@ -190,58 +230,86 @@
    "title": "Indian politics",
    "items": [
     {
-     "headline": "Election Commission tells the Supreme Court voters deleted in the roll revision can re-enrol without prosecution",
-     "summary": "The Election Commission has assured the Supreme Court that voters wrongly excluded during the Special Intensive Revision (SIR) can apply again using Form 6 without fear of prosecution.",
-     "detail": "In new affidavits, the Commission said measures are in place to re-enrol voters who were wrongly excluded from the draft roll. Mamata Banerjee's Trinamool Congress has also submitted affidavits to the Commission in compliance with a Supreme Court order. Opposition parties have questioned the verification drive, and some commentary asks why the exercise has put the poll body under scrutiny. The Commission Chief Gyanesh Kumar has said pure electoral rolls are the bedrock of democracy.",
-     "analysis": "The row is about the balance between cleaning up rolls and making sure eligible voters are not left out. The Supreme Court's view on the affidavits will shape the next steps.",
+     "headline": "INDIA bloc seeks Supreme Court nod to put 48 questions to the Election Commission over SIR",
+     "summary": "Rahul Gandhi and INDIA bloc leaders have asked the Supreme Court for permission to put 48 written questions to the Election Commission and Chief Election Commissioner Gyanesh Kumar about the Special Intensive Revision of electoral rolls. The Commission has defended the exercise.",
+     "detail": "Reports from The New Indian Express, The Times of India and Bar and Bench say the opposition wants to know who ordered the SIR and whether the Commission's decision was unanimous. The Hindu reports that Rahul Gandhi told the Supreme Court there was no proof from the ECI that the decision was unanimous. CEC Gyanesh Kumar has said pure electoral rolls are the bedrock of democracy, according to News On AIR. A separate petition seeks a bar on Commission orders not backed by a Section 18 decision, as reported by LawBeat.",
+     "analysis": "The Supreme Court's decision on whether to allow the questions will be closely watched. The government and the Commission argue the revision is needed to keep rolls accurate, while the opposition argues it needs clearer accountability.",
      "sources": [
       {
-       "name": "TheWire.in",
-       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUk5odFNYMDNfOGtGQklPSEVfS056X1plRjJfazYtWW9NLW5yc0tTS05oMTQtLS1qa0UtUjdrZXAzQ2NFdEhvVnJ2RjVuX0lrMWNfSWVLZlNmRnRkUXoySTdWWHNnS1h5Y05vcVAxVVlEZmpSb1hSZF9mSjlVdVFpalBIeEdZbzV1RkZzU0prQ0dUSWpLdnA2cWo5bTNoWmJ0cTVfckJ0eXFrOTh1MjBvZG54eE1ENC1Ta2pnZXBB0gHQAUFVX3lxTE9HY04yWm9IVkRxUXFXbmluSlFCdDlGOXQ4MTJINGFXdEpnX3JlTUFyMW8zUHdMYzJoS2k0WHJaRDVvNnhBS3gyLUxkd0wzdXBOQzR0aElKQWVPVzQ4M2dLcWRpY1pPYjNlenZWcTBXTjBTeUxlZUxXVzF2TUI1SW5TaFV6OERvSENhYjRIdHpRbkI0N2c2OVZaRXh1QjUwTUhRZ2ZKVEhObVNqTnBnMWNhSHlUMWFiM3lNSG9MQmtqU2s5WXRIVTc3dTFoTGRWZzg?oc=5"
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa1VyU3JSdUZjM09GM0ZKQXhkbjUwcEd4YnBNb0NKeUZqY2lhb3B5UkdMblRhYVRGZTB6UlNoSUZsVFAtWU9GN3VfUTRDVXM2S0hjUm9GOXItZzVXcFk0MTFyd3daTDlyVWJFbXlPYlkweGttRFhWbG5hVUp3aFE3Y1FMQ1NtRGxmQUhySGNNa1BrNWNFUVNhWktpSkhqcXVIbGZ3d0ZZNUZpZHg2aFBrcFY0Y2F0Z2JPRnY5VTBRY0tHS1ZIaVp1clpneWhmQlltREJscE1OMS1peVg2UlBJ0gHkAUFVX3lxTE5MbjlLTm50Ymd4Q01PQS1nTjl6ZzBGOXoycHQ3eHU2eFVrR2p3NkE3bWdpSnE1alZmVnFDdU95ZXJIcmk3STRxcy1wcmJfUTJMcEdDUkw2XzJ5MmtvdkJpRm13ejZhdXg2Z2lWamdndlhQMXJzaTZCN0ZrYUZaSFNucHNnY1RRMXpmSllLMHpOR3owOW40d3hubFpLb01kVXEyWjQzRW04Wm5yR3lLZHIwc0d2cTBkRUNKd0d4MUw2TXRlak51R2xReGhubWlvUDVOUFJ0R0FZWXlmYTFTbXdzelU3bA?oc=5"
       },
       {
-       "name": "LawBeat",
-       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdjVpbTYwcmgzeEZGb2RRUGkzRC00UTJHRm4yN1dlam9nd19XdjVjUEI4MGVPRmR1WkY2TjhUd2dCSGQ4NDZGbzRtMGk5TjN3SlpJNkNNeUxzNWhCZVoybzJkdkxmbGc4OHcwR19rRllPVDN3NW9TU3d4QXpJX1lWLXVBbEU5UGdBQnlaQlNjamhEcUNGdjVSWFRvWGZmamxUU0ZWTDMxSGg4a1F1cXI1QjRVa2ZOaThPWU9jYk84MkROUzZGMUc00gHMAUFVX3lxTE1UenA4OVlzbEFfZFhuMVM3T1ByWVBGVEZkM1BDWTFObC1pbVU0LWZMaVpjblRHY1lhNUw3SXpYTWt0bTVES2gyMHBCdnAyZHdYZEx5aFIwLWFQWGNEYlEwMnJCMks2SkhHcGxqM2JBMFRwd3JCZHhnLVl2LXFlUjJ4R3JZM09BSnNYeVp3Y1VGTlFsbHhYN2ZyY1RiSmFfdGlWeERGUmthUnI4TE1pTGhqYUZGMUI0ZWFfbTV3U2NVdXRLUGNNZUlFa1BVZw?oc=5"
+       "name": "Telegraph India",
+       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPclBrRVlIaDJnVHdzeWRXd1VCNFVKRjdyYTNOdEZpYWc0NWkzcDhsQnJaeWtSUXVHSzktWV81WF9Ga05SOVd5VWZEWTBSenJhSzBqWnJIUHpqU2xkdEJPN1ZfbTFLN3lzVjBpMEM1SXUxYTdmaHFFSjZfWmczMW8zZkQwVENIZGVvME1qN0lDSUlpSUdfTGtpZDZqUllHQ2xjN3l5eXkwaFpQYlZXMXZzUGNxdzhpRndqbktjcWVtdDNzbmQzQ2RYbDZQM29mZmZoVWVJUUwxeWs2ekdDc2xFRk1na1V4SVhoWnF3eG16UGTSAfYBQVVfeXFMTzJJN0stVFhybE51M1FndWhOOVF5bzRuTmN6dlN0RGZEaHVGRW1rVzdZZXhVOEI3akNOdjlVQ2xsREF6U1BmeHZiN19jR0RvdFVZOGpiaWQ1R1E3NWZGYk00dHZYMWQ1NnFTR0liZTJVcGZ4Y0NydG82cXRsZkRtTWZkOUp4d1JXOElBMHdrdWxTa1dtM2hJUVVXX21SUHJIaDJ0MWs4djlhYWRkdHJMNm9DSXZoT2xkU09uTTlOYzMwSXFNSWV3SloyRlkycU4zQ3VvbllWa0hUOEVwVTlPMm9lTWRGamNDalBLVWNBSWpEQnlmX3l3?oc=5"
       },
       {
        "name": "News On AIR",
        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRlFSOW5JQXRtbmd2b2c2RUh3WlZkcWtmTnRsR1BRUHNFTHVqUV9VbUVMbUlSLW9qMUZENmg0eGFXRFVpOVFqYW1Wc0NaM2ZZcG1IU1dUNHdfa1VETGMwTjBFT3FjcEtsRWczdUk0d3Q1UkN6X21UaGVjV2dxMVh6YWRzbVA3LUpabm5hcl9ybnNNRkhqellEYU53?oc=5"
+      },
+      {
+       "name": "LawBeat",
+       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdnR3V3p3V2M1Ty1Gb1ZucTBidExIajNTOVFGcUo0dlNoZ0d0ZkRWY0dFQ2o0YTJoVUpkSXV3ZHYtb1Vib1RZWmRVTkc1d3Z1ckNiOVJwOVJtYktkSlZLdHJDNGlrSnpxY3ZvQ3p3ZnQtZmQyV005ZU5WZTJ1X0lOX1lEQ0k5U2V1X2UyQUQ1ci15b2lZMEM4NGNud3B2TnZqaFVwNDV2d0FER0J5Um9HakMwZDI2TnA5MlE5b0JqZTEzWER3S1RSREJNYV9mSFpfZjNJVEZKNC11YldKTTlXWNIB4AFBVV95cUxPdnR3V3p3V2M1Ty1Gb1ZucTBidExIajNTOVFGcUo0dlNoZ0d0ZkRWY0dFQ2o0YTJoVUpkSXV3ZHYtb1Vib1RZWmRVTkc1d3Z1ckNiOVJwOVJtYktkSlZLdHJDNGlrSnpxY3ZvQ3p3ZnQtZmQyV005ZU5WZTJ1X0lOX1lEQ0k5U2V1X2UyQUQ1ci15b2lZMEM4NGNud3B2TnZqaFVwNDV2d0FER0J5Um9HakMwZDI2TnA5MlE5b0JqZTEzWER3S1RSREJNYV9mSFpfZjNJVEZKNC11YldKTTlXWA?oc=5"
       }
      ]
     },
     {
-     "headline": "Bengal police encounters and a Chhath remark draw political fire",
-     "summary": "A man accused of firing at a policeman in Santiniketan was killed in a police encounter, the fifth such death in West Bengal in six months, while a TMC MP's remark on Chhath has triggered a row.",
-     "detail": "Reports say Chief Minister Suvendu Adhikari warned criminals that there is 'no place for goons' after the encounter, and critics have described it as a fifth 'encounter' killing under the BJP government. Separately, Trinamool MP Kalyan Banerjee's remarks on Bihari migrants and Chhath Puja prompted BJP criticism and a swipe from Adhikari at Raj Thackeray. The Chief Minister has said the earlier government considered only Muslims as a minority.",
-     "analysis": "Questions about police encounters and about how political leaders talk about migrants are likely to continue. Both sides are using the episodes in their broader campaigns.",
+     "headline": "BJP and Congress clash after a foreign politician's 'vote chor' remark at the Bharat Summit",
+     "summary": "The BJP has accused Congress of allowing anti-India forces a platform at the Bharat Summit in Hyderabad, after an Italian politician used the slogan 'vote chor'. The BJP has filed a complaint with the foreigners registration office.",
+     "detail": "The New Indian Express and India Today report that the BJP objected to remarks by Giacomo Filibeck, secretary general of the Party of European Socialists. The Times of India says the BJP lodged a complaint with the FRRO in Hyderabad, and India Today reports government sources saying the remarks violated visa rules. NDTV reports the BJP calling Rahul Gandhi 'Mir Jafar', while Congress's position is not set out in these headlines. The Hindu reports that criticism of the speech also emerged in Italy.",
+     "analysis": "The row shows how foreign participation in Indian political events can quickly become a national debate. Readers should note that the visa question is for the authorities to decide.",
      "sources": [
       {
-       "name": "The Hindu",
-       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMVNZUHF0NHk2UUZrWloxS1p3WXZMS3hIb0pHSEQySGQwMm03RG52cDIwU0FweERiSE1qUjduQ0tHWGNJdVJxdGlBbVZXQ25XSWJiS2gwVXhxQzdPRjEtM3V6Y2NCX3pyRW8zUDFEaXdLdlliWTBFT1hMOWNzZDAzd1hHQjcta1F4aWlULVhWc0dHS0J1akVESzhaTE5KZ0tlS2ZXcW9OcEFZcERZZ0VuN0xHeHNUeGlKdHNHYThuVG9hcnZFd25rU2ZtMEl5azRhWkl2Y3BBVWlUb0d3QlRSaF9TVTN2UjJnRlRfWNIB8wFBVV95cUxQZ2V1U3BIYU1RQllMOFRxRjNJa3NSSjdfeld0cXg5N1hVV25yT3hNNFpDWl9TdUlHSjhaRmZMdHBHdWJ6Zk5JbzlVa3ZyWkRCYTR0SjJMN3RqT3NUblZfV3FHOTVIWWh2YjRJOFhzRlo5S1dmaGNpd2ZYX2ZzdVhNOXRteUZWazRLbUhUeXZWSFE5ZmxpZkRmeXNnRTZBMlhIODNMdDRzUklVWGpyOU1JT3ROcG9IQlVCOHRZNkNjM2JFalBPWkttQmRvWlYzaXM0eEtWNzU1dTlVa1JraWhWWmwzaUhDRGVLaFBpSmVzMWJkeDA?oc=5"
+       "name": "The New Indian Express",
+       "url": "https://www.newindianexpress.com/india/2026/Nov/16/bjp-calls-bharat-summit-an-anti-india-summit-accuses-congress-of-aiding-forces-against-india"
       },
       {
        "name": "The Times of India",
-       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPejMyem1QNmRLcDdYa0RCT1JMWE1Kb2pQQm1tZDZTNU13b2JZNmdWOGpOS29uUlBHUHI1c2NNQ2s5MTdoZzRheXdzZ3NGWFZSM3MwOGJ6VEt0R1VHc0lVWFUwbnJzM0x3Sm9Db3Vqa0RGc09kaWhQbU5FeTc3TDFyb2o1ZXIzSWJKYUFUY01LTWJlX0hMdVE0Y0lqRmVVbWEyT1V3c0ljdUJyZUVfVDgzT0xNZ2Z2aHhTVkVMNU96MW01cTFZYXoyTW85LTdzMVRoVjNHSnlGd21sOVdGWXlBWlJVNk8xN09aOHhWNEc0TVJxa1Z0amc4WlE5OA?oc=5"
+       "url": "https://timesofindia.indiatimes.com/india/bjp-lodges-complaint-after-italian-leaders-vote-chor-remark-at-congress-led-summit/articleshow/135876255.cms"
+      },
+      {
+       "name": "India Today",
+       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYkR4OUhnRlZfV3dKWmZHZkJZU09rMGs3NXlQc1RmYTM4anB2WV9kZlBGS2YyLTNZU1RtXzhkektubWhpLVN6TzR2WnkwOHN6cXZ5YmttUzlxUWk4NkNzSUV4aFdZYWdIaktTdGxibXJ1cjlURk5qWk9CUXdJN05nSGwyaW1fdmJiUkhualhjTzRJMnprUmlDZkZNNDExNmlXZjZMYXljTDRISXFrUEtDOTV2cFFSeUZyTFhCODJUcTFhN081S2N5QURlNU9DcTl5SVp5ajNLcnFJV0dvX216NFJQOEN2SUdULV9PYkF3cnN3clF3d1Z1a9IB_gFBVV95cUxNSnRIcUIwVWJVLThjS1l1RUp4bFVzdUJtaWZIVU9vRkFQZ3VFeGhQaHZGWFpWSGMyV1lncDVLcXJMd2pITUF3LXRNTVFMcVdza1U2TlJMT2RlRGNaS2VBMEhYbnF3VHlhQWtVWmw2eEhhRmhiblpmN0JBRVpKYThmbFNWcDV4MWRyTlowQVZSZ2pVMk5CeThSZVJZelYtUHZwdGY5VDdzMkdJcTFKaGJqa2JoMjNvSkxTRVEydjhKVDdmWjRWTXFQb0MyWXlLUi1yc0Y3RDV5NzUxbFh2RXVhRlpIa0xYc05iMVptMkM2RnNtRW13UmhNZVFLUUhSQQ?oc=5"
+      },
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUDhVcUFQcldHa0RGZDJlYlBVVDNsdl9tVGpsU1BiQWZtMnF0TjhXRHE0VURTMmNsQVlZU2ZsRE03aFkyRGxTTXNHTkdOaEtDTU1NeExIQ3BNaHhGTTVzcDU2N21nM1U1NXVSMGExcU4xN3VWbjlfbHlIejd0OHlfNDhrTDQ4c1QzaWZiaTNvYkptYlRDN1p1RU1vdXhMV0o4T1B0T0hfSW9RMlpaak1yZGRsZm1uNWdONXV4YkpWZGZ5NTZQRUM1dUJZcUJCNjFEVjBLQjBLNNIB3gFBVV95cUxQQ1E1cVE2Rks0aW03ZVlYNm9LejF4TWhyekNtcGdmU09sTzRSTFpiR3RYM0xuaURnSmI0RUJGODFLX296XzFSWDItWTU3N05jTGR3aWxhN3FvLXRpdVdIMjBscWd3TXhEVmRsaWtUaU16NlotY1BqTkotaTBrV25RbXpTeG4wR3ZCUDNnNTBtc0djT3ZIVFlfQmVTSUhoSHVBYkJJTFdQLW04Z1JlT1lnUVFiMmdPTGJTOE5rRE8wSm9HRUlOcHNvZ2FTOU5PeEZ0by1rdmZpVFE3NUpYbnc?oc=5"
       }
      ]
     },
     {
-     "headline": "Parliament's winter session likely in early December, with the delimitation bill in focus",
-     "summary": "The winter session of Parliament is expected in the first week of December, with the delimitation bill and the women's quota bill expected to be key items.",
-     "detail": "Reports from India Today, Rediff and the Times of India say the session is likely to start in December. Deccan Herald notes uncertainty over the delimitation bill. The women's reservation bill is described as facing a key test. Parliament's recent tributes to Birsa Munda also drew a row, with the BJP criticising the Congress for being absent.",
-     "analysis": "The session's agenda will show how far the government can push its priorities on seat allocation and women's representation. Opposition support is central to both.",
+     "headline": "Parliament's winter session likely in early December, with the delimitation bill possibly on the agenda",
+     "summary": "Reports suggest the winter session of Parliament will begin in the first week of December, and a delimitation bill may top the agenda. Dates have not been officially confirmed in these headlines.",
+     "detail": "India Today reports that the winter session is likely in December, and India Today NE says the first week is the likely start, with the delimitation bill possibly leading the agenda. Jagran Josh and INDToday report similar expected timings. BJP MP Ajeet Gopchade has urged Prime Minister Modi to ensure representation of persons with disabilities in Parliament. Delimitation, the process of redrawing constituency boundaries, is a politically sensitive topic between northern and southern states.",
+     "analysis": "The timing and content of the session will shape how the SIR and delimitation debates play out in the legislature. Official dates are awaited.",
      "sources": [
+      {
+       "name": "India Today NE",
+       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbnhOOGZVSlY4ZTdZeG53UnpTVmwzQkppaEJ1SHdqQlpSUmdDeWZjMVRTSmFHZUxCM2hDcTBBT1hvT0NBQVJsLWdpTzVHOFFsYTZacUZxNVJ1Q1RjWEVfQ0xpOUZsWXJFd1JtOUppaGM1bFpzMVp4RGYwOVlzdks4SVdFVloxaWtJTGtSaUg4MzloTEZjamZ5ZmllMHVaeG1uYUZsbjM3cU5CWEx3Qm5JODZvcUR4S1FPZDhDcmpCOUFKTmc5SThSTVlkRVcyZXRUamt1ck51b2Rlbkg2Uzd2RVBzZG52VkRPUnNyWDNn0gHuAUFVX3lxTFBueE44ZlVKVjhlN1l4bndSelNWbDNCSmloQnVId2pCWlJSZ0N5ZmMxVFNKYUdlTEIzaENxMEFPWG9PQ0FBUmwtZ2lPNUc4UWxhNlpxRnE1UnVDVGNYRV9DTGk5RmxZckV3Um05SmloYzVsWnMxWnhEZjA5WXN2SzhJV0VWWjFpa0lMa1JpSDgzOWhMRmNqZnlmaWUwdVp4bW5hRmxuMzdxTkJYTHdCbkk4Nm9xRHhLUU9kOENyakI5QUpOZzlJOFJNWWRFVzJldFRqa3VyTnVvZGVuSDZTN3ZFUHNkbnZWRE9Sc3JYM2c?oc=5"
+      },
       {
        "name": "India Today",
        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGJlQmVndkdKdXBVNTNjU3ZvUGFCSnNiYVI5NXozNGZNN3A1WFVONWZvRnVJaVc0Vjc3eURNTkRYdEZkOXBfN2N0SzBobTctMzRTSDk2dWZhNkJXVF9CYkU2WXRwaTE5MHZxUVlFUlYxUWF3SXo5dDNZVEZ6d19XYWhmaFZkRmVXMGtyUExwYVVsaWRmcUl5R1Z2bU8zeUtDaEs1ZGhMeDVZOHdMaHpTVV9rT0ppOHY3WlE2aU1wMTAzd9IBxwFBVV95cUxQa3lzbmEzVHZKck9XbURZdjdXTmx6WExNR1E4NGswSzd1VjVUVFFtQkpyV3BuUkVXZ01mUURBVlp0SDk2VVpSajRtbXo0Z0Z4SHBLVTlIS0VCMGVEWTdrT2tIZGZicTlSQjZuUkI1VGlGZU1RcnFKVUE5eXpMUzh0MEk0b0hXZG5WWmU5RDl2bVJ5WnF4ZGk1OGUxekJNWjFxOU9sZlVqVWFTcW5XS3lMQmhfem4zSTNiTm5pTDhCUmRnNU81NWNr?oc=5"
       },
       {
        "name": "The Times of India",
-       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONURXVG5ZaVFZMEF0cGJVTHlNV1dOSUdreWxOS0dibV9TQlhoNWtONXpBV2hlbjhhaUdqZ1BTMl9Dem5zVWdIR3N0Nnl6ZUZCb1RmVmtJWGx0NnlHcDNINGZhR3hjS0RLNXZVSmdjd3diRGV1QkU2RFpGd0VFSGliQjBzSTIxTk5WdmxoMnZTMXNfdlhNOENoY2hVYTdKYmc0WkVyUFRhc3laM1hwUTRLZHB5eUdUckFkeUxYOHFCSVpYY3dGdmFJeExCSmJoNU5sTVNsSml4TXAyMmFXNWZCSXNHUVEyNjZDTHhoOTgxdXpJOVVlbGdv0gH8AUFVX3lxTE44Z0RkNEFXcG4xX1V1UkVwSnV5MG9jUE1CZ2FQc2ZyS0VtOGVKV1Zmd1RCUzk0UThjMlZ6QXBNLVhGZzhBZUs2c2MwZk1VczQyeXR0Nmc4UDdOaVlqeEtBeHFBcFZzck50WmQ5a2hXdWFVZ0M3NEF2dGFCcVNhSnBjb2Q1WDN0TlhfMW0yRjJzdDdWWWpfZjlEcnY4aVFjd00zLXNkbk9xV2RRMUNDdWcybXJaa3BfaFRQTUN6bGhEbndad21xbllfbXRzaW9nVE1rREE1WVllWGpvZWQ0YzljZWlvcUQ3Y3B1OEpiaXZVX2VidGwxdjNhVDJvdA?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTzNIcUV3WEJ0VG0wV2JOQmozUU41ZFN5NFR4WkJEeGZKaXk2WUUwcHh4STFkQjdNd3I2MkdMbU1lZ0htV1l3Wnkwa0pGaFJZTlYxZGhKR3cycFJIeS1uaGwzcjQxNmd3WDg2SGgtRzZvTWUweVp4Y05Md1owYW9RNGpMUk42eFM2YUktTmJBOHplZ3NNRDNDNDVaTHlXWlkzaWJsS0Rmc1NUS0RGanU5NkhQdk90Q1Y5NzRrc0VCRWIyWklFWmRFRVNzQjhUY1pub2Z2a0tkdkptei1FcklOSS1CM3ZRZDRSQ2hWdWhxWWJkMDDSAfgBQVVfeXFMT0R2OGlid1kyc0RrcE05RVlaYm1lTkkwd2pOZVR5U2hSbllBMVFyNGZwUEZhbEtveXVMY19vdGx3QUxnMWFRNlFwUFFIa1dodjh6em1weGR5Z2RJaDN4dlAtbXR0LUNNWGRjQWxUT005ZElvNm13VkpDenJyRk1kWXBnVmhoWkN1bzhtb2ZURWVwdGxxOGZ5cXF0dkxRNU1BWGkwY1d0RTB3b01ZRUZJa3lxM01EckIwemJHRlJxM2JfZXpYek1NX2ROWHVsbFZnNXNKZVNPVTF5bGhBTEt0T2dLclR4cV9QNWcxT1djTzZrVzNMV0VNN0Y?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "RBI seeks review of Supreme Court order on Yes Bank AT-1 bonds",
+     "summary": "The Reserve Bank of India has asked the Supreme Court to review its order on Yes Bank's AT-1 bonds. The bonds were a major issue in the bank's 2020 rescue.",
+     "detail": "Reuters and Bloomberg both report that the central bank has sought the review. AT-1 bonds are additional tier-1 capital instruments that can be written down in stress, and the Yes Bank case raised questions about how such bonds were treated during the rescue. The headlines do not state the detailed grounds for the review request.",
+     "analysis": "A review petition is a formal step and does not automatically change the ruling. The outcome matters for bank investors and for how regulators handle similar instruments.",
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeDIwQ0VWS3J0OFVlLVluckVBTjZlTnc5MUVncmtQZ2lDVWtJd3BnN1NOVzN6N3J0X25JM3hmc0hDc3JiLWZyMmQtYkp4WW1uRndnbVFLWmhyVTZPWjRlRUNDOGpObmhfYXhfMzJxZkpSRVVNZUpZbDhBQmhhX29fNjJucFVvWTFRZEpVbXlsNXRsYWdfNWJBOGYwTmJSbEtEd0VPX0NibjR3cmhLU0lNYmJyUFRjUngzUTc2Nm5vUWE2aF9D?oc=5"
       },
       {
-       "name": "Rediff",
-       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWWwxZ2Z6c3RSMzRub2ZyUFRRVlVRRTZUZExDaWdFWUFuR29jb3ozOHhIcDBkNjNyOE54ZVlJeU03WXRENzBkamloeTR2ZzRJS0dtYzRPcFZIUzlrbFFvc1pQeU81V1daWjRFTmExUzdFMHNKUXd0T0V5emtoY0M3RVBYN3NyeFA2dHFEOEh1ZVR3X3pKSDUtQTI0SXBJdXgweXRzdzRqUGRUOW9QWlZSTlFseXJjdXpPSUY3ZEJsQdIBwgFBVV95cUxOZzhBVVA2QmJpWVRLTUZGdngzcWNXNGdsclNQX3ZPaDJmZFpoWUtySGMtVkJMZXFZdGJDSk9pR3NzQ3g1d19sWHpZRWJZN0JVM1ViekVTclE5RE9aMVNoamlYbmg4UFZwQnRwNGhKc0xWSnBYMmVuZ2pCakFMM2puMFNYWGhSVXRUSEdFalJ6U2cyQ0lPZmMzSTlkaVMyWXBpcWc1aS1BdzdrYkw0SVpKOHRLY0ZNSVlWT1J1cndidVVSUQ?oc=5"
+       "name": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZTFCZkRLbEUwOGVKczM3ZENjRlJWT0QzOVJOOWdVU0J6UzNKVm1iN0xrblJTbmpLWURzX2RGb2hvc1hIVUg4SEVuM0J6M1loSXB0ZHZUcVhHWmVOZmljaFRmVm82QUdjMkZnY01pLXd4ZDVUM003SXdGRWFhRElHdnp5MnY2bmYxeXhmSVBBMnJuT09EX0lKWHpDbUQzcnJfQ1dKdklVTW13VVZISmJDMkdIVnZ5Zw?oc=5"
       }
      ]
     }
@@ -252,46 +320,58 @@
    "title": "Kerala",
    "items": [
     {
-     "headline": "High Court directs Kerala government to set up family courts within four weeks",
-     "summary": "The Kerala High Court has directed the state government to expedite the establishment of family courts, preferably within four weeks.",
-     "detail": "The direction comes as part of the court's concern about delays in family disputes. The state government is responsible for setting up the courts and providing staff and infrastructure. Weekly round-ups from LiveLaw show the court has been active on several other issues in the same week, including questioning police curbs on DJ parties and floating a proposal to lower the juvenile age.",
-     "analysis": "Whether the four-week timeline is met will be a useful test of how quickly the state can act on court directions in family law.",
+     "headline": "Kerala launches Jeeva-Suyathra Mission to halve road deaths by 2030",
+     "summary": "The Kerala government has launched the Jeeva-Suyathra Mission, which aims to halve road deaths in the state by 2030. The mission is a targeted road safety drive.",
+     "detail": "The News Minute reports the launch. The headlines do not give details of the mission's measures, but road safety in Kerala has long been a concern given the number of accidents on its busy roads. A separate report from The Hindu covers a fatal Nedumbassery car crash in which the prime accused was released after 36 days in remand, a case that has drawn attention in the state.",
+     "analysis": "The 2030 target will need funding and enforcement to match. Progress will be easiest to track through annual road death data.",
      "sources": [
       {
-       "name": "Law Trend",
-       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNU5Ub2ZHdVdlMkxaSkZ2T1lodFR5RXNJdzNmUnFEVV9qaE96b3NhZVFVLVZKU3d2X1I3Tkw0cnp6MWtpS09tUDRCNWR3SHJMVV95dy1YUGlGV2JZNXJESmpGcVUtSDhZSmtVUk5jVEl3bHAybUVVTTE3dHBUMlV5c25CME04N2lGbU9MV0QxLWkwUHIzbC0yMTZwX0lzQlRmLUdGVkNJd1pNSzVoLWFCX3BFTkJzV2FLd015Mm5UdTRSemhEZF9PSkZB?oc=5"
+       "name": "The News Minute",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR1NyaVYyYnF4V0YzOWozWUNsdlhZYTZsNS0yQk1Ham01Sm5uWlRaVGY4ZE5Udm9PUDBEaUJScmpQVE9hUU50cmdTbDRvLVFxTEJwajlXMjJMWUF5U250VmVMTlJ3S3pFdm9qek1KZlNTR3htc0VRLTNTUzJBb255ZlliODc2R2M1RVVnZXZSaVdOQTdyOV9MMjdRT3Y5dmUwS3draEpFSGY4bk5vSFM0?oc=5"
       },
       {
-       "name": "Live Law",
-       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQnp3VXFaVjNtYlNvWUdSR3JBS3VEUFZPNDJRU3BrUm8zcDliV2hYY3hyRGdETnVSUTdyVWNDaTViZXNGb2FpR01ITWJwM0JqN0o1ZFMtdFVkOGtUb2h3a0NxdHVDYllSY0RBdU5CcWhCOUR4Nng2bVZpQlJybElBWDc0TDZzVDVvLWN5S0lwSUpuLWNTOWZweFVDbFlrQ01PdjluNkNER3BScWpRV3fSAbMBQVVfeXFMTTI5elpVY09rZWdYSEhyN1dQZ1lRT3phUWxCb3NCejdTU2tVSlBMeW1QSnE3QkJNRTVrWThneURjTWlzSEJuUEppeWx0WnJRdnc0b1BlMFhVWjRIMnhrbm5wQW1fNWVfV0NnMU4tWmVZNlFFaVREMEJPc3FHUnc1Z3lzMnVVTzNsNWdBSEJUd0treUhiTEpLRUhOWkVJeFl0bHotRG96Mmg4TlA0QmxMVlN2czg?oc=5"
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZVAybFMxbmlzcTViNVM5dmpjOWNtcVB2Q2l4ZDRJdVpRQmZIVXQxZWN3YkVDM2FfRWxmSU1CMXdDNEhFUU14Y3A3S1BpN0ItZkZmVHdpTVJlSWw1anpXQzBMWElIZVFLMWdOQkZ6ZzlrVVgwN2k2di1QcFNlOXE5b3VnNFQ4TjhnLXJUaUs3ZTBBNDlPdnBkY3lyVGVqZ2hiTF9CZEhsZDhPMnh6WTl6Wm4xWmtocWs5Q1hoaXFIamh0aFVYLUctZ1owdWo1WUN1TGI2aXhJRjU1enZuVUpyMEl2WFNERnpm0gHvAUFVX3lxTE5mOExqQXJxSU9fcFRyMUt5VlNIV1NQR01KODV5LURxTTROajg0anVzWHNRR2RfWDZJNEUzdHB5c2drUnFtQWZnUE04NnFmSnBGb1BGOEhwRWRfWWNETGdBb3R1MUVMQkE0eVJOOFI1SkY4Rk5QeXVDRk9aT1FLOHFOWTB5eml1VXc3M2RNT0ZtWDdQNUpMcWxoMnFsSXlhUm40cVljcGY2eWp3R0RfR1BsVE4xa3JZU0kwQkNiR2FTeHR2SjgzTllKNFR2Yk5pWmZIOFZKdmpzRnpRX2VNU2dhRTQ2NWlvZWgtQjVuWDVj?oc=5"
       }
      ]
     },
     {
-     "headline": "Keralam government defends VEH power deal, as regulator seeks clarifications",
-     "summary": "The Keralam government says a power deal with VEH Global is meant to address a critical power deficit, while the state electricity regulator KSERC has sought clarifications.",
-     "detail": "The Hindu reports that the government has presented the agreement as a response to a shortfall in supply. The regulator is examining the terms and has asked for further information before it is satisfied. Power purchase agreements in Kerala are usually reviewed by the regulator to check pricing and supply commitments, so the clarifications are a normal part of that process.",
-     "analysis": "The regulator's response will show whether the deal meets the state's supply needs at a reasonable cost. Peak-season demand will keep the issue in the news.",
+     "headline": "Supreme Court dismisses Kerala government's appeal over 12 acres of land",
+     "summary": "The Supreme Court has dismissed the Kerala government's appeal over 12 acres of land, holding that the land was not a private forest. The ruling affects how the state can treat such land.",
+     "detail": "Court Book reports the dismissal and the court's holding. Land classification disputes in Kerala have often turned on whether a parcel counts as forest under state law, which affects what owners and the government can do with it. The headlines do not say how the land will now be handled.",
+     "analysis": "The ruling may influence other pending land claims in the state. Property owners and officials will be checking its wider impact.",
      "sources": [
       {
-       "name": "The Hindu",
-       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMHpaTFZVb0NFOHEwYW81YVp2d0kyR01Xc05UMXZlQ1JCazZha1g5X0xDMzE2TDRTVGpuT3BqejFjM0YzVXJYT3ZuWHlFUkhEenlTN3hwZjNZNjFkZXZpeXR6blVtSHJNeEI4U3FGbUVRUWt3cWJ1SHlEMFExeHlsSWMzbTNfTnlwSzJHRkdSUUU5MFdHRmJ6S0VtcFZYc0tjTF9hNkpYTWZITENkMzNBc3pVSE9GX2NvazVmNEpYanpldkdiZTY4MDZtN0pSSVVxVzR1cVhRMTJEeTYwamJRdzM0blN4c1E2R0F6dVhPVUhmdFQ3ZjIweEptSGJtdVB2MEpVNW5QSFB2Z9IBkAJBVV95cUxNZjhkVHMtZXdZZHJuZWU4U2pSa005TkFxMUtlWWFUNEZYZU5ZWFVmby1IdzVJQk9EdGpJVUM3RGJGcFRuMkY0Zjhwc0tfQThWVUF2NEx2MkpXOEVFZFRETzFwSjRialAtOVNuaHRZU011SGNNbFhIM0pxUFYydGc4ZHNSTHJBajJ6NV9pV3lNb3dEUF83bnVRYVhLVWNVemhKV21ReEs2UUlhd2hTZXp5T2RxZGFnMEtJUm1xWUxrOGJLWjNyX1Nka3RVamNVV3dVZnNPbHpCTXhLcWJHcjRqeDZ0UlYxWHVieWtfNUpzZXV3MjVFQTdseWNYdks0b1U0ZjdxSGFERXM2cDlWcXdzYg?oc=5"
+       "name": "Court Book",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQa1g2T0U3aGcxc2gyWGNYWjVXcHBmbW1wcmZ2MzBnQ0dTQVlFb2JVSmxMV3hhTG1ydDFKRHM0Ry12eFRLX3Q0cERkLTR3NFI2b0tvWVliamRKOTJTaE1iNVFmd3FNZ2ItbXNfOUZMS0lJWGxPSmZqdWI4ekZvcVZhcnoyeTRyUWZSZlhJY3p4STQtNGNqclFONHpGajdyOVNWemZmWkFwZ1NuQ0tqOTU2YWNLU2xmaXpYY3VIdUZnWWRhVnVwdi1Pd3Z6YkQ?oc=5"
       }
      ]
     },
     {
-     "headline": "Thrissur Pooram probe: government sends back Crime Branch report",
-     "summary": "The Keralam government has flagged major omissions in the Crime Branch's probe into the disruption of the Thrissur Pooram festival and sent the report back.",
-     "detail": "Onmanorama reports the Home Department has rejected the SIT report, creating a further hurdle for the investigation. The disruption of the temple festival has been a politically sensitive matter in the state. The government's objections are about gaps in the report rather than about the outcome of the case.",
-     "analysis": "The probe's direction now depends on whether the investigators can fill the gaps the government has identified. The case has public interest because of the festival's importance in Thrissur.",
+     "headline": "Kerala High Court sends plea challenging closure of vigilance probe against CM VD Satheesan to Chief Justice",
+     "summary": "The Kerala High Court has sent a plea challenging the closure of a vigilance probe against Chief Minister VD Satheesan to the Chief Justice. The petitioner is seeking a fresh look at the closure.",
+     "detail": "Bar and Bench reports that the plea has been forwarded to the Chief Justice, who decides on the bench for hearing. The headlines do not give the reasons given for closing the probe, and the Chief Minister's response is not reported here. Vigilance probes are internal anti-corruption inquiries, and their closure can be challenged in court.",
+     "analysis": "Next steps depend on the Chief Justice's listing decision. Both the petitioner's claims and the closure order will need to be examined in court.",
      "sources": [
       {
-       "name": "Onmanorama",
-       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaGhaYnJEai1fMnZYeUY2NG5IejUwVURsQTV5eXlZbGNDXzJ6OGpjLUNPR0NfS19OS0hyNDFpUjRBRE5QNEItaXNaYW1LN3FBc0V1ZTVEZkRNNzVSUVlITFJBa09mVFRONUxzQmxjSm1FbDZjWjgycE9XeUJVVjFLc0tWd2M1RHhBWmhULUhfZGJVSkdvczFwSUlxNUdVbnlYQXdBMGNDeTVXTmJ1dmVsblRVU2VvbkVibEJZYVZzQkRoSE5jRW5UY1dmVTJGcGMz?oc=5"
+       "name": "Bar and Bench",
+       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeEhtcFNNNjBiZkZKRUJOQTgxM09GQ3JZZWFDWWhxaXYxWFR5ZHNUQ0tBYTZxU2RlVXNjQlVITC1jZWxCVS1pWkVhZ3g4YS1CWGx4V1o3bG9GZ3ZuWkxuei1hWnBod25IdXBJWmNQbE5FZ2hXdFF2YVNjTkxzSzFYVjJfb3kwZnhqOWpPZ1I1OV9jbWxWcE15S1oxRFFiMjV0SXVRVTdkZXFCaEJBOVQzYXFyWndYNmpDM3BJbjdOR1RjUDIzVG5nOVpUVFFXdXpCS3JSMUZDMEnSAeYBQVVfeXFMT1FlaGloMnI5QmM4NG5NUlU5M1dUZXFTa3RNemppX3IwU3hSYnNHVTBiU1ltTk00Mno0SW5LT09XQVYzOERkT3hxdjQzZUkwOUwxUnM0dGY0RDBSX1VtSzZ1emZ6QlpTZjctNjJoZm1jNDl1Sy1wQ3oxRG9adkpJamZNeGIybkFtZmtFbm5KN25BYVNSWkJZRDFuQXBralV6ZzQtMjZaRUZaajZfN3U3UTdXNGR5ZkE4am50WktTWGVBRWw1dHFfckpoTGtCLS1OaTVXVlRFTEdxYm1VekZIYzg4Q2ZIbFE?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Kochi Water Metro reaches 8 million passengers",
+     "summary": "Kochi's Water Metro has carried its 8-millionth passenger, a milestone for the boat-based transit system. It is one of the more distinctive urban transport projects in India.",
+     "detail": "BusinessLine reports the milestone. The Water Metro links islands and waterside areas of Kochi with ferries, adding to the city's public transport alongside its road and rail networks. Separately, The Hindu reports that Kochi's third Ro-Ro vessel has remained idle four months after launch, a sign of the gap between launch and use that some infrastructure faces.",
+     "analysis": "Ridership milestones show the Water Metro is in demand, but idle vessels elsewhere in the port show that not every new project is yet delivering full value.",
+     "sources": [
+      {
+       "name": "BusinessLine",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWlpOcXBOWHN1SW1OM2VwTXdmVkctTzYzWldpMk5IY21oZGdPWDNVXzFGN0pjcjFOUURXbXhkV2lJWEZzaWZDNGxJQUhsVEF0QUxXbnlfRnktQnZNUjJVZ1FHakhOOTZvek5aQ1NMN2JQMG8zSWR0eWd1WE9GdUpOZldWTlNFQjE2MWV2WmFoR0hrNlZpaGFzSmJkT2FQZzZRcUF3ejFjZGlrRXJKckxPalBQWmNXNlZqTmFDRnBoZ9IBxgFBVV95cUxQRDhYZE8zajQyZ0hUcnRQUEE1SGxSZDB0ZzRVSVhDQnJYT0YwT25acy1lcG1kTmpDeVdYRFMtMk9FUXk4a1Z1ekdoVnVPNzhNWEtyVktncTJCOUlTWWZGN0x2cUVNaXlXRVVCRG5Jamx0bU9yRkJTaElUVUE3dEwydktPVE9oSkdzT1pvWksyQ3JtdDRxb2pMdU94ck1HTEpKd0hkY1poeDR5WnFRb3RzZzVrMl9GT2llVlFwV2pnYmlIZjNoTkE?oc=5"
       },
       {
        "name": "The Hindu",
-       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZWsxeXBGS3VFeUxrT3JMUDNUcTMzQUJlblNmZHhEcGpmQ29IbUVXTTYzUVRfMERLZy1DYkJaSVhsS2owckdSaVYzNFNJSG0wOEJtZl9kQmJuRHRSSzRUSkZBZTlJVENVd3l2QWVicWVSU2hmRVdIZHBGRG1QelJZZmkwWENZSGw5X0ZyTWFoSGZ3OVNuMTZMUzVpcjgwVG1xYVZuNWdTTExYT1ZEVzZxcjRUdU1WcXNGaWtMWGo5MlFkTDBCaHdWVnFHaWE4QzhCc095TXdfZE1BX29GOUN5NjB0OEVrUWpVTUlHVkxLS2JLc2dxSWppS9IB_wFBVV95cUxPd3c2Z0NfUHJyemRUNzRjczF4NU1QdURMa19qZ3NMQWN3cld4cjRmX045WTRJRWVsQ0JTN3RjdTFua2tUQk9ycjhXQzg2Ri1xVkhHZ2FsOXB1RXVKd3FTeUJINXZPemRvNzhuam1MQzREamNxRTdVb0ZYaUpoV29hMVlWU280eExfeFRiUHl1dVFWbmtCa1FyWnJPRjdFMi1PaGlwaXhSb2pSbU9wTUNWalI3R0hHdlRCNUJobTVnd0V0TUZZS0s1cVBuTHBIT3ZMa09YYVZlbkMtMjBZT3piLTJIVTlYdGhtWTNsTmRsMFJDVFVubUVsdUdTYTdFZVE?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNenBwbjZKblNUWlpFaVJmczdvTzAwUy1oUGdDbm9HVUdQUkdkai1OWmozNWlKUE1abWcyNENBR1VCYTN6WGQtU1dzdkt4QzB0VkJWaDFZcWJQc0Nzd2pqdEZ1MW54UkxzUEtlNGh6dF9odzJyOENsSUtLYlRqU1NuM3AtNDRGT2tMOGJ0SzhheGdTeU16WXU2YUdkYS1mcnU1NXZNSkNYcnF3c0ZXRTFodEVUOGhZbEg4UHBzMkhUaldXY3dVN19peNIBzwFBVV95cUxOQk5YTmV5MllUWkp6YTVNTVMteHRjLWppcDFTRjhGNDVnd2dmaVJMclpqU1hkTFhLYi1QUVZaaG0xNWcxVUxiaDRVNFNTNFNxWk42eTdMVTRsNl9ZRllMb3hEVzAyVUZveEw0VzhDZ0l3UWFaUzhweVU5VXhfY0trdWxENDhMNUR1MER6N0ROVlpTYmM1UFdKck90RlpnNUptMTFuak1nQkctcTNmRzZ2bmVqdkFNSHljSjItUjIta2tjSlRHY2kxWmIxTWJ0R1U?oc=5"
       }
      ]
     }
@@ -302,46 +382,82 @@
    "title": "Andaman & Nicobar · Environment",
    "items": [
     {
-     "headline": "MP seeks fair compensation and rehabilitation for families affected by the Great Nicobar project",
-     "summary": "Andaman and Nicobar MP Bishnu Pada Ray has pressed for strict compliance with land acquisition law and a fair compensation package for families affected by the Great Nicobar project.",
-     "detail": "Ray raised the demand in the Lok Sabha and ahead of a rehabilitation and resettlement committee meeting for the Great Nicobar International Airport project. The Great Nicobar project has been controversial because of its potential effects on forests, the environment and tribal communities. Ray's remarks focus on the procedural and financial side of displacement rather than the project's overall approval.",
-     "analysis": "Rehabilitation terms and land acquisition compliance are where local concerns about the project are most often tested. The committee's decisions will be a useful indicator.",
+     "headline": "Navy chief highlights strategic edge of the Great Nicobar project as MP seeks fair rehabilitation",
+     "summary": "Navy Chief Admiral Krishna Swaminathan has said the Great Nicobar project would give India a strategic advantage near the Malacca Strait. At the same time, MP Bishnu Pada Ray is pressing for fair compensation and rehabilitation for affected families.",
+     "detail": "The News Mill, Asianet Newsable and Lokmat report the Navy chief's remarks on maritime dominance and sea lanes. Andaman Sheekha reports that Bishnu Pada Ray sought strict compliance with land acquisition law before a rehabilitation committee meeting for the Great Nicobar International Airport project, and raised the matter in the Lok Sabha. The project has drawn debate about its impact on forests, the environment and indigenous communities, and the government presents it as a strategic necessity.",
+     "analysis": "The strategic case and the local rehabilitation concerns are both live in the debate. Watch the rehabilitation committee's next steps and any court or clearance-related developments.",
      "sources": [
       {
-       "name": "ANDAMAN SHEEKHA",
-       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0xazkzcWU2SnhWVkhsRmZ2Uk9Qc19jQ2R3V3pERE81cDFFVExVOG41ZE9td1pncURPVW1iU1BHamFWcXRpektHSWFB?oc=5"
+       "name": "The News Mill",
+       "url": "https://thenewsmill.com/2026/11/indias-navy-chief-highlights-strategic-edge-of-great-nicobar-project/"
+      },
+      {
+       "name": "Lokmat Times",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRFNucGxGYXBpR2o3OWYzRWVVVVlwWG8tR3ZxUnl5bnpqQ1d1TnhqU1RtSlkzZnV4QW4yN1pzWUNZSTJlWnVUeWYwN3ZZX1FzT2JEYVdyM25EclFmUFR4SWlwaXBKdmpDZDZQWWlCZmxKam1kZUFfTTg0WWYyRWtBcllZZzBZcFJqMEdUamw2OUZFV0VlUTRBazdVNzh2Y05HN0FXTGx3U0EtdkhURC1DM3ZoYUJCU0FwaG1kMExlONIBxAFBVV95cUxQNkZqcTNmbnZBZ2J4eVY2MHMyaXVWaTRoT0xkRU5uNmFJb1ZmeEJuUDlENHA0LTZHajRLNEZ3c2JKNUlVel93Z0ZBREV6M0V6RnVZRFQwSlpHd0x2UTJGSmVYT3pEUzFtMy1uaEFXUGJtTmRGV2hwNEllNWxjTURiTHVMb283OTE0V0ZZdHlhZ1ZhNkpRZDJHRUwxOVB4OTcyS1dzMzd2dWpLVTZ0b2xVWVhOU19iNUI5UWZBQ2dHS1g2ZU5I?oc=5"
       },
       {
        "name": "ANDAMAN SHEEKHA",
        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5adVp4Q2ctZkVDTjZYa1F5cmRfSExQSFNYTXRQbjIzYlVFeDhscmJQR0JubGJfX3FYYi1VT0pJcy01TU9NVjFKRndn?oc=5"
-      }
-     ]
-    },
-    {
-     "headline": "Sri Lankan firm wins $75 million contract for a power plant in the Andamans",
-     "summary": "Sri Lanka's Lakdhanavi has won a contract worth about $75 million to build a 57 MW power plant in the Andaman and Nicobar Islands.",
-     "detail": "Reports from Rediff, BusinessLine and the Daily Excelsior all describe the same contract. A 57 MW plant would be a significant addition to the islands' power supply, which relies heavily on imported diesel. Island power projects are often built to reduce costs and improve reliability for remote communities.",
-     "analysis": "The project's timeline and the supply arrangements for diesel and transmission will determine how much it changes the islands' energy picture.",
-     "sources": [
-      {
-       "name": "BusinessLine",
-       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLXlxQ09ORFB1TWJtQkJ3QmFLTVBqazlicTRvUTRMc1BWU3NlWVhRMWxHbHJfYTA1WjdNQ3hjekNGQmM3Y2VPQ1ppLXFMMF85TzNmYm9ZU3cxWEhnVmhFOWl6ai13WGlyaG02V00xYUxubGpfVEhBaW9UZGtxSUtvUHp0c1prb3U0RDRaVFpHUzFpOWRkZ0JDS0kzTk1NWGU3Tko4TW51LVBteTJ2Xy10dUNuVExlVUJtdVZ5OWFtTzZMMzR3TmZYZmhzMi03SUFRbDZtQ3ZKVDVmZnlIV2hzaUhFOXZaUdIB7AFBVV95cUxPTFFpTWY5SEthQmZqYVBqS0dqY2lCTXFNS1JqQ0Y0Vkl1cnJlSjNQOElmRHBKMkRVbUlBa0QyQmxzaUE1S29Fc19jeHUxcE1uMG9SQUtxYjJaLWlyZ3hWWllCc0dlWU0wdFM2UER2Rmh1SnAzNlRiUTBNMHFrWHdWVWZBdGxMbXJfMWkzYUdGNTJWY3BrQmlPSVo5RDRIa2c1eFc4QzZ6eWdFQjUtT2VsNzVZUEVRZkVtYVFoSkRLWG1NTDVJV3A5SmF3SnFmQmtlTkFhSklsZGdrdnNoR21JVGV1Q3g3WWVvVmZ2MQ?oc=5"
       },
       {
-       "name": "Daily Excelsior",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3l5cF9rNmtSOW1VajVXS2M0RnZJOXB6aFRGY0tINU5kbjFEaUpRYkVuYnRYdE90X3c1N2pyUXhqYUVMYUlYV3ZaTzRXTGZ1X1JFei1YTl84TDBHNUpPMDk0TW1SRURfSk0yWTMybl9yd3ZsazlWUXg2dGtyekhrQ3U5bmx6QUZ3RjRidG81U0RsQW42SlhhdnpLUGlJSGE3dDVQV0ZUOFhhVzRfVTJ0U3BR0gGyAUFVX3lxTE4zeXlwX2s2a1I5bVVqNVdLYzRGdkk5cHpoVEZjS0g1TmRuMURpSlFiRW5idFh0T3RfdzU3anJReGphRUxhSVhXdlpPNFdMZnVfUkV6LVhOXzhMMEc1Sk8wOTRNbVJFRF9KTTJZMzJuX3J3dmxrOVZReDZ0a3J6SGtDdTlubHpBRndGNGJ0bzVTRGxBbjZKWGF2ektQaUlIYTd0NVBXRlQ4WGFXNF9VMnRTcFE?oc=5"
+       "name": "ANDAMAN SHEEKHA",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0xazkzcWU2SnhWVkhsRmZ2Uk9Qc19jQ2R3V3pERE81cDFFVExVOG41ZE9td1pncURPVW1iU1BHamFWcXRpektHSWFB?oc=5"
       }
      ]
     },
     {
-     "headline": "Bay of Bengal depression set to become Cyclone Akvan, with Andhra Pradesh on alert",
-     "summary": "A depression over the Bay of Bengal is expected to strengthen into Cyclone Akvan, and coastal Andhra Pradesh has been put on alert.",
-     "detail": "Down To Earth's daily weather tracker reports the system is on track to become a cyclone. Earlier warnings had already affected ferry services to the Andamans, and the islands are regularly exposed to storms from this basin. Cyclone warnings typically lead to suspended ferry trips and precautionary evacuations in vulnerable areas.",
-     "analysis": "The track and strength of the storm will decide whether the impact is limited to the coast or reaches the islands. Forecasts are the thing to watch.",
+     "headline": "Indira Point entry ban shuts down livelihoods in Campbell Bay",
+     "summary": "A ban on entry to Indira Point has cut off livelihoods for people in Campbell Bay, according to local reporting. The restriction affects residents who depend on the area for their income.",
+     "detail": "Andaman Sheekha's report describes the ban as having closed down livelihoods, with the headline framing the shift from hope to hardship. The headlines do not say when the ban was introduced or the reasons given by authorities. Restrictions on access to areas in the Nicobar islands are sensitive because they touch on tribal rights and local economies.",
+     "analysis": "Clarity from authorities on the reasons and timeline for the ban would help residents plan. It is a local story with broader implications for the islands' communities.",
      "sources": [
       {
+       "name": "ANDAMAN SHEEKHA",
+       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE50V3hfdzNOY0hTR1lLdnJyVThFbEJkajlPc3JVU3l0SUNxQ1FkaDhnZVpPRDVxOXM1VXoyUWYydndiMUdNNktyemtn?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Environment Minister meets UN climate officials at COP31 as India's fossil fuel import bill focus grows",
+     "summary": "Environment Minister Bhupender Yadav has met the UNFCCC Executive Secretary and the COP31 Presidency's negotiations chief in Antalya. A Down To Earth report says faster electrification could cut India's fossil fuel import bill by 40% by FY35.",
+     "detail": "ANI reports the minister's meeting at the UN climate summit, which is taking place in Antalya, Turkey, and is now in its final week according to News On AIR. Down To Earth reports the electrification estimate, which links clean power to lower imports. The Mongabay India coverage notes that the summit's finance gap is a central concern, with nearly 200 governments asked where the money will come from to turn pledges into action.",
+     "analysis": "The electrification argument ties climate policy to energy security, a theme that has grown after recent disruptions to oil and gas supply. Final outcomes of COP31 remain to be seen.",
+     "sources": [
+      {
+       "name": "ANI News",
+       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOX0xKbDhkaXJ6ZHIyeXl0LUpuTkpHZDBNVzNZWXo5SkQ3QV9fa2M2Z2JyMDZwVHlnT0NwSlNjemVVbHRxeVg4M0VXTDMwM2NkWHVpRGdzV2diRjhFdDhELXRDQ0hMRHdGQmZzM3BXSHo2UlN6ZzhBa0pXazA4dVYtalJITjYyUEJNLTgwREc0UXJ0Y1JkZWpwXzl5aUpLNHhYWTNXcXN0OHB3eEhYeFBNNjc2VVFjaFJjRVFfOEI5dkRBM0FNTkYwS19jaHczbGNvLS1nZ250Y0xlSm9SUkxjQjYwY2ZOQ1h1cEJ5azNnNGZUUGlhbklpZ3JyNkh2cWxPTmc?oc=5"
+      },
+      {
        "name": "Down To Earth",
-       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUFRSM1hsSHBFS1JGMGlIYWlmcHdXVEpzZUFqZTFzNUxCMnd0cFNDdy02NXg5MldQWWE5d1ZvX2gyRnpUX2VzZi1vaF9CWkh4SFk3Smtlc3lNRGVYM2VYOXR0QVhBQU1qZEpDRThoSzJTMC1QcFBFY0dCQ2ZMbk1ld2hPRmVEamNnMDlHNTJOQVdCSHhMYUFYWHpXLVJFUlpaZWxaVURFSWtkRnlnS1ROWk8zZmo1WW1mZzN0cDI1bmZlczBCakM1SjFGanZzR0VId0NTMmZ5Q29XRmpk0gHqAUFVX3lxTE0tc05iQXU5UjU0RGVWM1MySkRFUWlULWVTaDcxVGI5X1FHVTE5N2tuQkVCU0pQb29qLUw2WWJXbWRIUi1qS0VYbzJHaC1mZnJsb0NMUklydVFpM2FOU2tha3FRMHRJMTFVNWdTWTM3czBRMVhWZ0tBVUxZazB0SXhzRnlaRHFjSmpIcy1uRmd5R0xPMDZ4WEhRVG1oNzVwbDZvUzFFbm5uZHdUcDVtZDZLTllremJ6TUhaZ01pRWxYOTRiRGlON2JxemxTWmc3c2JES2d4ZlpKOGxSN0FUNEpSaWl0WWNGckRMQQ?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNW1CZ2tNRTJHS0RCQ1c1UkV5eFFEQUg0Qnp6WUJ5TG1fbklCbHl4YkVRRkRQVVFzV1pCeWxMcjNJa0NpaEJrZUpBdUxmSmY1WGRTajJfdDNoTU4xU1hfdW02YlBkcTdRazhpMHpVazB0RTc2dmlBNEdhWko5QVlEREUwX0dXM3lzbE9Sb2Z5dlVYb21CV0ZGVkZWQWU2RWUwQ0c3eDQtSkJGSkRZcW81dU43TGtwZVJzWTRCZlFrVmJZc1FlanRGcldZSllSb0tMU2Z30gHTAUFVX3lxTE01bUJna01FMkdLREJDVzVSRXl4UURBSDRCenpZQnlMbV9uSUJseXhiRVFGRFBVUXNXWkJ5bExyM0lrQ2loQmtlSkF1TGZKZjVYZFNqMl90M2hNTjFTWF91bTZiUGRxN1FrOGkwelVrMHRFNzZ2aUE0R2FaSjlBWURERTBfR1czeXNsT1JvZnl2VVhvbUJXRkZWRlZBZTZFZTBDRzd4NC1KQkZKRFlxbzV1TjdMa3BlUnNZNEJmUWtWYllzUWVqdEZyV1lKWVJvS0xTZnc?oc=5"
+      },
+      {
+       "name": "News On AIR",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjlSdXFYVURiS2NGajNTUm9kZEJ2VE54UzdlZ2tLYU9ZTk56S3JqSkUwWHhTczFIV0l6Z3BoWXZwTkVnZHVteGRybkR0bGdhVlV2ZlNjYXlhenFsX1Y3MDdWOV9aZldLMW5lM0F0UFFnREZoS0ZNOXNUUEZGdTltbzY1X2xiSWdkS1Yzd3pZb1VpVEEzRTc2d3JHd0xMcUNSTi1ZOWlETlctSzZtMjBr?oc=5"
+      },
+      {
+       "name": "Mongabay India",
+       "url": "https://india.mongabay.com/2026/11/turkiye-climate-summits-finance-gap-threatens-its-promise-of-action/"
+      }
+     ]
+    },
+    {
+     "headline": "Costliest five years on record for climate-related losses in the EU",
+     "summary": "The European Environment Agency reports that climate-related losses in the EU have been rising fast, with the last five years the costliest on record. The findings add to growing evidence of rising climate costs.",
+     "detail": "The European Environment Agency's report is the main source for this item. Alongside it, Bloomberg has argued that the climate fight is failing and needs a rethink, and Al Jazeera reports London mayor Sadiq Khan calling on the Global North to take responsibility. The headlines do not list specific damage totals, so readers should consult the agency report for figures.",
+     "analysis": "Rising losses strengthen the case for adaptation spending and for insurance-linked risk tools. Debates over who pays for losses are likely to intensify at COP31.",
+     "sources": [
+      {
+       "name": "European Environment Agency (EEA)",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGFYUy12dzM4ZGhWMlJhbUJubmdCMVg0V2NTaFA2ZHlhVUMwa0h5aEF6RXc1UlNkbjJjQ2RHWVNlaWZyNkN0dnJrUnRvbGlhaUtQVHBEaXpMMi16UVlOcVlDZDE0TDdldlY4eGp1WTUxMUxDRlZVQTRYalJCODJseGtrdE5JM0JpX0FVcEdXOHF1M3lOblNzdmh5bkNaeEQ1Ynh0WFVRUG85NDJNR0hfQUEzZUdBUUJqbUIxN19SbDh6ZkxVQkVSVHF1VnE2Wm90eW9GcHQxYw?oc=5"
+      },
+      {
+       "name": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0RTdldQS3kzMVRYaHlsOGh6TDdTTmVnZEF4bW84THZIMFp5TUdQUFl6b1luR2ttX0pwSFNwN1drT2FrSTJnZzRQMkdod2dNNUxpQ1VqYzdJWGZWUHh0dmFhRFJUejdQZUlkMThjN2FNMlRaOWxiTDJtT3FfVDVRN28zRGNnRGJVM09OWkJYUml3R1J0ZGJscjl5VkNST3o3UFNpbkdnZ0x4amxGeFE?oc=5"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbWRCdEFVNkplU3dDSUlRSTJpdDZrYlZsRkRPTlNlVlBVUGN4RXJYMWRuM3FKOVJwdUVnWUNiaEJ6SHBDT3IxenZDNml3cU01c3dwNlhiZUJxNV9BN0l5SmhzZm02Slh3V0JLODZjZ3g4LTloRk92RUpmQldUX3pYcktmTlZDU3VWdVlsNmZ6R3FHLXYwRHpHQnR6VGxXQW94SmotLVdNSEZMWmRyMXlJZnN4dExPOWNwUlVZ0gHAAUFVX3lxTE9FeDgwNlJ5ZHFROVh3a2JhYm5JYWRoVXlyT2p0WE5XV0VCMTNFWFJYa1dCeHk2TUdwY3lReS1NbXR1LW5sS2pJdm5PUkI5a204Znp5cW91aHFIYTlCaHlvWjdCWkQ1aTFJRm1UWm1Ucmk3UWI5cWdiTURzSkFCYnhubmc0U0dUVFdQVU95bE9Tb3hWWmJacEU1amhTQTZibmNqUFRjbTF2MG82R2pvTGoxX0UyOFRlZDVOdDdOVVJxRg?oc=5"
       }
      ]
     }
@@ -352,31 +468,35 @@
    "title": "Insurance & health",
    "items": [
     {
-     "headline": "UAE Central Bank says insurers must cover organ donation and transplant costs",
-     "summary": "The UAE Central Bank has said insurers must cover the costs of organ donation and transplantation, including for donors and recipients.",
-     "detail": "Gulf News, Gulf Today and Khaleej Times all reported the requirement on Sunday, describing it as covering transplant-related care for life in some cases. The rule extends the scope of health cover for a set of procedures that are expensive and often long-term. The rule applies to insurers operating in the UAE and is likely to affect how policies are priced and written.",
-     "analysis": "For residents and insurers, the practical question is how the rule is applied to existing policies and how the costs are split over time. Details will come from the regulator.",
+     "headline": "CyberCube estimates Microsoft 365 outage losses at less than $100 million",
+     "summary": "Catastrophe modelling firm CyberCube estimates insured losses from the Microsoft 365 outage at less than $100 million. Marsh Re expects the impact on the insurance market to be minimal.",
+     "detail": "Reinsurance News reports both the CyberCube estimate and Marsh Re's expectation. Insurance Journal and ITIJ have covered the wider outage, which disrupted Outlook, Teams and other services used by many organisations. Insurance Business has also noted that the Brooklyn collapse could trigger claims across several lines, showing how different types of event can produce insurance claims.",
+     "analysis": "Estimates made early in an event often change as claims are filed. The episode is a useful test of how cyber and operational-outage covers respond to large technology failures.",
      "sources": [
       {
-       "name": "Gulf News",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcjRvdUlXci1PeUlBZUVBVW91Sy1FS29uVFFvUV9zTzd3TXJRZWxsSGpydXV0dElwRFFZZTF2UDZQMFNEV19QR1F4X2M2cUNtTEZnblRGSEFxQVdraFVlZlJ1QjJTWUN5VC1nZlhxTEhYUjA0bnBnSGJrM2VCZ3lBMl9CejFLZmEwWEhIdWVsSzhIMmc0b2pwR1JTR0xkVExWaXFOOWt3X1czaXJmeXdwZU5B0gHEAUFVX3lxTE15cWJWU2tDZ0tJWkpMZHcyVDR5Uk5lekMwYWJvVVRLdE5PNGFiVDRwUVdMYll6SHd6MTFwTktiZjQ2WnQtYmI5bU1ZSVdnM1NyRkRkOEU5SzVvTGk0aXQzUURUYVEyU2txRmR4aG9OeHRUWDMwVFFPNFpoYUg1TnZIZ1hVcndTVHdBUW1VZFNKTDF2MnlobTJFNnlWblRPdTBfWmZPTWZoUUVNeHBXTFBtM3NqZGNzeWVDTnlpNG1aRmJxRDQ?oc=5"
+       "name": "Reinsurance News",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSEpXaDN5M0NVQlVrNHplQ0dkUk1NTkxHYmlhcWgwZUdCWW5teVdyaFRSWWpMT1pFclR0WHVzY0VUYWNJM1pJS0FXQkJyZnpSWmhqekVQVW1nOWk0eUs2bjZJU2pMSkwwZVpvanRzcmgwYmk0RXIzWUVLUnpCWjQzRWM5NTFZOGo3RGwyYnAyb2syX3pxQ0JRV0VPNA?oc=5"
       },
       {
-       "name": "Gulf Today",
-       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNREZwN0pxRk04UDV4Y1ZsNS1HZ09FcW1laXhSMnNoSDJKN0Y0WVJLQ2xhVWZFMW42Q1dTeVJpd1NvLTZMNDZVUUdKcmNsQTAxVzZjS1p4QWpXSGxqelNwLTM3eVRxUWdQNUlNQ1M3eUlyQ3FQOEtDRFE2YVFvYjB4LXpyRjhGNjVjd05EXzRWZXZTbmNpbjZTTVYtRkFta3AyZ2hlWXVqRFhUMlduWkFpSE1ROE9qOUdvQ0tTWjVhWFY?oc=5"
+       "name": "Reinsurance News",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTkVocktyeTctaFBwQ2J2SG5YQVNHLThQX3FscFhtVXlqYXlwNk1NZnNQSWhrenNubHhhSGg2YUE5RGd5Zzgydm1qemNzNTZmLVdFdFZnVzFJS3d5b0FqN3dseXowNmpDX1dGblVJbEs5bkNZRFRXU2JjUldSTVk4NGFqR3Z2b0lrY0dtTXY5d01GaEZYZHlUYmhNRkpnWmNIUjlwRURhdmdjSmdzbkhObg?oc=5"
       },
       {
-       "name": "Khaleej Times",
-       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXJwS2hfNHpUaTF1T0dPVzlHZFVOUmZKVXk2Ti1GdGZXVUxKdlRQSDJjTmZJU2ZIWURQNlJDSTN3NmtBb2hDMjdzazVXMmREN3lHTjR1QWZiYlZ5WFFYRmVWU0xZazBGcm1tMlVyWFptUy1jamk4eXk2Tk03aHFsVW9lZGktRjJxLTExaHpZTUFvaklHVXQ2eGVQSHpjdXBhcUxjZ1YxQUhUZ3JkSDkwZTBzdnJDQVhFN0FoNtIBxAFBVV95cUxQaVlmRUNLVS02anZjWnFjVWZjaDBhSGx3X1FOeUg5OFp5bmNSRU1sS294ZmlBSHZpRGRTd1BKUFNiNzd6dlpDdW80T21Sdk9wMk1hLWdaQV84REtfUXdpMy1MazRHVVZpN050MU5KTktQakJ4UFFabmVSSk9Gc3NIU0N6elpWZEhydXV5RjV6aHZWNTFqUkE5b2xPT0tJckc1ZFdRVTRHanVlUUhnN0s0dEg1cmNPRmJmUGw4OFJqS29JMDJW?oc=5"
+       "name": "Insurance Journal",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoZ1pFQ3I4c0M5NjF1bzBTUmtyelk1UDk0SFFrNUg4ZDFncnJFX1pZLTg1SXJHeGxBdTFNY0JkLUtScVp0bW9oalM5a0c0QnhpQ0xqZnBEN2JGX1BMNXZrV0JacldQS1NSSGtSYV9mS1FjNFNOeHNFUWYwQW5XZw?oc=5"
       }
      ]
     },
     {
      "headline": "IRDAI likely to revise insurance distribution norms after industry pushback",
-     "summary": "India's insurance regulator IRDAI is reported to be considering changes to its distribution rules after industry feedback.",
-     "detail": "Moneycontrol and NewsBytes report that the regulator has received around 200 comments on the proposed overhaul and may tweak the norms. Distribution rules govern how agents, brokers and bancassurance partners sell policies, so changes affect commissions and sales models. Industry groups have argued that some of the draft rules could be impractical.",
-     "analysis": "Whether the final rules are softened will show how the regulator balances consumer protection with the commercial needs of distributors and insurers.",
+     "summary": "India's insurance regulator IRDAI is reported to be considering changes to its insurance distribution rules after feedback from the industry. Reports describe a possible tweak rather than a full overhaul.",
+     "detail": "Moneycontrol, InsuranceAsia News and NewsBytes report that the regulator is likely to adjust its distribution norms, which govern how insurers sell policies through agents, banks and other channels. NewsBytes reports that the regulator has taken a number of comments into account. The headlines do not state the specific changes proposed. Distribution rules affect commissions, sales practices and consumer access to policies.",
+     "analysis": "Any change to distribution norms could affect how policies are sold and how much commission is paid. The final rules will be worth reading when published.",
      "sources": [
+      {
+       "name": "InsuranceAsia News",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSFJ0LUZXZklfT29od3pTdndLWXRpQUI3OGF5TGJpOWhlbkhNU040RHlZTjktY203S1lPUlFpVU5jYjVxcGJnMU56cjVENllYYmFHSk43QVd1TXYtdE5lTVN5blQ2cC1RcUM0SmNHaTFxZWR6Y1Q4WGQzZHdCeElIX1BkdVBfODh1b1p2dTVVREJaVFhDZXhxUUpB?oc=5"
+      },
       {
        "name": "Moneycontrol.com",
        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPanM4RDRiV0lBZFRIME9pNTNCMW9RRHl0RGtEazBDbFg0cGVIT0J3UEFiRUpac3B2TUZYNUxfa2dHbEJEZ2VIN01TQlg5SlVwd1ROOEQ1UVBOWjF0OGNNdVQ5WVhJZHBHR01TT1p4UzFyTXVLSE8wWkliUEx6MFdTLTlTZUppVHRRbnBSeVJpb0FvUnJrazJTeGxJekNPdHBab3FDQnN5UWlxZUMxbl80cTI3SE0xa29pY0dhSTZ6VF9UQ0F4M0dmY2N2amh1MUdU0gHQAUFVX3lxTE9qczhENGJXSUFkVEgwT2k1M0Ixb1FEeXREa0RrMENsWDRwZUhPQndQQWJFSlpzcHZNRlg1TF9rZ0dsQkRnZUg3TVNCWDlKVXB3VE44RDVRUE5aMXQ4Y011VDlZWElkcEdHTVNPWnhTMXJNdUtITzBaSWJQTHowV1MtOVNlSmlUdFFucFJ5UmlvQW9ScmtrMlN4bEl6Q090cFpvcUNCc3lRaXFlQzFuXzRxMjdITTFrb2ljR2FJNnpUX1RDQXgzR2ZjY3ZqaHUxR1Q?oc=5"
@@ -388,14 +508,58 @@
      ]
     },
     {
-     "headline": "CCI approves Go Digit merger with Infoworks Services",
-     "summary": "India's Competition Commission (CCI) has approved the merger of Go Digit General Insurance with Infoworks Services.",
-     "detail": "The approval was reported by scanx.trade on Sunday. Competition clearance is a standard step before a merger can proceed, and it checks whether the deal would reduce competition in a market. The report does not give the deal's financial terms.",
-     "analysis": "Competition approval is an important hurdle, but the next steps and the deal's effect on Go Digit's business will depend on details not yet in the reports.",
+     "headline": "Medi Assist appoints Aruna Vaidyanathan as Chief Growth and Culture Officer",
+     "summary": "Health insurance services firm Medi Assist has appointed Aruna Vaidyanathan as its Chief Growth and Culture Officer. The move is a leadership change for the company.",
+     "detail": "Express Healthcare, Medical Buyer and ETHRWorld all report the appointment. The headlines do not describe her background or the specific responsibilities in detail. Medi Assist operates in India and in other markets as a third-party administrator for health claims, so growth roles can affect how it expands.",
+     "analysis": "Leadership appointments at third-party administrators can signal priorities around growth and company culture, though the impact on operations will take time to show.",
      "sources": [
       {
-       "name": "scanx.trade",
-       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVDZ4YzF0QkZqNWhNLXBYY1ZQSmpFazVWWmQzc0loeEdtcVJveGRZT0dHc0RHODAtVDNGRklhSU5Pbm1VNzN5WmZrWW05a0tubXFuLWY3UG00alpoaklvdWtOX3A0VDNhbjE2N2VSbEJRdFJNWEtwd1VXTnh0aW5jSlNXTExvX19sRjhoRmdJTVhOcHR0cjExcTdYTU1kcm1ib2N0cHpnYzQ4SDdBdVc1emlwcGd4Yi14MEdGNXhDR2RjckQtMUtTOUF2My1HanVBeElWU2FfNHlFRmM?oc=5"
+       "name": "www.expresshealthcare.in",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUi01bTZjM1NWdkpELWlZSm9yeVFmZFJfaDRQWWE5WkpnN2tJTEVJbm53Vi1XWUw5QlNvRGw1bWRpZEdTamV2S05YTERlQUIxVDhMcUJBSktma2tkVHZQVEtxd05ZOUR0aGhOdzVpekQtVzNfNDBNMHA2djk4dE10NUVUeFdxeVZSVW9iNTd4VHRQQnVMU2ZDNFZkYWFjaEtkazYwUEpxQ0NtLUpWNnEzcUdHZTRwc1Rfc1NMbHZlSEhuWm8?oc=5"
+      },
+      {
+       "name": "Medical Buyer",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON1RmUktvMS15NGJ2Z2lJLV9kYk9waEVBcnMyNmxMVVRLeDQ5eHdjdEZkUzlibGJXUWtncHk5U1dibm5KMzBhLXp6NjIzZnlJcUQ1M2NnZ0pDa2RlTFdGZ1N1dDl0a1BIWWZwWDA1ZDc1TjJXeFVHdG5pZDdpVDlGRg?oc=5"
+      },
+      {
+       "name": "ETHRWorld.com",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQnUtb1pNbGhRNnd0Nkkxa0FadWo3ZjlsQVpOam01NklDcGR2eUtIbVM1LUIzblExQ0NoMWh6cm1obHFKU2h1S24yWk1nUDhQNHQyTmVuTWR2TXBXYUNtT3hRa3NDUVd1WXBMbDloWURXSnBmak9tb1VDdW83OUhfVmFVRnpiaWViNGI3T1Z0MDVobVVIWXNEbE1KVDBvcDdydGd1Y2xfZHliczhISTRwV20xMk41Um9vUm83MEw1S0U3ZWxyczRNTWNnbEg2UGtoVUdOZDNn0gHWAUFVX3lxTE1CdS1vWk1saFE2d3Q2STFrQVp1ajdmOWxBWk5qbTU2SUNwZHZ5S0htUzUtQjNuUTFDQ2gxaHpybWhscUpTaHVLbjJaTWdQOFA0dDJOZW5NZHZNcFdhQ21PeFFrc0NRV3VZcExsOWhZRFdKcGZqT21vVUN1bzc5SF9WYVVGemJpZWI0YjdPVnQwNWhtVUhZc0RsTUpUMG9wN3J0Z3VjbF9keWJzOEhJNHBXbTEyTjVSb29SbzcwTDVLRTdlbHJzNE1NY2dsSDZQa2hVR05kM2c?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Pollution-linked health insurance claims in India rise 4.3 times in three years",
+     "summary": "Asia Insurance Review reports that pollution-linked health insurance claims in India have risen 4.3 times over three years. The figure points to a growing link between air quality and insurance costs.",
+     "detail": "Asia Insurance Review reports the claims trend, and a related piece calls for climate resilience across the global insurance industry. Air pollution is a major concern in northern India, and recent citizen protests over the air quality crisis have been reported by The New Indian Express. The headlines do not state the claim amounts or the breakdown of illnesses behind the increase.",
+     "analysis": "Rising pollution-linked claims could feed into premiums and product design over time. Insurers may increasingly look at environmental factors in underwriting.",
+     "sources": [
+      {
+       "name": "Asia Insurance Review",
+       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQS0VIWUFiWjRfTVJhZWg3LVltbTJQc1ZOWF9qNXZNUFEtMmtxLUxCWXJwdjNyMV9NQlB3bXUwXzJaU0hrdUJyTENjZnk5VEtwMFpSZWFFZWFCZ3VXSDBMQS1ac2xiZGVtUDczV2tPd2t3QXdGSkU5ZkJKUFBVbUx4cWJRZTEwaUMwT1hra0NxVnRlRHBQSG9GRkltV05BcDFsc2doWUdjMGVySXlYMUUxSEw5dExuOGhDeE8ycFN2NWduMnhRVE5naVRlTlVQNmlNNk16UGN1NGlkdDlpVE1VYk9jalJOQ0VpcTdvaEhyeDhZZ3Aw?oc=5"
+      },
+      {
+       "name": "Asia Insurance Review",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbVQzTWJQX2RzUGZDZlluUng2eW9ZN0Ewb1ducjNBN3VNNF9fcEJHQVppdDRyVXI5NnhWWW1waWlHbFdhQXV6RGVuOTBEVG8xMEI1ekRsU2djN3d6cHFZVWlxV1VYX2pCT0E3Y2VQLTBlS3hxZG9QT1FzVndSQjQxdHgyUXZDMkwwajJLT2pYci1ZbmM4MGltcE94TG1tcWExSEVmdkZaakdPcjBkalB4d0NqNmlleXlIaXBYQ2N6bTNOVHVqVG9zU1lEQzBsV1oyUzhUcg?oc=5"
+      },
+      {
+       "name": "The New Indian Express",
+       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWllpV0Z0a09uWGMtSUZuTjczVnJwZGFNOEEyZVRHS25XS0VDNGJsczl6bTB6aHc3ZXNxQk1hZDZtZHU2aGlXM3JLOXUxaWhmUlpHRThlZ3FzbzZUcnZENUh1UGJSUERpUXRFRzJSYnFOVkctVG5IN3RsSG5pM2QzRVpSUDZoVW1jTnlzdW12VU1JYXgtYXczN3dieGVpbHJCNlFRaU5qUXBUVWp2Ykx1S1lOS3dhNS1LWXRuNFpDQktaTTZvZTREdlJrRjcyYmVyNnM3cWU1OHFYRjjSAegBQVVfeXFMTlJsUFNwYkh5SUc2aTV4b2d6aVk3eGc0VXdhNk9tOEQ0ci1zM2lFbUdPeXk0NFRJcnJaa0EzanN6N3V2TWNNM0ZzVnVRUVV3ajNvRXd0Z2F5MVRtYmE4SnJvbHhsSHlfNGFSVm5xQ2FTVWhEejUwaEtKVWhpRWlVUEhFZ21icmY2U1ZVdm92WFZPZURmOHFhYlgxTkdReG9CbG5JaGYxTTVTNkltUmdFUXFzTDJLM1JLb0VPaTJkVlN1MUlNRGxWQW5IY3RyTW9MNV9MYk03YVRaaV9vZnpMNExTSk1nUmJnWg?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Gulf Insurance Group reports KD 38.5 million profit for 2026",
+     "summary": "Gulf Insurance Group has reported a profit of KD 38.5 million for 2026, according to UPPERNEWS. The result is a sign of the group's financial health in the Gulf insurance market.",
+     "detail": "UPPERNEWS reports the profit figure, quoted in Kuwaiti dinars. The headlines do not give a breakdown by business line or comparisons with the previous year. Regional insurers are operating in a period of geopolitical strain, which the Insurance Business coverage of geopolitical risk for multinational programmes highlights.",
+     "analysis": "Strong annual profits from regional insurers are a useful gauge of demand, though investors will also watch how conflict-related risks affect future claims.",
+     "sources": [
+      {
+       "name": "UPPERNEWS",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObE9KbWpXMm9QQWx2YXRKb2dBOW9qdmw2b1hLSW5XSld4TVFRak5GOXhnU2psVVhiZk11NkdpOE9CT3dFTzlPYTVKZWFkcGdLY3d6a3FjeGZJendDdUlDSzdvcWdTM2Q5bVIwVVNFOUNhWjhYajE3VEVOYkY0dlJtblBNOWJmRlZ3UXYyRk5jdm5IeTA?oc=5"
+      },
+      {
+       "name": "Insurance Business",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLXNjUFhreTRmTDdKQlh3ejhCUzRKQmNfbmd5bHdXWW1MRXlqS2c0SGVnbWo4THpDbTRUVnJIN2dmMTdJOEFqWTl4bGcyYUZLd2xWVUE4V1ZHVXR2bGRhSDFVaWFmclBBWW9KcHU1ckttdEdUUk9sMDdnR3ZqbDJ6ZUxwcnpkYkZwOVg0NkY5WGRGOV9UMm8zcG5JMUhZQXNJcEJsdXFjRHBKZldwNHRJLVZzcHJ3TFV3U01oTEFvekFGOVBqYk9wLTZnMzBWOWM?oc=5"
       }
      ]
     }
@@ -406,10 +570,10 @@
    "title": "UAE & Gulf",
    "items": [
     {
-     "headline": "Dubai airport resumes flights after an Iran drone strike",
-     "summary": "Dubai airport has resumed flights after an Iranian drone strike, while a missile strike in Abu Dhabi killed one person.",
-     "detail": "DD News reported the airport's resumption on Monday. Gulf News' daily update for residents also covers the conflict's effects. Travel links through the Gulf have been disrupted during the war, and airlines have revised schedules and cancelled some routes. Travellers should check with their airlines for current status.",
-     "analysis": "Airport operations have been stop-start during the conflict, so flight status is changing quickly. The situation depends on how the wider war develops.",
+     "headline": "Dubai airport resumes flights after Iran drone strike; missile kills one in Abu Dhabi",
+     "summary": "Dubai airport has resumed flights after an Iranian drone strike, while a missile attack in Abu Dhabi killed one person. The events have added to disruption for travellers in the UAE.",
+     "detail": "DD News reports the resumption of flights at Dubai airport and the death in Abu Dhabi. Gulf News reports that Saudi flight cancellations are continuing and that schedules have been updated for November 16. Europe has extended its Gulf airspace warning, according to Condé Nast Traveller Middle East, which advises travellers to check airline updates before travel.",
+     "analysis": "Travel plans in the region may change at short notice. Airline updates and official guidance remain the most reliable sources for changes.",
      "sources": [
       {
        "name": "DD News",
@@ -417,35 +581,55 @@
       },
       {
        "name": "Gulf News",
-       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFV0VVY0bGdxbDhjTk5QYTRocUZRNHdXSjF5S3J5LWdyOFJrbVZKNU4xaGlNODFYSWdob3dkQmRRNkY1dm9vaWluN3RoeFZ6REUwNmk2S040aTROendjdU03VkIzd3hnb2FwaDBiX0xGMklwLVlRcFpnMHBZOWRhNGNaUVgxc1ItNmg0Y0JYN1NJWHB6Qk5kNTBjWmtEWGtwTGxWeDN5czlXdzRROENSd9IBwwFBVV95cUxQNndPaExucWQ0Y2U5UEtFTVU3aU5hQnAwclNHMV8wOWFMcUNVTXp1M2VSTGpVakstR2JjaGRfYzNJYTR5SEJnM2JRUXowLVJHNnpCS1JUaWNOcklPVjdhSmd1N1RyR1RCYkFnbld1TUNCMmtBM2JnUGxPVXJsSGdhajBVSGJ5R2U4cmVYTU52S0c5aXRvZWpveXNyeTJmUHNZT3J1WlRkb3hVYVpwOEF3Tm5EVVJvZXNVckF2a2pDZC16Mk0?oc=5"
-      }
-     ]
-    },
-    {
-     "headline": "UAE hotels still struggling as the Iran conflict drags on",
-     "summary": "Travel Weekly reports there is no relief yet for hotels in the UAE and Saudi Arabia while the Iran conflict continues.",
-     "detail": "Hotels in the region depend heavily on international visitors, and the conflict has reduced demand. DW has described Dubai as feeling like a ghost city during the war. Hotel occupancy and rates are closely linked to flight availability and to travel advisories from governments abroad.",
-     "analysis": "The hotel sector's recovery depends on the war's end and on confidence among travellers, neither of which is clear yet.",
-     "sources": [
-      {
-       "name": "Travel Weekly",
-       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb05YRHJPMHZYWWZNclg0cWliNVRsT0tDcHpLdlU2cTNiSEtIWllDU0E4cjdsSEZKMXkxbThSUHJFZWNvSm5PZnlvYWE4TVhTengzT2ZMMHhnNkQ5a1AyaWZ3QlNkWWNFS0t2ZTNUQWdVR21rd3psM05oN3ZUTUlXUXJfRlhTNi1LLWVFZ2IxdU0xbzg?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQUJXVVdnUEVtUjN1TFlHT05SWEYzaE0yTm1zNHhPMXBGdDI0WlVDUE1WY1ZiVDJwMDFBaG1melJZT2xKLTVGZVp1X2NXRVQxZHlYRGJMNnlnNVlybHJpZEFSa3RwQ2FHLTlWSlBiQThVZjNJbUtaSnQyZE56NWxJRS1nLVBWMnVBRUJxNFMyQzFvOUtnNENFSW8yendoU2xSSDBHUXQwVlRRQlZqMDJjX1hQVDdrSHhQTktJQjhxNFN4Vm5HbW9LTHRGSHhrenRLbDhXUlZZc01TRkd3QWtEdURiWFVDZzhMb0HSAf8BQVVfeXFMTTFfOUx1RHhBVnJFelEzajhheXVDODFZT3dWUU1NaXBSU2FTQVZlOFEzeUlUbTdLbzZJR0JLTFlKTkR6WUJrdHh3akhncEtCN3VYOHYyTm9oakdXazJXUnJKOXRxTHJxR3hONFZyRTFXU1V1a082aFVzRU5DbldlQjMxckZHdC1XeUVBRm1DQTM1NzRId2oyeTAzdlhUaWFKTkt4SnVKbS0zLXdOQVNHYlFxSTJWTll2eGc3YXBPeS1pZE1vOUdtLXBlcWRWdm1Ec0luaFhLc1FBWlp6NHM0clM0cV9vcHBXa0pZeVV4MXBwa2owcG1IU2JyNkQ3cjYw?oc=5"
       },
       {
-       "name": "DW.com",
-       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5"
+       "name": "Condé Nast Traveller Middle East",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWmZYWkt3dW1mMlZjaWtMODBFQjRfd01iejh2QWlwTllkc0htRDU2My1uSnBFVUZrSjVZSEZGeF9MRTNnNzh6c0o5eGFvUmstR3hlOVRxWTctMG9sRmpsZWltTl9PNHZOeWViT2theXF1ZXNMeWY0YmRVc0tvbTdnc0pVWW53djVvU0F0d1lpa2lJRlNUX2hOSUlicWRYeGVlUDhkSm5sbEVNdy1DZkE5Rk01UVVWUDEzVjhxQlBQOTF1MkRzT0tybDdBczc3WTZNZ3pUSzhn?oc=5"
       }
      ]
     },
     {
-     "headline": "One in five UAE adults has diabetes, with cases could reach 1.9 million by 2050",
-     "summary": "A new estimate says about one in five UAE adults has diabetes, and the number of cases could reach 1.9 million by 2050.",
-     "detail": "Emirates 24|7 reports the projection on Sunday. Diabetes is one of the country's main chronic health concerns, and its management affects health-care costs and insurance premiums. Long-term projections like this one are often used to plan prevention programmes and health coverage.",
-     "analysis": "The projection suggests that prevention and early screening will be a continuing priority for public health and for private insurers.",
+     "headline": "Flyadeal cancels nearly half its flights as Houthi attacks continue",
+     "summary": "Saudi carrier Flyadeal has cancelled nearly half its flights because of Houthi attacks, according to AGBI. The cancellations affect passengers across the region.",
+     "detail": "AGBI reports the cancellation figure, and the headlines separately report Air India suspending flights to Riyadh, Dammam and Jeddah. Gulf carriers are also seeking the restoration of Mumbai airport slots after a relocation dispute, as reported by Prop News Time. Analysts quoted by EnterpriseAM say Gulf airports are adding fuel storage and pipelines, though a refinery outage could still force cuts.",
+     "analysis": "Flight disruption in the Gulf has knock-on effects for travellers, cargo and connections through hubs like Dubai and Abu Dhabi. Schedules are likely to stay volatile.",
      "sources": [
       {
-       "name": "Emirates 24|7",
-       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmZuYVF4blkwclR6ZE9VcFVEMlZJT2N5S1ZHQkZNQVh4SzJMZ18xMzNHeEZRSURLX0U4X0k4SGZjUHhSb0pvVDFtU3NLeGlnNFFaZjl2SlRUeEJqSlRFWUEwSndzRFJ6elFTbkZLM3hXZ1VrZjZ0MUlOX3ZIbmxYN2M4NUVKdHhtNFpJM056dEdwWTlYenF0Y09KbjA1cWVFVk8tVDIxcXJFRm9MNkJKX3JqMWhDQdIB0AFBVV95cUxQN3JSNUxJZ0NaZ25aVlRfanBhdlNENkxkbHNoRHJHMFJkQ0pHc2FJZXVITDR0eUZVcVVNRU10Y0plT1llOHVfaGV6Y21VX2hjeHV2blJTbVZlM3B2SkNMYWJ3YS1zRVdPX0VBZUg0Rk43S295VmtKLTZuZVpkdnFhWERPdzBTQTlQbjBidFQ0akQyU1UydUFnMTVBYnpIWEVQcVRZd1ZMZ2Q5UHl2RTVHM3RRV3ZwR3FEWUQzNFFGeEpCVS1SN29WRW1RVXB5NFl2?oc=5"
+       "name": "Arabian Gulf Business Insight | AGBI",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNWdkV2YwWUlYTGcwcWVNR2l4LTM3M1psSWRDNnRYWkt5eWlQYTRVM2xoSGlORElzU0JZQzlkbHl2RGRDaDAtWEhjNmtUSDlTTWx1NGNISlM4c2tFV2VJVy1yZndqcm14WGxBVG1nT2FUVlpFZ0xaUUZkN2ZSSEZ6YU16VW5YRkhORW5pdTdWZXRjUUR0dk1HQWl2dWVWLUV1cERF?oc=5"
+      },
+      {
+       "name": "EnterpriseAM",
+       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPZkhqZXBDWFVjQVhQTnJvZEFjOE9hbFpscFpPbFNEM1pDZkU1MTdsc2prY01GNmZTMTdIQTRVTklkYnhOd3VrQk1peEpYSHlPRnlYMU1OeENEQ1B0OGVmTUdWVk1nQ1dnMElMaDJ6M2lUZFJGekxlNy1hZlcxbENRVWduSEd5cExLdG1aNW9wSC1HdzNpcGstUzJmZ0JlX1Jpd056LUMtb3RaMzhrM09LWXMxZkg4WmRPUmtzR2NITVpjNjVENUlaQ2IzdFRhbjZkNjNxUFVxUS1rbk5IVWdVazB5SkVaN2wxY2ItV19XMm5pV0Y3N0hPNDdWMVAxTjBVUVdHWW82NGNiZmlw?oc=5"
+      },
+      {
+       "name": "Prop News Time",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLUxZNjBFaEtiT0JjZEFFOFR0YVA5cUt3YWJycERkSHBiQk91aXZBOVpQbGFacmYwS1pRV09OLXNCN0VUdzZwdEx4ZkFja01RZlJXX0pmY0JhQzNyZkxTT2EwZ3J1b1llZEtzUHJpb0Y4M1NzZ1hNejktY2FOSjRnZFpZdzlWSU5tNDJCdGpvSldSdll5cFE0MmtvZWMyMk5xb0RwUXljVjdmaGJiY041VnM3NXhDWFBYMkJJd2pDZkY5bkpGeTZlMnpPZ2JoM3dfYjF6cA?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "UAE Blue Residency visa: 20 requirements across five categories",
+     "summary": "Legit News has published a guide to the 20 requirements across five categories that foreigners must meet to qualify for the UAE's 10-year Blue Residency visa. The visa is aimed at people working on environmental and ocean-related causes.",
+     "detail": "Legit News sets out the requirements for the 10-year visa. The headlines do not give the full list, so readers considering the visa should check official UAE sources for the current criteria. Long-term residency schemes have been expanded in the UAE in recent years to attract a range of professionals and investors.",
+     "analysis": "Visa rules change over time, so the official list is the safest reference. Applicants should confirm the latest eligibility criteria before applying.",
+     "sources": [
+      {
+       "name": "Legit News",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUg0VjhSWDdxQ2xWT0VxYnJGUEh4b3JydGRPTE83N2tKRFlQdkczMkVQdGswampfOGRfUFFkZmxVb1hzNVc5Ri1QWTFnaGoyU0VIQUx2aFFhckJGUnVtZFZpZWtzZkc5MDN6UW1tWDdBMnV2eG04dDd5aUFZcDgtRGlMODYzb0NFOUdrb2tNQmFDNlU4dFhnazExLUI3QTVMVlZ3VDBsZUZUdDd6N3NtYU5sM0I?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Indian teenager among deaths in a UAE road accident",
+     "summary": "A 13-year-old boy has been identified as the fourth Indian killed in a UAE road accident, according to The Hindu. The case has raised concern in the Indian community.",
+     "detail": "The Hindu reports the identification of the victim as the fourth Indian killed in the accident. The headlines do not give details of the circumstances or the investigation. Road safety is a continuing concern for expatriate families in the UAE, and local authorities run public awareness campaigns on speeding and driving.",
+     "analysis": "Road safety guidance from the UAE authorities remains a practical reference for residents and visitors driving on the country's roads.",
+     "sources": [
+      {
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajU1RHE2YVBHZlhpU2E1aU9VZWtVZUZsWFYtb18yaEU2U1gzUXhoZkNVSmxYa1BOSmFJbTFRRmxhcGRvT1hXTHNqTDJ4eU1hRXFWOUxGWU5LdGE3dVc2Z3NOb2Q0OFEyUHhPMVhPSS1lREZUenhaaVFJRDJDRUlzeUQzYVlRYUU3YXZJeVlmeXA0ZEJ6TDlsb0YyZzROb19XcU45UjJXOER1VGVzMEtWSmt5ZV9IcnJJeEdDUXpfUE0xQ2RwT1pKVGZn0gHQAUFVX3lxTFBRNHJmUWMtYkQxVFk0XzFGcEMtMW8zUDdjZjAzeW15SHFYeDA0NDd3cTNRRzJUTGotREdwWml6RjBNanZnVk5OaUNkamJHNG4zX0M1eDl5U0NMdmVabVJ6NVhWcGFwa0ZDLVF0TE5laHA5bDlRanJ2UXM5WjcxRHN4QzBIcmFjTVZLTDQtVVc0eC11Nmtud2Fjc1hhU29ZOWJfdlJ0N2s2ZEl1T3pONkx5LXdxU2lzN0JRRjNVck14Yi1QYTBPbjgtbVJBUm91Yzc?oc=5"
       }
      ]
     }
@@ -456,62 +640,102 @@
    "title": "Money & markets",
    "items": [
     {
-     "headline": "Sensex and Nifty rally as foreign investors return and crude eases",
-     "summary": "Indian indices rose in early trade on Monday, helped by strong foreign fund inflows and lower crude oil prices.",
-     "detail": "Moneycontrol reports the Sensex gained about 600 points and Nifty moved above 25,300 at one point, while other outlets gave smaller gains. Foreign investors have reportedly put about $8.9 billion into Indian equities in November. India Today notes the Sensex has gained more than 10,600 points over roughly 26 sessions, although valuations and global risks remain. Gains were not uniform, and the market pared some of its gains later in the session.",
-     "analysis": "Foreign flows and oil prices are the two main drivers. A sustained rally would depend on whether those flows hold, and on how the Iran conflict and US rate expectations develop.",
+     "headline": "Sensex and Nifty close higher as foreign investors return and crude eases",
+     "summary": "The Sensex closed up 512.34 points at 82,104.79 and the Nifty 50 settled at 25,291.10, both gaining on Monday. Foreign institutional buying and softer crude prices supported the rally.",
+     "detail": "India Today and Telegraph India report the closing levels and gains, and Reuters reports that financials led Indian shares higher as foreign inflows hit a monthly peak. The Hindu and BusinessLine both credit foreign fund inflows and lower crude oil for the move. Midcap and smallcap stocks came under some pressure, according to ChiniMandi, while Fortune India reports that Tata Motors PV slumped after JLR cut its FY27 margin outlook.",
+     "analysis": "A rally led by large financial stocks with foreign money behind it is different from a broad advance. Readers should watch whether inflows continue as crude and global cues shift.",
      "sources": [
       {
-       "name": "Moneycontrol.com",
-       "url": "https://www.moneycontrol.com/news/business/markets/sensex-gains-450-pts-nifty-above-25-250-strong-fii-inflows-among-key-factors-behind-market-rise-14080817.html"
-      },
-      {
-       "name": "HDFC Sky",
-       "url": "https://hdfcsky.com/news/pre-open-points-to-uptick-at-start-as-asian-weakness-prompts-investor-rotation-towards-india-november-16-2026"
-      },
-      {
        "name": "India Today",
-       "url": "https://www.indiatoday.in/business/market/story/stock-market-rally-sensex-nifty-comeback-should-investors-buy-now-3039696-2026-11-16"
+       "url": "https://www.indiatoday.in/business/market/story/sensex-jumps-over-500-points-nifty-ends-above-25250-banking-stocks-support-gains-3039943-2026-11-16"
+      },
+      {
+       "name": "Telegraph India",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOXd3NjQ5Y2FybS1yeS1vUVhzU005OG9sM1VBajZxTFE4NmxSQlJfX1lEemdfVmt1dHRCY0poUFZJUDFtb3VEV2hlV0x2ZG1rYTdvbTdIdlFMbzZTc2xtN1V1NmJmRl9MVzZnU2JCZkVVLXNLMjFuMlMwTno5WE1ZZFBaelZJSnBPdXlSb2xNX2R3M0hZTnRlV2xRc3dOTVd0V3VXV0J5SmZHamRBRXQyblNQa1BETnFFU2RQTURjejRSNzR6c19kdjhRWmdpLW440gHWAUFVX3lxTFA5b181Vkk5c1ZWdzJjZkd1d0EwSWxXd2JNNVlKREQ2N0hpYTc3ZEVQcUVyRUxsbVZiZlNpcUJqZjBuelVBMUlJajhPUlFKRWU5Ym1fdHRXOHF4MWFHbEdKT1p0UTlDdUhKZjAza0Y2X2pUaXk5bVlpQm8zRUtoY1M1Mm1RQmFFUkRjNktxcmN0SS1hLUpIV2VZZzd3OWR0TXBkRDdocHhmaGdmSjVPN0pLUmJtYjZnOEwzZ1ktc2VVT1BGT04zX2hhM3pNNGZWdFdHV0xmTHc?oc=5"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWW9UblBTWEw2RXJKNFlkNkJzRHU2WDFISVIxOUJ3ZE41S1lOb2RPTXJkOUlDeXlPVDJIdWRURERiYjZhRTBjazZuQ2U3ekF3eEoxcU1pQWd4eHVJM01QenRFTVI4Wi16Ty1nQXRjTDhzSmhvLW45eFZ1RjlkSjJVZHNDZmtMbHo5WVI4QmdsOXUtSXpuSjZfUk9nMjZabWlHYWkxMEJqVXZNcW9KNUNqc21iT0YtbWhFdFpfNA?oc=5"
+      },
+      {
+       "name": "Fortune India",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUtNY3cwenpuaXF2TjBqeWhDVUJhcjhQTEc2Vzd3bXlKbTJDOGM4U0ZvY3UzOXNJZDZOYnJkaDR2cnZqMm5vX0hucXZSMDE5SE1TWmEtN0QtOFhxM0R0djQ3T29HekUyX3lTa0RkNWp5UXhROWFwTUM1QXBtbFUyNEx3ZUJaTlNXSnRfa3Q3M0VkREQxbEJQbzNFUFVMdElhdHBsOHAyMllWbFJSWDVZMWI1R3dmMm5obUZ5VXQ4NWk4eVNx0gHSAUFVX3lxTE1CTTlIQk1uT1RqMnRxanFZWHJZb0pfWFAzX3ZLUV9iUzJvb3NxMEtiNUh2TWgxZnNxUUZOM3ROaVFQQllhX0VaWkRzekNWa3M0WnBMTnZIZkp1Y3JLbDBDc2g0dEs0R0gyOEFiY0NaVkpvR0Vqa2YxVUROejBYY3hYMHg2dlJLaDFZWHk3QUlGZEZ4SjYzNjVINEEyQUg3b3R0WGpkLXZpd21jTWxDTjd1N05hQXM0VTlRU19JQUF0RWlPUVBvdGVURUQ5MVFBa2FQUQ?oc=5"
       }
      ]
     },
     {
-     "headline": "Rupee firms to 94.13 against the dollar on foreign inflows and easing oil",
-     "summary": "The rupee rose 6 paise to 94.13 against the US dollar in early trade on Monday.",
-     "detail": "Reuters said the currency was supported by foreign inflows and corporate dollar sales. Lower crude prices also eased pressure on the rupee, since India imports much of its oil. Finshots asks whether the RBI has really stabilised the currency, and FXStreet notes that expectations of a firm Fed are a counterweight.",
-     "analysis": "The rupee's direction is closely tied to oil and to the strength of the dollar, so both will matter for the currency in the coming days.",
+     "headline": "Rupee closes at 93.92 against the dollar after snapping a two-day losing streak",
+     "summary": "The rupee rose 27 paise to close at 93.92 against the US dollar, snapping a two-day losing streak. Equity inflows and lower oil prices helped steady the currency.",
+     "detail": "The Hindu and Telangana Today report the close, and Reuters notes that volatility eased as equity inflows blunted global headwinds. FXStreet points to foreign and corporate inflows and lower oil prices. Finshots asks whether the RBI has really stabilised the rupee, a question analysts are still debating. Earlier in the month the rupee had weakened 33 paise as crude and a firm dollar weighed.",
+     "analysis": "The rupee's moves are closely tied to oil prices and foreign flows. Traders and businesses will watch the RBI's role in smoothing volatility.",
      "sources": [
       {
        "name": "The Hindu",
-       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZEwxZm5DbE1UdV9XUlVkcC1JalUwdjNaVFcxZ183OV90Qk9LbTZfbEZCX3NrU3lZOVhtOWdmWHAwZlA5OGZNUTVqR01ub2gyYnRUOXNZXzZwMGs1YlVFbDZJcEQ1SUlsWDdlb2JlVFpNWGVFM3BWV2xSOWo1TnVZU1pSTFVKY01LblhsNzlvMHZ4U0JsS192Y2tFTExXZkhIWnJneXFWSDJhMTA5SVl1NEZEOHhkZFM1cDJWdG1NTTnSAccBQVVfeXFMTjdxU2dzb3FZQ2xRMDBuel9VMlY5eXRpSG5xdUQ2eThBUmtFd1RXMU5ZLVpqVEJ0RmNOWVRJOGdkdEJFTGZKM1NLRkxUYzRXd25CY2ZaamxtczVUNEVWRmhwdUV5aHRmd1ppb29WNTNfSWlxTHR0NkpyYmVkSkhHTE5QSmdVUFpjZlZVTkVLME9Hc1V6M2dXRndvT3hRZUFoNDB3OUdGSTBKQ3hYZjJXbXdESDN2WV9xRmtPMDY0S09RRTVld19xdw?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTzZRMnRENTAzVkRZX3VoMlR3QmUwWlNfOGExTmctVHJLN0Q5Q1lPRVQ1RjRMeF9ObkxadGRKb0RmaHFrTXZibVNJMGJ0ZVVoZVJ3RWFLQkF5Z0RNY3F0MHI2LWYwQklyY1VhQ0JSSUNyUjdSb3drdVZhczVlRTV3MG5Ickw0WTlCZTc2ckZnZHpNSzFEWDU4LVlrRVVfdkZEd0pZcm5EQnllQ1BPanRxRC1qMjczNTZSWnfSAcABQVVfeXFMT2pMRFlPX3ktRG9zbFl2d1BLYVpTNlBZV0kzNE5SSTdfNlhXbld4YmdYMUdTMGxkUWMtM0RoblNDLVZ6ZWZKeGdNRGZXY0RHSUF1NFlwX1JrTE1xYnpaRXZZZ3RuS0l2TzNMVV9sTUdiQkdObXVZNk5oOHU0LUM4dXJVNUR5ZzZ2aE1rVlhKYmhQdGQxZTlsd1RPMlFRQldHX1lQcjlOME9peHJRZ29RVU5BTUVVUV9MR2oxS2dabzFE?oc=5"
       },
       {
        "name": "Reuters",
        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUnZsV3JvbXpiRElEdnViZ25tOXl2YldqM1VUT3JfSFlYTVBNZGxVZGllZWtORUxWTThHNXhfRU5NUHU0Nm1lcUw3Q0JOOXpwRjlybGFVb3IwbUhpVm9DMGIxLUN4c1VYMGFXLVJPVE9WZDNVazUtZmc0bWYzSDlXekw5QWU1cnA2ZlRRYURYQlBPSFhWcHcwTXU3cDE2ajJ0X2llUzdqb2pxOGRoVXNV?oc=5"
       },
       {
-       "name": "FXStreet",
-       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnlscmVydTFJY0tWY2dIaUNJaFVJaF9jVVF3cDJXSG9ib09FLUNrcWVFVXotR2t4MDFRS2NRdkxRa2IwRHdCZjJROVd2QVk0bGZoWkt3eEFMS0ZiTDFtS3IxRnFZRDhZc2V4a0JxT1RKNjhwT3JfSEU1YmRFTlJET2oxTUxHeTF4X0xFWExfTl9TeWhUMU5ETVBhT0dVTWplN0U0b1prMERkdlVqQlNCNGFXQ2RpcFZRVlNzeTVn?oc=5"
+       "name": "Finshots",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRjBIZnNwZExMbTR0ZWJORUVrUXZhaEpObjBtQnJlZXZUN3JDUWxuZ3VjNGRQQmdHdUJ5X040R0ZqVEJPeHJESGJTXy1hZkV1ODZhZE83d2JSZk1pMWt6NFVUNA?oc=5"
       }
      ]
     },
     {
-     "headline": "Brent falls to $96 as supply outlook improves, while gold hits a one-year low",
-     "summary": "Brent crude has fallen to $96 a barrel on an improved supply outlook, and gold has dropped to its lowest level in over a year.",
-     "detail": "APAC Media reports Brent's fall as supply prospects improve despite the Middle East conflict. Reuters reports gold hit its lowest level in more than a year, weighed down by a firm dollar and the Fed outlook. Traders' expectations of a December rate rise, reported by Traders Union, also weigh on gold, which does not pay interest.",
-     "analysis": "Oil and gold are moving on different pressures: supply for oil, and interest rate expectations for gold. Both are sensitive to developments in the Gulf and the Fed's next steps.",
+     "headline": "Wholesale inflation rises to 12.29% in October on fuel and power prices",
+     "summary": "Wholesale price inflation rose to 12.29% in October, led by fuel and power prices. Onion prices and winter vegetable costs are also rising.",
+     "detail": "The Hindu reports the 12.29% figure, and Telegraph India says the rise was driven by higher fuel and food prices. TheWire.in notes onion prices rising sharply, with winter vegetable costs expected to climb. The Times of India has called this a moment for holding the price line. Wholesale inflation tracks prices at the producer and trader level, and it often passes through to retail prices with a lag.",
+     "analysis": "Higher wholesale inflation can feed into retail prices and central bank thinking. Fuel and power are the main drivers to watch in coming months.",
      "sources": [
       {
-       "name": "APAC Media",
-       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTlUaUdoNE5pbEdpa3Z4QnZGdFlUZkxKQUYtcWZXdTBWZ0tUc2FQbS0tTEI0amVJQzB2eE94VGNFcTJSOU1TSmFVaG1vVnQ0c1lWb0NrLUlkNWZiTlg1YmNwbENiYy0tcGJGNURTNXNxZUlsYU9lRkYyMDl6Y21VWU1sRkIteWs?oc=5"
-      },
+       "name": "The Hindu",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVUxHaUFjSTNObWY5M0NYaXM5TGtoanRWRzV2bUJkR182YTduc1NBX0ZvU1ExSUNqdW9rakZiM1lyQjNKQms4QUp3cVk1Q250RGxSNGloYVdJTGxGVkstUGJOdWw3cFh0dVprM2hRdWdEejdVS2haQTUyQTRRdDZRNVBiSTRPVkw2MHNoMmY1dU1NWnVvaTIxam9qNWlYdFRZeklvV0duRUVJZnhqQWdVWtIBtwFBVV95cUxQRG11c0ZfbkF1RmREcGZPckNVTEJXbXpuRlZic2I3Z2JhV0pGdzVtWGVqN1AtVWVmYUdrcWtpNElXS2M3TkF1NDhsd1B6Yk0wd19kUnNhLVJSbE51ZXRIVEs3VXZpU241N253bmY1aWgyY3VvbmRsdjdmQUZqYnlfQkxtZS1LQ00yeVFMeUpRR255aHl6eTE3cExmVEZZOUNKRm5FbnAzWHdYWDJNUGdFdU9mNGZQVzg?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Gold hits a one-year low as a hawkish Fed outlook supports the dollar",
+     "summary": "Gold has touched its lowest level since October 2025 as a resilient dollar and bets on hawkish US Federal Reserve policy weigh on the metal. Gold later stabilised but stayed under pressure.",
+     "detail": "Reuters reports gold hitting its lowest in over a year, and TMGM reports it stabilising after touching that level. Anadolu Ajansı reports global markets starting the week mixed amid Nvidia turmoil and a hawkish Fed outlook. Federal Reserve Governor Susan Collins has been quoted as seeing gradual rate hikes to curb inflation, according to Livemint. Higher interest-rate expectations tend to make non-yielding assets like gold less attractive.",
+     "analysis": "Gold's direction is tied to the Fed's next moves and the dollar. Indian buyers will watch rupee-denominated prices, which depend on both.",
+     "sources": [
       {
        "name": "Reuters",
        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0w3QnNOYVBGYjdBMGJDeml5RExhSzMzaGVTUEQ2eEdLNHhHQzRoV2thNUo4TkVGYmNfc3NsSGpVVVF2OWxCZ21CNzBMSGs0S3NuZ2Rla1d4WTR0RGJwcllfYnZ6dlR5ZGZXa3dMakUxZmNDWFExYk9HNTkyLTN6aWF0MlRRbzN4aUJUVnVCMk1fdlpVN1B0bE1QM3dkaENDNEwzaHRORFFjVDYw?oc=5"
       },
       {
-       "name": "Traders Union",
-       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTRwMVVJVUhKNTJ3NU45V3N1dDFYdHM3QnlNX0JzTlg1NXR0aTBoRlF0OVcyRndya2FGQXpZdENnNUJ6RVZoLUw5Y0VjM25DY191SldZS2R5Y0pIWENLMWdlLUhUeTVaNVlFVG4yaWxYVGE1aDFUTnByd3RXbVB1dEM1X2hpQXYzSEI2ay1pUldaWjVWdmdfOUVn?oc=5"
+       "name": "www.tmgm.com",
+       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeFFMR2E3bXp1MVdzT05aZW5HSkllcDd4anZpdHlGOFRlYmZqcDlob2xMcUhPZVlTT0FnWmJhSzBYbVZEejRUNWFfLUJhb3BYaHBEdEQ3dGFVSWN1NGdaQWtEUzhXNWt5aDhuZGo4OUhHMS0tRGpqUHo1bGJvSTd2azh3UWJpbDVPai1mTE03M21VM1k2ZFo4aHBDUzZSam5RNU9xalJiQXBITUt0V1BTSEhvbk44U1RNVHJTODdVX2FmRTRKX2Z1MEhuTldlN0JOdkdaUXI2YVhwU2VhNHc?oc=5"
+      },
+      {
+       "name": "Anadolu Ajansı",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMlYycmhyd2xaWWJ5LVlPUTk5VzFvRThPMmQtdE1kZ3ZKYjY2dnJCVkpyNk5NMmIxSlNrUGdPYV9ZTzE0Wjc1aEJHSHNjbG03Q2ZrQUwwOEZULUVDc0JrbmpFSVpsWm1MMl9PeEFEb1ZRMnNYOUo1ZDR4MTV1cVVyUDhUNTFRYk9jdWxMaDR3dU5WbTM4eTJTaURkT0MtdmtEZ09adTVUekRIbUFSR3lsTk1YakdNRFE?oc=5"
+      },
+      {
+       "name": "Livemint",
+       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaFZIQmhjLXdrcDBDdVkwVzRfMHJLSFhCc3czUjI1andRTjlxWXp6aTNBaTREOGc3dFNwUFF4WFdmaDlsV0U1MHJqRlRmYzV3aHNDUW1RVEZLeWZwZVI0eW1qUzE5SWlFZmNKSy04RVluLVhnMjBtSjdvZmItZGJ5c0RRakhNbjhTZkpPY3JyNFozUVV5ODAwYjUwZUZmd292SVR3SFRxRkdBVHFfRHNEbGdLYTljNlQ1QVEyVG83b29Mck1pMUQxWTdaRWNtVlc4WGt2X3JWcDJmenk2VzNUQk5fTFdhcTFsdVZRcDg3dHBlb01NNmliZy1DTdIBgAJBVV95cUxPeTJWM25CelhDSjlieTEydGpRVVE4TUdoWVlvR3pHWG40bGNIOXdmdEpEdnBkRUdSdFowOW0wSHhNVzJPR2Z4Ny0wVVF6RmpwUWZfb1FsVmQyWloxTmdZNi1MTEdXeWtJcnAtSkJzZkNISE5pX2xtdmhnVkJLeUg5N3FJZ2drQ0ZYMmx1ZkdzN0o4VXdfTlJVOU0tTmdwYlZXdW9PMU9VZFhKOVpCQ3RUbnJzalJPb25HT243Tk1HRTg5enJ6NEd0cGtOdWxseEQ5M3pUY2Y2UzN0SXEwTFlrMElUMlFJOFVZano2ZUZwc0F6eGI4c2sxVFZUU3d5Qmtr?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "GIFT Nifty points to a firm start for Indian markets",
+     "summary": "GIFT Nifty futures jumped about 100 points on Monday, pointing to a firm opening for the Sensex and Nifty on Tuesday. Analysts flagged consolidation amid global weakness.",
+     "detail": "Moneycontrol reports the GIFT Nifty jump, and HDFC Sky and Upstox report a gap-up start. TradingView notes that experts expect consolidation, with weak Asian markets as a backdrop. Moneycontrol's global cues piece highlights Nvidia and the Fed as the main focus for the day. Pre-open signals are indicative and can change before the market opens.",
+     "analysis": "GIFT Nifty is a pre-open indicator rather than a guarantee of direction. Global tech and central bank news can shift sentiment quickly.",
+     "sources": [
+      {
+       "name": "LinkedIn",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVnBweGhmR0xiN2tfMF9YMW5WX3BxcFVRQUxZbG5lQ1hYZURydzhrLVJvYXM4RnJMQnFJaGp2YzlfUjNfQ1MtWnF6NlJCeFpZZEZQOExIbnRpNlZQamxoa1FUOFAzNE95VEQ4T05XTTN4R0ZwZ0VYVVNQelVsS3g2Y25lLV9yN0VPaU9yN1NvZVQ2UGEtUzhQN1R6SHhLQVNXZkJZTHhRZDVMLWJuWUY5V2c1QVRNVDBfQ25BQ19n?oc=5"
+      },
+      {
+       "name": "HDFC Sky",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXFTTUM1SDFvS3ZERnFJX2NXU2hRZXE0MmFQMDh0NUJZN3dTSjFDQXJCblNJSEFNVS1QRDl0a3U2YmxFeHR0eVVEejk2YnVkb1lSUWU3Smw1SUFUSUNTQ2VfWXdrV25GdXhHQUd5bFl1ODZxM19pZEcwVndKTU5zaDFEdEw2eFhmTGNXVm02T0JScllSMEZGRERhd1NEcWpJazZKNkRhdTE0MkxRZ1dF?oc=5"
+      },
+      {
+       "name": "TradingView",
+       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVnlsTVhCNXIzV0FLX0lvSXVzZzJTZ3F2V2JmWW54bEZUX3FzRFU4TFdWeUNjcjVXcmI0cnhNT1FwQXM0UnFmMDlnd3M1YmY4Sjh0RnFOQVg3ajBzaGdfSEhkZVpvTzBzYkJoVU9DZFMtMXktWUZsWkdMcW93aXNIelk4bU5Wc0wxVXRrLS1RcEhERk9CRGxoeEVpeXdIVEp6Zk5SRUJILWVvLUh2RFRFbTI0SXVJOGhMRG9KZEVhb1JrOXZCS19ZcXVlTHhUMk1FMnc?oc=5"
       }
      ]
     }
@@ -522,62 +746,70 @@
    "title": "Tech & AI",
    "items": [
     {
-     "headline": "India's Semicon 2.0 scheme approved with Rs 1.27 lakh crore",
-     "summary": "The Cabinet has approved a Rs 1.27 lakh crore second phase of India's semiconductor programme, called Semicon 2.0.",
-     "detail": "DD News reports the approval on Monday. The government's broader push includes chip fabrication and assembly, and IBM CEO Arvind Krishna has said India needs to scale up semiconductors to be a serious global player. Noel Tata has also spoken about semiconductors and EV batteries as partnerships in India's development.",
-     "analysis": "The scheme's effect will depend on the projects that get funded and on whether they reach production. Watch for the first approvals under it.",
+     "headline": "Jensen Huang seeks return as Nvidia CEO four days after resignation",
+     "summary": "Nvidia co-founder Jensen Huang is reported to be seeking a return as chief executive, four days after resigning. The move has drawn attention from investors and public figures.",
+     "detail": "Korea JoongAng Daily reports the return bid, and the Financial Times reports Huang discussing a comeback with allies. The BBC reports that Elon Musk has joined a 'Bring Jensen Back' campaign. CNN frames the story as a broader matter with bigger stakes than the leadership change itself. Bruegel says the Nvidia turmoil has left the US-China AI truce without a defender, a sign of its wider importance.",
+     "analysis": "Leadership at Nvidia matters because the company's chips are central to the AI boom and to US-China tech policy. Watch the board's decision and any change in strategy.",
      "sources": [
       {
-       "name": "DD News",
-       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQVc2WlpVdllsMUxRMkpTMmQ3YjZCWEdOdnZyTDl2SVNzR1Vlbm9ySGYxTFlrNDI5YmZ4RDJSc1pRZHZjOGFOejZzbXRfc0doZVdHVkxkdS1TTDMwcVhBX0VpUWNFVlRMVjlnYTNnMl9DQ3hrMWc4Q2NXUTM5akNEa3RmUU05Z2VON0lrX01fWFM0N1E1dy1HTWtMaF9tZHNTY3FNLTFnSVJZa1NDV01odVBmTUZ2SFRMTHc?oc=5"
+       "name": "Korea JoongAng Daily",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU2lRNTBzb29uRXZjeWduODQ5eTl0TWk4WGptS2luNUNkNkh6cFd5S3liYkVyR0c3a29PaS1LRWdNdjFDWDJPX0dUeWtDaGZoa3YybHNhNGE1MjEtZVZSSUlVTGwxNktqa29tU1A2N2RQank4Uk5BZ3J0T09tTGRDQ0U1ZXE4MWJVWFFscURiNERxcmFxZnhQOXZvUW9nSGVRVU45QlprNVpwcTBhR1JPVTAwMGpsdmwyWFhHRw?oc=5"
       },
       {
-       "name": "Moneycontrol.com",
-       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRDJvanFXT1U0VkVieWZvcS1wZmFDUEdaSl83OGdRaWRVanRGSkVwQjZPeDM5TmpZU1VNNWRKRGl3LU5YVGpoN3VhZUZUVVhIODBBZ0YyQnJ3cWlpc0R3aFZiS3pwalVnLWhqMDRrVmY5blM1akdQVm9XZmVJVm9TLXkxV0hDaGhOTDFnZGdyRFpWQm52cmFfdk8zY3N3NklJUi10U3pzME1Jb3AyOTUwcnRFTXYxQTE2M2dpbUs2OENUeElJSGlNbXhWM2RQcWxzYWhVVXNhUGdCX3EtUDNRRTQ3R3U1cXR1dU1r0gHrAUFVX3lxTE1EMm9qcVdPVTRWRWJ5Zm9xLXBmYUNQR1pKXzc4Z1FpZFVqdEZKRXBCNk94MzlOallTVU01ZEpEaXctTlhUamg3dWFlRlRVWEg4MEFnRjJCcndxaWlzRHdoVmJLenBqVWctaGowNGtWZjluUzVqR1BWb1dmZUlWb1MteTFXSENoaE5MMWdkZ3JEWlZCbnZyYV92TzNjc3c2SUlSLXRTenMwTUlvcDI5NTBydEVNdjFBMTYzZ2ltSzY4Q1R4SUlIaU1teFYzZFBxbHNhaFVVc2FQZ0JfcS1QM1FFNDdHdTVxdHV1TWs?oc=5"
+       "name": "Bruegel",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmVsQldBejVYLUZmaVpjMkxEcEhab2lLS05naE5TOTZ4LUN3ZnNhTV9HaklDRVJ6TUUxc3FxSk5vNVJDTXVoTGNKR0stM2tLRm1oUkNlN2xlc1BSQm9nZE9ueHFzSHpidjh4U0k1MFJjR003MXNkMGdqYVFwVVhsT0MycDF6ck1BUURXZXpaV2J0S1NXSVQ5dUwxMW80bkVkbVdVTjRXejRQT0RrTFVSZjVYR1Q?oc=5"
       }
      ]
     },
     {
-     "headline": "Indian chip startup Bharat Semi raises $24 million seed round",
-     "summary": "Bengaluru-based chip startup Bharat Semi has raised a $24 million seed round to develop AI sensor chips for global markets.",
-     "detail": "TechCrunch and India Today both report the round, with India Today putting the amount at about Rs 215 crore. The company says it is aiming at the global AI sensor market. Large seed rounds for chip companies are unusual, reflecting investor interest in semiconductor design from India.",
-     "analysis": "A large seed round signals strong investor appetite for Indian chip design, though the company still has to show products and customers.",
+     "headline": "Anthropic's IPO lands as investors weigh the AI trade",
+     "summary": "Anthropic's initial public offering has landed in a week that the Economist describes as big for the company. Market commentary says the listing comes as the AI trade looks for a bright spot.",
+     "detail": "The Economist reports on Anthropic's big week, and CNBC says the IPO arrives as the embattled AI trade looks for a boost. The Financial Times notes that the biggest IPOs this year have lost investors money as the AI frenzy has faded, and WSJ says some investors are set to win. The headlines do not state the offering size or price.",
+     "analysis": "The IPO is a test of investor appetite for AI companies after a volatile period. Its early trading will be read as a signal for the sector.",
      "sources": [
       {
-       "name": "TechCrunch",
-       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORlp0dzgwTTFLWm5FZ25md2xZM1hldHoxRmhaVHJncWNmYUd2WVJRZGZlQVlycUlRMENUblNDSHpudlV2ZlRvTFhMaUFCb1hVUndRRHMtMmRaSnFiV1Yxb19kQ3ppVTQ0X29hZG1FVlBmVW8yWWJ6aVh6R0xESlJMWElCQ2kzN19rX29feWFJeV9EQzc3dmdYQmRoWUg3d1lTc2xaRUV5Y2FBa3lZNWpFNVMzdEZrNGRVQk0yX3h3NA?oc=5"
-      },
-      {
-       "name": "India Today",
-       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdVZ2eTVadkptTnRrenZFZzVYTlhYVDlCUXZETXVRVUVKSVlEQVNNcWRsLW1pVHFta2YwampDeGE0S0ZNOGxOVE01YWZCSi0teFRXcTJ6Z2p6RFlsLWJ5OTlvczVKdzdtbTVSZTFvdVVuVW9MZHNOMXRKWVBWVG1ET2hyNy1wVEFmaUgtblZQRmlRMjV0OS0xTVVBd2phU0FlY0FyLTlEbHFwUnpKQlFETmF0eVoxd1FXZUxWZHEwTGRlWEQ3a2ZYZ2tQUWhWVkJoNDc3VTY1UTA5Vmpfc1JyZndJbmltZjRoa2ZuU091Nnpha1BtaUY1WdIB_gFBVV95cUxPbEdVSVFoRmk1dk5oNXR6UnNXSl9zZGd0QWViQkEzMGdoTjFUTXJhQ2txTThYSEhtSTdDektZWHAwdnJtamg3eFZrUUlCZTZFZm04S3FwZXdyYmlHUlN5QjhTNnJvM294T1RsSndsSmtWMTBNX3pxWERFSnZjVmR4MFF3WmlsZVBLWkRCcEF6TTV4REJlTEtqZjFUTHJOdjRHVTdzRGMxM19JYUVGdl9wNG1GeVVHMVprM3B0TjZIWHMwemRZVm44UUhKOVB5QTd5YUQ5WkhsNnE3SXhDOVdvdS04T3JuSENvTGFhak1jNmJDWV9LZ3ZPSTJKZVpadw?oc=5"
+       "name": "The Economist",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRFRkVE1YOE9DRHJYZWdrbUthRFdhVjAzYVVOTFNTVE5kQTdNdWJuWHJlMTdJTTUyNUhtZ1I1RHF6ODZwMFZrRzU2SGxudnh1SGJkSjA2Y1VDdHRBS09hRDJYRVFTS2lvclFhTlY5NjlteUl0X0VacU9nX2lrVHFVQXV6SnBfOXBBLVdBMWoyMWVhRjNrZWg0?oc=5"
       }
      ]
     },
     {
-     "headline": "US plans to name Nvidia and other AI firms as national champions",
-     "summary": "The Trump administration is reportedly planning to name Nvidia and other AI firms as US 'national champions', according to the Wall Street Journal.",
-     "detail": "Reuters reports the plan, and the Times of India says it includes Microsoft and Amazon among 20-plus companies. The report says China is the 'target' of the designation. The news comes amid a row over Nvidia that was also linked to a supply-chain accord India and the US signed on AI supply chains from China.",
-     "analysis": "A government label of this kind could bring support or scrutiny to chosen firms. The details of what the designation actually means are not yet clear.",
+     "headline": "ULA's Vulcan rocket fails after launch, losing 40 Amazon Leo satellites",
+     "summary": "A Vulcan rocket built by ULA, a Boeing-Lockheed venture, failed minutes after launch and destroyed 40 Amazon Leo satellites. It is the first outright failure of the rocket type.",
+     "detail": "The Times of India and Reuters report the failure, and Spaceflight Now calls it the first outright failure for ULA with the loss of the Vulcan rocket. DW describes it as the loss of Amazon satellites. Amazon's Leo satellite network is designed to provide broadband from low Earth orbit, and the loss is a setback for its deployment schedule.",
+     "analysis": "Launch failures delay constellations and can raise insurance and replacement costs. Investigators will need to identify the cause before flights resume.",
      "sources": [
-      {
-       "name": "Reuters",
-       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbzFERGNkd2ZLODdReVZtV3pnNVdJT3RyNDdpbUZQRXZHUEgzbVYtZTBwelhfV1hRbVVfOGsxeDJURWd2bEJubFlFUjFXZC1HM2Z4U3l2TXVhTXR3OTFPZ2xUaDhOVlBDWF93dDE0V2lsOEI3bGFGWXlmbnVldjNCQkJKQlFNbDVfaWR6cGpJdktZWlJXcEdNQkZnWWsxSlZGX19tQTIxYW5NVWQxb2NQclEza1JHaHBma3lmaFNzQWRtQld0UkRwT01IZEY0eUk?oc=5"
-      },
       {
        "name": "The Times of India",
-       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQeGtURTN6cHhYMEkwRldqTHpwblJ0cWdXMGtjOHhqSlhhZU1OWW1WNmFWMWhNTFN4ZFBvZXgtWmFiVS13U0pBcjh4TjR6a3QxSEwtdzZWYm94bDFVZnFMOU9LSU13WUx3RjJTZzRYYm5hNERmTXBkM2hTWkNscWZGeFF2NDN1eXc2aHFSUEpHZ29UXzNXWU9CWmtLZGF4S281R1ZXTE02T3BLRDJGTUh1aU1KRHpSejFJbU15eDBQQ1VuMG4wc0Y2Q3lNXzZkSFhZVkxPMVFCSnpCSk9DeDA0MFFwNHUwb3gwdXVtQm1zbmFBeGF6Mm9pa1ZxbnlMaFFaMmNIV3p4MmIwZVNUSHBCekxldFBjVG45ZGfSAZ8CQVVfeXFMT2hPMnZsYXI0MDc3RVFwam4xaVB1dHJNU1U1M2hhSTIyS1pic0JndXpVWWZLRllrUGtsR291UlVoNWRMZTlaV1o0N1Q1clVZTWJJX0lIdmc4N01aaFJrM0txLWJCS0J4Rm1aM0xXeVQ0dm1HX1RRei1GR0ZUTEFnMnh2N21IYUQ0anlMbE9MTVMwaXYwNlVuOHhYb0kxcHcwNFJsQy1EaEx2SDFvbUFtSmJfUkhCOU9Gb2R4Ymo2WWhHTGlKZzdMYzF0alZHTUY3RFFTUWo0V0RfOGhaV2hybURhak94R3pJRFlsMUF1bW9OR2NFOWtRMEJkdEFqYkxJNGRGeGV6bFVZTlZpY0MwQTBMdG42Y18tRjdwRDhvRTQ?oc=5"
+       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUXRkYzNqV25jUk9uSGZLazFCUWVqYU5WNGl0MUxETGJxWElvTG9ERWF6Rmc2X1dmbUJCMXNZeHltV0kzNXFjZWJuenFoVzNEMG9UZnhfZmE4Z3BuS21PVy1HTHZtYkY1ZWFGczJxUEphVTM3OHdEZlJrNl9nUk5sNVpuRFR5WEJEYWlWU2FmeDY4RGtHWEtaS1MtelVYOXd0RUdqd2tfeTJ5aVRzUXNScGhucXNvZk9zVFNhNGlla2l1WW9hSEJ6T0V6ZTJjZ2F3VEJqZU41dmpqNHFXWm9QTUlBMWdNeXRjZWs3NDV2VTdLa1AyaTRoYkhJUFBFTGfSAYQCQVVfeXFMT0ZRVm12TlZ2ZW1fRVNub3FNdDJxVnJpMnc0QnJJSml1VDF1UkR0MG5EaTFtS2lfVWNzMThZbndNWTIxaGNGYVA4Y3dYdDVxOVc3MUNIblZKd1FkU0RYUGs1MjNBNFNWeS13UEd5VExmS3h4UkhJeUlVVjJiMDY1OHpJQklCR2dUVDhhWVpBWHVPVl9mUFZRbkg4TkJiR0tCd1lwdkRzWnB1VXd3YUNVM29ETmZJbW5INTMzWEZOQzBmeUtPWERZVkZSM2haU0FpYXFFcDNQVXAza3VsSWtwRnJqc05ad19KQndubXI2S0FjQlZHRVM2REhLUWYyWkxULU92Ykg?oc=5"
       }
      ]
     },
     {
-     "headline": "Samsung and Xiaomi raise phone prices in India after Diwali",
-     "summary": "Samsung and Xiaomi have raised smartphone prices in India by up to 19 per cent, a few weeks after Diwali sales.",
-     "detail": "Moneycontrol reports the increases, and other outlets say budget and mid-range Samsung and Redmi models have also become costlier. Companies often adjust prices after promotional periods, and component costs in the memory chip market have been rising. The increases follow a period of heavy discounting.",
-     "analysis": "Higher phone prices are a sign of how memory and component costs are passing through to consumers, and of how promotions can mask underlying price pressures.",
+     "headline": "India, US and eight other nations sign declaration to safeguard AI supply chains",
+     "summary": "India, the United States and eight other countries have signed a declaration on safeguarding AI supply chains. The move reflects growing concern about the resilience of the hardware and components behind AI.",
+     "detail": "News On AIR reports the signing. The headlines do not list the specific commitments in the declaration. Supply chain security for AI covers chips, data centres and critical materials, and it has become a policy priority as governments compete for access to advanced hardware. Reuters has reported that AI safety steps are being discussed alongside chip tensions between the US and China.",
+     "analysis": "Non-binding declarations often set the agenda for later rules. Watch whether the signatories follow up with specific measures.",
      "sources": [
       {
-       "name": "Moneycontrol.com",
-       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTndfS1BrWTFzOVFIb1ktSDRyWnlhelQ0UjJJRVZ6N3ZDQWlwQktabE5ZM216YTNJa0ttZDNkYzhacUlwNGlHcjdodFlRUWZfamtGLVBtRXpGV0JqelVpTnVNU0w0N2h4R2NsUXNJTWl4a2YzSXJ5Vk82Ukw5Z1dQaDN4eDM0MDlLVV9xZTFpMFU3MndsdllleWNkai1SaXFlQzZVZ3p2RFRSdDJqam1SbC1ZZ2QydEswV2VBWW1qWlFtOEdLRkxXUTBfRkV1d1ZKWDdIVtIB2gFBVV95cUxOZ1RrYUoxOGZXeUt3RWtQNDRNc3BtcEV5cHdaRmFWaG5QRk1hd3F2OTc0aXMyRm0zNHdYUzEtV0hLd0E0M3JhR0E4QVNKTkRwUWxuSENPM3JmRHNKUlVEYUxYenVKenpfSmJnbjFQbzFuY3Q3TURnT2Q1OFhuVVlYUnlURldzX2NrNkZDbURTV3ExSzRwSFFZYkxaOUt2VUEwZEt2NE5hZXduR0hZR1M2Mjl5cVJZa3JheW5uVGRKQXlUa3VjRzVWSjBOXzE1dHVzMmlKODVleHA4QQ?oc=5"
+       "name": "News On AIR",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMnlfSzQ3dTBZNTFrbHdBdzV3MGJLUEt5NjEtczh6dmsxek94ek9tS04xQWdaRHM2eXY5WTgxdHhoTGpDMkVPRUdPQXluZVBKYlUtSldnUXlTeXo5aE81bE5xS3lTN2wtakJyNFlXSDNRUk1OOGZkUmtJa0NBQk1FV2hzSWZvY3FzWXNVZkNXc2VkR0Y0eVFPWTJuRk5KSzJ1ckU3VDNmblc3QQ?oc=5"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10eldobVVJNEs3SHAwbGNnakh3bExOZ2t6SEtpNjloRHZndS13UTBFUXZMUVA4RGZCZE9DTUVxRWJBMmxRdndNX1Y3YXJ3NWMwUm5JQXlkdEFxMEZJcVhmaUZtd0tGTk4yRFBKOWtjT2pJaXQyX1JxZi1Sd2FTS0VWS3A0bDFmdk1RQTE3MnptQTVIa1o1UUFiRXExaFNETEtLcV9OV0dzWTBUcV9DNmptN1lEREgxd0dZLWdV?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Apple opens a 200,000-seat study on how people use AI for health",
+     "summary": "Apple has opened a health AI research study with 200,000 seats, working with OpenEvidence to examine how people seek medical advice from AI tools. The study is a large-scale look at consumer use of AI in health.",
+     "detail": "BigGo Finance, TechCrunch and ET Enterprise AI report the study launch, and Apple's own announcement describes it as a research study. The aim is to understand how users seek medical information from AI, which raises questions about accuracy, privacy and when people should consult doctors. The headlines do not give findings or the study's duration.",
+     "analysis": "Consumer use of AI for health is growing quickly, so the study's results could inform guidance and regulation. Its methods will be worth examining when results appear.",
+     "sources": [
+      {
+       "name": "BigGo Finance",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vcHJPUTE5b3dJTEU5TWdzQXE5QWxGSGMtckRqT001dUV2cm5GNHFsYV9sVi1qMFB2U0xhTkhOSk1NWWEwbEtoTFl6LW9JY1cwV1RHaVdWUG5UOWExNWxONzJlQ0NieUgtcUE4ZzNDRk9nVzhEX2c?oc=5"
       }
      ]
     }
@@ -588,10 +820,10 @@
    "title": "Science & research",
    "items": [
     {
-     "headline": "New nickel catalyst could make hydrogen from ammonia cheaper without ruthenium",
-     "summary": "Researchers have reported a nickel-based catalyst that releases hydrogen from ammonia without using ruthenium, a costly precious metal.",
-     "detail": "BigGo Finance reports that the catalyst aims to reduce supply costs for hydrogen production from ammonia. Ammonia is attractive as a hydrogen carrier because it is easier to store and transport than hydrogen gas. Ruthenium catalysts have been the standard in this approach, so a cheaper alternative based on nickel could matter for the economics of hydrogen as an energy carrier.",
-     "analysis": "Whether the catalyst performs at industrial scale will decide its usefulness. Cost reductions only matter if efficiency and durability hold up.",
+     "headline": "Nickel catalyst makes hydrogen from ammonia without ruthenium",
+     "summary": "Researchers report a nickel-based catalyst that releases hydrogen from ammonia without using ruthenium, a costly precious metal. The aim is to lower supply costs for hydrogen production.",
+     "detail": "BigGo Finance reports the new nickel catalyst for hydrogen from ammonia. Ammonia is a practical hydrogen carrier because it is easier to store and transport than hydrogen gas, and cracking it to release hydrogen usually relies on expensive ruthenium catalysts. Swapping in a cheaper, earth-abundant metal like nickel is a common goal in catalyst research. The headlines do not give the efficiency or the stability data.",
+     "analysis": "If a nickel catalyst performs well at scale, it could reduce the cost of hydrogen from ammonia. Independent testing and durability results will matter.",
      "sources": [
       {
        "name": "BigGo Finance",
@@ -600,38 +832,14 @@
      ]
     },
     {
-     "headline": "AI and experiments reveal impurities that hinder recycling of waste plastic pyrolysis oil",
-     "summary": "A study combining AI with lab experiments has identified impurities that get in the way of recycling oil made from waste plastic by pyrolysis.",
-     "detail": "Newswise reports that the researchers used machine learning alongside experiments to find which contaminants interfere with the process. Pyrolysis heats waste plastic without oxygen to produce an oil that can, in principle, be refined into fuels or new plastics. Impurities are a common reason these oils are hard to upgrade, so identifying them is a useful step.",
-     "analysis": "Knowing which impurities cause problems points to where cleaning or pre-treatment steps should focus. The approach may be useful for other waste-to-fuel processes.",
+     "headline": "WASTE2H2 project explores turning plastic waste into hydrogen",
+     "summary": "The WASTE2H2 project is investigating how to convert plastic waste into hydrogen by combining ionic liquids, catalysts and microwave heating. It is an example of waste-to-fuel research.",
+     "detail": "Innovation News Network describes the project's approach. Ionic liquids are salts that stay liquid at lower temperatures and can help dissolve or process materials, while microwave heating can speed up reactions. Converting plastics into hydrogen could help with waste problems and create a hydrogen source, though the process must be energy-efficient and economically viable to be useful.",
+     "analysis": "The project is at a research stage, so the key question is whether the approach can deliver hydrogen at useful yields and costs.",
      "sources": [
       {
-       "name": "Newswise",
-       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeV9wa2FBd1dwMFRvRWFHUTR4RVRLc2VYZzdBNzN3YnFaTy1XTnQtM3ZUSF91NXpqcVpROGlNa0NrYkk2TVlZYlZOdVdrQ01HbFlWMkI5czlVbWpRSFNfUVpGNGo5ZWNCaFFHa3VWWDV0MlRrZEVpZUR5ek9SbDVnVU5uckZPa3hHeWo4Qk1TcElDTFc0Y0QzU0Vhek44cGw4TE1mbG13VjJaeWZGVmhZd1JRYWNSQ3BzMkHSAboBQVVfeXFMUHlfcGthQXdXcDBUb0VhR1E0eEVUS3NlWGc3QTczd2JxWk8tV050LTN2VEhfdTV6anFaUThpTWtDa2JJNk1ZWWJWTnVXa0NNR2xZVjJCOXM5VW1qUUhTX1FaRjRqOWVjQmhRR2t1Vlg1dDJUa2RFaWVEeXpPUmw1Z1VObnJGT2t4R3lqOEJNU3BJQ0xXNGNEM1NFYXpOOHBsOExNZmxtd1YyWnlmRlZoWXdSUWFjUkNwczJB?oc=5"
-      }
-     ]
-    },
-    {
-     "headline": "arXiv paper: electric fields may make grain boundaries in Li2O easier paths for lithium ions",
-     "summary": "A new arXiv preprint simulates how electric fields affect lithium-ion movement in Li2O, a battery-related material, and finds that boundaries between crystal grains can become fast routes.",
-     "detail": "In plain terms, the authors ask whether ions move in a battery the same way they do when a material is at rest. Using electric-field molecular dynamics, they compare bulk Li2O with its grain boundaries, which are the interfaces between tiny crystal regions. Their finding is that boundaries that normally trap vacancies can become pathways for lithium ions when a field is applied.",
-     "analysis": "This is a simulation study, so it has not been tested in a real battery. It is useful for understanding how ions behave under the operating conditions batteries actually face.",
-     "sources": [
-      {
-       "name": "arXiv",
-       "url": "https://arxiv.org/abs/2611.17679"
-      }
-     ]
-    },
-    {
-     "headline": "arXiv paper: machine learning predicts electron density for device simulations",
-     "summary": "A new arXiv preprint presents DeltaChargeNet, a machine-learning model that predicts electron density from atomic structure to speed up electronic and quantum transport simulations.",
-     "detail": "In plain English, electron density describes where electrons sit around atoms, and calculating it accurately is slow with standard quantum methods. The model is combined with a tight-binding electronic structure method so that devices and materials can be simulated more quickly. The paper's aim is to make device-level transport calculations more practical.",
-     "analysis": "Machine-learning shortcuts like this are a growing part of computational materials research. Their value depends on accuracy across a wide range of materials.",
-     "sources": [
-      {
-       "name": "arXiv",
-       "url": "https://arxiv.org/abs/2611.17627"
+       "name": "Innovation News Network",
+       "url": "https://www.innovationnewsnetwork.com/waste2h2-breakthrough-technologies-for-converting-plastic-waste-into-hydrogen/75876/"
       }
      ]
     }
@@ -642,10 +850,10 @@
    "title": "Hidden gems",
    "items": [
     {
-     "headline": "Scientists count 788 species on a Pacific seabed patch targeted for mining",
-     "summary": "A study of a patch of Pacific seafloor targeted for mining found 788 species, most new to science, and showed fewer animals where a mining machine had passed.",
-     "detail": "Futura reports that the researchers counted animals in the area and found that where a mining machine had passed, animal numbers dropped by 37 per cent. The finding adds data to the debate about deep-sea mining, a topic that gets much less attention than land-based mining. Because many species in the patch were new to science, the study also underlines how little is known about these habitats.",
-     "analysis": "The results are likely to feed into discussions about whether deep-sea mining can be done without serious ecological damage. Further data would strengthen the picture.",
+     "headline": "Deep Pacific seafloor teems with new species, and mining tracks show lasting harm",
+     "summary": "Scientists counted 788 species in a patch of Pacific seafloor that is being considered for mining, and most of them are new to science. Where a mining machine had passed, the number of animals dropped by 37%.",
+     "detail": "The study looked at a section of deep Pacific seafloor that has been targeted for mining, a area of the ocean floor that many researchers know little about. Most of the 788 species counted were previously unknown to science, which shows how much life remains undescribed in deep-sea habitats. Where a mining machine had passed over the seabed, animal numbers fell by 37 percent compared with undisturbed areas. Deep-sea mining is being discussed as a way to get metals used in batteries and electronics, and the debate centres on whether the damage to slow-growing ecosystems can be limited or justified.",
+     "analysis": "The findings add to the evidence that deep-sea mining could have lasting effects on animals that are still being identified. Watch how regulators weigh such scientific data as decisions on seabed mining continue.",
      "sources": [
       {
        "name": "Futura, le média qui explore le monde",
@@ -654,14 +862,26 @@
      ]
     },
     {
-     "headline": "David Ebert's decades of searching for lost shark species",
-     "summary": "Mongabay profiles marine researcher David Ebert and his life spent searching for 'lost sharks', species that have been hard to find or describe.",
-     "detail": "The profile covers how Ebert has worked with fish markets to find specimens that scientists have not documented in the wild. Many shark species are known only from a few records, and fish markets have sometimes turned up animals that field surveys missed. The story is a reminder that taxonomy and conservation still depend heavily on field detective work.",
-     "analysis": "Finding these species is important for setting conservation priorities, since a species cannot be protected if scientists do not know it exists.",
+     "headline": "Plastic bottles can travel far upriver, a study finds",
+     "summary": "A new study finds that plastic bottles can travel up to 120 miles upriver around the United States. The result challenges the idea that plastic litter mostly moves only downstream toward the sea.",
+     "detail": "Forbes reports that the study tracked how plastic bottles move within rivers and found that they can end up well inland, not only near the coast. Many people assume that rivers carry waste steadily toward the ocean, so upstream movement is an unexpected finding. The headline does not give details of the rivers or methods used. Plastic pollution is a growing concern for cities and wildlife, and knowing where litter collects helps authorities decide where cleanup efforts should go.",
+     "analysis": "If litter can travel upstream, cleanup and prevention plans may need to cover more of a river system than previously assumed. The full study would show how common this movement is.",
      "sources": [
       {
-       "name": "news - Mongabay",
-       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRWRsV0w1M2hfT1QyeU5jWVhaSFpEMVlqMzIwVmgxalpYdWZrYkFYd1FzR2hibWFfNVFkbXU2WEN6U2VkRFFNY0ZYdkRIa2xRWk5wNWJpSnVsbTFUSXRuNHpvenVwd0VlV0dnQmpCTHoxVmVIaUk3OGdrNE5HbEdQWVg3VDg2WmRRR0toTGRpaWd0djR2dzU2ZFVzclZJeGx5WDJPT1NPZk85WXBwSnlmMXJfaVpuSFpTREtfdlp2a3ZlcFHSAcMBQVVfeXFMT0VkbFdMNTNoX09UMnlOY1lYWkhaRDFZajMyMFZoMWpaWHVma2JBWHdRc0doYm1hXzVRZG11NlhDelNlZERRTWNGWHZESGtsUVpOcDViaUp1bG0xVEl0bjR6b3p1cHdFZVdHZ0JqQkx6MVZlSGlJNzhnazROR2xHUFlYN1Q4NlpkUUdLaExkaWlndHY0dnc1NmRVc3JWSXhseVgyT09TT2ZPOVlwcEp5ZjFyX2labkhaU0RLX3Zadmt2ZXBR?oc=5"
+       "name": "Forbes",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ19KaVZPVWVQOFRTMDlDRDV5SGNYa3lhc2t5RjlhNXYyeERoRVpjNW9BSEJDZ0R1eTdQYWl0eGpOYXVfSTZWRHZWdjFzMmtoTURlLUsyaGRVREpKMGJNSmt6TG4zT2dEQ21VOHdNXzZZQzU5QWlhYnc1c1pubU9kNGRaUWwwdGRvZVZJN2hZQ1V3VzR1UnNqN3ZCZUxjcGdaZFBCY0NoYmMzZG9RaDBlM2J0M2FZc0I3NVBIaTFvdy1ldw?oc=5"
+      }
+     ]
+    },
+    {
+     "headline": "Foggy days are becoming more common across southern Australia",
+     "summary": "A new study reports that foggy days are becoming more frequent across southern Australia. Fog is often overlooked, but it can cause long delays for flights.",
+     "detail": "Phys.org reports on research showing a rise in foggy days across southern parts of Australia. Fog is a weather phenomenon that many people rarely think about until it causes travel disruption, such as airport delays and cancellations. The article notes that its effects are often underappreciated compared with storms or heatwaves. The headline does not give the exact change in numbers, so the scale of the trend is not clear from this report.",
+     "analysis": "More frequent fog could affect transport planning and airport operations in the region. The study's details on how much fog is increasing would help show how big the impact may be.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-foggy-days-common-southern-australia.html"
       }
      ]
     }
@@ -669,6 +889,6 @@
   }
  ],
  "date": "2026-11-16",
- "generated_at": "2026-11-16T11:58+04:00",
+ "generated_at": "2026-11-16T17:25+04:00",
  "model": "claude-haiku-5-5"
 }
