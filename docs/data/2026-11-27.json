@@ -1,0 +1,604 @@
+{
+ "overview": "Oil prices above $96 and wobbly Indian stock markets sit alongside a sharpening fight over a proposed delimitation bill ahead of the next Parliament session, while Gulf tensions keep the region on edge.",
+ "market_snapshot": [
+  {
+   "label": "Sensex",
+   "value": "83,621.73",
+   "change": "-0.84% (intraday, around 11:19 am)",
+   "direction": "down"
+  },
+  {
+   "label": "Nifty 50",
+   "value": "25,681.10",
+   "change": "-0.77% (intraday, around 11:19 am)",
+   "direction": "down"
+  },
+  {
+   "label": "Brent crude",
+   "value": "above 96 USD a barrel",
+   "change": "not stated in headlines",
+   "direction": "up"
+  },
+  {
+   "label": "GIFT Nifty",
+   "value": "109-point premium to Nifty's previous close",
+   "change": "pre-open signal, no absolute level given",
+   "direction": "up"
+  }
+ ],
+ "sections": [
+  {
+   "id": "spotlight",
+   "title": "Spotlight",
+   "items": [
+    {
+     "headline": "Oil above $96 and Gulf tensions pull Indian markets lower",
+     "summary": "Brent crude rose above $96 a barrel as geopolitical tensions in the Middle East escalated, and Indian indices slipped after a two-day rally. Reports differ on the timing of the move, with some showing early gains and later reports showing intraday losses.",
+     "detail": "Indian benchmark indices opened flat on Friday as crude prices rose amid escalating tensions in the Middle East. By late morning the Sensex was down about 700 points, or 0.84 per cent, and the Nifty was lower by about 200 points. Analysts pointed to profit-taking in IT stocks after the recent rally, and to investors turning cautious on the geopolitical backdrop. Earlier reports had shown the Sensex and Nifty climbing on foreign inflows, so the picture changed through the session.",
+     "analysis": "Oil is the link to watch: higher crude raises India's import bill and can weigh on sentiment across the region. The day's direction depends largely on whether the Middle East tensions ease or escalate.",
+     "sources": [
+      {
+       "name": "ChiniMandi",
+       "url": "https://www.chinimandi.com/sensex-nifty-open-lower-as-brent-crude-surges-above-96-geopolitical-tensions-weigh-on-market-sentiment/"
+      },
+      {
+       "name": "India Today",
+       "url": "https://www.indiatoday.in/business/story/sensex-down-700-points-why-is-stock-market-falling-today-3048077-2026-11-27"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/markets/news/sensex-tanks-780-pts-intraday-after-2-day-rise-nifty-below-25-700-consolidation-here-to-stay-126112700425_1.html"
+      }
+     ]
+    },
+    {
+     "headline": "Akhilesh Yadav and DMK give different responses to the proposed delimitation bill",
+     "summary": "Samajwadi Party chief Akhilesh Yadav attacked the Centre's proposed delimitation bill ahead of the Parliament session, while a senior DMK leader said his party could back the move if Tamil Nadu's 7.2 per cent share is assured. The contrast shows how the bill is splitting opposition parties.",
+     "detail": "Akhilesh Yadav on Friday described the proposed bill as the biggest mistake in the BJP's politics. A senior DMK leader said the BJP-led Centre had reached out to the party and argued that political opposition need not mean opposing every proposal with identical intensity. Delimitation, the redrawing of constituency boundaries, is a long-running and sensitive issue because it affects how seats are divided among states. Southern states have often worried that population-based changes could reduce their share of seats.",
+     "analysis": "Watch how the bill is framed in the coming Parliament session and whether other opposition parties follow the DMK's conditional approach or the SP's outright criticism.",
+     "sources": [
+      {
+       "name": "https://www.indiagazette.com/",
+       "url": "https://www.indiagazette.com/news/279464806/biggest-mistake-in-bjp-politics-akhilesh-yadav-slams-delimitation-bill-ahead-of-parliament-session"
+      },
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/political-pulse/dmk-delimitation-tamil-nadu-lok-sabha-seat-share-10980119/"
+      }
+     ]
+    },
+    {
+     "headline": "Russia pitches its own security framework, and analysts doubt it will work",
+     "summary": "Vladimir Putin is proposing a Russian security pact that would counter NATO, a move that commentators say faces serious obstacles. The proposal is part of the wider debate over how to end the war in Ukraine.",
+     "detail": "According to a commentary piece, Putin wants to counter NATO with his own security arrangement. Those sceptical of the plan argue there are clear reasons it may not succeed, though the headline itself does not spell out the terms. The idea of a rival security framework is a recurring Russian demand, pressing for guarantees on how the security of European states is organised. Western governments have generally viewed such proposals with caution, given the scale of the conflict.",
+     "analysis": "Any security framework would need the agreement of the countries it covers, so the key question is whether Russia's proposal can attract support beyond its own circle.",
+     "sources": [
+      {
+       "name": "The Conversation",
+       "url": "https://theconversation.com/russia-wants-to-build-a-new-security-framework-to-end-the-war-this-is-why-it-wont-work-296813"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "title": "World",
+   "items": [
+    {
+     "headline": "Russia's proposed security pact faces scepticism",
+     "summary": "Putin is pushing a Russian security framework meant to rival NATO, but analysts argue it is unlikely to succeed. It is being framed as part of efforts to end the war.",
+     "detail": "The Conversation's analysis says Putin wants to counter NATO with a security pact of his own. The author lists reasons for scepticism, though the summary does not detail every obstacle. Russia has long argued that NATO expansion threatened its security, and it has repeatedly called for a new European security order. NATO members and Ukraine have generally rejected proposals that would give Moscow a veto over neighbours' security choices.",
+     "analysis": "Diplomatic proposals of this kind are often tested through negotiations, so the reaction of NATO capitals and Kyiv will be a useful signal.",
+     "sources": [
+      {
+       "name": "The Conversation",
+       "url": "https://theconversation.com/russia-wants-to-build-a-new-security-framework-to-end-the-war-this-is-why-it-wont-work-296813"
+      }
+     ]
+    },
+    {
+     "headline": "Can the International Criminal Court survive Trump's attacks?",
+     "summary": "The ICC is holding the trial of former Philippine president Rodrigo Duterte at a difficult time, as the United States steps up efforts to undermine the institution. The court's ability to hold leaders to account is being questioned.",
+     "detail": "The Conversation reports that the trial of Duterte is taking place at a precarious moment for the International Criminal Court. The US is described as ramping up its efforts against the institution. The ICC was set up to prosecute genocide, war crimes and crimes against humanity when national courts are unwilling or unable to act. The United States is not a member of the court and has previously opposed its investigations into American and allied personnel.",
+     "analysis": "The Duterte trial is a test of whether the court can deliver accountability for a sitting or former head of state despite political pressure.",
+     "sources": [
+      {
+       "name": "The Conversation",
+       "url": "https://theconversation.com/can-the-international-criminal-court-survive-trumps-attacks-and-hold-world-leaders-to-account-297530"
+      }
+     ]
+    },
+    {
+     "headline": "Nuclear weapons in orbit: an old treaty under strain",
+     "summary": "A space law expert warns that a nearly 60-year-old agreement barring nuclear weapons from orbit could be tested, with Russia at the centre of concern. The issue is being discussed in arms control circles.",
+     "detail": "The Conversation article says an agreement made nearly 60 years ago aims to keep nuclear weapons out of Earth's orbit, and that it could be put to the test. The author, a space law expert, outlines the threat. The Outer Space Treaty of 1967 bans nuclear weapons in orbit and on celestial bodies, and it has been the main legal barrier to such deployments. Concerns about space-based weapons have grown as more countries develop military satellite capabilities.",
+     "analysis": "The issue matters because an orbital nuclear deployment would be a major escalation, and the treaty relies largely on mutual restraint rather than strong enforcement.",
+     "sources": [
+      {
+       "name": "The Conversation",
+       "url": "https://theconversation.com/is-russia-about-to-launch-a-nuclear-weapon-into-earths-orbit-a-space-law-expert-explains-the-threat-297496"
+      }
+     ]
+    },
+    {
+     "headline": "Middle East tensions keep the Gulf on edge",
+     "summary": "Geopolitical tensions in the Middle East have escalated again, as reported in Indian market coverage that linked the move to rising oil prices. The reports did not specify a single new event.",
+     "detail": "Market reports on Friday said crude oil prices rose amid escalating geopolitical tensions in the Middle East. Brent crude was reported above $96 a barrel in one report, while another said it had eased to $96 earlier in the day. The region has been a source of concern for shipping routes and energy supply, and recent days have seen worry about a possible return to wider conflict. Those developments are part of the wider backdrop for world energy markets.",
+     "analysis": "The lack of a single clear trigger in the headlines means the situation should be followed through direct reporting, since oil prices react quickly to any change in the region.",
+     "sources": [
+      {
+       "name": "ChiniMandi",
+       "url": "https://www.chinimandi.com/sensex-nifty-open-lower-as-brent-crude-surges-above-96-geopolitical-tensions-weigh-on-market-sentiment/"
+      },
+      {
+       "name": "HDFC Sky",
+       "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india_politics",
+   "title": "Indian politics",
+   "items": [
+    {
+     "headline": "Delimitation bill becomes a flashpoint before Parliament session",
+     "summary": "Akhilesh Yadav of the Samajwadi Party has attacked the proposed delimitation bill, while a DMK leader says the party could support it if Tamil Nadu's share is protected. The bill is expected to be a major issue when Parliament meets.",
+     "detail": "Akhilesh Yadav said the BJP was making its biggest political mistake by pushing the bill, according to a report from Friday. A senior DMK leader said the BJP-led Centre had approached the party and that opposition need not mean opposing every proposal with the same intensity. The DMK's position depends on Tamil Nadu receiving an assured 7.2 per cent share, as the party has described it. Delimitation is generally discussed as a sensitive federal issue because it affects the representation of states in Parliament.",
+     "analysis": "The different responses from the SP and DMK suggest the opposition may not be unified on the bill, which could shape the debate in the session.",
+     "sources": [
+      {
+       "name": "https://www.indiagazette.com/",
+       "url": "https://www.indiagazette.com/news/279464806/biggest-mistake-in-bjp-politics-akhilesh-yadav-slams-delimitation-bill-ahead-of-parliament-session"
+      },
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/political-pulse/dmk-delimitation-tamil-nadu-lok-sabha-seat-share-10980119/"
+      }
+     ]
+    },
+    {
+     "headline": "Punjab realignment: Akali Dal and BJP reunite",
+     "summary": "The reunion of the Shiromani Akali Dal and the BJP for the Punjab Assembly election is reshaping the state's political arithmetic. Analysts say it could affect the Congress and test the AAP.",
+     "detail": "A Deccan Herald report says the reunion of the Akali Dal and BJP reshapes political equations in Punjab. It says the move threatens the Congress and tests the AAP amid voter discontent. Punjab has had a long history of shifting alliances, and the Akali Dal and BJP parted ways earlier after disagreements over farm laws. Farmers' groups in the state are also in the news, as a separate report notes that farmers are questioning candidates from several parties six years after the Delhi march against the farm laws.",
+     "analysis": "Anti-incumbency votes could move in new directions depending on how voters respond to the alliance, so the result will be closely watched.",
+     "sources": [
+      {
+       "name": "Deccan Herald",
+       "url": "https://www.deccanherald.com/opinion/akali-bjp-punjabs-anti-incumbency-votes-have-a-new-home-4233067"
+      },
+      {
+       "name": "The New Indian Express",
+       "url": "https://www.newindianexpress.com/india/2026/Nov/26/farmers-to-question-aap-sad-bjp-congress-candidates-six-years-after-delhi-march"
+      }
+     ]
+    },
+    {
+     "headline": "Constitution Day becomes a point of clash between BJP and Congress",
+     "summary": "On the 77th Constitution Day, the BJP and Congress clashed over constitutional values. The BJP's Himachal chief accused Congress of a history of distorting the Constitution for political gain.",
+     "detail": "On Thursday, Rajiv Bindal, the BJP's state president in Himachal Pradesh, said the Congress party had a history of distorting the Constitution to serve its own interests. Congress has in turn stressed its role in defending constitutional values, and it held a Samvidhan Raksha march in Lucknow. Both parties use Constitution Day to make their case on democracy and the rule of law. The exchange reflects a broader debate about how each party describes its record on constitutional principles.",
+     "analysis": "The language of constitutional values is likely to remain central to both parties' messaging as the political calendar moves forward.",
+     "sources": [
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/india/congress-has-history-of-distorting-constitution-for-political-gains-himachal-bjp-chief/3110130/"
+      },
+      {
+       "name": "India Today",
+       "url": "https://www.indiatoday.in/india/video/political-face-off-on-constitution-day-anniversary-over-constitutional-values-ytvd-3047844-2026-11-26"
+      },
+      {
+       "name": "Prabhasakshi",
+       "url": "https://www.prabhasakshi.com/amp/news/mallikarjun-kharge-says-up-government-and-bjp-fear-congress-and-rahul-gandhi"
+      }
+     ]
+    },
+    {
+     "headline": "I.N.D.I.A. bloc says it remains intact ahead of UP polls",
+     "summary": "A Congress MP says the I.N.D.I.A. alliance is still united and will defeat the BJP in Uttar Pradesh, even as the Samajwadi Party and Congress negotiate seats for the 2027 Assembly election.",
+     "detail": "Congress MP Manoj Kumar said the I.N.D.I.A. alliance remains intact and would work to defeat the BJP in Uttar Pradesh, while seat-sharing talks between the SP and Congress for the 2027 Assembly polls continue. Seat-sharing has been a recurring source of friction between the two parties, and earlier reports describe a row over the division of seats. Uttar Pradesh, with its large number of seats, is a key state in national politics.",
+     "analysis": "Whether the seat-sharing talks conclude smoothly will be an important signal for how durable opposition cooperation is in the state.",
+     "sources": [
+      {
+       "name": "Inshorts",
+       "url": "https://inshorts.com/en/news/india-bloc-united--will-defeat-bjp-in-up--congress-mp-1795771333883"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kerala",
+   "title": "Kerala",
+   "items": [
+    {
+     "headline": "Neelakurinji season draws crowds, but monitoring varies across Kerala's hills",
+     "summary": "Thousands of visitors went to see the rare blue-flowering neelakurinji at Kurinji Garden in Idukki, but reports say different tourist areas are monitored unevenly. The story raises questions about how fragile hill ecosystems are managed during peak tourism.",
+     "detail": "Mongabay India reports that more than 4,000 people visited the Kurinji Garden at Chokramudi in Idukki district within five days of its opening in August 2026, and later reports put the total at nearly 8,000 within the first week. Visitors came from across Kerala and beyond. The neelakurinji is a shrub that flowers only at long intervals, carpeting the hills in blue, so such events draw large crowds. The report notes that monitoring of different areas is not uniform, which matters for protecting the plants and the hills during peak visits.",
+     "analysis": "Balancing tourism income with protection of fragile high-altitude habitats is a recurring question for Kerala's hill districts.",
+     "sources": [
+      {
+       "name": "Mongabay India",
+       "url": "https://india.mongabay.com/2026/11/neelakurinji-tourism-brings-crowds-but-not-all-areas-are-monitored-the-same/"
+      }
+     ]
+    },
+    {
+     "headline": "Priyanka Gandhi defends Sonia Gandhi's memoir from Wayanad",
+     "summary": "Wayanad MP Priyanka Gandhi Vadra defended her mother Sonia Gandhi's newly released memoir, saying she has every right to tell her own story. The remarks were made in Wayanad, the Kerala constituency she represents.",
+     "detail": "Speaking in Wayanad on Thursday, Priyanka Gandhi Vadra defended the memoir of Sonia Gandhi, saying her mother had every right to tell her own story. The Wayanad constituency in northern Kerala is represented by Priyanka Gandhi, who was elected in a by-election after Rahul Gandhi vacated the seat. Political memoirs by senior leaders often draw comment from rivals, and reactions to this one are likely to be part of the political debate.",
+     "analysis": "Such comments from a Kerala-based MP keep the state's political conversation connected to national Congress debates.",
+     "sources": [
+      {
+       "name": "INDIA New England News",
+       "url": "https://indianewengland.com/mother-has-right-to-tell-her-story-says-priyanka-gandhi-defending-sonias-memoir/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "andaman_environment",
+   "title": "Andaman & Nicobar · Environment",
+   "items": [
+    {
+     "headline": "Calcutta High Court delay on Great Nicobar project draws Congress criticism",
+     "summary": "Congress has accused the Modi government of delaying court proceedings on four petitions challenging the Great Nicobar Island project, saying it is stalling the cases while bulldozing the project. The government has not been reported as responding to these specific charges in the headlines.",
+     "detail": "Congress said on Thursday that the government had delayed the Calcutta High Court proceedings on four petitions against the Great Nicobar Island Project. Jairam Ramesh accused the government of a clear strategy to stall court cases and said new bids for land demarcation were under way. The Great Nicobar project is a large infrastructure plan on a remote island, and critics have raised concerns about forests, tribal communities and the island's ecology. The Calcutta High Court had earlier deferred the final hearing.",
+     "analysis": "The timing of the next hearing will matter, since the court's final decision could shape whether and how the project moves ahead.",
+     "sources": [
+      {
+       "name": "Telegraph India",
+       "url": "https://www.telegraphindia.com/india/congress-alleges-contempt-for-democracy-over-delay-in-great-nicobar-case-in-calcutta-hc/cid/2191402"
+      },
+      {
+       "name": "The Hindu",
+       "url": "https://www.thehindu.com/news/national/government-has-clear-strategy-to-stall-court-proceedings-against-gni-project-jairam-ramesh/article71747413.ece/amp/"
+      }
+     ]
+    },
+    {
+     "headline": "Forest Rights Act argument in Andaman and Nicobar contested by experts",
+     "summary": "The Union government has argued that the Forest Rights Act need not be implemented in the Andaman and Nicobar Islands, but experts say the law applies there. The dispute goes to the rights of tribal and forest-dwelling communities.",
+     "detail": "According to a TheWire report, the Union government argued the Forest Rights Act does not need to be pursued in the islands. Experts disagree and say the law does apply. The Forest Rights Act of 2006 recognises the rights of forest-dwelling communities over land and resources, and its application in island territories has been a continuing legal question. Tribal rights are central to the debate over the Great Nicobar project.",
+     "analysis": "How this legal question is resolved could influence protections for Nicobarese and Shompen communities as land decisions proceed.",
+     "sources": [
+      {
+       "name": "TheWire.in",
+       "url": "https://m.thewire.in/article/environment/union-govt-argues-fra-need-not-be-pursued-in-andaman-nicobar-but-thats-wrong-experts-say/amp"
+      }
+     ]
+    },
+    {
+     "headline": "Leatherback turtle nesting at Galathea Bay shows a survey picture",
+     "summary": "A turtle survey recorded 643 leatherback nests at Galathea Bay on Great Nicobar in 2023-24, followed by 478 in 2024-25. The figures feed into the wider debate about the island's coastal ecology.",
+     "detail": "The Indian Express reports that the survey recorded 643 leatherback turtle nests at Galathea Bay on Great Nicobar Island in 2023-24, and 478 in 2024-25. The survey also covers Olive Ridley nesting. Galathea Bay is a known nesting site, and a separate government survey has found that leatherback nesting in the Nicobar islands has declined. Turtle nesting numbers are used as an indicator of the health of coastal habitats that may be affected by development.",
+     "analysis": "Multi-year nesting counts are important for judging whether development plans could affect a sensitive coastal site.",
+     "sources": [
+      {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/india/olive-ridley-turtle-nesting-india-wii-report-10977494/"
+      }
+     ]
+    },
+    {
+     "headline": "Translocated tigress's miscarriage raises welfare questions",
+     "summary": "A healthy tigress moved from Valmiki Tiger Reserve in Bihar to Buxa Tiger Reserve in West Bengal reportedly suffered a miscarriage and injuries, raising welfare concerns about reintroduction programmes.",
+     "detail": "Mongabay India reports that T138, a three-year-old tigress, was selected for a reintroduction programme and moved about 760 km from Valmiki Tiger Reserve to Buxa Tiger Reserve. Buxa had been without a resident tiger population for decades. The report describes a miscarriage and injuries after the move. Translocation is used to re-establish tigers in areas where they have disappeared, but the process carries risks for individual animals.",
+     "analysis": "The case highlights the trade-off between restoring tiger populations and the welfare of the animals being moved.",
+     "sources": [
+      {
+       "name": "Mongabay India",
+       "url": "https://india.mongabay.com/2026/11/translocated-tigress-miscarriage-and-injuries-raise-welfare-concerns/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "insurance",
+   "title": "Insurance & health",
+   "items": [
+    {
+     "headline": "Individual private medical insurance membership reaches 1.7 million",
+     "summary": "A health and protection report says individual PMI membership reached almost 1.7 million in 2025, with the rate of growth among insurers rebounding. The figures point to renewed interest in private medical cover.",
+     "detail": "The Health and Protection Individual PMI Report says membership of private medical insurance reached almost 1.7 million in 2025. It also says the rate of growth among insurers has rebounded. Private medical insurance typically pays for private hospital care and treatment, and individual cover is bought directly rather than through an employer. Growth in this segment is watched by insurers, brokers and regulators as an indicator of demand for health cover.",
+     "analysis": "A rebound in individual membership suggests demand for private cover is recovering, which will interest insurers pricing new policies.",
+     "sources": [
+      {
+       "name": "Health & Protection",
+       "url": "https://healthcareandprotection.com/individual-pmi-report-growth-rate-springs-back-as-membership-hits-1-7m/amp/"
+      }
+     ]
+    },
+    {
+     "headline": "Australia's private health insurers face margin pressure as claims costs climb",
+     "summary": "Australian private health insurers face mounting margin pressure, with claims costs outpacing premium growth. Affordability concerns are driving some policy downgrades.",
+     "detail": "Beinsure reports that Australia's private health insurers are under margin pressure because claims costs have risen by around 30 per cent. Premium growth is not keeping pace, and affordability concerns are leading some customers to downgrade to cheaper policies. Insurers have a limited ability to pass on costs fully when regulators and consumers push back on premium increases. The pressure is part of a broader question about how to keep private cover affordable.",
+     "analysis": "Claims inflation versus premium growth is a central concern across health insurance markets, including those in Asia and the Gulf.",
+     "sources": [
+      {
+       "name": "Beinsure",
+       "url": "https://beinsure.com/news/australian-private-health-insurers-face-rising-claims-costs/"
+      }
+     ]
+    },
+    {
+     "headline": "nib reaffirms FY27 profit guidance despite reforms",
+     "summary": "Australian health insurer nib Holdings has kept its FY27 underlying operating profit forecast of A$265 million to A$285 million, despite investment and regulatory changes.",
+     "detail": "nib Holdings has maintained its FY27 underlying operating profit forecast in the range of A$265 million to A$285 million. The company is operating amid insurance reforms and investment spending. Holding guidance during a period of reform suggests the company expects to manage claims and regulatory pressures. Investors often watch such reaffirmations closely when margins are under strain.",
+     "analysis": "Holding guidance steady during reforms is a signal that the company expects to absorb cost pressures, though the outcome will depend on claims trends.",
+     "sources": [
+      {
+       "name": "www.suaralandak.co.id",
+       "url": "https://www.suaralandak.co.id/en/nib-profit-guidance-insurance-reforms"
+      }
+     ]
+    },
+    {
+     "headline": "China adds first CAR-T therapy to national insurance with a price cut of about 78%",
+     "summary": "China has added a CAR-T cell therapy to its national basic medical insurance drug list for the first time, with a price cut of about 78 per cent. The move makes a costly cancer treatment more accessible.",
+     "detail": "A Business Standard report says China has added a CAR-T cell therapy to its national basic medical insurance drug list for the first time. The price has been cut by about 78 per cent. CAR-T therapies are personalised cell treatments used for certain blood cancers, and they have been among the most expensive drugs. Inclusion in a national insurance list usually means patients pay less out of pocket, and the report links the development to what it means for Indian patients.",
+     "analysis": "Price reductions for high-cost therapies are a closely watched trend, since they affect how insurers and governments plan for expensive treatments.",
+     "sources": [
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/amp/content/press-releases-ani/china-adds-first-car-t-therapy-to-national-insurance-with-price-cut-of-about-78-what-it-means-for-indian-patients-126112600905_1.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uae",
+   "title": "UAE & Gulf",
+   "items": [
+    {
+     "headline": "Gulf tensions push oil above $96, with knock-on effects for the region",
+     "summary": "Crude oil prices rose above $96 a barrel as geopolitical tensions in the Middle East escalated. The move matters for Gulf economies that depend on oil revenue and for fuel costs.",
+     "detail": "Market reports on Friday linked the rise in crude prices to escalating geopolitical tensions in the Middle East. Brent was reported above $96 in one report and easing to $96 in another, so the price was moving during the day. The UAE is a major oil producer, and its economy and government revenues are sensitive to crude prices. Domestic fuel prices in the UAE are set through a monthly review, so sustained moves in crude can feed into pump prices at later reviews.",
+     "analysis": "The direction of oil prices in the coming days will indicate how much the regional tensions are feeding into the wider energy market.",
+     "sources": [
+      {
+       "name": "ChiniMandi",
+       "url": "https://www.chinimandi.com/sensex-nifty-open-lower-as-brent-crude-surges-above-96-geopolitical-tensions-weigh-on-market-sentiment/"
+      },
+      {
+       "name": "HDFC Sky",
+       "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+      }
+     ]
+    },
+    {
+     "headline": "Oil-linked volatility puts Gulf security and economy back in focus",
+     "summary": "Rising oil prices and renewed Middle East tensions are keeping Gulf security and economic planning in focus. Market coverage shows that investors are reacting to the uncertainty.",
+     "detail": "Indian market coverage on Friday described growing geopolitical tensions in the Middle East as weighing on sentiment, with investors cautious ahead of further developments. Gulf states have been watching the regional situation closely, and their economies are linked to shipping routes and energy exports. The Gulf's role in global energy supply means that disruptions tend to have effects beyond the region, including on Indian import costs.",
+     "analysis": "Residents and businesses in the UAE are likely to watch oil prices and regional developments together, since both shape fuel costs and economic confidence.",
+     "sources": [
+      {
+       "name": "HDFC Sky",
+       "url": "https://hdfcsky.com/news/gift-nifty-signals-flat-open-for-sensex-nifty-on-friday-on-back-of-weak-global-cues-november-27-2026"
+      },
+      {
+       "name": "ChiniMandi",
+       "url": "https://www.chinimandi.com/sensex-nifty-open-lower-as-brent-crude-surges-above-96-geopolitical-tensions-weigh-on-market-sentiment/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "title": "Money & markets",
+   "items": [
+    {
+     "headline": "Sensex and Nifty slide as IT profit-taking and oil weigh",
+     "summary": "The Sensex fell about 700 points and the Nifty about 200 points in late morning trade, as profit-taking in IT stocks and rising oil prices weighed on sentiment after a two-day rally.",
+     "detail": "At around 11:19 am, the BSE Sensex was at 83,621.73, down 706.86 points or 0.84 per cent, and the NSE Nifty 50 was at 25,681.10, lower by 200.45 points or 0.77 per cent. Reports said the decline followed a two-day rally and was driven by profit-taking in major IT stocks. Business Standard also said that oil prices extended their rise and that investors took the opportunity to book gains. Earlier coverage had described the indices climbing on foreign inflows and IT rallies, so the session moved in both directions.",
+     "analysis": "The shifting coverage shows how quickly sentiment can change when oil and profit-taking collide, so the closing level will matter more than the early moves.",
+     "sources": [
+      {
+       "name": "India Today",
+       "url": "https://www.indiatoday.in/business/story/sensex-down-700-points-why-is-stock-market-falling-today-3048077-2026-11-27"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/markets/news/sensex-tanks-780-pts-intraday-after-2-day-rise-nifty-below-25-700-consolidation-here-to-stay-126112700425_1.html"
+      },
+      {
+       "name": "Rediff.com",
+       "url": "https://www.rediff.com/business/report/indian-stock-markets-decline-on-november27-sensex-nifty-see-profit-taking-in-it-hdfc-bank/20261127.htm"
+      }
+     ]
+    },
+    {
+     "headline": "GIFT Nifty points to a flat start as global cues stay weak",
+     "summary": "GIFT Nifty traded at a 109-point premium to the Nifty's previous close, suggesting a flat opening. Asian markets gained and oil eased briefly, but geopolitical tensions kept investors cautious.",
+     "detail": "HDFC Sky reported that GIFT Nifty was trading 109 points above the Nifty's close, pointing to a flat open for Sensex and Nifty. Asian markets were gaining, and oil prices had eased for a time. Geopolitical tensions, however, kept investors cautious. The Kotak Neo report also said the indices opened lower after the market opened on Friday, showing the pre-market signal did not hold through the session.",
+     "analysis": "Pre-open signals like GIFT Nifty are useful for direction but can be overturned quickly when crude and geopolitical news move.",
+     "sources": [
+      {
+       "name": "HDFC Sky",
+       "url": "https://hdfcsky.com/news/gift-nifty-signals-flat-open-for-sensex-nifty-on-friday-on-back-of-weak-global-cues-november-27-2026"
+      },
+      {
+       "name": "Kotak Neo",
+       "url": "https://www.kotakneo.com/news/market-news/stock-market-update-27-november-2026-sensex-nifty/"
+      }
+     ]
+    },
+    {
+     "headline": "Markets balance foreign inflows against oil and geopolitical risk",
+     "summary": "Earlier reports showed foreign investors buying and the Sensex and Nifty climbing toward recent highs, but later reports show losses as oil prices surged. The mixed picture reflects competing forces in the market.",
+     "detail": "A Kotak Neo report said the Sensex and Nifty were trading higher on continued buying by foreign investors, a rally in IT stocks and recovering Asian markets. A separate HDFC Sky report noted that IT stocks had been dragged lower by US tariff worries, while metals outperformed. Those competing signals help explain why the day's direction changed through the session. Foreign flows are a major driver of Indian equity moves, and tariff and oil concerns are two of the main risks.",
+     "analysis": "The mix of inflows and external worries suggests the market is sensitive to news on tariffs, oil and foreign investment at the same time.",
+     "sources": [
+      {
+       "name": "Kotak Neo",
+       "url": "https://www.kotakneo.com/news/market-news/why-is-the-stock-market-up-today/"
+      },
+      {
+       "name": "HDFC Sky",
+       "url": "https://hdfcsky.com/news/bse-nse-sensex-november-27-2026-open-report-sensex-nifty-trade-marginally-lower-in-morning-trade-as-us-tariff-worries-offset-firm-asia-easing-brent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "title": "Tech & AI",
+   "items": [
+    {
+     "headline": "Approval for a million-satellite network raises concerns about the night sky",
+     "summary": "Elon Musk's company has reportedly received approval to launch up to 1 million satellites, and an astronomer explains how this could change the sky. The number of operational satellites could rise by a factor of 50 if the plan proceeds in full.",
+     "detail": "The Conversation article reports that Musk has approval to launch 1 million satellites, and the author, an astronomer, explains the impact on the sky. The article says that if the plan proceeds in full, the number of operational satellites would be multiplied by a factor of 50. Large satellite constellations raise concerns for astronomers, who worry about streaks in images and interference with observations. Satellite broadband is also expanding quickly in India and elsewhere.",
+     "analysis": "The scale of the proposal means astronomy, space policy and connectivity planners will all need to weigh the trade-offs.",
+     "sources": [
+      {
+       "name": "The Conversation",
+       "url": "https://theconversation.com/elon-musk-has-approval-to-launch-1-million-satellites-an-astronomer-explains-how-this-would-impact-the-sky-297646"
+      }
+     ]
+    },
+    {
+     "headline": "Jensen Huang's exit from Nvidia reshapes China's AI chip supply chain",
+     "summary": "The departure of Nvidia's founder removes a leading advocate for China in Silicon Valley, according to a Rest of World analysis. The move is expected to speed up chip stockpiling and leave Asian suppliers preparing for change.",
+     "detail": "Rest of World reports that Jensen Huang's departure from Nvidia removes Beijing's biggest advocate in Silicon Valley. The piece says the move accelerates chip stockpiling and leaves Asian suppliers bracing for what comes next. Nvidia's chips are central to AI development, and China's access to advanced chips has been a major issue in US export policy. Supply chains in Taiwan, South Korea and elsewhere depend heavily on Nvidia's orders.",
+     "analysis": "Changes in leadership at a company this central to AI hardware can shift expectations for chip supply, export controls and regional supply chains.",
+     "sources": [
+      {
+       "name": "Rest of World",
+       "url": "https://restofworld.org/2026/jensen-huang-nvidia-exit-china-ai-chip-impact/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
+      }
+     ]
+    },
+    {
+     "headline": "AI gig work: the new low-paid reality for skilled professionals",
+     "summary": "Platform companies are attracting doctors, lawyers and PhDs with high rates, then cutting pay and dropping workers, according to Rest of World. The pattern mirrors problems long faced by global data workers.",
+     "detail": "Rest of World reports that AI platforms are luring highly qualified professionals such as doctors, lawyers and PhD holders with top rates. The article says the platforms later use tactics such as pay cuts and sudden ghosting, which have long affected global data workers. AI training and evaluation work is often done on a contract or gig basis, which can leave workers with little security. The piece argues the trend is spreading to skilled work that was once considered protected.",
+     "analysis": "How AI platforms structure pay and contracts will shape whether AI work becomes a stable career path or a precarious one.",
+     "sources": [
+      {
+       "name": "Rest of World",
+       "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
+      }
+     ]
+    },
+    {
+     "headline": "Small African lab shows how easily an AI model can be pushed into harmful outputs",
+     "summary": "Researchers at MinoHealth in Ghana jailbroke their own language model as a test and produced thousands of toxin recipes. The team is now pushing for regulation of AI safety.",
+     "detail": "Rest of World reports that MinoHealth researchers in Ghana jailbroke their own large language model as a test. What emerged were thousands of toxin recipes, and the team has used the results to call for urgent regulation. Safeguards that block dangerous outputs are a major focus for AI developers and governments, and the case shows that safety gaps can be found by researchers outside the largest labs. Regulation of AI misuse is being debated in many countries.",
+     "analysis": "The story shows that AI safety testing is not confined to large tech companies, and that regulators may need evidence from a wider range of researchers.",
+     "sources": [
+      {
+       "name": "Rest of World",
+       "url": "https://restofworld.org/2026/ghana-ai-lab-minohealth-bioweapons-threat-dna-synthesis-regulation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "title": "Science & research",
+   "items": [
+    {
+     "headline": "Molecular cages reveal why some artificial enzymes outperform others",
+     "summary": "Chemists have found a way to identify and understand highly effective artificial enzyme-like catalysts built from molecular cages. The cages trap molecules in hollow chambers and mimic the behaviour of natural enzymes.",
+     "detail": "Phys.org reports that chemistry researchers have developed a new way to identify and understand highly effective artificial enzyme-like catalysts. These are molecular cages, tiny hollow structures that act like miniature reaction chambers by trapping molecules. The study explains why the performance of these catalysts can differ enormously. Artificial catalysts of this kind are being explored for making fuels and chemicals under milder conditions, and understanding what makes some work better is the first step to designing them.",
+     "analysis": "Clear design rules for molecular catalysts could speed up the development of cleaner chemical processes, including routes relevant to hydrogen and fuel production.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-molecular-cage-catalysts-enormous-differences.html"
+      }
+     ]
+    },
+    {
+     "headline": "A new model tracks chemistry on ice-covered dust grains in space",
+     "summary": "Astrophysicists at the University of Liege have proposed a deterministic model that tracks how molecules form on uneven, ice-covered dust grains in interstellar space. The approach is meant to better represent surface chemistry in space.",
+     "detail": "Phys.org reports that molecules form in interstellar gas and also on the surface of tiny dust grains covered in ice. The team at the University of Liege proposes a deterministic approach, based on Markov-style methods, to represent these surface reactions more accurately. Modelling how molecules build up on grain surfaces helps astronomers explain the chemistry seen in star-forming regions. The method is a computational approach that could be adapted to other surface chemistry problems.",
+     "analysis": "Improved surface-chemistry models matter for understanding the raw ingredients of planets and stars and for computational methods that may transfer to Earth-based catalysis work.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-destiny-tracks-molecular-chemistry-uneven.html"
+      }
+     ]
+    },
+    {
+     "headline": "JWST studies a very metal-poor galaxy seen as it was 12.2 billion years ago",
+     "summary": "Astronomers using the James Webb Space Telescope have studied LAP2, one of the most metal-poor galaxies known, which has a tiny stellar mass and very little oxygen. The paper was posted to the arXiv preprint server.",
+     "detail": "Phys.org reports that astronomers using JWST studied LAP2, a tiny galaxy seen as it was around 12.2 billion years ago. Its stellar mass is comparable to that of a massive star cluster, and it has only a fraction of the Sun's oxygen abundance. Astronomers call elements heavier than helium 'metals', and galaxies with low metal content are thought to resemble the earliest systems. The research paper was posted to the arXiv preprint server before formal peer review.",
+     "analysis": "Metal-poor galaxies help astronomers test how early star formation and chemical enrichment worked, which connects to the chemistry of the early universe.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-jwst-tiny-metal-poor-galaxy.html"
+      }
+     ]
+    },
+    {
+     "headline": "Runaway pulsar escapes the remnant of its own supernova",
+     "summary": "Astronomers have spotted a rare pulsar that has escaped the debris cloud from the supernova that formed it. The discovery was made by chance and adds to a small number of similar cases.",
+     "detail": "Phys.org reports that a team led by Rohit Dokara, formerly at the Max Planck Institute for Radio Astronomy, found a pulsar that has escaped the cloud of debris left by its own supernova. The discovery was made by chance, and the team says it adds to only a handful of similar examples. Pulsars are rapidly spinning neutron stars, and runaway pulsars are fast-moving remnants kicked out of their birth sites. Such cases help astronomers understand how supernovae push stars through space.",
+     "analysis": "Rare runaway examples provide a test of models of supernova kicks and of how neutron stars move through the galaxy.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-runaway-pulsar-remnant-supernova.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hidden_gems",
+   "title": "Hidden gems",
+   "items": [
+    {
+     "headline": "Underused land could help solve fodder shortages in semi-arid India",
+     "summary": "A Mongabay commentary argues that fields around Baramati in Maharashtra are largely left dry after the monsoon, and that this land could help produce fodder for livestock farmers who rely on crop residues.",
+     "detail": "In March 2024, the fields around Baramati in Pune district began to show the familiar strain of a semi-arid region. Maize and sorghum grown for fodder after the monsoon were largely used up, and summer fields stayed dry. Livestock farmers increasingly depended on crop residues. The commentary argues that underused land could support fodder production, a point that receives little attention compared with grain and cash crops.",
+     "analysis": "Better use of seasonal land for fodder could ease pressure on livestock farmers in dry regions, and it is a practical policy question worth following.",
+     "sources": [
+      {
+       "name": "Mongabay India",
+       "url": "https://india.mongabay.com/2026/11/underused-land-can-support-fodder-production-commentary/"
+      }
+     ]
+    },
+    {
+     "headline": "The slender loris, a small night-hunting primate, rarely seen by people",
+     "summary": "Known as kaadu papa or forest baby in Kannada and thevangu in Tamil, the slender loris is a small primate that hides in the canopy by day and hunts at night. Its large eyes help it find prey in the dark.",
+     "detail": "Mongabay India's Species File describes the slender loris, known as kaadu papa, meaning forest baby, in Kannada, and thevangu in Tamil. The small primate hides in the canopy by day and hunts by night, using its large saucer-like eyes to see in low light. Most people never see it, which means its populations are often poorly studied. Species profiles like this one help readers appreciate less-known wildlife in India's forests.",
+     "analysis": "Less-visible species often receive little conservation attention, so profiles like this one help widen the public picture of India's biodiversity.",
+     "sources": [
+      {
+       "name": "Mongabay India",
+       "url": "https://india.mongabay.com/short-article/2026/11/the-wide-eyed-forest-baby/"
+      }
+     ]
+    },
+    {
+     "headline": "Digital access opens German lute tablature to modern readers",
+     "summary": "Renaissance German lute tablature, a notation that can look like a secret code, preserves dances, songs and other works that were once widely popular. Digital access is making this music easier to explore.",
+     "detail": "Phys.org reports that German lute tablature may look like a secret code to modern readers, but it opens the door to a rich world of historical music. The notation was developed specifically for the Renaissance lute and preserves dances, songs and other works that were once very popular. Digital tools are making these sources easier to access and read, allowing musicians and historians to explore repertoire that has been largely forgotten.",
+     "analysis": "Digitisation of historical music sources is a quiet but significant development for musicology and for performers interested in early repertoire.",
+     "sources": [
+      {
+       "name": "Phys.org",
+       "url": "https://phys.org/news/2026-11-digital-access-early-music.html"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T13:39+04:00",
+ "model": "claude-haiku-5-5"
+}
